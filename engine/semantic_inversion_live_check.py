@@ -1,6 +1,7 @@
 """Live beat-pipeline check for a quoted false historical claim."""
 
 import json
+import argparse
 from pathlib import Path
 
 from mlx_lm import load
@@ -14,6 +15,9 @@ from engine.local_visual_brain import MODEL
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--scene-start", type=int)
+    args = parser.parse_args()
     timed = json.loads(
         Path("data/timed_script_full_v2.json").read_text(encoding="utf-8")
     )
@@ -24,11 +28,18 @@ def main():
         Path("data/story_map.json").read_text(encoding="utf-8")
     )
     scenes = plan["scenes"] if isinstance(plan, dict) else plan
-    scene = next(
-        item
-        for item in scenes
-        if "учебник скажет" in scene_master_text(item, timed).casefold()
-    )
+    if args.scene_start is None:
+        scene = next(
+            item
+            for item in scenes
+            if "учебник скажет" in scene_master_text(item, timed).casefold()
+        )
+    else:
+        scene = next(
+            item
+            for item in scenes
+            if int(item["source_word_start"]) == args.scene_start
+        )
 
     print(
         "SCENE:",

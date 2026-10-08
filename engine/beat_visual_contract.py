@@ -67,6 +67,15 @@ def check_artifact_visual_contract(beat, grounding):
     plan, trace = proposal
     if all(beat.get(key) == plan[key] for key in VISUAL_FIELDS):
         return []
+    continuity_fields = tuple(
+        key for key in VISUAL_FIELDS if key != "edit"
+    )
+    if (
+        beat.get("continuity_reason")
+        and "continue the same shot" in str(beat.get("edit") or "").casefold()
+        and all(beat.get(key) == plan[key] for key in continuity_fields)
+    ):
+        return []
     return [{'type': 'ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN', 'severity': 'HIGH',
              'detail': 'Group-level identity cannot authorize staged historical surroundings or events.',
              'identity_scope': trace['identity_scope'], 'subject': trace['subject']}]
@@ -90,6 +99,33 @@ def repair_artifact_cutaway(beat, issues, grounding):
     result = copy.deepcopy(beat)
     result.update(plan)
     result['visual_contract'] = trace
+    return result
+
+
+def repair_artifact_continuity(beat, issues):
+    """Justify one continued artifact shot when no second setting is verified."""
+    if not any(
+        issue.get("type") == "ADJACENT_VISUAL_REPETITION"
+        for issue in issues
+    ):
+        return None
+    contract = beat.get("visual_contract") or {}
+    if (
+        contract.get("mode") != "CONTEXTUAL_SUBJECT"
+        or contract.get("identity_scope") != "ARTIFACT_GROUP"
+    ):
+        return None
+
+    result = copy.deepcopy(beat)
+    result["edit"] = (
+        "Continue the same shot as a deliberate continuous artifact cutaway "
+        "because no distinct historical setting is verified; shift to a "
+        "restrained detail crop without adding factual elements."
+    )
+    result["continuity_reason"] = (
+        "The narration continues the same artifact while the separate historical "
+        "setting is unverified."
+    )
     return result
 
 

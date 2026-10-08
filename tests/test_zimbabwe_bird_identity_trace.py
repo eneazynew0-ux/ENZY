@@ -10,6 +10,7 @@ from engine.media_downloader import _clean_media_url
 from engine.multi_query_search import search_queries_raw
 from engine.beat_sequence_gate import check_adjacent_visual_repetition
 from engine.beat_claim_visual import reported_claim_cutaway
+from engine.beat_visual_contract import repair_artifact_continuity
 from engine.multi_query_visual_pipeline import run_multi_query_visual_pipeline
 
 
@@ -39,6 +40,22 @@ def asset(title, description, license_short, mime="image/jpeg"):
 
 
 class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
+    def test_artifact_repeat_gets_explicit_continuity_reason(self):
+        beat = {
+            "edit": "Gentle push-in.",
+            "visual_contract": {
+                "mode": "CONTEXTUAL_SUBJECT",
+                "identity_scope": "ARTIFACT_GROUP",
+            },
+        }
+        repaired = repair_artifact_continuity(
+            beat,
+            [{"type": "ADJACENT_VISUAL_REPETITION"}],
+        )
+        self.assertIsNotNone(repaired)
+        self.assertIn("Continue the same shot", repaired["edit"])
+        self.assertIn("continuity_reason", repaired)
+
     def test_reported_claim_repairs_to_source_context(self):
         beat = {
             "voice_text": "Африка южнее Сахары не знала ни городов.",
