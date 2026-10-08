@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import patch
 
 from engine.factual_identity_gate import check_factual_identity
+from engine.multi_provider_search import search_wikimedia
 from engine.multi_query_visual_pipeline import run_multi_query_visual_pipeline
 
 
@@ -65,6 +66,33 @@ class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
         decision = check_factual_identity(replica, ENTITY)
         self.assertEqual(decision["status"], "UNVERIFIED")
         self.assertEqual(decision["identity_label"], "REPLICA")
+
+    def test_historical_artifact_is_verified_from_commons_metadata(self):
+        historical = asset(
+            "File:Soapstone birds on pedestals.jpg",
+            "Historic photograph of soapstone birds on pedestals",
+            "Public domain",
+        )
+        historical["source_metadata"] = {
+            "Categories": {
+                "value": "Zimbabwe Bird|Art made from steatite|PD-old-70-expired"
+            }
+        }
+
+        decision = check_factual_identity(historical, ENTITY)
+        self.assertEqual(decision["status"], "VERIFIED")
+        self.assertEqual(decision["identity_label"], "ORIGINAL_ARTIFACT")
+
+    @patch("engine.multi_provider_search.search_commons")
+    def test_zimbabwe_search_uses_bitmap_category(self, search_commons):
+        search_commons.return_value = []
+
+        search_wikimedia("Zimbabwe Bird", limit=10)
+
+        search_commons.assert_called_once_with(
+            'incategory:"Zimbabwe Bird" filetype:bitmap',
+            limit=20,
+        )
 
     @patch("engine.multi_query_visual_pipeline.search_queries_raw")
     def test_correct_but_attribution_required_asset_is_traced(self, search):

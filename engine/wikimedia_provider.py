@@ -114,6 +114,18 @@ def search_commons(query, limit=20):
             "source_date": _plain_metadata(value("DateTimeOriginal")),
             "width": info.get("width"),
             "height": info.get("height"),
+            "quality_label": (
+                "HD_OR_BETTER"
+                if min(info.get("width") or 0, info.get("height") or 0) >= 720
+                and max(info.get("width") or 0, info.get("height") or 0) >= 1280
+                else "LOW_RESOLUTION"
+            ),
+            "quality_warning": (
+                ""
+                if min(info.get("width") or 0, info.get("height") or 0) >= 720
+                and max(info.get("width") or 0, info.get("height") or 0) >= 1280
+                else "Source is below HD and must not be presented as high-resolution footage"
+            ),
             "source_metadata": meta,
             "categories": _plain_metadata(value("Categories")),
             "sha1": info.get("sha1", ""),

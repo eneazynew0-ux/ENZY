@@ -16,14 +16,17 @@ def search_wikimedia(query, limit=10):
     # Provider-specific syntax preserves the approved subject, not every
     # descriptive word of a stock-search query. Never infer new subjects.
     variants = {
-        "Zimbabwe Bird soapstone bird sculpture": '"Zimbabwe Bird"',
-        "Zimbabwe Bird artifact photograph": '"Zimbabwe Bird"',
+        "Zimbabwe Bird": 'incategory:"Zimbabwe Bird" filetype:bitmap',
+        "Zimbabwe birds": 'incategory:"Zimbabwe Bird" filetype:bitmap',
+        "Zimbabwe Bird Great Zimbabwe": 'incategory:"Zimbabwe Bird" filetype:bitmap',
+        "Zimbabwe Bird soapstone bird sculpture": 'incategory:"Zimbabwe Bird" filetype:bitmap',
+        "Zimbabwe Bird artifact photograph": 'incategory:"Zimbabwe Bird" filetype:bitmap',
         "Harare airport photograph": '"Harare" "airport"',
         "Harare airport Zimbabwe": '"Harare" "airport"',
     }
     retrieval_query = variants.get(query, query)
     # Relevant photographic files can follow flags/symbols in Commons results.
-    retrieval_limit = max(limit, 10) if query in variants else limit
+    retrieval_limit = max(limit, 20) if query.startswith("Zimbabwe Bird") else limit
     assets = search_commons(retrieval_query, limit=retrieval_limit)
     result = []
 
