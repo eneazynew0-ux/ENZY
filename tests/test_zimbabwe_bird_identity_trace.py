@@ -3,6 +3,7 @@ from unittest.mock import patch
 
 from engine.factual_identity_gate import check_factual_identity
 from engine.multi_provider_search import search_wikimedia
+from engine.media_downloader import _clean_media_url
 from engine.multi_query_visual_pipeline import run_multi_query_visual_pipeline
 
 
@@ -32,6 +33,16 @@ def asset(title, description, license_short, mime="image/jpeg"):
 
 
 class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
+    def test_wikimedia_tracking_parameters_are_removed(self):
+        url = (
+            "https://upload.wikimedia.org/file.jpg?"
+            "utm_source=commons.wikimedia.org&width=800&utm_campaign=test"
+        )
+        self.assertEqual(
+            _clean_media_url(url),
+            "https://upload.wikimedia.org/file.jpg?width=800",
+        )
+
     def test_artifact_and_symbol_are_distinguished(self):
         original = asset(
             "File:Zimbabwebird1.jpg",

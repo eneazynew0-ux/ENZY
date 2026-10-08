@@ -1,7 +1,9 @@
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 import hashlib
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 HEADERS = {
@@ -11,9 +13,35 @@ HEADERS = {
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
+RETRY = Retry(
+    total=5,
+    connect=3,
+    read=3,
+    status=5,
+    backoff_factor=1.5,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"],
+    respect_retry_after_header=True,
+)
+
+SESSION.mount("https://", HTTPAdapter(max_retries=RETRY))
+
+
+def _clean_media_url(url):
+    """Remove tracking parameters without changing the media identity."""
+    parsed = urlparse(str(url or ""))
+    query = [
+        (key, value)
+        for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+        if not key.lower().startswith("utm_")
+    ]
+    return urlunparse(parsed._replace(query=urlencode(query)))
+
 
 def download_preview(asset, output_dir="data/downloaded_previews"):
-    url = asset.get("preview_url") or asset.get("original_url")
+    url = _clean_media_url(
+        asset.get("preview_url") or asset.get("original_url")
+    )
 
     if not url:
         raise ValueError("Asset has no preview_url or original_url")
