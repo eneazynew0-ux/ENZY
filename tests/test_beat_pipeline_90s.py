@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 
 from mlx_lm import load
@@ -83,7 +84,11 @@ output = {
     "failures": failures,
 }
 
-Path("data/beat_pipeline_90s_no_storymap_test.json").write_text(
+output_path = Path(os.environ.get(
+    "ENZY_BEAT_TEST_OUTPUT",
+    "data/beat_pipeline_90s_no_storymap_test.json",
+))
+output_path.write_text(
     json.dumps(output, ensure_ascii=False, indent=2),
     encoding="utf-8",
 )
@@ -103,4 +108,4 @@ if failures:
             f"{f['error']}"
         )
 
-print("\nSAVED: data/beat_pipeline_90s_no_storymap_test.json")
+print("\nSAVED:", output_path)
