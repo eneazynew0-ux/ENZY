@@ -1,0 +1,1554 @@
+{
+  "status": "SELECTED",
+  "resolver_action": "SEARCH_ARCHIVE",
+  "selected_media": {
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "asset": {
+      "provider": "pixabay",
+      "provider_id": "7360424",
+      "title": "statue, khonsu statue, tutankhamun",
+      "source_url": "https://pixabay.com/photos/statue-khonsu-statue-tutankhamun-7360424/",
+      "original_url": "https://pixabay.com/get/g40131d09428b8e217a67b40782be83765668b584151c3bf16835aa26ca5ccef3e3201bd42ffdb10312e598fecfddbf38dcfb045ae832b7f4377914b2019f0c1d_1280.jpg",
+      "preview_url": "https://pixabay.com/get/ge9ac5bc1d1b415ed6421d55b483b9373ff969dc0c25e40762ea6ffa8fa913a71afc0d68dbe36ff4bfc506a2f4e11ef132ac2b57918c7af138938495dbe8398f1_640.jpg",
+      "media_type": "BITMAP",
+      "mime_type": "image/jpeg",
+      "width": 4576,
+      "height": 3432,
+      "creator": "AbouYassin",
+      "creator_url": "https://pixabay.com/users/12243386/",
+      "license_short": "Pixabay Content License",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "commercial_use": true,
+      "attribution_required": false,
+      "is_ai_generated": false,
+      "tags": "statue, khonsu statue, tutankhamun, egypt, cairo, museum, egyptian museum, art, artifact, gods beard, tutankhamun, tutankhamun, tutankhamun, tutankhamun, tutankhamun, cairo, egyptian museum",
+      "search_query": "museum storage room with artifacts and shelves",
+      "matched_queries": [
+        "museum storage room with artifacts and shelves"
+      ],
+      "rights": {
+        "status": "ALLOWED",
+        "reason": "Approved license: Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "source_url": "https://pixabay.com/photos/statue-khonsu-statue-tutankhamun-7360424/",
+        "artist": "",
+        "credit": ""
+      },
+      "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/f4a1033fb1357416.jpg",
+      "download_bytes": 80097,
+      "content_type": "image/jpeg"
+    },
+    "segment": null
+  },
+  "raw_result": {
+    "plan": {
+      "beat": {
+        "source_word_start": 33,
+        "source_word_end": 38,
+        "visual_intent": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+        "search_queries": [
+          "woman in museum storage room with crates and display cases",
+          "museum storage room with artifacts and shelves",
+          "foreign museum storage with labeled crates"
+        ],
+        "requirements": [
+          "a woman visible in the scene",
+          "setting is a museum storage room",
+          "presence of crates and display cases",
+          "neutral, institutional atmosphere"
+        ],
+        "avoid": [
+          "colonial office furniture",
+          "active work or interaction with objects",
+          "signs of active curation or restoration",
+          "foreign flags or national identity labels"
+        ],
+        "edit": "Static shot, medium wide angle, showing the room's layout and crates, with soft ambient lighting.",
+        "start": 15.28,
+        "end": 17.98,
+        "duration": 2.700000000000001,
+        "voice_text": "потом в музейном хранилище чужой страны.",
+        "documentary_mode": "ARCHIVE",
+        "prefer_motion": false,
+        "identity_sensitive": false,
+        "requires_identity_gate": false,
+        "motion_strategy": "ARCHIVE_VIDEO_OR_MOTION_STILL",
+        "real_video_preferred": true,
+        "composition_strategy": "ARCHIVE_SEQUENCE",
+        "retention_phases": [
+          {
+            "phase_index": 0,
+            "role": "PRIMARY",
+            "start": 15.28,
+            "end": 17.98,
+            "duration": 2.700000000000001,
+            "asset_requirement": "ARCHIVE_PRIMARY",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_ARCHIVE",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 15.28,
+              "beat_end": 17.98,
+              "beat_duration": 2.700000000000001,
+              "documentary_mode": "ARCHIVE",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 0,
+              "phase_role": "PRIMARY",
+              "phase_start": 15.28,
+              "phase_end": 17.98,
+              "phase_duration": 2.700000000000001,
+              "asset_requirement": "ARCHIVE_PRIMARY",
+              "resolver_action": "SEARCH_ARCHIVE",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VISUAL_SEARCH_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "PREFER_ARCHIVE_SOURCES"
+            }
+          }
+        ],
+        "retention_phase_count": 1
+      },
+      "entity_resolution": {
+        "status": "UNRESOLVED",
+        "entities": [],
+        "resolver": "NO_CANDIDATES"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": false,
+        "confidence": "HIGH",
+        "reason": "NO_RESOLVED_ENTITY"
+      },
+      "visual_entity": null,
+      "search_entity": null,
+      "factual_search": false,
+      "queries": {
+        "exact": [],
+        "broad": [
+          "woman in museum storage room with crates and display cases",
+          "museum storage room with artifacts and shelves",
+          "foreign museum storage with labeled crates"
+        ],
+        "visual": [
+          "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "a woman visible in the scene setting is a museum storage room presence of crates and display cases"
+        ],
+        "all": [
+          "woman in museum storage room with crates and display cases",
+          "museum storage room with artifacts and shelves",
+          "foreign museum storage with labeled crates",
+          "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "a woman visible in the scene setting is a museum storage room presence of crates and display cases"
+        ],
+        "used_visual_entity": false
+      }
+    },
+    "search": {
+      "queries": [
+        "woman in museum storage room with crates and display cases",
+        "museum storage room with artifacts and shelves",
+        "foreign museum storage with labeled crates",
+        "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+        "a woman visible in the scene setting is a museum storage room presence of crates and display cases"
+      ],
+      "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+      "provider_stats": {
+        "wikimedia": 0,
+        "internet_archive": 0,
+        "pixabay": 30
+      },
+      "query_stats": {
+        "woman in museum storage room with crates and display cases": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 10
+        },
+        "museum storage room with artifacts and shelves": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 10
+        },
+        "foreign museum storage with labeled crates": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 10
+        },
+        "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 0
+        },
+        "a woman visible in the scene setting is a museum storage room presence of crates and display cases": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 0
+        }
+      },
+      "stats": {
+        "query_count": 5,
+        "search_found_raw": 30,
+        "search_unique": 25,
+        "duplicates_removed": 5,
+        "missing_identity": 0,
+        "rights_allowed": 25,
+        "rights_rejected": 0,
+        "identity_required": false,
+        "identity_verified": 25,
+        "identity_rejected": 0,
+        "media_accepted": 25,
+        "media_rejected": 0,
+        "unavailable": 0,
+        "downloaded": 25,
+        "download_failed": 0,
+        "visual_matches": 6,
+        "visual_rejected": 19
+      },
+      "best": {
+        "image": "data/live_90s_full/05_beat_03_phase_00/archive/f4a1033fb1357416.jpg",
+        "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+        "description": "The subject is a statue of a pharaoh. The statue is made of stone and is carved in a realistic style. The pharaoh is depicted with a stern expression and is wearing a crown and a sce",
+        "decision": "MATCH",
+        "score": 95,
+        "reason": "Main subject is a stone statue of a pharaoh with crown and stern expression, matching the target of a pharaoh statue in a museum storage area. Object type and appearance are correct; minor uncertainty in exact pose or background does not affect visual compatibility.",
+        "asset": {
+          "provider": "pixabay",
+          "provider_id": "7360424",
+          "title": "statue, khonsu statue, tutankhamun",
+          "source_url": "https://pixabay.com/photos/statue-khonsu-statue-tutankhamun-7360424/",
+          "original_url": "https://pixabay.com/get/g40131d09428b8e217a67b40782be83765668b584151c3bf16835aa26ca5ccef3e3201bd42ffdb10312e598fecfddbf38dcfb045ae832b7f4377914b2019f0c1d_1280.jpg",
+          "preview_url": "https://pixabay.com/get/ge9ac5bc1d1b415ed6421d55b483b9373ff969dc0c25e40762ea6ffa8fa913a71afc0d68dbe36ff4bfc506a2f4e11ef132ac2b57918c7af138938495dbe8398f1_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 4576,
+          "height": 3432,
+          "creator": "AbouYassin",
+          "creator_url": "https://pixabay.com/users/12243386/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "statue, khonsu statue, tutankhamun, egypt, cairo, museum, egyptian museum, art, artifact, gods beard, tutankhamun, tutankhamun, tutankhamun, tutankhamun, tutankhamun, cairo, egyptian museum",
+          "search_query": "museum storage room with artifacts and shelves",
+          "matched_queries": [
+            "museum storage room with artifacts and shelves"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/statue-khonsu-statue-tutankhamun-7360424/",
+            "artist": "",
+            "credit": ""
+          },
+          "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/f4a1033fb1357416.jpg",
+          "download_bytes": 80097,
+          "content_type": "image/jpeg"
+        },
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/statue-khonsu-statue-tutankhamun-7360424/",
+          "artist": "",
+          "credit": ""
+        }
+      },
+      "matches": [
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/f4a1033fb1357416.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The subject is a statue of a pharaoh. The statue is made of stone and is carved in a realistic style. The pharaoh is depicted with a stern expression and is wearing a crown and a sce",
+          "decision": "MATCH",
+          "score": 95,
+          "reason": "Main subject is a stone statue of a pharaoh with crown and stern expression, matching the target of a pharaoh statue in a museum storage area. Object type and appearance are correct; minor uncertainty in exact pose or background does not affect visual compatibility.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7360424",
+            "title": "statue, khonsu statue, tutankhamun",
+            "source_url": "https://pixabay.com/photos/statue-khonsu-statue-tutankhamun-7360424/",
+            "original_url": "https://pixabay.com/get/g40131d09428b8e217a67b40782be83765668b584151c3bf16835aa26ca5ccef3e3201bd42ffdb10312e598fecfddbf38dcfb045ae832b7f4377914b2019f0c1d_1280.jpg",
+            "preview_url": "https://pixabay.com/get/ge9ac5bc1d1b415ed6421d55b483b9373ff969dc0c25e40762ea6ffa8fa913a71afc0d68dbe36ff4bfc506a2f4e11ef132ac2b57918c7af138938495dbe8398f1_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4576,
+            "height": 3432,
+            "creator": "AbouYassin",
+            "creator_url": "https://pixabay.com/users/12243386/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "statue, khonsu statue, tutankhamun, egypt, cairo, museum, egyptian museum, art, artifact, gods beard, tutankhamun, tutankhamun, tutankhamun, tutankhamun, tutankhamun, cairo, egyptian museum",
+            "search_query": "museum storage room with artifacts and shelves",
+            "matched_queries": [
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/statue-khonsu-statue-tutankhamun-7360424/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/f4a1033fb1357416.jpg",
+            "download_bytes": 80097,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/statue-khonsu-statue-tutankhamun-7360424/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/185d6efd374bd5ae.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14",
+          "decision": "MATCH",
+          "score": 85,
+          "reason": "Main subject is a woman in a climate-controlled room with crates and display cases labeled 'foreign artifacts'; the object type (artifacts in storage) is consistent with museum storage context, and the setting matches the visual target without clear incompatibility.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2181968",
+            "title": "chairs, living room, table",
+            "source_url": "https://pixabay.com/photos/chairs-living-room-table-2181968/",
+            "original_url": "https://pixabay.com/get/g3fd6001ca85df661e52cbf105ab2d196e81d993fd1e23ef6ca0f28fc434117b6fa9c17ec63a21e34b4ec931f47742812e1ff72c2bc52d40da392f1ea410b34d9_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g229683532f159492e2349740e89ef7e65457637ef0c2a7b29897960abec201fb086a832487df35fcbce5058d27bf64a9a76ee9d9f6e0365ad4657205154101cf_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5633,
+            "height": 3716,
+            "creator": "Pexels",
+            "creator_url": "https://pixabay.com/users/2286921/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "chairs, living room, table, contemporary, furniture, interior design, room, windows, indoors, table and chairs, home furniture, home, house, house interior, home interior, interior decoration, living room, living room, living room, living room, living room, interior design, interior design, room, room, home, home, house, house, house",
+            "search_query": "museum storage room with artifacts and shelves",
+            "matched_queries": [
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/chairs-living-room-table-2181968/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/185d6efd374bd5ae.jpg",
+            "download_bytes": 59247,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/chairs-living-room-table-2181968/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/9fa1446ea647140d.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph of a vase. The vase is made of stone and is very old. The vase is very tall and has a lid. The vase is very ornate and has many designs on",
+          "decision": "MATCH",
+          "score": 85,
+          "reason": "Main subject is a tall, ornate stone vase with a lid, matching the required object type (vase) and material (stone) in a museum context. Background is institutional and neutral, consistent with storage. No clear incompatibility in object type or appearance.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7995207",
+            "title": "museum, artifacts, antiquities",
+            "source_url": "https://pixabay.com/photos/museum-artifacts-antiquities-7995207/",
+            "original_url": "https://pixabay.com/get/gc13d97e3129dd5cdcd75d13774ec4fffa70c48b1b7b15f2b8bbbff8f3801484701449cdd62d56299496df8933d026ec51093e50184a860d71810d4d8ec10d0cc_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g52fbfa28ca76e9cb53cc0961ee24c5036abb04538681a6fa8b5bf491cf97613c20e384466b61168138fd167e080ddadf669b05f032123fc07557e8f0f6ca4a89_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5714,
+            "height": 3809,
+            "creator": "NguyenHoangThach",
+            "creator_url": "https://pixabay.com/users/28935668/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "museum, artifacts, antiquities, culture, history, vietnam, south east asia, antique statues, black and white, history, black and white, black and white, black and white, black and white, black and white",
+            "search_query": "museum storage room with artifacts and shelves",
+            "matched_queries": [
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/museum-artifacts-antiquities-7995207/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/9fa1446ea647140d.jpg",
+            "download_bytes": 26115,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/museum-artifacts-antiquities-7995207/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/529e9d571e7bc04c.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The subject is a statue of a pharaoh. The statue is carved from a dark stone. The pharaoh is looking to the right of the frame. The statue is in front of a blurry background. The",
+          "decision": "MATCH",
+          "score": 85,
+          "reason": "Main subject is a statue of a pharaoh, carved from dark stone, facing right — consistent with a pharaonic statue in a museum context. Object type and appearance align with target. Background blur and room setting do not detract from visual compatibility.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7355762",
+            "title": "egypt, pharaoh, thutmose iii",
+            "source_url": "https://pixabay.com/photos/egypt-pharaoh-thutmose-iii-thumosis-7355762/",
+            "original_url": "https://pixabay.com/get/gaa79832e66897cf07549b544c8a44e519e275bf38ec5e3f167db1020ab7d6559ec04afb40a797223f95809bfb3b16c0552f789125d450fc9976e69ed654d501d_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g946c7f0fffe4d387f3de03fc78c8f012888a68a166e1f649921a56e9be6268a499e56911655b384d1597697dc9c2f543e2b68bcb04d216b82bc2fb769ea9bc93_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5184,
+            "height": 3888,
+            "creator": "AbouYassin",
+            "creator_url": "https://pixabay.com/users/12243386/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "egypt, pharaoh, thutmose iii, thumosis, artifact, museum, egyptian museum, cairo, statue, egypt, egypt, egypt, thutmose iii, thutmose iii, thutmose iii, thutmose iii, thutmose iii, artifact, artifact, artifact, egyptian museum",
+            "search_query": "museum storage room with artifacts and shelves",
+            "matched_queries": [
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/egypt-pharaoh-thutmose-iii-thumosis-7355762/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/529e9d571e7bc04c.jpg",
+            "download_bytes": 80964,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/egypt-pharaoh-thutmose-iii-thumosis-7355762/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/797f1432a78bd7e8.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The door is blue and has a red sticker on it. The door is in a wall of books. The wall is made of books. The books are stacked on top of each other. The books",
+          "decision": "MATCH",
+          "score": 85,
+          "reason": "Main subject is a woman in a climate-controlled museum storage area with rows of crates and display cases labeled 'foreign artifacts'; the setting and object type (storage with artifact displays) align with the visual target. The books-on-wall detail is secondary and does not detract from visual compatibility.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1655783",
+            "title": "books, shelves, hd wallpaper",
+            "source_url": "https://pixabay.com/photos/books-shelves-door-entrance-1655783/",
+            "original_url": "https://pixabay.com/get/g51255dcedfbe22b4bedbc8fab38c114edb48802c7adfdbd2c74cd0982059e7d132e6aadeab462f17b40effe96c41342b63fa2711c0f59ca6ac71cada2e550b71_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g682776cffdbc4ef473694da9cbb6791c981f4e2109bf0de3ecd7759a171e4beba31686cbe4938b847782d9712bbdf58ffbf06f4b9e152aa9d0bbf9349b89c1f9_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 6016,
+            "height": 4016,
+            "creator": "ninocare",
+            "creator_url": "https://pixabay.com/users/3266770/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "books, shelves, hd wallpaper, wallpaper hd, door, entrance, cool backgrounds, library, desktop backgrounds, mac wallpaper, laptop wallpaper, knowledge, wisdom, 4k wallpaper, civic museum library, international gallery of modern art, windows wallpaper, 4k wallpaper 1920x1080, free wallpaper, pesaro, beautiful wallpaper, free background, full hd wallpaper, wallpaper 4k, italy, background",
+            "search_query": "museum storage room with artifacts and shelves",
+            "matched_queries": [
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/books-shelves-door-entrance-1655783/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/797f1432a78bd7e8.jpg",
+            "download_bytes": 168758,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/books-shelves-door-entrance-1655783/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/7a87b747f1074f96.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph. The subject is a wooden crate with a rope handle. The crate is full of something, but it is not clear what. The crate is sitting on a",
+          "decision": "MATCH",
+          "score": 80,
+          "reason": "Main subject is a wooden crate with rope handle, consistent with artifact storage containers in a museum context. No incompatible object type present.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "4679472",
+            "title": "wood, wooden box, box",
+            "source_url": "https://pixabay.com/photos/wood-wooden-box-box-water-rope-4679472/",
+            "original_url": "https://pixabay.com/get/ge5b456508b8603deb61245e6f305e596c73586f5f7ef254fd7f15b99d1103fec2c2c0e0759e7850c5439ee9f5a2c0f3855623939cff7f49a1d2c09a431e22740_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g6d10ab58cb0f00d8ef17495159f08e8ac80929814d27e69e82d43c8eb8f7fd1afebfb26e22dd473178d00e2f9cc2c20bc13c6dea13e10c1bdfe2b770e54ad997_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3679,
+            "height": 4471,
+            "creator": "gloriamatyszyk",
+            "creator_url": "https://pixabay.com/users/14472752/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "wood, wooden box, box, water, rope, treasure, chest, crate, old, boxes, storage, vintage, brown, nature, brown box",
+            "search_query": "foreign museum storage with labeled crates",
+            "matched_queries": [
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/wood-wooden-box-box-water-rope-4679472/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/7a87b747f1074f96.jpg",
+            "download_bytes": 107815,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/wood-wooden-box-box-water-rope-4679472/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "visual_rejected": [
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/7478616c86c9ddce.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The main physical subject visible in this image is a large number of shipping containers stacked together in a yard. The containers are green, red, blue, and tan, and are stacked in a",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is shipping containers, not foreign artifacts in a museum storage setting.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1845350",
+            "title": "port, pier, cargo containers",
+            "source_url": "https://pixabay.com/photos/port-pier-cargo-containers-crate-1845350/",
+            "original_url": "https://pixabay.com/get/ge3d172daab333f02c0aabb9594d11aad01cb6fe4641b7a9485c7a6869d36ff93e77395032ef7c97b750a405c9e9edd83209dbece9f1fc637916f879b760d08e8_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g0c6c4b7aa8823e8a9c14585ce1f49d28f0e26930059f01174b12fb1743e83cf6f850054196b2cebf3b5b444faa53482c970d7dcf103e08a45ade66664dad66b8_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5472,
+            "height": 3648,
+            "creator": "Pexels",
+            "creator_url": "https://pixabay.com/users/2286921/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "port, pier, cargo containers, crate, export, freight, import, shipping industry, industry, outdoors, shipping containers, storage, warehouse, port, port, port, port, port, export, freight, import, industry, industry, warehouse, warehouse, warehouse",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases",
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/port-pier-cargo-containers-crate-1845350/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/7478616c86c9ddce.jpg",
+            "download_bytes": 90041,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/port-pier-cargo-containers-crate-1845350/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/c9a141d7a82219c3.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a black and white photograph taken in a hallway. The hallway is long and narrow, with a tiled floor and a patterned carpet. The walls are white and the ceiling is",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a woman in a hallway; no foreign artifacts visible; incompatible with target of a woman in a climate-controlled room with foreign artifacts displayed",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "8200248",
+            "title": "house, building, alley",
+            "source_url": "https://pixabay.com/photos/house-building-alley-wall-art-8200248/",
+            "original_url": "https://pixabay.com/get/gf8d54089caa64e212d2c746746ecd3b7ecdf294af97b1ab3718047ea7a56ec4b853e7a0c515b06a3a6db6490c8c0a905c438bee2eac4c7df7c7d565422361549_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g3d9703c6513be5858fbc01e60354644e53b1a76fb603c4119c3529023ab95d0011701aebdf95b14e1fb46a63871879d005211ae91fe63ac396a03df5456c2796_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 7360,
+            "height": 4912,
+            "creator": "Travellerstales",
+            "creator_url": "https://pixabay.com/users/33294029/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "house, building, alley, wall art, marrakesh, culture, house, wall art, wall art, wall art, wall art, wall art",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/house-building-alley-wall-art-8200248/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/c9a141d7a82219c3.jpg",
+            "download_bytes": 57076,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/house-building-alley-wall-art-8200248/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/2894fc12eb2718e2.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph. The subject is peaches. The peaches are in wooden crates. The crates are stacked on top of each other. The crates are on the ground. The ground",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is peaches in wooden crates, not foreign artifacts",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "3425656",
+            "title": "peach, fruits, food",
+            "source_url": "https://pixabay.com/photos/peach-fruits-food-organic-fresh-3425656/",
+            "original_url": "https://pixabay.com/get/g6ce643c064bf865590b48d1e4604c46d5564c351bd4e55bb0e709acc01a4def0e6cf31d57612673f0279a3a4d5ba00c0b5879bf4c1c85526cd8c6ae3d7f0bcfe_1280.jpg",
+            "preview_url": "https://pixabay.com/get/ge9fba8d4fe9c030eb9b9f3eb9b7328a08979c1afe7086db189c6a0a72b62c4a886be980c6d212a075ae14df781e60b675ad799417c09264834d41c69d98d21db_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3216,
+            "height": 2136,
+            "creator": "dariasophia",
+            "creator_url": "https://pixabay.com/users/9082096/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "peach, fruits, food, organic, fresh, harvest, healthy, produce, ripe, wooden boxes, storage, store, peach, peach, peach, peach, peach, storage, storage, storage, store, store, store, store, store",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases",
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/peach-fruits-food-organic-fresh-3425656/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/2894fc12eb2718e2.jpg",
+            "download_bytes": 95390,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/peach-fruits-food-organic-fresh-3425656/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/03aab0b2eba0a3b9.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph of a busy airport terminal. The airport terminal is a large, modern building with a large sign that says \"JCDecaux Airport\" on it. The sign is in",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a busy airport terminal with a sign, not a woman in a museum storage area with foreign artifacts.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2373727",
+            "title": "airport, woman, flight",
+            "source_url": "https://pixabay.com/photos/airport-woman-flight-boarding-2373727/",
+            "original_url": "https://pixabay.com/get/ga5bdd97e2f62dcd784f8d909be3145387fbf851c779ab4906c88abbdedd13867a00512b0dd326dcd513ca5f69b19d7840b9d10eb7f2f224b29ce71f5a04c9b89_1280.jpg",
+            "preview_url": "https://pixabay.com/get/ge2261726d1277b76eae0dd2ab4de21b27ddee4d4ed9680e41550dfa53f9d41ab644e38e49efb35008bdd647e17073e19b6edcf7f6b6ed29cb4299d12a1ef46eb_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5460,
+            "height": 3640,
+            "creator": "JESHOOTS-com",
+            "creator_url": "https://pixabay.com/users/264599/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "airport, woman, flight, boarding, traveling, tourist, trip, departure, arrival, terminal, airport, airport, airport, airport, airport, flight, traveling",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/airport-woman-flight-boarding-2373727/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/03aab0b2eba0a3b9.jpg",
+            "download_bytes": 123503,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/airport-woman-flight-boarding-2373727/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/8c9064ade6f97891.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image depicts a large, opulent room with a polished marble floor and a chandelier hanging from the ceiling. The room is empty, except for a few chairs and tables placed against",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a room with chairs and tables; no foreign artifacts or crates visible; incompatible with target of a woman standing with foreign artifacts in storage.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1998435",
+            "title": "castle, room, window",
+            "source_url": "https://pixabay.com/photos/castle-room-window-ballroom-pomp-1998435/",
+            "original_url": "https://pixabay.com/get/g1805d55dae812f189cd4a4d8efe58813341e79447d5b1e5fffc00eecb0d3cb7748bb8fd5190ffe307d1ef30b355526e6d0268773384445ae66c5732d43b18ec2_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g1763dc8bd1591f9d85dcb8005f79316f3260ea997dec5c8ae50c0b31afab1a7a5e447a67cb764846d69d458d618e12114e87d97c10e64c02582ec16abf2cf6ac_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5980,
+            "height": 3947,
+            "creator": "Tama66",
+            "creator_url": "https://pixabay.com/users/1032521/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "castle, room, window, ballroom, pomp, historical, splendid, architecture, ornament, rococo, baroque, museum, black-and-white, castle, castle, castle, castle, castle, room, room, room, window, ballroom, ballroom, museum",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases",
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/castle-room-window-ballroom-pomp-1998435/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/8c9064ade6f97891.jpg",
+            "download_bytes": 91385,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/castle-room-window-ballroom-pomp-1998435/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/085dcaa6c04e4129.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph. The main subject is a man standing behind a counter. The man is wearing a plaid shirt. The man is bald. The man is looking at something in front of",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a man in a plaid shirt, not an artifact or foreign artifact as required by visual target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7922980",
+            "title": "girls, jewelry, shop",
+            "source_url": "https://pixabay.com/photos/girls-jewelry-shop-outdoors-women-7922980/",
+            "original_url": "https://pixabay.com/get/g6e3d61b3f54c5282482b7977f72e3257c9aec69e9414df01377b516d1083d73dc525840fb256a95c0a77f232b14dfd6fbf22db29dbfee1446a07c7e2ef5b94a6_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gd3b4e3cc47e8ed30de3345fd0bf7f081b2a2181fb2db54ff55257d423cdc19b819906cf9f6b1aa055d30ac31f10981ddbdb734b84cf3ce11c4015c8b308e1b8b_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5273,
+            "height": 3515,
+            "creator": "Surprising_Media",
+            "creator_url": "https://pixabay.com/users/11873433/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "girls, jewelry, shop, outdoors, women, window, showcase, glass case, show window, shopping, seller, man, snapshot, street photography, recreation, urban, city",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/girls-jewelry-shop-outdoors-women-7922980/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/085dcaa6c04e4129.jpg",
+            "download_bytes": 91895,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/girls-jewelry-shop-outdoors-women-7922980/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/5955d31331c5c0ee.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a still life. The subject is a bunch of bananas. The bananas are in a basket. The basket is made of plastic. The bananas are yellow and brown. The bananas are in",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Bananas are not foreign artifacts; the main subject is incompatible with the visual target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "4728754",
+            "title": "fruits, banana, orange",
+            "source_url": "https://pixabay.com/photos/fruits-banana-orange-market-4728754/",
+            "original_url": "https://pixabay.com/get/ga4b8f0a06d23faf6967d2ba5e229e0847d199d0a6a63826e27a9cb29b04147ca23a00a865b6a2713bb149130df2b959f85482592ebf3d613dd3e0181f7b22fec_1280.jpg",
+            "preview_url": "https://pixabay.com/get/ge9648850b3e755271a482780087a1649fc1e5197723fd2054c32857b060f9ab6ad25d5999addd152d5abfc98422672d7661ecaf9137fb77c36894439b0be1c84_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3456,
+            "height": 5184,
+            "creator": "11358888",
+            "creator_url": "https://pixabay.com/users/11358888/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "fruits, banana, orange, market, banana, banana, banana, banana, banana",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/fruits-banana-orange-market-4728754/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/5955d31331c5c0ee.jpg",
+            "download_bytes": 110381,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/fruits-banana-orange-market-4728754/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/3a63fddd600e9296.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image shows a brown leather pencil case open with two pens inside. The case is open and the pens are visible. The case is brown and has a zipper. The pens are black",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a pencil case with pens, not an artifact or foreign artifact as required by target",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "505330",
+            "title": "pencil cases, pencils, pen",
+            "source_url": "https://pixabay.com/photos/pencil-cases-pencils-pen-505330/",
+            "original_url": "https://pixabay.com/get/gb265e066983002aa78da768c72b49bd15c24a5a09c985d95707f25566f8a06234c7c254627c3f3b4590de07a64a05b732a4fe31f2e0b63c62edfb94ed7bd5069_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g641a1bf86d24a04aef7b6b7f7d60ffc9921f79651dee3aa6995d8352bbd6e70eae8eb89cef4472937c276e6d1a182166_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4608,
+            "height": 3456,
+            "creator": "Hans",
+            "creator_url": "https://pixabay.com/users/2/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "pencil cases, pencils, pen, leather case, pencil case, case, zipper, storage, pencil case, pencil case, pencil case, pencil case, pencil case",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/pencil-cases-pencils-pen-505330/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/3a63fddd600e9296.jpg",
+            "download_bytes": 52764,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/pencil-cases-pencils-pen-505330/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/2af023b342fb5ed3.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph. The subject is a black leather pencil case. The pencil case is closed. The pencil case is empty. The pencil case is shiny. The pencil case is rectangular. The",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a pencil case, not an artifact; incompatible with target of foreign artifacts in a museum storage setting.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "505328",
+            "title": "pencil cases, leather case, pencil case",
+            "source_url": "https://pixabay.com/photos/pencil-cases-leather-case-505328/",
+            "original_url": "https://pixabay.com/get/g6e3c1b43fd1429932e9b3692ab4c37c5f091c9f0ff0cb2516e7b79314b6ac2eef9b29006bff163fe39bef88a6afd92c64953b6b15faeaa6b085ba31c7fee2359_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g0c306fb4dbb9c9cdb9d08d1747cd5bfbc4e7ccdc58a663b8aaf256280eb674a1f4ebc5107b7b148135b8ef415cd40e55_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4608,
+            "height": 3456,
+            "creator": "Hans",
+            "creator_url": "https://pixabay.com/users/2/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "pencil cases, leather case, pencil case, case, zipper, storage, pencil case, pencil case, pencil case, pencil case, pencil case",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/pencil-cases-leather-case-505328/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/2af023b342fb5ed3.jpg",
+            "download_bytes": 47727,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/pencil-cases-leather-case-505328/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/3d833a778cb0e46a.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The room is a living room. The room is decorated with wood paneling and bookshelves. The room has a white coffee table with a white vase on it. The room has a",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a woman in a living room with bookshelves and a coffee table; no foreign artifacts or display cases visible; environment is domestic, not institutional storage; object type mismatch",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "998265",
+            "title": "furniture, living room, modern",
+            "source_url": "https://pixabay.com/photos/furniture-living-room-modern-998265/",
+            "original_url": "https://pixabay.com/get/g63a12314a148338199c66c8a9e3dd0030bb76376e82bd5f1f5a16e315f3f1e7b6bb26f74391db60d7d4f471cc2c4da21cff81aad46d70426f9941da2a0463c51_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g295217464a41c87f41d04d631b7afeab90265eb4a236f43899c455699a1a3bad6e750621dd5deb43ccbecf571336e0a2_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 2000,
+            "height": 1200,
+            "creator": "newhouse",
+            "creator_url": "https://pixabay.com/users/1160730/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "furniture, living room, modern, interior design, home, house, home furniture, indoors, interior decoration, modern home, house interiors, home interiors, furniture, living room, living room, living room, interior design, interior design, home, home, home, home, house, house, house, house, house",
+            "search_query": "woman in museum storage room with crates and display cases",
+            "matched_queries": [
+              "woman in museum storage room with crates and display cases",
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/furniture-living-room-modern-998265/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/3d833a778cb0e46a.jpg",
+            "download_bytes": 63162,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/furniture-living-room-modern-998265/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/bcb6162f89090f72.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph of a long, narrow aisle in a warehouse. The aisle is lined with metal shelves on both sides, each shelf containing a number of boxes. The aisle is lit by fluorescent",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is boxes on shelves in a warehouse aisle; target requires a woman standing in a museum storage area with foreign artifacts in display cases. The visible content shows no woman, no artifacts, and no climate-controlled museum environment. Object type and setting are fundamentally incompatible.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "5619201",
+            "title": "store, stacks, shelves",
+            "source_url": "https://pixabay.com/photos/store-stacks-shelves-stock-5619201/",
+            "original_url": "https://pixabay.com/get/ge44f4c40ff0efea1951ea827399edc16969e02ba3419d045bbe86c03215d73d43e4040d94a875623fbdda90d96c801161178d4ca30fde7a2843e363e3f6e1de0_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g3e6356ad336f1cb278a23881421f09fd7543c84f7ffcba5d3176ce53516682204629ecd94ad97ba6515c3663b392c05271d5dbe17b9024377db5ea470e903c3c_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 6000,
+            "height": 4000,
+            "creator": "tianya1223",
+            "creator_url": "https://pixabay.com/users/4833799/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "store, stacks, shelves, stock, warehouse, supermarket, retail, shopping, shop, purchase, warehouse, warehouse, warehouse, warehouse, warehouse",
+            "search_query": "museum storage room with artifacts and shelves",
+            "matched_queries": [
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/store-stacks-shelves-stock-5619201/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/bcb6162f89090f72.jpg",
+            "download_bytes": 86438,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/store-stacks-shelves-stock-5619201/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/a5d5570c6fe85527.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The kitchen is white. The cabinets are white. The walls are white. The floor is white. The countertops are white. The sink is white. The faucet is white. The cabinets",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a kitchen with white cabinets and walls; no foreign artifacts or display cases visible; object type is incompatible with target of foreign artifacts in museum storage.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "3532957",
+            "title": "bookcase, kitchen, children's room",
+            "source_url": "https://pixabay.com/photos/bookcase-kitchen-childrens-room-3532957/",
+            "original_url": "https://pixabay.com/get/g53e4261dcf94a4e1f6b00ec7b0b318d0a1b8386c34f04cc6d45f985ef75eb0fa82d192140078bdd146e7938e66d758d0062975575ff4462bac43d968511ea2cb_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gf6e69d756ae76602e91cf1209100063e09f721690cbde0f2c1df77e492d2d5bd6399d46d551446b3f77caee21b2b54b1f4f22dedb59d1f594d37cd4903bf3146_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4134,
+            "height": 2759,
+            "creator": "u_jup1hbno",
+            "creator_url": "https://pixabay.com/users/8566532/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "bookcase, kitchen, children's room, furniture, shelving, storage, decor, bedroom, design, office, desk, vitrine, shelf, interior, benches, stole, table, utility room, shelves, indoors, wardrobe, kitchen cabinet, chest of drawers, kitchen, kitchen, kitchen, kitchen, kitchen, bedroom, wardrobe, kitchen cabinet",
+            "search_query": "museum storage room with artifacts and shelves",
+            "matched_queries": [
+              "museum storage room with artifacts and shelves"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/bookcase-kitchen-childrens-room-3532957/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/a5d5570c6fe85527.jpg",
+            "download_bytes": 78164,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/bookcase-kitchen-childrens-room-3532957/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/9bd64b0e0f0f723b.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph. The subject is two woven baskets, one green and one orange, with a rope handle, sitting on a wooden floor in front of a wood plank wall. The green basket",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is woven baskets with rope handle; target requires foreign artifacts in museum storage, specifically crates or display cases; baskets are not artifacts in the intended sense and do not match the object type or context.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2028298",
+            "title": "baskets, orange, green",
+            "source_url": "https://pixabay.com/photos/baskets-orange-green-storage-2028298/",
+            "original_url": "https://pixabay.com/get/g85aaf9dcfedbeee785deabdafc5a023512fb20060049162da1bd2dfb9cca5d7f57682f331e510499cca46d987027ee48f6b024b1c0e7edb3c44f4830312f2b08_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g2f56ba65b8f345c4461836d25a701fc34650146076e24c9c3a5f6af2d3b36c6d578d6e98aa7f9ec0b8dab08ab0a5d3144967a53511559543a5be8ec08b78e846_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5964,
+            "height": 3944,
+            "creator": "Alexas_Fotos",
+            "creator_url": "https://pixabay.com/users/686414/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "baskets, orange, green, storage, green, storage, storage, storage, storage, storage",
+            "search_query": "museum storage room with artifacts and shelves",
+            "matched_queries": [
+              "museum storage room with artifacts and shelves",
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/baskets-orange-green-storage-2028298/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/9bd64b0e0f0f723b.jpg",
+            "download_bytes": 100081,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/baskets-orange-green-storage-2028298/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/1b4b478ea6e37232.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image depicts a scene involving pumpkins, specifically in a context where they are being transported. The primary focus is on a red truck that is pulling a cart full of pumpkins. The truck is red",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a red truck with pumpkins, not a woman in a museum storage area with foreign artifacts.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "8353576",
+            "title": "pumpkins, harvest, thanksgiving",
+            "source_url": "https://pixabay.com/photos/pumpkins-harvest-thanksgiving-8353576/",
+            "original_url": "https://pixabay.com/get/ge8481396829f1399bb8e263b366d822e2632474cee50627c86097002583dd2dd6f442faaeaf184c1eff79dd63f060511eca8619529b87aed4aeae65dd1bbedd8_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g27a8594891421f127716dd30d5a61393b10f20b72283df7d537ebe74c254c529bb00a5272f43f0ed0757cfb3c522b56c8a9d48ec5916b1f24c177a4d01b04546_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5760,
+            "height": 3840,
+            "creator": "JillWellington",
+            "creator_url": "https://pixabay.com/users/334088/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "pumpkins, harvest, thanksgiving, autumn, fall, crates, pumpkin farm, halloween",
+            "search_query": "foreign museum storage with labeled crates",
+            "matched_queries": [
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/pumpkins-harvest-thanksgiving-8353576/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/1b4b478ea6e37232.jpg",
+            "download_bytes": 80069,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/pumpkins-harvest-thanksgiving-8353576/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/bf50239095f1b7fb.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image depicts several wooden crates stacked one above the other, each with the word \"Heineken\" printed on it in a sans-serif font. The crates are",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is wooden crates labeled 'Heineken'—a beverage brand—instead of foreign artifacts; clearly wrong object type for museum storage of artifacts.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1604927",
+            "title": "amsterdam, beer, beer crate",
+            "source_url": "https://pixabay.com/photos/amsterdam-beer-beer-crate-wood-1604927/",
+            "original_url": "https://pixabay.com/get/gcd7ef96ebc8f20b24448d894934eb0d555182b140b5971303ecdd4b9018c3e25714620921bc56f9bef08acd5319c0fda80da8adb619a5a238970fdee54c6deba_1280.jpg",
+            "preview_url": "https://pixabay.com/get/ga1eb11ed57aeb004b82ff644c1406c322138535e4381d5e9681491e54453cdba152626bd1ac3134066776e97b4ae9ac85d020c8ca863782732b03eb8463088e7_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 2602,
+            "height": 3898,
+            "creator": "boristrost",
+            "creator_url": "https://pixabay.com/users/332908/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "amsterdam, beer, beer crate, wood, alcoholic beverage, alcoholic, brewery, retro, holland, netherlands, museum",
+            "search_query": "foreign museum storage with labeled crates",
+            "matched_queries": [
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/amsterdam-beer-beer-crate-wood-1604927/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/bf50239095f1b7fb.jpg",
+            "download_bytes": 78498,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/amsterdam-beer-beer-crate-wood-1604927/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/50bd3a196a64f71d.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "Dog. The dog is peeking out from behind a wooden fence. The dog is brown and white. The dog is looking at the camera. The",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a dog, not an artifact or foreign artifact as required by visual target",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "10072662",
+            "title": "pet, dog, adopted",
+            "source_url": "https://pixabay.com/photos/pet-dog-adopted-adoption-animal-10072662/",
+            "original_url": "https://pixabay.com/get/g8a33bef9a5c43421f5fe47a50701cae7edf98640afbace8ba7a508c3fb17c4d20f212869d50393573f239ecd38e32bd192d37bcdc5f103cb04fbe8e392a8d5b2_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gae80a55980a34039ed248a181eb84db722303ac86ff68be1057c80bf29836c04631571e9166060e9b99e95c3dc226a21070fefabbc0d4770e0aa532ba9a647f5_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5441,
+            "height": 3629,
+            "creator": "GumiKutya",
+            "creator_url": "https://pixabay.com/users/54237965/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "pet, dog, adopted, adoption, animal, nature, cute, shelter, puppy, afraid, alone",
+            "search_query": "foreign museum storage with labeled crates",
+            "matched_queries": [
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/pet-dog-adopted-adoption-animal-10072662/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/50bd3a196a64f71d.jpg",
+            "download_bytes": 40585,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/pet-dog-adopted-adoption-animal-10072662/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/eeb01f02680d2b2b.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a wall of card catalogs. The card catalog is made of wood. The cards are made of paper. The cards are empty. The card catalog is old. The card catalog is in",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1834406",
+            "title": "boxes, drawers, mailboxes",
+            "source_url": "https://pixabay.com/photos/boxes-drawers-mailboxes-1834406/",
+            "original_url": "https://pixabay.com/get/g05c4f589efee66b61f29cccf1c430d617392d4e6d41c8c003f52600567b58961b69d615abd8799a2d0732b31cb193c1e863ac592c329cf44b4563f7985a6f0c4_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g2a83934cff720e3c3de760290349b8d671cca813bdbc25d7934487a890c51698a3e158da5a28da254664017eba2a718a88bc71e4c4c46445755623f1fff136af_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5256,
+            "height": 3211,
+            "creator": "Pexels",
+            "creator_url": "https://pixabay.com/users/2286921/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "boxes, drawers, mailboxes, residential mailboxes, wood, wooden, boxes, boxes, boxes, boxes, boxes, drawers, drawers, wood, wood",
+            "search_query": "foreign museum storage with labeled crates",
+            "matched_queries": [
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/boxes-drawers-mailboxes-1834406/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/eeb01f02680d2b2b.jpg",
+            "download_bytes": 122749,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/boxes-drawers-mailboxes-1834406/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/185d9089a2a7a3fe.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image shows a collection of wooden boxes stacked on top of a wooden barrel. The boxes are filled with various food items, including a box of evaporated milk, a box of bread, and",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is wooden boxes with food items (evaporated milk, bread), not foreign artifacts as required by target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "52732",
+            "title": "warehouse, old, wooden",
+            "source_url": "https://pixabay.com/photos/warehouse-old-wooden-boxes-junk-52732/",
+            "original_url": "https://pixabay.com/get/g8faa1991e7ba99658e39cafca0433052232707093eeb2f4197ace964284caa90f923904d94ac7956a6d501fe4031527b_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g5d7557e981d7b2f353915e3a8fb425e5f99236b785e45944ed7554ad25991defd0e300795ea3537f7fd9911caa783d22_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 1800,
+            "height": 1200,
+            "creator": "ArtTower",
+            "creator_url": "https://pixabay.com/users/5337/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "warehouse, old, wooden, boxes, junk, storage, ghost town, british columbia, canada, digital manipulation, photo art, warehouse, warehouse, warehouse, warehouse, warehouse, junk, junk, junk, ghost town, ghost town",
+            "search_query": "foreign museum storage with labeled crates",
+            "matched_queries": [
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/warehouse-old-wooden-boxes-junk-52732/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/185d9089a2a7a3fe.jpg",
+            "download_bytes": 123314,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/warehouse-old-wooden-boxes-junk-52732/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/05_beat_03_phase_00/archive/89df659148cf0752.jpg",
+          "target": "A woman standing in a quiet, climate-controlled room with rows of crates and display cases, labeled 'foreign artifacts', in a museum storage area; the environment is neutral and institutional.",
+          "description": "The image is a photograph. The subject is a dozen eggs in a carton. The eggs are brown and the carton is white. The eggs are arranged in rows in the carton. The",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is eggs in a carton, not foreign artifacts; incompatible object type",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7345934",
+            "title": "egg, egg holder, reproduction",
+            "source_url": "https://pixabay.com/photos/egg-egg-holder-reproduction-7345934/",
+            "original_url": "https://pixabay.com/get/gffa384e48686883fdba0332723d9303503787522c708b73b23d6526abeddef6b174e3739b05e35f89382b7f5b98cbafda87e49007e47a512819688c6d684d99a_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gbf1d73da6a13bb474b682e065ca4dad03d2378b96748ea1c4abf68e1822ebc751f5ac58662ab07b66aff16cc45d911504e4403b11793981e83674eb371648332_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 6016,
+            "height": 4016,
+            "creator": "akirEVarga",
+            "creator_url": "https://pixabay.com/users/8968314/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "egg, egg holder, reproduction, chicken egg, food, storage, baking, cooking, egg, egg, egg, egg, egg",
+            "search_query": "foreign museum storage with labeled crates",
+            "matched_queries": [
+              "foreign museum storage with labeled crates"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/egg-egg-holder-reproduction-7345934/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/89df659148cf0752.jpg",
+            "download_bytes": 43540,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/egg-egg-holder-reproduction-7345934/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "rights_rejected": [],
+      "identity_rejected": [],
+      "media_rejected": [],
+      "unavailable": [],
+      "download_failed": []
+    },
+    "status": "SEARCHED"
+  }
+}

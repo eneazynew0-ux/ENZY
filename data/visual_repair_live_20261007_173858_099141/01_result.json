@@ -1,0 +1,229 @@
+{
+  "status": "BLOCKED",
+  "error": "BEAT_FACTUAL_GATE_FAILED: 0-15 [{'type': 'UNSUPPORTED_ENTITY_REVEAL', 'severity': 'HIGH', 'detail': 'Visual introduces an identity absent from available narration: каменная птица'}]",
+  "diagnostics": [
+    {
+      "identity_context": {
+        "master_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+        "chapters": [],
+        "entities": [],
+        "withheld_entities": [
+          {
+            "canonical_subject": "каменная птица",
+            "terms": [
+              "каменная птица",
+              "священный символ",
+              "птица-символ",
+              "птица чапунгу",
+              "символ, изображённый на флаге Зимбабве",
+              "птица, украденная колониальными учёными",
+              "Zimbabwe Bird",
+              "soapstone bird sculpture",
+              "Zimbabwe birds",
+              "Great Zimbabwe soapstone birds",
+              "stone bird",
+              "stone sculpture of a bird"
+            ]
+          },
+          {
+            "canonical_subject": "Набта-Плайя",
+            "terms": [
+              "Набта-Плайя",
+              "высохшее русло древнего озера Набта-Плайя",
+              "каменный круг",
+              "камни в пустыне",
+              "каменные плиты",
+              "солнцестояние"
+            ]
+          },
+          {
+            "canonical_subject": "культура Нок",
+            "terms": [
+              "культура Нок",
+              "терракотовые фигуры",
+              "терракотовая голова из Джемаа",
+              "железные печи",
+              "культура, жившая в Ноке"
+            ]
+          },
+          {
+            "canonical_subject": "библиотеки Тимбукту",
+            "terms": [
+              "библиотеки Тимбукту",
+              "библиотеки Санкоре",
+              "архивы университета",
+              "рукописи по астрономии, медицине, математике и праву",
+              "библиотеки, спасённые от боевиков"
+            ]
+          },
+          {
+            "canonical_subject": "ров Эредо",
+            "terms": [
+              "ров Эредо",
+              "археологический ров",
+              "вала и ров",
+              "ров и вал",
+              "Биликису Сунгбо"
+            ]
+          },
+          {
+            "canonical_subject": "Аксум",
+            "terms": [
+              "Аксум",
+              "столица Аксума",
+              "город Аксум",
+              "царство Аксум",
+              "стела Аксума"
+            ]
+          },
+          {
+            "canonical_subject": "город Дженне-Дьено",
+            "terms": [
+              "город Дженне-Дьено",
+              "город, который исчез",
+              "город, покинутый без объяснения",
+              "город старше многих европейских столиц"
+            ]
+          },
+          {
+            "canonical_subject": "церкви Лалибела",
+            "terms": [
+              "церкви Лалибела",
+              "церкви в скале",
+              "церкви-обелиски",
+              "церкви, построенные ангелами",
+              "Бете-Гиоргис"
+            ]
+          },
+          {
+            "canonical_subject": "Великий Зимбабве",
+            "terms": [
+              "Великий Зимбабве",
+              "столица шона",
+              "город шона",
+              "Большая ограда",
+              "город без гвоздей"
+            ]
+          },
+          {
+            "canonical_subject": "аэропорт Хараре",
+            "terms": [
+              "аэропорт Хараре",
+              "аэропорт Хараре"
+            ]
+          }
+        ],
+        "chapter_match_score": 0
+      },
+      "visual_final": {
+        "visual_intent": "A military guard stands at the entrance of Harare airport, facing a stone bird sculpture in the background, with the sculpture clearly visible and stable, showing no human interaction or movement",
+        "search_queries": [
+          "military guard at Harare airport entrance",
+          "stone bird sculpture at Harare airport",
+          "real footage of military guard at Harare airport with stone bird in background"
+        ],
+        "requirements": [
+          "military guard present",
+          "location: Harare airport",
+          "stone bird sculpture visible and stable",
+          "no president or foreign delegation shown"
+        ],
+        "avoid": [
+          "showing a president or foreign delegation",
+          "showing a person walking toward or away from the stone bird",
+          "adding text or labels",
+          "showing the stone bird in motion or being handled"
+        ],
+        "edit": "Steady, unedited real footage of a military guard at Harare airport, with the stone bird sculpture in the background, ensuring the stone bird is clearly visible and not obscured"
+      },
+      "source_word_start": 0,
+      "source_word_end": 15,
+      "issues_before": [],
+      "issues_after": [
+        {
+          "type": "UNSUPPORTED_ENTITY_REVEAL",
+          "severity": "HIGH",
+          "detail": "Visual introduces an identity absent from available narration: каменная птица"
+        }
+      ],
+      "repair_attempts": [
+        {
+          "attempt": 1,
+          "issues_before": [
+            {
+              "type": "UNSUPPORTED_ENTITY_REVEAL",
+              "severity": "HIGH",
+              "detail": "Visual introduces an identity absent from available narration: каменная птица"
+            }
+          ],
+          "visual_before": {
+            "visual_intent": "A military guard stands at the entrance of Harare airport, facing a stone sculpture of a bird in the foreground, with the stone bird partially visible and stable in the background, showing no human interaction or movement.",
+            "search_queries": [
+              "military guard at Harare airport entrance",
+              "stone bird sculpture at Harare airport",
+              "real footage of military guard at Zimbabwe airport"
+            ],
+            "requirements": [
+              "military guard present",
+              "location: Harare airport",
+              "stone bird sculpture visible and stable",
+              "no president or foreign delegation shown"
+            ],
+            "avoid": [
+              "showing a president or foreign delegation",
+              "showing a person walking toward or away from the stone bird",
+              "adding text or labels",
+              "showing the stone bird in motion or being handled"
+            ],
+            "edit": "Steady, unedited real footage of a military guard at Harare airport, with the stone bird sculpture in the background, ensuring the stone bird is clearly visible and not obscured."
+          },
+          "issues_after": [
+            {
+              "type": "UNSUPPORTED_ENTITY_REVEAL",
+              "severity": "HIGH",
+              "detail": "Visual introduces an identity absent from available narration: каменная птица"
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "issues_before": [
+            {
+              "type": "UNSUPPORTED_ENTITY_REVEAL",
+              "severity": "HIGH",
+              "detail": "Visual introduces an identity absent from available narration: каменная птица"
+            }
+          ],
+          "visual_before": {
+            "visual_intent": "A military guard stands at the entrance of Harare airport, facing a stone bird sculpture in the background, with the sculpture clearly visible and stable, showing no human interaction or movement",
+            "search_queries": [
+              "military guard at Harare airport entrance",
+              "stone bird sculpture at Harare airport",
+              "real footage of military guard at Harare airport with stone bird in background"
+            ],
+            "requirements": [
+              "military guard present",
+              "location: Harare airport",
+              "stone bird sculpture visible and stable",
+              "no president or foreign delegation shown"
+            ],
+            "avoid": [
+              "showing a president or foreign delegation",
+              "showing a person walking toward or away from the stone bird",
+              "adding text or labels",
+              "showing the stone bird in motion or being handled"
+            ],
+            "edit": "Steady, unedited real footage of a military guard at Harare airport, with the stone bird sculpture in the background, ensuring the stone bird is clearly visible and not obscured"
+          },
+          "issues_after": [
+            {
+              "type": "UNSUPPORTED_ENTITY_REVEAL",
+              "severity": "HIGH",
+              "detail": "Visual introduces an identity absent from available narration: каменная птица"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes a shift in location and setting from the colonizer's office to a foreign museum storage — a clear semantic transition in location and context that requires a visual change. The pronoun 'она' refers to the stone bird artifact, and the scene moves from one physical location to another, necessitating a visual beat change at 'потом' to reflect the new setting.",
+  "beats": [
+    {
+      "source_word_start": 20,
+      "source_word_end": 32,
+      "visual_intent": "A stone bird sculpture, carved from soapstone, sits in a colonial-era office room with wooden furniture, a desk, and a window showing a distant view of the Zimbabwean countryside. The bird is displayed in a plain, unadorned setting, consistent with a colonial administrator's study.",
+      "search_queries": [
+        "colonial era office room with stone bird sculpture",
+        "soapstone bird in 19th century African colonial office",
+        "stone bird in Zimbabwe colonial administration room"
+      ],
+      "requirements": [
+        "a stone bird sculpture visible and stable in the frame",
+        "setting is a colonial-era office with wooden furniture and a window",
+        "the bird is not in motion or being handled",
+        "the bird is not labeled or annotated"
+      ],
+      "avoid": [
+        "a person interacting with the bird",
+        "modern or restored interior",
+        "text, labels, or signs on the wall",
+        "a museum or storage environment"
+      ],
+      "edit": "Steady, static shot of the stone bird in a colonial office, showing natural lighting and ambient details; no movement or zoom."
+    },
+    {
+      "source_word_start": 33,
+      "source_word_end": 38,
+      "visual_intent": "A stone bird sculpture is stored in a climate-controlled, low-light museum storage room, possibly behind glass or in a sealed case. The room is empty except for the artifact, with minimal institutional signage (if any) and no human presence. The setting is neutral and institutional, reflecting a foreign country's museum preservation.",
+      "search_queries": [
+        "stone bird in museum storage room",
+        "soapstone bird in museum storage behind glass",
+        "museum storage room with stone artifact",
+        "Zimbabwe bird in museum archive"
+      ],
+      "requirements": [
+        "a stone bird sculpture in a storage room",
+        "low light, institutional, climate-controlled environment",
+        "no people, no activity, no visible handling",
+        "the bird is not in a display case with explanatory text"
+      ],
+      "avoid": [
+        "a person entering or exiting the room",
+        "a guard or military presence",
+        "a map, label, or explanatory text",
+        "a view of the outside world or city"
+      ],
+      "edit": "Static, wide-angle shot of the storage room showing only the stone bird in a secure, enclosed space; focus on the artifact and its surroundings, no movement."
+    }
+  ]
+}

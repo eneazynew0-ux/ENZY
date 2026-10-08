@@ -1,0 +1,1262 @@
+[
+  {
+    "script_index": 0,
+    "word": "Пятнадцатого",
+    "normalized": "пятнадцатого",
+    "start": 0.11000000000000004,
+    "end": 0.46,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 1,
+    "word": "апреля",
+    "normalized": "апреля",
+    "start": 0.46,
+    "end": 1.12,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 2,
+    "word": "этого",
+    "normalized": "этого",
+    "start": 1.12,
+    "end": 1.42,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 3,
+    "word": "года",
+    "normalized": "года",
+    "start": 1.42,
+    "end": 1.8,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 4,
+    "word": "в",
+    "normalized": "в",
+    "start": 1.8,
+    "end": 2.1,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 5,
+    "word": "аэропорту",
+    "normalized": "аэропорту",
+    "start": 2.1,
+    "end": 2.58,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 6,
+    "word": "Хараре",
+    "normalized": "хараре",
+    "start": 2.58,
+    "end": 3.06,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 7,
+    "word": "военный",
+    "normalized": "военный",
+    "start": 3.06,
+    "end": 3.62,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 8,
+    "word": "караул",
+    "normalized": "караул",
+    "start": 3.62,
+    "end": 4.08,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 9,
+    "word": "встречал",
+    "normalized": "встречал",
+    "start": 4.08,
+    "end": 4.56,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 10,
+    "word": "не",
+    "normalized": "не",
+    "start": 4.56,
+    "end": 4.7,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 11,
+    "word": "президента",
+    "normalized": "президента",
+    "start": 4.7,
+    "end": 5.32,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 12,
+    "word": "и",
+    "normalized": "и",
+    "start": 5.32,
+    "end": 5.64,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 13,
+    "word": "не",
+    "normalized": "не",
+    "start": 5.64,
+    "end": 5.76,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 14,
+    "word": "иностранную",
+    "normalized": "иностранную",
+    "start": 5.76,
+    "end": 6.42,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 15,
+    "word": "делегацию.",
+    "normalized": "делегацию",
+    "start": 6.42,
+    "end": 7.0,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 16,
+    "word": "Он",
+    "normalized": "он",
+    "start": 7.44,
+    "end": 7.76,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 17,
+    "word": "встречал",
+    "normalized": "встречал",
+    "start": 7.76,
+    "end": 8.38,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 18,
+    "word": "каменную",
+    "normalized": "каменную",
+    "start": 8.38,
+    "end": 9.04,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 19,
+    "word": "птицу.",
+    "normalized": "птицу",
+    "start": 9.04,
+    "end": 9.5,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 20,
+    "word": "Сто",
+    "normalized": "сто",
+    "start": 9.5,
+    "end": 10.073333333333334,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 21,
+    "word": "тридцать",
+    "normalized": "тридцать",
+    "start": 10.073333333333334,
+    "end": 10.646666666666667,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 22,
+    "word": "семь",
+    "normalized": "семь",
+    "start": 10.646666666666667,
+    "end": 11.22,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 23,
+    "word": "лет",
+    "normalized": "лет",
+    "start": 11.22,
+    "end": 11.44,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 24,
+    "word": "она",
+    "normalized": "она",
+    "start": 11.44,
+    "end": 11.62,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 25,
+    "word": "провела",
+    "normalized": "провела",
+    "start": 11.62,
+    "end": 12.0,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 26,
+    "word": "вдали",
+    "normalized": "вдали",
+    "start": 12.0,
+    "end": 12.34,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 27,
+    "word": "от",
+    "normalized": "от",
+    "start": 12.34,
+    "end": 12.54,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 28,
+    "word": "дома",
+    "normalized": "дома",
+    "start": 12.54,
+    "end": 12.82,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 29,
+    "word": "сначала",
+    "normalized": "сначала",
+    "start": 13.22,
+    "end": 13.64,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 30,
+    "word": "в",
+    "normalized": "в",
+    "start": 13.64,
+    "end": 13.82,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 31,
+    "word": "кабинете",
+    "normalized": "кабинете",
+    "start": 13.82,
+    "end": 14.2,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 32,
+    "word": "колонизатора,",
+    "normalized": "колонизатора",
+    "start": 14.2,
+    "end": 14.96,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 33,
+    "word": "потом",
+    "normalized": "потом",
+    "start": 15.28,
+    "end": 15.58,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 34,
+    "word": "в",
+    "normalized": "в",
+    "start": 15.58,
+    "end": 16.02,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 35,
+    "word": "музейном",
+    "normalized": "музейном",
+    "start": 16.02,
+    "end": 16.48,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 36,
+    "word": "хранилище",
+    "normalized": "хранилище",
+    "start": 16.48,
+    "end": 17.1,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 37,
+    "word": "чужой",
+    "normalized": "чужой",
+    "start": 17.1,
+    "end": 17.46,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 38,
+    "word": "страны.",
+    "normalized": "страны",
+    "start": 17.46,
+    "end": 17.98,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 39,
+    "word": "Учебник",
+    "normalized": "учебник",
+    "start": 17.98,
+    "end": 18.98,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 40,
+    "word": "скажет",
+    "normalized": "скажет",
+    "start": 18.98,
+    "end": 19.42,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 41,
+    "word": "вам:",
+    "normalized": "вам",
+    "start": 19.42,
+    "end": 19.6,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 42,
+    "word": "до",
+    "normalized": "до",
+    "start": 19.96,
+    "end": 20.08,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 43,
+    "word": "прихода",
+    "normalized": "прихода",
+    "start": 20.08,
+    "end": 20.44,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 44,
+    "word": "европейцев",
+    "normalized": "европейцев",
+    "start": 20.44,
+    "end": 21.2,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 45,
+    "word": "Африка",
+    "normalized": "африка",
+    "start": 21.2,
+    "end": 21.88,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 46,
+    "word": "южнее",
+    "normalized": "южнее",
+    "start": 21.88,
+    "end": 22.26,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 47,
+    "word": "Сахары",
+    "normalized": "сахары",
+    "start": 22.26,
+    "end": 22.74,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 48,
+    "word": "не",
+    "normalized": "не",
+    "start": 22.74,
+    "end": 23.16,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 49,
+    "word": "знала",
+    "normalized": "знала",
+    "start": 23.16,
+    "end": 23.48,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 50,
+    "word": "ни",
+    "normalized": "ни",
+    "start": 23.48,
+    "end": 23.72,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 51,
+    "word": "городов,",
+    "normalized": "городов",
+    "start": 23.72,
+    "end": 24.26,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 52,
+    "word": "ни",
+    "normalized": "ни",
+    "start": 24.5,
+    "end": 24.56,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 53,
+    "word": "инженерии,",
+    "normalized": "инженерии",
+    "start": 24.56,
+    "end": 25.24,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 54,
+    "word": "ни",
+    "normalized": "ни",
+    "start": 25.54,
+    "end": 25.66,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 55,
+    "word": "письменной",
+    "normalized": "письменной",
+    "start": 25.66,
+    "end": 26.2,
+    "alignment": "matched",
+    "similarity": 0.8
+  },
+  {
+    "script_index": 56,
+    "word": "культуры",
+    "normalized": "культуры",
+    "start": 26.2,
+    "end": 26.76,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 57,
+    "word": "только",
+    "normalized": "только",
+    "start": 27.08,
+    "end": 27.34,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 58,
+    "word": "разрозненные",
+    "normalized": "разрозненные",
+    "start": 27.34,
+    "end": 28.04,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 59,
+    "word": "племена",
+    "normalized": "племена",
+    "start": 28.04,
+    "end": 28.56,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 60,
+    "word": "и",
+    "normalized": "и",
+    "start": 28.56,
+    "end": 28.94,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 61,
+    "word": "пустые",
+    "normalized": "пустые",
+    "start": 28.94,
+    "end": 29.38,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 62,
+    "word": "пространства",
+    "normalized": "пространства",
+    "start": 29.38,
+    "end": 30.06,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 63,
+    "word": "на",
+    "normalized": "на",
+    "start": 30.06,
+    "end": 30.2,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 64,
+    "word": "карте.",
+    "normalized": "карте",
+    "start": 30.2,
+    "end": 30.56,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 65,
+    "word": "Раскопки",
+    "normalized": "раскопки",
+    "start": 31.1,
+    "end": 31.8,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 66,
+    "word": "говорят",
+    "normalized": "говорят",
+    "start": 31.8,
+    "end": 32.12,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 67,
+    "word": "прямо",
+    "normalized": "прямо",
+    "start": 32.12,
+    "end": 32.54,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 68,
+    "word": "противоположное.",
+    "normalized": "противоположное",
+    "start": 32.54,
+    "end": 33.44,
+    "alignment": "matched",
+    "similarity": 0.9333333333333333
+  },
+  {
+    "script_index": 69,
+    "word": "Каменный",
+    "normalized": "каменный",
+    "start": 34.06,
+    "end": 34.44,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 70,
+    "word": "круг",
+    "normalized": "круг",
+    "start": 34.44,
+    "end": 34.8,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 71,
+    "word": "посреди",
+    "normalized": "посреди",
+    "start": 34.8,
+    "end": 35.38,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 72,
+    "word": "пустыни",
+    "normalized": "пустыни",
+    "start": 35.38,
+    "end": 35.88,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 73,
+    "word": "рассчитывает",
+    "normalized": "рассчитывает",
+    "start": 35.88,
+    "end": 36.74,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 74,
+    "word": "солнцестояние",
+    "normalized": "солнцестояние",
+    "start": 36.74,
+    "end": 37.7,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 75,
+    "word": "точнее,",
+    "normalized": "точнее",
+    "start": 37.7,
+    "end": 38.2,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 76,
+    "word": "чем",
+    "normalized": "чем",
+    "start": 38.3,
+    "end": 38.42,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 77,
+    "word": "многие",
+    "normalized": "многие",
+    "start": 38.42,
+    "end": 38.82,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 78,
+    "word": "сооружения,",
+    "normalized": "сооружения",
+    "start": 38.82,
+    "end": 39.56,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 79,
+    "word": "которые",
+    "normalized": "которые",
+    "start": 39.86,
+    "end": 40.22,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 80,
+    "word": "появятся",
+    "normalized": "появятся",
+    "start": 40.22,
+    "end": 40.9,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 81,
+    "word": "на",
+    "normalized": "на",
+    "start": 40.9,
+    "end": 41.34,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 82,
+    "word": "тысячу",
+    "normalized": "тысячу",
+    "start": 41.34,
+    "end": 41.86,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 83,
+    "word": "с",
+    "normalized": "с",
+    "start": 41.86,
+    "end": 41.98,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 84,
+    "word": "лишним",
+    "normalized": "лишним",
+    "start": 41.98,
+    "end": 42.24,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 85,
+    "word": "лет",
+    "normalized": "лет",
+    "start": 42.24,
+    "end": 42.48,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 86,
+    "word": "позже.",
+    "normalized": "позже",
+    "start": 42.48,
+    "end": 42.96,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 87,
+    "word": "Терракотовая",
+    "normalized": "терракотовая",
+    "start": 42.96,
+    "end": 44.26,
+    "alignment": "matched",
+    "similarity": 0.8695652173913043
+  },
+  {
+    "script_index": 88,
+    "word": "голова",
+    "normalized": "голова",
+    "start": 44.26,
+    "end": 44.7,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 89,
+    "word": "две",
+    "normalized": "две",
+    "start": 44.7,
+    "end": 45.2,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 90,
+    "word": "с",
+    "normalized": "с",
+    "start": 45.2,
+    "end": 45.32,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 91,
+    "word": "половиной",
+    "normalized": "половиной",
+    "start": 45.32,
+    "end": 45.76,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 92,
+    "word": "тысячи",
+    "normalized": "тысячи",
+    "start": 45.76,
+    "end": 46.24,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 93,
+    "word": "лет",
+    "normalized": "лет",
+    "start": 46.24,
+    "end": 46.36,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 94,
+    "word": "пролежала",
+    "normalized": "пролежала",
+    "start": 46.36,
+    "end": 46.92,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 95,
+    "word": "в",
+    "normalized": "в",
+    "start": 46.92,
+    "end": 47.02,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 96,
+    "word": "земле,",
+    "normalized": "земле",
+    "start": 47.02,
+    "end": 47.36,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 97,
+    "word": "а",
+    "normalized": "а",
+    "start": 47.72,
+    "end": 47.78,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 98,
+    "word": "потом",
+    "normalized": "потом",
+    "start": 47.78,
+    "end": 48.04,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 99,
+    "word": "ещё",
+    "normalized": "еще",
+    "start": 48.04,
+    "end": 48.38,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 100,
+    "word": "год",
+    "normalized": "год",
+    "start": 48.38,
+    "end": 48.76,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 101,
+    "word": "простояла",
+    "normalized": "простояла",
+    "start": 48.76,
+    "end": 49.48,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 102,
+    "word": "пугалом",
+    "normalized": "пугалом",
+    "start": 49.48,
+    "end": 50.0,
+    "alignment": "matched",
+    "similarity": 0.8571428571428571
+  },
+  {
+    "script_index": 103,
+    "word": "на",
+    "normalized": "на",
+    "start": 50.0,
+    "end": 50.16,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 104,
+    "word": "грядке",
+    "normalized": "грядке",
+    "start": 50.16,
+    "end": 50.56,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 105,
+    "word": "с",
+    "normalized": "с",
+    "start": 50.56,
+    "end": 50.68,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 106,
+    "word": "ямсом,",
+    "normalized": "ямсом",
+    "start": 50.68,
+    "end": 51.2,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 107,
+    "word": "прежде",
+    "normalized": "прежде",
+    "start": 51.32,
+    "end": 51.72,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 108,
+    "word": "чем",
+    "normalized": "чем",
+    "start": 51.72,
+    "end": 51.92,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 109,
+    "word": "кто-то",
+    "normalized": "ктото",
+    "start": 51.92,
+    "end": 52.14,
+    "alignment": "matched",
+    "similarity": 0.75
+  },
+  {
+    "script_index": 110,
+    "word": "понял,",
+    "normalized": "понял",
+    "start": 52.26,
+    "end": 52.6,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 111,
+    "word": "что",
+    "normalized": "что",
+    "start": 52.78,
+    "end": 53.06,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 112,
+    "word": "держит",
+    "normalized": "держит",
+    "start": 53.06,
+    "end": 53.48,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 113,
+    "word": "в",
+    "normalized": "в",
+    "start": 53.48,
+    "end": 53.56,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 114,
+    "word": "руках.",
+    "normalized": "руках",
+    "start": 53.56,
+    "end": 53.9,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 115,
+    "word": "Библиотеку",
+    "normalized": "библиотеку",
+    "start": 54.56,
+    "end": 55.24,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 116,
+    "word": "в",
+    "normalized": "в",
+    "start": 55.24,
+    "end": 55.3,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 117,
+    "word": "пустыне",
+    "normalized": "пустыне",
+    "start": 55.3,
+    "end": 55.8,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 118,
+    "word": "спасали",
+    "normalized": "спасали",
+    "start": 55.8,
+    "end": 56.4,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 119,
+    "word": "от",
+    "normalized": "от",
+    "start": 56.4,
+    "end": 56.52,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 120,
+    "word": "боевиков",
+    "normalized": "боевиков",
+    "start": 56.52,
+    "end": 57.02,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 121,
+    "word": "в",
+    "normalized": "в",
+    "start": 57.02,
+    "end": 57.28,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 122,
+    "word": "лодках",
+    "normalized": "лодках",
+    "start": 57.28,
+    "end": 57.7,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 123,
+    "word": "и",
+    "normalized": "и",
+    "start": 57.7,
+    "end": 57.94,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 124,
+    "word": "багажниках",
+    "normalized": "багажниках",
+    "start": 57.94,
+    "end": 58.56,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 125,
+    "word": "внедорожников,",
+    "normalized": "внедорожников",
+    "start": 58.56,
+    "end": 59.32,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 126,
+    "word": "по",
+    "normalized": "по",
+    "start": 59.32,
+    "end": 59.66,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 127,
+    "word": "частям,",
+    "normalized": "частям",
+    "start": 59.66,
+    "end": 59.98,
+    "alignment": "matched",
+    "similarity": 1.0
+  },
+  {
+    "script_index": 128,
+    "word": "полгода.",
+    "normalized": "полгода",
+    "start": 59.98,
+    "end": 60.33,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 129,
+    "word": "Церковь,",
+    "normalized": "церковь",
+    "start": 60.33,
+    "end": 60.67999999999999,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 130,
+    "word": "вырезанную",
+    "normalized": "вырезанную",
+    "start": 60.67999999999999,
+    "end": 61.029999999999994,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 131,
+    "word": "вниз",
+    "normalized": "вниз",
+    "start": 61.029999999999994,
+    "end": 61.379999999999995,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 132,
+    "word": "в",
+    "normalized": "в",
+    "start": 61.379999999999995,
+    "end": 61.73,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 133,
+    "word": "цельной",
+    "normalized": "цельной",
+    "start": 61.73,
+    "end": 62.08,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 134,
+    "word": "скале,",
+    "normalized": "скале",
+    "start": 62.08,
+    "end": 62.42999999999999,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 135,
+    "word": "до",
+    "normalized": "до",
+    "start": 62.42999999999999,
+    "end": 62.779999999999994,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 136,
+    "word": "сих",
+    "normalized": "сих",
+    "start": 62.779999999999994,
+    "end": 63.129999999999995,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 137,
+    "word": "пор",
+    "normalized": "пор",
+    "start": 63.129999999999995,
+    "end": 63.47999999999999,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 138,
+    "word": "обходят",
+    "normalized": "обходят",
+    "start": 63.47999999999999,
+    "end": 63.82999999999999,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  },
+  {
+    "script_index": 139,
+    "word": "на",
+    "normalized": "на",
+    "start": 63.82999999999999,
+    "end": 64.17999999999999,
+    "alignment": "interpolated",
+    "similarity": 0.0
+  }
+]

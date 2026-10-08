@@ -1,0 +1,1737 @@
+{
+  "status": "SELECTED",
+  "resolver_action": "SEARCH_ARCHIVE",
+  "selected_media": {
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "asset": {
+      "provider": "pixabay",
+      "provider_id": "6947335",
+      "title": "vietnam, woman, vintage clothes",
+      "source_url": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+      "original_url": "https://pixabay.com/get/gf7cd0a167448865923b40d549c27564ee8326a1f0b3f52d73732a1776b9908fb364e89f9cfd655e205b80d945aa4f1cfd4bf73744564951543cdedd096008213_1280.jpg",
+      "preview_url": "https://pixabay.com/get/ge15138b2951e7dcdb2ad5fa34d5a7a8b791a7be612119f31c21591a3c98d5fa35937ddca0e9c333f82a9f96d5d9325137ab9cf0c391c50c2dbbc6d15f5a5f2a2_640.jpg",
+      "media_type": "BITMAP",
+      "mime_type": "image/jpeg",
+      "width": 2648,
+      "height": 3980,
+      "creator": "Chuotanhls",
+      "creator_url": "https://pixabay.com/users/12868140/",
+      "license_short": "Pixabay Content License",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "commercial_use": true,
+      "attribution_required": false,
+      "is_ai_generated": false,
+      "tags": "vietnam, woman, vintage clothes, home, portrait, vietnam, woman, home, home, portrait, portrait, portrait, portrait, portrait",
+      "search_query": "woman sitting in colonial office with maps and window view",
+      "matched_queries": [
+        "woman sitting in colonial office with maps and window view"
+      ],
+      "rights": {
+        "status": "ALLOWED",
+        "reason": "Approved license: Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "source_url": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+        "artist": "",
+        "credit": ""
+      },
+      "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/19ca7e87e5aae385.jpg",
+      "download_bytes": 66741,
+      "content_type": "image/jpeg"
+    },
+    "segment": null
+  },
+  "raw_result": {
+    "plan": {
+      "beat": {
+        "source_word_start": 20,
+        "source_word_end": 32,
+        "visual_intent": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+        "search_queries": [
+          "woman sitting in colonial office with maps and window view",
+          "colonial era office interior with desk and window",
+          "woman working in 19th century colonial administration room"
+        ],
+        "requirements": [
+          "a woman visible in the scene",
+          "setting is a colonial office",
+          "furniture and decor consistent with colonial administration",
+          "window showing outside landscape"
+        ],
+        "avoid": [
+          "modern office setting",
+          "museum or storage room",
+          "crowd or other people",
+          "signs of a museum or preservation"
+        ],
+        "edit": "Steady shot, medium close-up, natural lighting, no movement beyond slight camera drift to maintain continuity.",
+        "start": 9.5,
+        "end": 14.96,
+        "duration": 5.460000000000001,
+        "voice_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора,",
+        "documentary_mode": "ARCHIVE",
+        "prefer_motion": false,
+        "identity_sensitive": false,
+        "requires_identity_gate": false,
+        "motion_strategy": "ARCHIVE_VIDEO_OR_MOTION_STILL",
+        "real_video_preferred": true,
+        "composition_strategy": "ARCHIVE_SEQUENCE",
+        "retention_phases": [
+          {
+            "phase_index": 0,
+            "role": "CONTEXT",
+            "start": 9.5,
+            "end": 12.776,
+            "duration": 3.276,
+            "asset_requirement": "ARCHIVE_PRIMARY",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_ARCHIVE",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 9.5,
+              "beat_end": 14.96,
+              "beat_duration": 5.460000000000001,
+              "documentary_mode": "ARCHIVE",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 0,
+              "phase_role": "CONTEXT",
+              "phase_start": 9.5,
+              "phase_end": 12.776,
+              "phase_duration": 3.276,
+              "asset_requirement": "ARCHIVE_PRIMARY",
+              "resolver_action": "SEARCH_ARCHIVE",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VISUAL_SEARCH_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "PREFER_ARCHIVE_SOURCES"
+            }
+          },
+          {
+            "phase_index": 1,
+            "role": "EVIDENCE",
+            "start": 12.776,
+            "end": 14.96,
+            "duration": 2.184000000000001,
+            "asset_requirement": "SECOND_ARCHIVE_ASSET",
+            "requires_new_asset": true,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_ARCHIVE",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 9.5,
+              "beat_end": 14.96,
+              "beat_duration": 5.460000000000001,
+              "documentary_mode": "ARCHIVE",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 1,
+              "phase_role": "EVIDENCE",
+              "phase_start": 12.776,
+              "phase_end": 14.96,
+              "phase_duration": 2.184000000000001,
+              "asset_requirement": "SECOND_ARCHIVE_ASSET",
+              "resolver_action": "SEARCH_ARCHIVE",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VISUAL_SEARCH_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "PREFER_ARCHIVE_SOURCES"
+            }
+          }
+        ],
+        "retention_phase_count": 2
+      },
+      "entity_resolution": {
+        "status": "UNRESOLVED",
+        "entities": [],
+        "resolver": "NO_CANDIDATES"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": false,
+        "confidence": "HIGH",
+        "reason": "NO_RESOLVED_ENTITY"
+      },
+      "visual_entity": null,
+      "search_entity": null,
+      "factual_search": false,
+      "queries": {
+        "exact": [],
+        "broad": [
+          "woman sitting in colonial office with maps and window view",
+          "colonial era office interior with desk and window",
+          "woman working in 19th century colonial administration room"
+        ],
+        "visual": [
+          "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "a woman visible in the scene setting is a colonial office furniture and decor consistent with colonial administration"
+        ],
+        "all": [
+          "woman sitting in colonial office with maps and window view",
+          "colonial era office interior with desk and window",
+          "woman working in 19th century colonial administration room",
+          "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "a woman visible in the scene setting is a colonial office furniture and decor consistent with colonial administration"
+        ],
+        "used_visual_entity": false
+      }
+    },
+    "search": {
+      "queries": [
+        "woman sitting in colonial office with maps and window view",
+        "colonial era office interior with desk and window",
+        "woman working in 19th century colonial administration room",
+        "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+        "a woman visible in the scene setting is a colonial office furniture and decor consistent with colonial administration"
+      ],
+      "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+      "provider_stats": {
+        "wikimedia": 0,
+        "internet_archive": 0,
+        "pixabay": 30
+      },
+      "query_stats": {
+        "woman sitting in colonial office with maps and window view": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 10
+        },
+        "colonial era office interior with desk and window": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 10
+        },
+        "woman working in 19th century colonial administration room": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 10
+        },
+        "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 0
+        },
+        "a woman visible in the scene setting is a colonial office furniture and decor consistent with colonial administration": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 0
+        }
+      },
+      "stats": {
+        "query_count": 5,
+        "search_found_raw": 30,
+        "search_unique": 28,
+        "duplicates_removed": 2,
+        "missing_identity": 0,
+        "rights_allowed": 28,
+        "rights_rejected": 0,
+        "identity_required": false,
+        "identity_verified": 28,
+        "identity_rejected": 0,
+        "media_accepted": 28,
+        "media_rejected": 0,
+        "unavailable": 0,
+        "downloaded": 28,
+        "download_failed": 0,
+        "visual_matches": 5,
+        "visual_rejected": 23
+      },
+      "best": {
+        "image": "data/live_90s_full/04_beat_02_phase_01/archive/19ca7e87e5aae385.jpg",
+        "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+        "description": "The woman is sitting in front of a window. She is wearing a blue shirt. She is holding a cell phone. She has her hair in a bun.",
+        "decision": "MATCH",
+        "score": 85,
+        "reason": "Main subject is a woman in a colonial-style office setting with appropriate furniture and window view; blue shirt and bun are consistent with visual target; cell phone is a modern object but not incompatible with the setting; no wrong object type present.",
+        "asset": {
+          "provider": "pixabay",
+          "provider_id": "6947335",
+          "title": "vietnam, woman, vintage clothes",
+          "source_url": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+          "original_url": "https://pixabay.com/get/gf7cd0a167448865923b40d549c27564ee8326a1f0b3f52d73732a1776b9908fb364e89f9cfd655e205b80d945aa4f1cfd4bf73744564951543cdedd096008213_1280.jpg",
+          "preview_url": "https://pixabay.com/get/ge15138b2951e7dcdb2ad5fa34d5a7a8b791a7be612119f31c21591a3c98d5fa35937ddca0e9c333f82a9f96d5d9325137ab9cf0c391c50c2dbbc6d15f5a5f2a2_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 2648,
+          "height": 3980,
+          "creator": "Chuotanhls",
+          "creator_url": "https://pixabay.com/users/12868140/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "vietnam, woman, vintage clothes, home, portrait, vietnam, woman, home, home, portrait, portrait, portrait, portrait, portrait",
+          "search_query": "woman sitting in colonial office with maps and window view",
+          "matched_queries": [
+            "woman sitting in colonial office with maps and window view"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+            "artist": "",
+            "credit": ""
+          },
+          "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/19ca7e87e5aae385.jpg",
+          "download_bytes": 66741,
+          "content_type": "image/jpeg"
+        },
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+          "artist": "",
+          "credit": ""
+        }
+      },
+      "matches": [
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/19ca7e87e5aae385.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The woman is sitting in front of a window. She is wearing a blue shirt. She is holding a cell phone. She has her hair in a bun.",
+          "decision": "MATCH",
+          "score": 85,
+          "reason": "Main subject is a woman in a colonial-style office setting with appropriate furniture and window view; blue shirt and bun are consistent with visual target; cell phone is a modern object but not incompatible with the setting; no wrong object type present.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "6947335",
+            "title": "vietnam, woman, vintage clothes",
+            "source_url": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+            "original_url": "https://pixabay.com/get/gf7cd0a167448865923b40d549c27564ee8326a1f0b3f52d73732a1776b9908fb364e89f9cfd655e205b80d945aa4f1cfd4bf73744564951543cdedd096008213_1280.jpg",
+            "preview_url": "https://pixabay.com/get/ge15138b2951e7dcdb2ad5fa34d5a7a8b791a7be612119f31c21591a3c98d5fa35937ddca0e9c333f82a9f96d5d9325137ab9cf0c391c50c2dbbc6d15f5a5f2a2_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 2648,
+            "height": 3980,
+            "creator": "Chuotanhls",
+            "creator_url": "https://pixabay.com/users/12868140/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "vietnam, woman, vintage clothes, home, portrait, vietnam, woman, home, home, portrait, portrait, portrait, portrait, portrait",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/19ca7e87e5aae385.jpg",
+            "download_bytes": 66741,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/e61215eb36b220e6.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image depicts a room with two desks, each with a computer, keyboard, mouse, and other office supplies. The room is lit by two lamps, one on each desk. The desk",
+          "decision": "MATCH",
+          "score": 85,
+          "reason": "Main subject is a desk with computer and office supplies in a dimly lit office, consistent with colonial administrative setting; desk is the correct physical object type for the target context.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "932926",
+            "title": "office, work, desk",
+            "source_url": "https://pixabay.com/photos/office-work-desk-computer-932926/",
+            "original_url": "https://pixabay.com/get/g464cdf41be3baa80f0151ca1782e3942c1440d00ef12b1ae54e52e8213f58e2138bbd890f1c3ceb018d4befab195bfcfe7de0b999b56b5ac42d907a7c6d062ae_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g1e222a2d256ab95aefe35a82add3a477adb5dfc81f61b8dd7d81c1e2ca7e81bddabb87506b917a930deb63fa256b31fe_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5616,
+            "height": 3744,
+            "creator": "tookapic",
+            "creator_url": "https://pixabay.com/users/1386459/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "office, work, desk, computer, workplace, indoor, business, home office, designer, web developer, gray business, gray computer, gray office, gray home, gray laptop, gray work, gray desk, gray design, gray company, gray web, office, office, office, office, office, work, work, computer, computer, business, business, home office, home office, home office, designer, designer",
+            "search_query": "colonial era office interior with desk and window",
+            "matched_queries": [
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/office-work-desk-computer-932926/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/e61215eb36b220e6.jpg",
+            "download_bytes": 63712,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/office-work-desk-computer-932926/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/e81256b20a9d8c9f.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The two young boys in the image are standing next to each other. The boy on the left is holding a toy gun in his left hand. The boy on the right is holding a stuffed",
+          "decision": "MATCH",
+          "score": 85,
+          "reason": "Main subjects are young boys holding toy and stuffed objects, which are plausible in a colonial administrative setting as symbolic or educational items; no incompatible object types present.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "4691470",
+            "title": "steampunk, kids, costumes",
+            "source_url": "https://pixabay.com/photos/steampunk-kids-costumes-gentlemen-4691470/",
+            "original_url": "https://pixabay.com/get/g13884b083d12a7607e8835713e9e9fbf715ffc9b909466b1daebc697b0d5f232a1f3e96332c3cb5419b2c84b277f4c9c9acdec4db96584da29e05a4d28df472a_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g2175a28288235120fe808cc116b220d03c33569fae6a7fefdda588e3c1b87afea134bf005f0ea076b42ad5d5804639b1d206362f4451c40f7808d98d185bc9f8_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 2954,
+            "height": 4432,
+            "creator": "Sunriseforever",
+            "creator_url": "https://pixabay.com/users/6314823/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "steampunk, kids, costumes, gentlemen, toys, carnival, festival, boys, robbers, mechanics, vintage, 19th century, steampunk, steampunk, 19th century, 19th century, 19th century, 19th century, 19th century",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/steampunk-kids-costumes-gentlemen-4691470/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/e81256b20a9d8c9f.jpg",
+            "download_bytes": 90919,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/steampunk-kids-costumes-gentlemen-4691470/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/842f1dc35c553dd5.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "Answer with a single word. What is visible in this image? A pen and notebook on a desk.",
+          "decision": "MATCH",
+          "score": 80,
+          "reason": "Main subject (pen and notebook) is relevant to an administrative office setting; compatible with colonial-era administrative work, though minor uncertainty in exact context.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "593327",
+            "title": "desk, laptop, notebook",
+            "source_url": "https://pixabay.com/photos/desk-laptop-notebook-pen-workspace-593327/",
+            "original_url": "https://pixabay.com/get/g80207df129673c14dd1769406270dc09b2e627b74a28dad78012fd1145433ebc43f4b244c449a3002baea3eb7a3e05748f3091adc393e3da0092441df7556780_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g55f156fe40a31bc8b1732f40a8f3f32cb5eed7fee983f4a0b744790075cefd674a7b9e368943487839183717b650e67a_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5472,
+            "height": 3648,
+            "creator": "StartupStockPhotos",
+            "creator_url": "https://pixabay.com/users/690514/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "desk, laptop, notebook, pen, workspace, workplace, home office, work from home, macbook, computer, office, laptop, laptop, laptop, computer, computer, computer, computer, computer, office",
+            "search_query": "colonial era office interior with desk and window",
+            "matched_queries": [
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/desk-laptop-notebook-pen-workspace-593327/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/842f1dc35c553dd5.jpg",
+            "download_bytes": 54450,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/desk-laptop-notebook-pen-workspace-593327/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/81f9d88f19e70686.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image is a photograph. The image shows a table with a candle and two quills on it. The candle is white and is in a golden holder. The quills are black and",
+          "decision": "MATCH",
+          "score": 70,
+          "reason": "Main subject (candle and quills) aligns with colonial administrative setting; quills and candle are plausible artifacts in such a context, though exact historical fit is uncertain.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7509085",
+            "title": "poetry, literature, candle",
+            "source_url": "https://pixabay.com/photos/poetry-literature-candle-pen-table-7509085/",
+            "original_url": "https://pixabay.com/get/gb7daec4613aba44be5b1aac389dda0b3b5c655b7e74a5534fadcabd1548d5028fb2f1451457b6f8e364ebaf964aa08f0867b67cbeaa840f74f1c62e236ece7c8_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g710f42e4ce40744c2ec0be3516f848221b74ce81f65ca494d2c97de9ce44742dcb6ed8f663e1b78df67781b24135216f8776b519303c076f0857d6f66583b8f6_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5184,
+            "height": 3456,
+            "creator": "profnshst",
+            "creator_url": "https://pixabay.com/users/12300011/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "poetry, literature, candle, pen, table, writer, lyrics, prose, nostalgia, history, 19th century, poetry, poetry, poetry, poetry, poetry, writer, prose",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/poetry-literature-candle-pen-table-7509085/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/81f9d88f19e70686.jpg",
+            "download_bytes": 47257,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/poetry-literature-candle-pen-table-7509085/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "visual_rejected": [
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/327c41efecd494bc.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The girl is lying on the ground and writing on a map. The map is titled \"anywhere\". The girl is wearing a black shirt and blue jeans. The girl has two",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "3959203",
+            "title": "girl, woman, hair",
+            "source_url": "https://pixabay.com/photos/girl-woman-hair-braids-3959203/",
+            "original_url": "https://pixabay.com/get/g5e0e500d1085119fafb3d4078901c57d7acf356d40d3b9138e39cfca2f56476742f00ce7791b93055e9ef7234b5d6e06cfafeb6903857724f60b1cc2e9f7f47d_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gfe6e543540675bb231f5026bbccee6accb97f45e4d6a480098a5e003654e1cc0759527c7573d1492608335c44bc3987c61811699ea7817144bc71cf84d0bd409_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 6000,
+            "height": 4000,
+            "creator": "11417994",
+            "creator_url": "https://pixabay.com/users/11417994/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "girl, woman, hair, braids, map of the world, street map, long hair, blond, travel, atlas, map, treasure map, road, map, map, map, map, map",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/girl-woman-hair-braids-3959203/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/327c41efecd494bc.jpg",
+            "download_bytes": 106541,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/girl-woman-hair-braids-3959203/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/7c5cdee2b153c739.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image depicts a scene set in a residential area, featuring a residential building with two arched openings and a balcony. The building is painted in a light yellow color, and the balcony is",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a residential building with balcony, not a colonial administrative office or its key artifact (e.g., map, document, desk). Colonial administrative setting requires office furniture or administrative object; building is residential and mismatched in function and setting.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2584620",
+            "title": "old man, poor, person",
+            "source_url": "https://pixabay.com/photos/old-man-poor-person-building-bike-2584620/",
+            "original_url": "https://pixabay.com/get/gd8454199907ef89f71310c46179314a3102973026ded0ba9025b5d5368813de305d6a1d43998bbb1ff61f00a89b7f8801a18670446dc723e0ee6b31a59ec2dbd_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g7eeee344e811fa3264a006eb01dfe89d5fb5dbc3dace2b3665f864ba55438f84874e00279a5c61f365d34d5fed60c1517a131f4d70d938dc6b9d9f6bd3fc777d_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4928,
+            "height": 3264,
+            "creator": "loilamtan",
+            "creator_url": "https://pixabay.com/users/4659988/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "old man, poor, person, building, bike, bicycle, old man, poor, poor, poor, poor, poor, bike, bicycle",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/old-man-poor-person-building-bike-2584620/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/7c5cdee2b153c739.jpg",
+            "download_bytes": 82501,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/old-man-poor-person-building-bike-2584620/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/2ab565c4c693991a.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image depicts an office space, characterized by modern design and functional layout. The room is spacious, with large windows that provide ample natural light. The walls are adorned with decorative elements, including",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a modern office with large windows and decorative walls; no colonial-era map or administrative artifact visible; the map is not present, and the setting lacks the required colonial administrative object type.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "730681",
+            "title": "office, sitting room, executive",
+            "source_url": "https://pixabay.com/photos/office-sitting-room-executive-730681/",
+            "original_url": "https://pixabay.com/get/gdfecf4de527aa9781dd94e293ae216512084fc6645b3ea5e01c5728042d1beb0f550f3d43ec1fe6e8e3fcf6c1e957ac8d39edc590c736f8ba8c84d479743b91e_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g58e12c169f83040d27e7c1bfe2e50249d53f123762ea8b70d96db5f1f41038c06106cd6594954345b7ae6a36408b9f2e_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5669,
+            "height": 3785,
+            "creator": "MagicDesk",
+            "creator_url": "https://pixabay.com/users/930274/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "office, sitting room, executive, business, desk, workplace, furniture, corporate, table, office interiors, interior design, interior decoration, office furniture, office, office, office, office, office",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view",
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/office-sitting-room-executive-730681/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/2ab565c4c693991a.jpg",
+            "download_bytes": 75107,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/office-sitting-room-executive-730681/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/f57e57c81153fcdf.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The girl is sitting on a suitcase on the side of the road and holding a map. She is looking at the map. The suitcase is old and has a handle. The girl is",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a girl holding a map on a roadside suitcase, not a woman in a colonial administrative office with a map on a desk. The object type (roadside suitcase, roadside setting) is incompatible with the target setting.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1828079",
+            "title": "globe trotter, traveller, globe",
+            "source_url": "https://pixabay.com/photos/globe-trotter-traveller-globe-map-1828079/",
+            "original_url": "https://pixabay.com/get/g8f520b8d0812a059e0341fe72fc695c5e7196f0674920f15bb7e3101a262d4699d24b5d884e3b6b0fb6334ca7f3b258c1946b4a36259499ccd3c2b950dd3f617_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gcdf3472c97f7621e3bc1946ba681b2fdf1f6a6938fad846fce25b7e63219a212a2d556a12a9d785852be54eee114ccf74ab0aeb96037a9771f2e90e8cbd63e64_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5472,
+            "height": 3648,
+            "creator": "822640",
+            "creator_url": "https://pixabay.com/users/822640/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "globe trotter, traveller, globe, map, journey, planning, world map, waiting, female, woman, world, road, dirt road, travel, traveling, outdoors, young woman",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/globe-trotter-traveller-globe-map-1828079/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/f57e57c81153fcdf.jpg",
+            "download_bytes": 68619,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/globe-trotter-traveller-globe-map-1828079/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/457e09b0ba9e4506.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image depicts a person using a laptop. The person is wearing a white long sleeved shirt and is seated at a desk. The desk has a notebook, a pen and a cup of coffee on",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a person using a laptop, not a colonial administrative setting with a map or colonial-era furniture. Laptop is a clearly wrong object type for the visual target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2386034",
+            "title": "notebook, work, girl",
+            "source_url": "https://pixabay.com/photos/notebook-work-girl-computer-woman-2386034/",
+            "original_url": "https://pixabay.com/get/g41b8fb2f5ebb5668630865d2bab3f8310bcae30c4bc12a545b7131ecdc7834f756cce60ad734e68b1dd383ce24b253b01b3ab50984774ca1999e8078039c3dd9_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g63cbfb590df7692749a8d34a47e7548eecb7b5ce057e6b998cb2879682e6b04c3d2e41f13a5105ce758e88f5b753d95ed10ee2f85ca7be2b48051184b49cb38f_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4000,
+            "height": 2667,
+            "creator": "hamonazaryan1",
+            "creator_url": "https://pixabay.com/users/5589371/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "notebook, work, girl, computer, woman, business, working space, office, touchpad, home office, work, work, office, office, office, office, office",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view",
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/notebook-work-girl-computer-woman-2386034/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/457e09b0ba9e4506.jpg",
+            "download_bytes": 40230,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/notebook-work-girl-computer-woman-2386034/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/c7567deaa132e976.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image is a satellite photograph. The subject is Africa. The image is a satellite photograph. The subject is Africa. The image is a satellite photograph. The subject is Africa. The image is a",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Invalid or instruction-echoing vision description",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "60570",
+            "title": "africa, continent, map of africa",
+            "source_url": "https://pixabay.com/photos/africa-continent-map-of-africa-60570/",
+            "original_url": "https://pixabay.com/get/g47d773e7c3b594e0710a1cc7a594559c21110f2ae8c88ca6ea673a1c9b92d8f82a939ddde5f555aec47c997da451b9b4_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g9769d43fceee587f7aa9e8447db0059cd4aea600ac0f1b0570793d14efd89b450891f7adf648eb6585074c650b8c3157_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5723,
+            "height": 5563,
+            "creator": "WikiImages",
+            "creator_url": "https://pixabay.com/users/1897/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "africa, continent, map of africa, aerial view, geography, map, satellite image, atlantic, indian ocean, earth, africa, africa, africa, africa, africa",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/africa-continent-map-of-africa-60570/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/c7567deaa132e976.jpg",
+            "download_bytes": 90178,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/africa-continent-map-of-africa-60570/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/e624eca1f6cda55b.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The girl is sitting on a swing in a field. The girl is sitting on a swing in a field. The girl is sitting on a swing in a field.",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Invalid or instruction-echoing vision description",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1840538",
+            "title": "woman, swing, dress",
+            "source_url": "https://pixabay.com/photos/woman-swing-dress-bouquet-1840538/",
+            "original_url": "https://pixabay.com/get/gfe9a6120c27911402278b2c02ec89f6bdd58d36782a74460b7cc2dc9e9a9e5aba3085ae0c91c19ebd8b9ea200eaf51a30c758f5612b23e2efc75775f8e7a4ba6_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g06f1fc09e18221e3ff35c6158e46b004e45e7a307d1ab68dd946f92b886fdfbda784e3f12b4128284b99c732cb3414f3d915dc570317f20b8dc7080997d45e90_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3648,
+            "height": 5472,
+            "creator": "Pexels",
+            "creator_url": "https://pixabay.com/users/2286921/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "woman, swing, dress, bouquet, long dress, gown, fashion, swinging, young woman, design, female, model, outdoors, sit, sitting, woman, woman, woman, woman, woman, swing, dress, dress, fashion, fashion, fashion, model",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/woman-swing-dress-bouquet-1840538/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/e624eca1f6cda55b.jpg",
+            "download_bytes": 97244,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/woman-swing-dress-bouquet-1840538/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/95cd875911e2e87e.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image is a black and white photograph of two buildings. The buildings are tall and narrow, and they are made of glass and steel. The buildings are lit up, and the light is reflecting off",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is tall glass and steel buildings, incompatible with a colonial administrative office setting requiring colonial-era furniture and a map on a desk.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "8416953",
+            "title": "skyscraper, building, facade",
+            "source_url": "https://pixabay.com/photos/skyscraper-building-facade-window-8416953/",
+            "original_url": "https://pixabay.com/get/g705004e0a7e8f04a65eb831653ecdbd45bb3a311ad2577ec1a3f3ad2f81e1654996a9a2fd71da9a9a24ba447905ab8a4370025b381d55f523e3b40a925222ae0_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gc1ec4486e9f58d5739c27708184dd108797984c902685eaa8200aff306bc3ff5ded7d6ee1ab2604991cba85b0f77a9f46d261a1c8171c20c65232d7c90072447_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 7360,
+            "height": 4912,
+            "creator": "Wolfgang-1958",
+            "creator_url": "https://pixabay.com/users/32693390/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "skyscraper, building, facade, window, glass facade, office building, hamburg, architecture, cityscape, modern, glass, perspective, reflection, black-and-white, monochrome, bottom view, building, building, building, building, building, office building, architecture, architecture",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/skyscraper-building-facade-window-8416953/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/95cd875911e2e87e.jpg",
+            "download_bytes": 112596,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/skyscraper-building-facade-window-8416953/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/b2452afae6a81176.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image is a photograph. The subject is a person sitting on a cliff. The person is wearing a hat. The person is looking out at a valley. The valley is in the distance. The",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a person on a cliff, not a woman in an office with colonial-era furniture and a map; incompatible object type and setting.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1870007",
+            "title": "woman, sitting, peak",
+            "source_url": "https://pixabay.com/photos/woman-sitting-peak-overlooking-1870007/",
+            "original_url": "https://pixabay.com/get/g0d2e93cd4149e830bd86e628878e9dded7c516cb8df4038cdf545e1916fb5c0c5b2834eee96ce40d33d6eb842ff8a984bdfb49969bf8f08de2a974ed59ad85e8_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g407ea587aacfd43c30acafe4369bae320683bee5efd6b5fccbe24305d1d6bbd5ff73c9458bf4af1320d4bba08df73efa106d17b9058d406a3453e4faf0a455df_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 7057,
+            "height": 4710,
+            "creator": "Pexels",
+            "creator_url": "https://pixabay.com/users/2286921/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "woman, sitting, peak, overlooking, mountain ranges, mountainous, mountain landscape, trees, woods, forests, woodlands, alone, solitary, solitude, environment, landscape, haze, hills, nature, outdoors, rocky, scenic, hike, trek, alone, alone, alone, alone, alone, solitude",
+            "search_query": "woman sitting in colonial office with maps and window view",
+            "matched_queries": [
+              "woman sitting in colonial office with maps and window view"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/woman-sitting-peak-overlooking-1870007/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/b2452afae6a81176.jpg",
+            "download_bytes": 137561,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/woman-sitting-peak-overlooking-1870007/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/18082c1d6da9264c.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image shows a desk with a computer monitor and a keyboard on it. The desk is made of wood. The monitor is black and the keyboard is white. The desk is in a room with a",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a computer monitor and keyboard, not colonial-era administrative furniture or artifacts; incompatible with colonial administrative space target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2565478",
+            "title": "computer, keyboard, apple",
+            "source_url": "https://pixabay.com/photos/computer-keyboard-apple-electronics-2565478/",
+            "original_url": "https://pixabay.com/get/ge64d027d8fa4c9408d4545c19ed4475eb1d513da73907a0c7a5aabf1616b71c6e0bb0068ae5cf04b1202f25bec3ea96080d31166bcc463b1a19658f7be4ad4c3_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gf923b0057d35687d417121a695c3a168c34cb539faac466479758575a952a76ad3e3b2300d3d571fa53c972f0668f934c93fed799b728d00f94c0f404ff36394_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5472,
+            "height": 3648,
+            "creator": "StockSnap",
+            "creator_url": "https://pixabay.com/users/894430/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "computer, keyboard, apple, electronics, modern, technology, business, office, work, desk, table, office, office, office, office, office, desk",
+            "search_query": "colonial era office interior with desk and window",
+            "matched_queries": [
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/computer-keyboard-apple-electronics-2565478/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/18082c1d6da9264c.jpg",
+            "download_bytes": 72819,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/computer-keyboard-apple-electronics-2565478/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/375f7a3acc17ec58.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image is a photograph. The subject is a white desk in a white room. The desk has a computer on it. The computer is black. The desk has a chair in front of it.",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a computer on a desk, not a map or colonial administrative artifact; computer is a modern object type incompatible with colonial administrative setting.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1834328",
+            "title": "apple, chair, computer",
+            "source_url": "https://pixabay.com/photos/apple-chair-computer-desk-table-1834328/",
+            "original_url": "https://pixabay.com/get/gc1200cae8d32f5bcb9b704f8d0e4f459444e375680ddddb3922a836aff2c1ba0242e7b5329f18102eebff05952ef9e948eed3463a421633b3de0d46f7837d45e_1280.jpg",
+            "preview_url": "https://pixabay.com/get/ge44b0b907d974a3f4a4b39cce6add7c2165b015b8d82c484e8aed0cb272958c3ccd93d8b9acd712b2088915c48100ae69858690abf3593703a3ca94462c9ec94_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5184,
+            "height": 3456,
+            "creator": "Pexels",
+            "creator_url": "https://pixabay.com/users/2286921/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "apple, chair, computer, desk, table, technology, workspace, pc, home office, workstation, computer, computer, computer, computer, computer, desk, technology, home office",
+            "search_query": "colonial era office interior with desk and window",
+            "matched_queries": [
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/apple-chair-computer-desk-table-1834328/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/375f7a3acc17ec58.jpg",
+            "download_bytes": 30722,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/apple-chair-computer-desk-table-1834328/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/fbd2443701e229e1.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "Describe the room in detail, including furniture, decorations, and other objects. Describe the room in detail, including furniture, decorations, and other objects. Describe the room in",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2181960",
+            "title": "chairs, table, contemporary",
+            "source_url": "https://pixabay.com/photos/chairs-table-contemporary-furniture-2181960/",
+            "original_url": "https://pixabay.com/get/ge676d0697f352a87a38d1dc69d920c87b0fe4a62420f00815ee2014998b41006bfff8a9b3c0775a0739bf0a13b010a42e37945302c26df4e7ada8caf0c8d0631_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g9becc74ae2944b272b47dea184f916d0083457f40d2b397470b58de93f2938aef172786354fe8d480c6ae337938bdc7bc69fb1f0a2b511e8a1e407d5395db8e9_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5616,
+            "height": 3744,
+            "creator": "Pexels",
+            "creator_url": "https://pixabay.com/users/2286921/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "chairs, table, contemporary, furniture, indoors, interior design, office, room, spacious, windows, interior decoration, office furniture, meeting room, boardroom, office, office, office, office, office",
+            "search_query": "colonial era office interior with desk and window",
+            "matched_queries": [
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/chairs-table-contemporary-furniture-2181960/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/fbd2443701e229e1.jpg",
+            "download_bytes": 79096,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/chairs-table-contemporary-furniture-2181960/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/caf460434e6fa2ec.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "100 words or less. 1000 words or less. 10000 words or less. 100000 words or less. 1",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "791450",
+            "title": "iphone, flower background, iphone 6",
+            "source_url": "https://pixabay.com/photos/iphone-iphone-6-iphone-6-plus-apple-791450/",
+            "original_url": "https://pixabay.com/get/g76611eca4f06a4d07a629b97db3b77f003af18b83dfe46647eecf5fd266a1b3276fc246e2093225393d7d84826fc8955cecdb0691fcb2ce58bd172441d074621_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g80c8f0143a99295a50e8c48cd954acd94e26532b7f2342810a4076eef0f355c495361be71869f1cb0691e5b7b212c211_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5254,
+            "height": 3503,
+            "creator": "kaboompics",
+            "creator_url": "https://pixabay.com/users/1013994/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "iphone, flower background, iphone 6, iphone 6 plus, apple, white desk, desk, flowers, yellow flowers, spring, work, nature, workspace, office, officespace, flower wallpaper, interior, beautiful flowers, home, home office, technology, mobile, phone",
+            "search_query": "colonial era office interior with desk and window",
+            "matched_queries": [
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/iphone-iphone-6-iphone-6-plus-apple-791450/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/caf460434e6fa2ec.jpg",
+            "download_bytes": 38989,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/iphone-iphone-6-iphone-6-plus-apple-791450/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/9be1457021d95965.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image is a photograph. The subject is a laptop computer sitting on a desk. The laptop is open to a web page. The web page is displaying two images of a baby. The laptop is",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a laptop, not colonial-era furniture or administrative setting; incompatible object type for visual target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1284085",
+            "title": "desk, laptop, office",
+            "source_url": "https://pixabay.com/photos/desk-laptop-office-notebook-mac-1284085/",
+            "original_url": "https://pixabay.com/get/g871c80dbedb49070561fb985aabad0277a53397060dc7069c2e322088d947852db6d25d7f42668ba5aed86fe6bf8d5d0648a97894bc11be3eecfde65f0820341_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g58e98df57d41b7b9dd2abf908fd8238e8ea976ffa502cca6a08cd9de78d3acb694a0f68da9dc6fd02afaf469970a2a00ebbe7918bd1041f024dfa4aaba622401_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 6016,
+            "height": 4000,
+            "creator": "Pexels",
+            "creator_url": "https://pixabay.com/users/2286921/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "desk, laptop, office, notebook, mac, macbook, table, technology, computer, mockup, design, screen, notepad, home office, freelance, work from home, desk, office, office, office, office, office, computer, computer, home office, home office",
+            "search_query": "colonial era office interior with desk and window",
+            "matched_queries": [
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/desk-laptop-office-notebook-mac-1284085/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/9be1457021d95965.jpg",
+            "download_bytes": 66857,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/desk-laptop-office-notebook-mac-1284085/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/76f9332e684131ca.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "2017 is a year that has 366 days. The calendar shows that the year is 2017. The calendar is dated 2017. The",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "The main visible subject is a calendar dated 2017, which is an unrelated object type to a colonial administrative office setting. The target requires a map or colonial-era administrative artifact; a calendar is not compatible.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2568755",
+            "title": "apple, computer, browser",
+            "source_url": "https://pixabay.com/photos/apple-computer-browser-business-2568755/",
+            "original_url": "https://pixabay.com/get/g8bea5d244ed1e3d2486abab2367f2bff0482b8d4c65a43f276dda40a6df7aec4894a4ddfebcf5c42ef8452587264355d79e402c74b6aac1c9cc211b4fefe00a4_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gefa44fc36e78c38f5c73ecc49d05c271b06420f71241133c3a662cd1addee34e4b2d75fbd6730d7450204b50b38de0edbd42a44fd08ddb4e6f876462bdc4448b_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 7806,
+            "height": 5304,
+            "creator": "StockSnap",
+            "creator_url": "https://pixabay.com/users/894430/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "apple, computer, browser, business, office, work, desk, table, chairs, interior, display, green, business, office, office, office, office, office, work, desk, desk, desk, desk, table, table, table, table",
+            "search_query": "colonial era office interior with desk and window",
+            "matched_queries": [
+              "colonial era office interior with desk and window"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/apple-computer-browser-business-2568755/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/76f9332e684131ca.jpg",
+            "download_bytes": 53332,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/apple-computer-browser-business-2568755/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/a975ad207aebe49b.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image depicts a woman in a golden ball gown, standing in a lush green forest. She is holding a white fan in her right hand and has her left hand raised, possibly to",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a woman in a golden ball gown in a forest, not matching the colonial administrative office setting with colonial-era furniture and a map on the desk.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "9770658",
+            "title": "woman, ball gown, fan",
+            "source_url": "https://pixabay.com/photos/woman-ball-gown-fan-know-9770658/",
+            "original_url": "https://pixabay.com/get/g6ed5daeced8c974a80e39fe0e6a26de689334376c19308be05167347c9f4bd6add4ad8fc0b52e0764995bd12a83af3ab6209567789975b102c33cac4dc635722_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gd55ff9d16befaec4cc68167647d53604a9f89020d42437e7bdf376e5e9791a66da79309306093734d8b6838d65279631d6882bfe4f097f67ad4f2c62e92d3c89_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4128,
+            "height": 6192,
+            "creator": "Sunriseforever",
+            "creator_url": "https://pixabay.com/users/6314823/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "woman, ball gown, fan, know, aristocrat, lady, vintage, summer, nature, 19th century, promenade",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/woman-ball-gown-fan-know-9770658/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/a975ad207aebe49b.jpg",
+            "download_bytes": 63776,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/woman-ball-gown-fan-know-9770658/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/447661d054f5e549.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The main physical subject visible in this image is a woman in a blue uniform. She is standing in front of a blurred background. She is wearing a blue hat and a blue uniform. She",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "8344563",
+            "title": "woman, cadet, education",
+            "source_url": "https://pixabay.com/photos/woman-cadet-education-cosplay-8344563/",
+            "original_url": "https://pixabay.com/get/g057ad31557c98309d69ac4aa2f7cbffb85bf2af628207188b2f10ed0ee07aba7fa89bd2379770937d939b7d60ad95a5ad10a7dbf0337415e0f82b21ea5e194eb_1280.jpg",
+            "preview_url": "https://pixabay.com/get/ga6b46543cbf7434beecd5955855be8eed3ec2014777f5ac20b95d1bc7385fd67fd51813050c31335585d796845bd319e601d8502825edaf2d0411250282639da_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 2789,
+            "height": 4184,
+            "creator": "Sunriseforever",
+            "creator_url": "https://pixabay.com/users/6314823/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "woman, cadet, education, cosplay, vintage, retro, 19th century, past, 80s, history, staging",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/woman-cadet-education-cosplay-8344563/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/447661d054f5e549.jpg",
+            "download_bytes": 70105,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/woman-cadet-education-cosplay-8344563/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/ddc824a8c3206420.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "Describe the subject in detail. Describe the background in detail. Describe the foreground in detail. Describe the image in detail. Describe the image in detail. Describe the image",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Invalid or instruction-echoing vision description",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "6579864",
+            "title": "plaza de lourdes, church, bogota",
+            "source_url": "https://pixabay.com/photos/plaza-de-lourdes-church-bogota-6579864/",
+            "original_url": "https://pixabay.com/get/g38c0891eaad7e879bda203ce417a80dcbc9af62fb205d320e9e01394e29b7bd254111f87a64576699f6b84ad3c48df63626db841cf9c66c79ac51fb88b13c902_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g1f6a46150b58c8c5d84f7754038c3d283f7173a204b930b8c5c4407233826e26fdee75f7cbe0e05fa8ad3c1838b986e842b682340c71585f4ca951cc318ce73a_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 2972,
+            "height": 4036,
+            "creator": "Smalg",
+            "creator_url": "https://pixabay.com/users/22557506/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "plaza de lourdes, church, bogota, colombia, 19th-century church, church square, cathedral, bogota, bogota, bogota, bogota, bogota, colombia",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/plaza-de-lourdes-church-bogota-6579864/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/ddc824a8c3206420.jpg",
+            "download_bytes": 98818,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/plaza-de-lourdes-church-bogota-6579864/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/b0c6a468fcd1cc6c.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image is a photograph of a piece of lace. The lace is white and has a pattern of leaves and flowers. The lace is made of a fine mesh of loops and curves. The lace is",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a piece of lace, not an office setting or colonial administrative artifact; incompatible object type",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1182740",
+            "title": "antique honiton lace, 19th century, english",
+            "source_url": "https://pixabay.com/photos/antique-honiton-lace-19th-century-1182740/",
+            "original_url": "https://pixabay.com/get/ge75e10dbfdffd0574f1661c2b78454230c6ee99b015694706fdeb01152cf13f025141c756b4fe4391b32eaf3bfa89a17acaf6a8998ccb48930eb9b249c3f5a4b_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gc1bcb70f28b5b02e0f2033fc5d27ba927b2eb2d70b089268bf5559651bc9861ee087e235092f6755a829725b502bea97416208e6ed25503fe548964d640f63b9_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 2592,
+            "height": 1936,
+            "creator": "Antjekantje",
+            "creator_url": "https://pixabay.com/users/2013845/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "antique honiton lace, 19th century, english, white, yarn, knitwear, 19th century, 19th century, yarn, yarn, yarn, yarn, yarn",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/antique-honiton-lace-19th-century-1182740/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/b0c6a468fcd1cc6c.jpg",
+            "download_bytes": 209144,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/antique-honiton-lace-19th-century-1182740/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/b0b2fc1bb7e3f7fd.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image depicts two people standing in front of a table. The man on the left is wearing a blue military uniform with a cap and the woman on the right is also in a blue military",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is two people in blue military uniforms; target requires a colonial administrative setting with colonial-era furniture and a map on a desk. Uniforms are not a map or administrative artifact; the visible subject type is incompatible.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "8344565",
+            "title": "woman, cadet, education",
+            "source_url": "https://pixabay.com/photos/woman-cadet-education-cosplay-8344565/",
+            "original_url": "https://pixabay.com/get/gdbdaa2faae7aed7746b90b52073d4dd1c9c27cda1101a52110841308d3c7b56d13320751e38e4d8c3b98085a6925861fc9707fd991b20aa4558672a6bdd68fec_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g6baa3d34a7a4296463d939d11433bca4eef698105e994ba58dac62e5076e2d0382be9d719d0073db5808f05def8d469d5ce1def752c34814a6bea8a25f913512_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3456,
+            "height": 4608,
+            "creator": "Sunriseforever",
+            "creator_url": "https://pixabay.com/users/6314823/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "woman, cadet, education, cosplay, vintage, retro, 19th century, past, 80s, history, staging",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/woman-cadet-education-cosplay-8344565/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/b0b2fc1bb7e3f7fd.jpg",
+            "download_bytes": 99204,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/woman-cadet-education-cosplay-8344565/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/94ae99e64dc70508.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image is a photograph. The subject is a long viaduct with many arches. The arches are made of stone. The viaduct is lit by the sun. The sky is clear.",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a viaduct with arches, not a woman in an office or colonial administrative setting. The object type (viaduct) is incompatible with the visual target of a woman in a colonial office.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "5472592",
+            "title": "viaduct, train, transport",
+            "source_url": "https://pixabay.com/photos/viaduct-train-transport-gard-5472592/",
+            "original_url": "https://pixabay.com/get/g9ec2fd7ee405465894fe3148a10aa8d04293ad1da54b3194e157dca97132618b3f63ed9f8e7632c91d477d4df03c75d8fecc30950ac181e2beb8e59963e17f7b_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g57c290425fed17365b82577ecb14705a3e248f1cae23680ac966ad2a78de041f605f4de2542f3f826da2a5566aeae8e52139cf84d3e2b49f6db044fa969c81c2_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3648,
+            "height": 5472,
+            "creator": "macaccro",
+            "creator_url": "https://pixabay.com/users/10969682/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "viaduct, train, transport, gard, bridge, 19th century",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/viaduct-train-transport-gard-5472592/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/94ae99e64dc70508.jpg",
+            "download_bytes": 77243,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/viaduct-train-transport-gard-5472592/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/b70558109f60033a.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "(Describe the subject in terms of its most prominent features.) The woman in the image is holding a fan. She is wearing a wedding dress. She is standing in a",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a woman in a wedding dress, but the target is a colonial administrative space with colonial-era furniture and a map. A wedding dress is not an artifact of colonial administration; the object type is incompatible.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "9770671",
+            "title": "woman, ball gown, fan",
+            "source_url": "https://pixabay.com/photos/woman-ball-gown-fan-know-9770671/",
+            "original_url": "https://pixabay.com/get/g8429d09a8cbd6eedac08a635a5bedf173434d6ffb60a38bed8bea45ee32c2916609c95d377a92214afda2eb437c6a74d8c0204e75f4ac9205681caf79be764a2_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g4b92f517eb4e7cab5261a96dcaa70b32966bd724df74921e9f9e7e168da911ffb82bce53fc253e86fab098e3aa543f3ad11d222acde52c8bd60efef069320d0d_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4128,
+            "height": 6192,
+            "creator": "Sunriseforever",
+            "creator_url": "https://pixabay.com/users/6314823/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "woman, ball gown, fan, know, aristocrat, lady, vintage, summer, nature, 19th century, promenade",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/woman-ball-gown-fan-know-9770671/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/b70558109f60033a.jpg",
+            "download_bytes": 80580,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/woman-ball-gown-fan-know-9770671/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/04_beat_02_phase_01/archive/3c8a1fb794f56b77.jpg",
+          "target": "A woman sitting in a dimly lit office with colonial-era furniture, a map on the desk, and a window showing a distant landscape; the setting suggests a colonial administrative space.",
+          "description": "The image depicts a woman in a yellow ball gown holding a white parasol in a lush green forest. The woman is standing on a pathway in the forest, and she is holding the",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a woman in a yellow ball gown with a parasol in a forest pathway, incompatible with a colonial administrative office setting requiring colonial-era furniture and a map on a desk.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "9770818",
+            "title": "woman, baroness, countess",
+            "source_url": "https://pixabay.com/photos/woman-baroness-countess-ball-gown-9770818/",
+            "original_url": "https://pixabay.com/get/g8c399560bfabb31a3f3ff13f79d6b225eba65d192b965ee35d6049a13c05c6fc8af0bb989a9b629917181edf756fce5a61986496dfac09f82a1916e50875d72c_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g29cf88c85c75125621f6f006c24a616f45672d64155f217c57246f6335028ece448826d7afb51904cc2d821383c0888a2649f2ef660d6172ea96e8d031a0e1e9_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4128,
+            "height": 6192,
+            "creator": "Sunriseforever",
+            "creator_url": "https://pixabay.com/users/6314823/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "woman, baroness, countess, ball gown, fan, know, aristocrat, lady, vintage, summer, nature, 19th century, promenade, parasol, umbrella",
+            "search_query": "woman working in 19th century colonial administration room",
+            "matched_queries": [
+              "woman working in 19th century colonial administration room"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/woman-baroness-countess-ball-gown-9770818/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/3c8a1fb794f56b77.jpg",
+            "download_bytes": 70910,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/woman-baroness-countess-ball-gown-9770818/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "rights_rejected": [],
+      "identity_rejected": [],
+      "media_rejected": [],
+      "unavailable": [],
+      "download_failed": []
+    },
+    "status": "SEARCHED"
+  }
+}

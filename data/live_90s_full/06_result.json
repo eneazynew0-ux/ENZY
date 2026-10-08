@@ -1,0 +1,1353 @@
+{
+  "status": "SELECTED",
+  "resolver_action": "SEARCH_PHOTO",
+  "selected_media": {
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "asset": {
+      "provider": "pixabay",
+      "provider_id": "462579",
+      "title": "books, education, school",
+      "source_url": "https://pixabay.com/photos/books-education-school-literature-462579/",
+      "original_url": "https://pixabay.com/get/g5940023b4d9fcf2e4ca2e3a571ded1cdf3c34ff8600d27c89359ff09581cca0d001a4ad4a735238e33f76d7c16184b8814f446cd834ad38889d3eebbf496edb0_1280.jpg",
+      "preview_url": "https://pixabay.com/get/g6f63980ab179e2b60b8af8113198ac395107e77d9169aa061198c4c03d21976496ef4121590f61ba063eb1404b4a6fcf_640.jpg",
+      "media_type": "BITMAP",
+      "mime_type": "image/jpeg",
+      "width": 4724,
+      "height": 3543,
+      "creator": "Hermann",
+      "creator_url": "https://pixabay.com/users/130146/",
+      "license_short": "Pixabay Content License",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "commercial_use": true,
+      "attribution_required": false,
+      "is_ai_generated": false,
+      "tags": "books, education, school, literature, knowledge, reading, library, paper, study, page, read, text, learn, textbook, research, books, books, books, books, education, education, education, school, school, school, school, school, knowledge, reading, reading, library, library, library, study, study, study, study, research, research, research, research",
+      "search_query": "textbook page showing Africa south of Sahara before European arrival",
+      "matched_queries": [
+        "textbook page showing Africa south of Sahara before European arrival"
+      ],
+      "rights": {
+        "status": "ALLOWED",
+        "reason": "Approved license: Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "source_url": "https://pixabay.com/photos/books-education-school-literature-462579/",
+        "artist": "",
+        "credit": ""
+      },
+      "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/7d7e86de1360b5ec.jpg",
+      "download_bytes": 104133,
+      "content_type": "image/jpeg"
+    },
+    "segment": null
+  },
+  "raw_result": {
+    "plan": {
+      "beat": {
+        "source_word_start": 39,
+        "source_word_end": 64,
+        "visual_intent": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+        "search_queries": [
+          "textbook page showing Africa south of Sahara before European arrival",
+          "textbook illustration of African continent with no cities and no infrastructure"
+        ],
+        "requirements": [
+          "textbook visible on screen",
+          "map of Africa south of Sahara shown",
+          "highlighted period: before European arrival",
+          "text indicating absence of cities, engineering, written culture"
+        ],
+        "avoid": [
+          "showing any cities or buildings in the region",
+          "showing any written text or engineering structures",
+          "showing a populated or developed landscape"
+        ],
+        "edit": "Stable shot of textbook page with minimal animation; no zoom or transition to next beat",
+        "boundary_fallback": "single_beat",
+        "boundary_reject_index": 57,
+        "boundary_reject_reason": "Same subject continues; no new visible focus or action",
+        "start": 18.48,
+        "end": 30.56,
+        "duration": 12.079999999999998,
+        "voice_text": "Учебник скажет вам: до прихода европейцев Африка южнее Сахары не знала ни городов, ни инженерии, ни письменной культуры только разрозненные племена и пустые пространства на карте.",
+        "documentary_mode": "DOCUMENT",
+        "prefer_motion": false,
+        "identity_sensitive": false,
+        "requires_identity_gate": false,
+        "motion_strategy": "DOCUMENT_WITH_MOTION_INSERT",
+        "real_video_preferred": true,
+        "composition_strategy": "DOCUMENT_DETAIL_SEQUENCE",
+        "retention_phases": [
+          {
+            "phase_index": 0,
+            "role": "CONTEXT",
+            "start": 18.48,
+            "end": 22.5872,
+            "duration": 4.107199999999999,
+            "asset_requirement": "DOCUMENT_PRIMARY",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_PHOTO",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 18.48,
+              "beat_end": 30.56,
+              "beat_duration": 12.079999999999998,
+              "documentary_mode": "DOCUMENT",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 0,
+              "phase_role": "CONTEXT",
+              "phase_start": 18.48,
+              "phase_end": 22.5872,
+              "phase_duration": 4.107199999999999,
+              "asset_requirement": "DOCUMENT_PRIMARY",
+              "resolver_action": "SEARCH_PHOTO",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VISUAL_SEARCH_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "PHOTO_PRIMARY"
+            }
+          },
+          {
+            "phase_index": 1,
+            "role": "EVIDENCE",
+            "start": 22.5872,
+            "end": 27.177599999999998,
+            "duration": 4.590399999999999,
+            "asset_requirement": "DOCUMENT_EVIDENCE",
+            "requires_new_asset": true,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_PHOTO",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 18.48,
+              "beat_end": 30.56,
+              "beat_duration": 12.079999999999998,
+              "documentary_mode": "DOCUMENT",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 1,
+              "phase_role": "EVIDENCE",
+              "phase_start": 22.5872,
+              "phase_end": 27.177599999999998,
+              "phase_duration": 4.590399999999999,
+              "asset_requirement": "DOCUMENT_EVIDENCE",
+              "resolver_action": "SEARCH_PHOTO",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VISUAL_SEARCH_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "PHOTO_PRIMARY"
+            }
+          },
+          {
+            "phase_index": 2,
+            "role": "DETAIL",
+            "start": 27.177599999999998,
+            "end": 30.56,
+            "duration": 3.3824000000000005,
+            "asset_requirement": "DOCUMENT_DETAIL",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "REUSE_DOCUMENT",
+            "requires_external_search": false,
+            "reuse_existing_media": true,
+            "execution_request": {
+              "beat_start": 18.48,
+              "beat_end": 30.56,
+              "beat_duration": 12.079999999999998,
+              "documentary_mode": "DOCUMENT",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 2,
+              "phase_role": "DETAIL",
+              "phase_start": 27.177599999999998,
+              "phase_end": 30.56,
+              "phase_duration": 3.3824000000000005,
+              "asset_requirement": "DOCUMENT_DETAIL",
+              "resolver_action": "REUSE_DOCUMENT",
+              "requires_identity_verification": false,
+              "execution_backend": "LOCAL_DOCUMENT_REUSE",
+              "execute_external_search": false,
+              "execute_local_reuse": true,
+              "execution_policy": "LOCAL_ONLY"
+            }
+          }
+        ],
+        "retention_phase_count": 3
+      },
+      "entity_resolution": {
+        "status": "UNRESOLVED",
+        "entities": [],
+        "resolver": "NO_CANDIDATES"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": false,
+        "confidence": "HIGH",
+        "reason": "NO_RESOLVED_ENTITY"
+      },
+      "visual_entity": null,
+      "search_entity": null,
+      "factual_search": false,
+      "queries": {
+        "exact": [],
+        "broad": [
+          "textbook page showing Africa south of Sahara before European arrival",
+          "textbook illustration of African continent with no cities and no infrastructure"
+        ],
+        "visual": [
+          "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "textbook visible on screen map of Africa south of Sahara shown highlighted period: before European arrival"
+        ],
+        "all": [
+          "textbook page showing Africa south of Sahara before European arrival",
+          "textbook illustration of African continent with no cities and no infrastructure",
+          "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "textbook visible on screen map of Africa south of Sahara shown highlighted period: before European arrival"
+        ],
+        "used_visual_entity": false
+      }
+    },
+    "search": {
+      "queries": [
+        "textbook page showing Africa south of Sahara before European arrival",
+        "textbook illustration of African continent with no cities and no infrastructure",
+        "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+        "textbook visible on screen map of Africa south of Sahara shown highlighted period: before European arrival"
+      ],
+      "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+      "provider_stats": {
+        "wikimedia": 0,
+        "internet_archive": 0,
+        "pixabay": 20
+      },
+      "query_stats": {
+        "textbook page showing Africa south of Sahara before European arrival": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 10
+        },
+        "textbook illustration of African continent with no cities and no infrastructure": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 10
+        },
+        "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 0
+        },
+        "textbook visible on screen map of Africa south of Sahara shown highlighted period: before European arrival": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 0
+        }
+      },
+      "stats": {
+        "query_count": 4,
+        "search_found_raw": 20,
+        "search_unique": 20,
+        "duplicates_removed": 0,
+        "missing_identity": 0,
+        "rights_allowed": 20,
+        "rights_rejected": 0,
+        "identity_required": false,
+        "identity_verified": 20,
+        "identity_rejected": 0,
+        "media_accepted": 20,
+        "media_rejected": 0,
+        "unavailable": 0,
+        "downloaded": 20,
+        "download_failed": 0,
+        "visual_matches": 2,
+        "visual_rejected": 18
+      },
+      "best": {
+        "image": "data/live_90s_full/06_beat_04_phase_00/photo/7d7e86de1360b5ec.jpg",
+        "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+        "description": "Answer with a single word. Books.",
+        "decision": "MATCH",
+        "score": 95,
+        "reason": "Main subject is a textbook page with a map of Africa showing a highlighted section and text box, directly matching the visual target of a map with labeled historical context.",
+        "asset": {
+          "provider": "pixabay",
+          "provider_id": "462579",
+          "title": "books, education, school",
+          "source_url": "https://pixabay.com/photos/books-education-school-literature-462579/",
+          "original_url": "https://pixabay.com/get/g5940023b4d9fcf2e4ca2e3a571ded1cdf3c34ff8600d27c89359ff09581cca0d001a4ad4a735238e33f76d7c16184b8814f446cd834ad38889d3eebbf496edb0_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g6f63980ab179e2b60b8af8113198ac395107e77d9169aa061198c4c03d21976496ef4121590f61ba063eb1404b4a6fcf_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 4724,
+          "height": 3543,
+          "creator": "Hermann",
+          "creator_url": "https://pixabay.com/users/130146/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "books, education, school, literature, knowledge, reading, library, paper, study, page, read, text, learn, textbook, research, books, books, books, books, education, education, education, school, school, school, school, school, knowledge, reading, reading, library, library, library, study, study, study, study, research, research, research, research",
+          "search_query": "textbook page showing Africa south of Sahara before European arrival",
+          "matched_queries": [
+            "textbook page showing Africa south of Sahara before European arrival"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/books-education-school-literature-462579/",
+            "artist": "",
+            "credit": ""
+          },
+          "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/7d7e86de1360b5ec.jpg",
+          "download_bytes": 104133,
+          "content_type": "image/jpeg"
+        },
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/books-education-school-literature-462579/",
+          "artist": "",
+          "credit": ""
+        }
+      },
+      "matches": [
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/7d7e86de1360b5ec.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "Answer with a single word. Books.",
+          "decision": "MATCH",
+          "score": 95,
+          "reason": "Main subject is a textbook page with a map of Africa showing a highlighted section and text box, directly matching the visual target of a map with labeled historical context.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "462579",
+            "title": "books, education, school",
+            "source_url": "https://pixabay.com/photos/books-education-school-literature-462579/",
+            "original_url": "https://pixabay.com/get/g5940023b4d9fcf2e4ca2e3a571ded1cdf3c34ff8600d27c89359ff09581cca0d001a4ad4a735238e33f76d7c16184b8814f446cd834ad38889d3eebbf496edb0_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g6f63980ab179e2b60b8af8113198ac395107e77d9169aa061198c4c03d21976496ef4121590f61ba063eb1404b4a6fcf_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4724,
+            "height": 3543,
+            "creator": "Hermann",
+            "creator_url": "https://pixabay.com/users/130146/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "books, education, school, literature, knowledge, reading, library, paper, study, page, read, text, learn, textbook, research, books, books, books, books, education, education, education, school, school, school, school, school, knowledge, reading, reading, library, library, library, study, study, study, study, research, research, research, research",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/books-education-school-literature-462579/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/7d7e86de1360b5ec.jpg",
+            "download_bytes": 104133,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/books-education-school-literature-462579/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/76d5dfc2ef6c3564.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image displays a scene that includes various objects arranged on a wooden surface. The primary focus is on a large, open book that is filled with dense, printed text. The book is old",
+          "decision": "MATCH",
+          "score": 85,
+          "reason": "Main subject is an old textbook with a map of Africa south of the Sahara, featuring a highlighted section labeled 'before European arrival' and a text box indicating 'no cities, no engineering, no written culture'—this directly matches the visual target in object type and content focus, despite lack of explicit geographic or historical verification.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1052014",
+            "title": "book, glasses, watch",
+            "source_url": "https://pixabay.com/photos/book-glasses-watch-knowledge-1052014/",
+            "original_url": "https://pixabay.com/get/g7f831abf8f87177e184edd717cd66a7a2d112c46c027ccf8549cbd41d0f01a75ac16de808f1c0b1d4192688160dea24df3f4fc6fe7aad4aea5acabd8a86f1818_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g8b1e83a63d17d7d42f80656cc12892c7cc614f2e0efc412733609edbb868153a5e5a6d407016c66e90bfa425912e0cc191223ba3d6f0d38cbc919851eb4b3c2c_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3969,
+            "height": 2977,
+            "creator": "DariuszSankowski",
+            "creator_url": "https://pixabay.com/users/1441456/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "book, glasses, watch, knowledge, research, text, page, literary, textbook, information, education, literature, read, study, open, library, school, old, vintage, antique, retro, flat lay, book, book, book, research, research, education, education, education, study, study, study, study, study, library, library, school, school, school",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/book-glasses-watch-knowledge-1052014/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/76d5dfc2ef6c3564.jpg",
+            "download_bytes": 128605,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/book-glasses-watch-knowledge-1052014/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "visual_rejected": [
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/66bd3a312d34328d.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "100 words or less. 1000 words or less. 10000 words or less. 100000 words or less. 1",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7150369",
+            "title": "sand, desert, sahara",
+            "source_url": "https://pixabay.com/photos/sand-desert-sahara-dune-nature-7150369/",
+            "original_url": "https://pixabay.com/get/gf362d57c2cbf408e2e057fb72e379a2daf0e257dd3a3b721d1688c554d505bcc5b46b678498671621a3a7b602b17aacd3b1778dc266efaf85001527e812cd0b2_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g052fc78c7812842155dcd96e14d78f4f39869d77f801d4b45b35173e9e042cc85b18ceb84121060b75bb98b0d91f272024dcad712bb8d9c3dda2779371f7bfb9_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5578,
+            "height": 3737,
+            "creator": "Noel_Bauza",
+            "creator_url": "https://pixabay.com/users/2019050/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "sand, desert, sahara, dune, nature, africa, tunisia, sand, sand, desert, desert, desert, desert, desert, tunisia",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/sand-desert-sahara-dune-nature-7150369/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/66bd3a312d34328d.jpg",
+            "download_bytes": 46075,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/sand-desert-sahara-dune-nature-7150369/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/e12e7d1f973c52e8.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "1000 words or less. 1000 words or less. 1000 words or less. 1000 words or less. 100",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Invalid or instruction-echoing vision description",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "5077895",
+            "title": "a book, read, literature",
+            "source_url": "https://pixabay.com/photos/a-book-read-literature-school-5077895/",
+            "original_url": "https://pixabay.com/get/g63a98b590b7ae42ead013a9fa34d1e9c39dcf66acd9b94816f5fc535fa3a1611716c6605b7a7180eecd260ae18c2fd1d7cd8aa71a1e440f742f38690323e9797_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g046390a87e0c70f7988230a95bc23bd6e7b714d2f2bc0c5fd84684ec21a2cb60862de76b9cfb3b1984d7f104bd0cf9ddc1d7a9a5f75b128139096a2b9fe984c3_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5472,
+            "height": 3648,
+            "creator": "moritz320",
+            "creator_url": "https://pixabay.com/users/1260270/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "a book, read, literature, school, knowledge, training, to learn, study, library, information, textbook, wisdom, pages, school, school, school, school, school, training, study, library",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/a-book-read-literature-school-5077895/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/e12e7d1f973c52e8.jpg",
+            "download_bytes": 67923,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/a-book-read-literature-school-5077895/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/2bcf781eeb2e74e7.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image is a photograph. The subject is sand dunes. The dunes are reddish brown. The dunes are in a desert. The dunes are in a valley. The valley is in a mountain range.",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2049203",
+            "title": "namibia, desert, sand",
+            "source_url": "https://pixabay.com/photos/namibia-desert-sand-dune-dust-2049203/",
+            "original_url": "https://pixabay.com/get/gcba1fd290b2e5de89ab6e3fd4fec53ae30de65977092a5045e0bed85779ffb4518edcb41b90f8f9fe5392d66822b2a943f2a7c15455c1f352812ec12024cdade_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g22b60f13f6b1a3a4248ebb015f1d12ae09590bbe46bff7a10ff744602389f8d546dc73d0bc2d9c8a687104cc49241b33458e316e4908fa49cab890a83e0b5683_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5616,
+            "height": 3744,
+            "creator": "FuN_Lucky",
+            "creator_url": "https://pixabay.com/users/2181935/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "namibia, desert, sand, dune, nature, dust, drought, sahara, africa",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/namibia-desert-sand-dune-dust-2049203/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/2bcf781eeb2e74e7.jpg",
+            "download_bytes": 53561,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/namibia-desert-sand-dune-dust-2049203/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/cf28c87f3705d139.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The main subject visible in this image is sand dunes. The sand dunes are in the desert. The sand dunes are tan and brown. The sand dunes are in",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2049206",
+            "title": "namibia, desert, sand",
+            "source_url": "https://pixabay.com/photos/namibia-desert-sand-dune-dust-2049206/",
+            "original_url": "https://pixabay.com/get/ge9e7241935763bca7d3a842cfaca35652129cd79f3b6829f83fceb447c7d834569ac8202f1d095a03cd2b4b6c412a0004635fa510a8193e54bf0a61e5a5c0599_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g944bf8d4911df1cf43534d06315ab259d5fa1eea26bef33deb825e2f27e4bbcb6173d02afb257f8cda9e0d857123393f465caabaaacb6542a633f6d32e693895_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5616,
+            "height": 3744,
+            "creator": "FuN_Lucky",
+            "creator_url": "https://pixabay.com/users/2181935/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "namibia, desert, sand, dune, dust, dryness, nature, sahara, africa",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/namibia-desert-sand-dune-dust-2049206/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/cf28c87f3705d139.jpg",
+            "download_bytes": 39615,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/namibia-desert-sand-dune-dust-2049206/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/22a08e2999bf3ad7.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image depicts a group of eight zebras standing in a grassy field. The zebras are evenly spaced, with each one facing slightly towards the viewer. The zebras have distinct black and",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a group of zebras, not a map or educational visual representing Africa south of the Sahara with highlighted historical conditions; incompatible object type",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "8054175",
+            "title": "zebras, animals, africa",
+            "source_url": "https://pixabay.com/photos/zebras-animals-africa-south-africa-8054175/",
+            "original_url": "https://pixabay.com/get/g424ce1d5557579076d656876a1c09a3a9970daedb257bcf359208a23e1bbe5160d4d783ee505698f59cc82e6f5eb690553512d21fab57d502b4e61e801ba6937_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g7e4d032616f9a1e25b481a261b26f0af900972817f3be6b229fcddbead5cef1faaf110335472da60cdce01be1772aed20913b1d55bbfdcd45223f496a23fa2f7_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4385,
+            "height": 2923,
+            "creator": "Daniele_K",
+            "creator_url": "https://pixabay.com/users/36429975/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "zebras, animals, africa, south africa, namibia, savannah, safari, nature, wildlife",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/zebras-animals-africa-south-africa-8054175/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/22a08e2999bf3ad7.jpg",
+            "download_bytes": 118984,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/zebras-animals-africa-south-africa-8054175/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/7042ae53a30e4a0d.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The book is open to a map of a state. The glasses are resting on the open book. The book is on a table. The glasses are made of plastic. The map is made",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1052011",
+            "title": "atlas, book, glasses",
+            "source_url": "https://pixabay.com/photos/atlas-book-glasses-map-knowledge-1052011/",
+            "original_url": "https://pixabay.com/get/g650decbe7ac5571c2cf8dcf4c156fb78735b4c057ee40bb3672d0d2ca2ca5eaa07376da6dc2ef3c272da3a0c16ce4a7ab99089657d362e34426d1c1e57a03611_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g1ce05e6e857772a1861c57e4f9dcf9ebfe942ffa068ce1c42d1f80623207a42aa226ba6460fbd9e26f5ca8290241d09997d2face79a63d9ab3f7fe2e48d832c2_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4249,
+            "height": 3187,
+            "creator": "DariuszSankowski",
+            "creator_url": "https://pixabay.com/users/1441456/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "atlas, book, glasses, map, knowledge, page, textbook, information, education, study, research, read, open, old, vintage, antique, retro, book, book, book, book, book, map, map, map, knowledge, education, education, study, study, study, research, research",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/atlas-book-glasses-map-knowledge-1052011/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/7042ae53a30e4a0d.jpg",
+            "download_bytes": 78989,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/atlas-book-glasses-map-knowledge-1052011/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/6aa30a963ce64365.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "Answer with a single word. The animal is a mandrill. The mandrill is a type of monkey. The mandrill is a type of baboon. The mandrill is a type of bab",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a mandrill, which is a monkey, not a map or cultural artifact relevant to the visual target of a map showing pre-European African societies.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "653705",
+            "title": "ape, mandrill, africa",
+            "source_url": "https://pixabay.com/photos/ape-mandrill-africa-baboon-animal-653705/",
+            "original_url": "https://pixabay.com/get/gdc1ace1803ecc75c276f224e68eb9f255c8a64c0387bc2482223b594ca035013ebf646a6cca2acbccd36b19a6a3e4d95a3091b77e87e65af50e863461bba3e69_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g51d643a9fc9b0d4ca72cf3a02ba42f0afabdd95e11c7784d08fc1a3fdd8303cd582fc0f577e74c5d574820943a86d4c8_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3799,
+            "height": 5698,
+            "creator": "Foto-Rabe",
+            "creator_url": "https://pixabay.com/users/715168/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "ape, mandrill, africa, baboon, animal, wildlife, botswana, safari, south africa, mammal, nature, primate",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/ape-mandrill-africa-baboon-animal-653705/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/6aa30a963ce64365.jpg",
+            "download_bytes": 82611,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/ape-mandrill-africa-baboon-animal-653705/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/59ca818556f94f10.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "Describe the animal in detail. Describe the surrounding environment. Describe the interaction between the animal and its environment. Describe the animal's posture. Describe the animal",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is an animal in an environment; target requires a map or textbook image showing Africa south of Sahara with highlighted section 'before European arrival' and text box indicating no cities, no engineering, no written culture. Animal and environment do not represent the visual target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "515027",
+            "title": "hippo, hippopotamus, animal",
+            "source_url": "https://pixabay.com/photos/hippo-hippopotamus-animal-look-515027/",
+            "original_url": "https://pixabay.com/get/gc38d05eafc3fd64bab9f2e908f4a08c52fc98d0cc96af64fcc9c8ddd0e4f69c619ef34604e4078f348590e1f2f71209b05a92cdbca29e06c2c1a1bb3883004d9_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gb11b5523757a0d68a8923235b336f11af549791fb6f849f0e0bc93b6bedd3e2911e273784b89e9af7a82598937f9e37c_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 2900,
+            "height": 1985,
+            "creator": "designerpoint",
+            "creator_url": "https://pixabay.com/users/554875/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "hippo, hippopotamus, animal, look, watch, attentive, water, wild animal, wilderness, africa, botswana, nature, south africa, hippo, hippo, hippo, hippo, hippo, hippopotamus, hippopotamus",
+            "search_query": "textbook page showing Africa south of Sahara before European arrival",
+            "matched_queries": [
+              "textbook page showing Africa south of Sahara before European arrival"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/hippo-hippopotamus-animal-look-515027/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/59ca818556f94f10.jpg",
+            "download_bytes": 74429,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/hippo-hippopotamus-animal-look-515027/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/483020478606663d.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "Three green frogs sit on a wooden railing. They are all covering their eyes with their hands. The background is blurry. The image is a photograph.",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is frogs on a railing, not a map or textbook page showing Africa south of Sahara with highlighted section and text box indicating pre-European conditions.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "3444212",
+            "title": "see no evil, hear no evil, speak no evil",
+            "source_url": "https://pixabay.com/photos/see-no-evil-hear-no-evil-3444212/",
+            "original_url": "https://pixabay.com/get/gc5d428b2cd6b44f5671bc969bb9f2d88bd1c398862bbaf3f35d711b4fed522aa0f7e7a70625f8d4b02bc859c79fb821d99fc69a2dcbe8ecae33f5b39f625cc51_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g013c43977fce53fd273b75b6b73de50e78051e291e9901043fa111dd108f7985b8f5b14b517573f6cfc6cbb3cba1539a228b2036cb3cc6f37a57aee67cd9f5f1_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3591,
+            "height": 2610,
+            "creator": "Alexas_Fotos",
+            "creator_url": "https://pixabay.com/users/686414/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "see no evil, hear no evil, speak no evil, frog, kermit, stuffed toy, plush toy, frog, frog, frog, frog, frog",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/see-no-evil-hear-no-evil-3444212/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/483020478606663d.jpg",
+            "download_bytes": 111193,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/see-no-evil-hear-no-evil-3444212/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/a77f16c5907c4a77.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "Answer: Road closed. The sign is in front of a road. The road is closed. The road is closed. The road is closed. The road is closed. The road is closed. The",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Invalid or instruction-echoing vision description",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "5274077",
+            "title": "signpost, closed, road-sign",
+            "source_url": "https://pixabay.com/photos/signpost-closed-road-sign-end-stop-5274077/",
+            "original_url": "https://pixabay.com/get/gedd2aa723e433bbc5ffef6684938e881aa964dcb6b01c237266555b9545ce33af52643ab96ecf2ed1143de9840d07b118bad270a957762c3d06871b6f169ddb3_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g9b62dda7d7423940d4587e302e56678045a3c22e145d0022c05f1f8d10cd6652550c2ab1f647cfe69e65a32277da01b6af1f06190a9c1ea93e5265e3fd88c004_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3872,
+            "height": 2592,
+            "creator": "00luvicecream",
+            "creator_url": "https://pixabay.com/users/16619256/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "signpost, closed, road-sign, end, stop, barrier, end, stop, stop, stop, barrier, barrier, barrier, barrier, barrier",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/signpost-closed-road-sign-end-stop-5274077/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/a77f16c5907c4a77.jpg",
+            "download_bytes": 85291,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/signpost-closed-road-sign-end-stop-5274077/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/7f6eb97c02bd1ef0.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image depicts a scene that appears to be a street or urban environment, characterized by the presence of various elements that suggest a contemporary setting. The central focus of the image is a young man",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a young man in an urban street setting, incompatible with a map of Africa south of the Sahara showing 'before European arrival' with no cities, no engineering, no written culture. The image depicts a contemporary urban environment, not the intended pre-European, non-urban condition.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "5142643",
+            "title": "bmx, sport, bike",
+            "source_url": "https://pixabay.com/photos/bmx-sport-bike-jump-street-5142643/",
+            "original_url": "https://pixabay.com/get/g2bb92f208f77c8e229a912a78332141922740c1a21d847e25730632ebb886c9c7394b184ceaad014b481cb4c44940626590a623d0eef1c402e25b068cc3de4f7_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g4411019aa0009af1dacd97c197bfa86cdababc45b4e75decc4a6c976d588278213df5497409e53a4d5248a6596921583690823cebf37ef47274d22abd6e30f92_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 6000,
+            "height": 4000,
+            "creator": "LongHuynh",
+            "creator_url": "https://pixabay.com/users/16431834/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "bmx, sport, bike, jump, street, no hand, bmx, bmx, bmx, bmx, bmx, bike, bike, bike, street",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/bmx-sport-bike-jump-street-5142643/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/7f6eb97c02bd1ef0.jpg",
+            "download_bytes": 79432,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/bmx-sport-bike-jump-street-5142643/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/0057b4b93658f264.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image is a photograph. The subject is a cityscape. The city is Chicago. The city is in the middle of a river. The river is the Chicago River. The river is in the",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a cityscape of Chicago on the Chicago River, incompatible with a map of Africa south of the Sahara showing pre-European conditions.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "6175173",
+            "title": "river, bridges, buildings",
+            "source_url": "https://pixabay.com/photos/river-bridges-buildings-structures-6175173/",
+            "original_url": "https://pixabay.com/get/gac248de617716b5c6e71fbe9b72168bb48b520f2dd63fc4127aeb87d15bda2e1e6dfe9599eed1099888f5fb91ac3f4a716dcde8b1f5417a0d1630c2afc93ff7c_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g16dc73efe9c6182e0ab39f99e7d5ed388e4addadd0ad81b96282f5a4454537c53d6e3b504e7bf791f630f93039a2c8d0638fdcbe8be0346d0f025f52ae24a2d5_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 5760,
+            "height": 3840,
+            "creator": "TobiasBrunner",
+            "creator_url": "https://pixabay.com/users/13708887/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "river, bridges, buildings, structures, infrastructures, architecture, skyline, skyscrapers, cityscape, city, city lights, illuminated, chicago, town, urban, downtown, america, usa, modern, travel, night, city, city, chicago, chicago, chicago, chicago, chicago, america, usa",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/river-bridges-buildings-structures-6175173/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/0057b4b93658f264.jpg",
+            "download_bytes": 172885,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/river-bridges-buildings-structures-6175173/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/ea7a095057882fee.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image depicts a map of Europe with a series of dotted lines connecting various cities. The dotted lines are made of string and appear to be used to represent a network of connections between cities.",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a map of Europe with dotted lines representing city connections, not a map of Africa south of the Sahara with highlighted 'before European arrival' content. Object type and geographic focus are incompatible with target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "1264062",
+            "title": "europe, travel, map",
+            "source_url": "https://pixabay.com/photos/europe-travel-map-world-1264062/",
+            "original_url": "https://pixabay.com/get/gc20ba0570b36182d8537a52a9bfd001ca950418d704509d8f16fc67d5c38f9eb0ec4c18d66d74fd05e47f85b7eb3d34457ad9127f5e32bdfa0af002dc1f02219_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g95a4a86c500b3676c658f8fd9ee905c820367cb3338bc78df5207d470d51b9a6f50b198f03e13836774e1a3507a53da0a890802ea3a12ad952d54bd59589a296_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4592,
+            "height": 3064,
+            "creator": "TheAndrasBarta",
+            "creator_url": "https://pixabay.com/users/2004841/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "europe, travel, map, world, world map, connections, continent, destination",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/europe-travel-map-world-1264062/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/ea7a095057882fee.jpg",
+            "download_bytes": 82983,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/europe-travel-map-world-1264062/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/bdaf1e74ac23d3c1.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image is a photograph. The subject is a cityscape. The city is located on the water. The city is surrounded by water. The city is in the distance. The city is in the",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a cityscape on water in the distance, but target requires a map of Africa south of Sahara showing 'before European arrival' with no cities, no engineering, no written culture. Cityscape is incompatible with the visual target.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "2117310",
+            "title": "panorama, miami, city",
+            "source_url": "https://pixabay.com/photos/panorama-miami-city-skyline-2117310/",
+            "original_url": "https://pixabay.com/get/gdb9d3ff203a3f2c008f1fe9af2c44348ea369b12c2cbbd2fcc875d83b11ae481a6c8e1a55a71c8be29d3bf71ea16b086a19efc90c3fb2930c2600a707f2bb73e_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g071f153d6cf0aab765ed4ad2d235ffacc78849af48a7732f16b51d4ef12bf2e78da827c522b40d262f684c8147e1998908b7ba5cba823203560d9172e42bbeb4_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 8947,
+            "height": 3317,
+            "creator": "pixexid",
+            "creator_url": "https://pixabay.com/users/4729217/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "panorama, miami, city, skyline, buildings, structures, nature, infrastructures, cityscape, panoramic, waterfront, florida, water, usa, architecture, america, sunset, urban, travel, ocean, dusk, famous, landscape, urban landscape",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/panorama-miami-city-skyline-2117310/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/bdaf1e74ac23d3c1.jpg",
+            "download_bytes": 40539,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/panorama-miami-city-skyline-2117310/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/144a05140c4d4719.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "100 words or less. 1000 words or less. 10000 words or less. 100000 words or less. 1",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Judge returned invalid output",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "4011922",
+            "title": "city, bridge, river",
+            "source_url": "https://pixabay.com/photos/city-bridge-river-skyline-4011922/",
+            "original_url": "https://pixabay.com/get/g88d8b5e63ed596d4544b762c2200cab7b22ebc3c74fb57d7a89c21cf4182594e7e48629365216db0c2eda11d1dea438b5300d83a355735e7fc82f276f48aa37b_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g396ad40e1a416a9a8d716906834802bbba74bb0336deeed9812be40263b1f129925cc234b134e9b9425f492f4d2f4a6c8fb76686969a42de565516c462a31344_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3872,
+            "height": 2592,
+            "creator": "dnovac",
+            "creator_url": "https://pixabay.com/users/485744/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "city, bridge, river, skyline, city view, buildings, structures, infrastructures, budapest, night, hungary, architecture, danube, nature, night sky, water, landmark, illuminated, evening, europe, sky",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/city-bridge-river-skyline-4011922/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/144a05140c4d4719.jpg",
+            "download_bytes": 71232,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/city-bridge-river-skyline-4011922/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/9352f5d4b69e78a8.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image is a photograph. The subject is a cityscape. The buildings are tall and made of glass and steel. The sky is cloudy. The buildings are made of glass and steel. The sky",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a cityscape of glass and steel buildings, incompatible with a map of Africa south of the Sahara showing 'before European arrival' with no cities, no engineering, no written culture.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7409782",
+            "title": "germany, city, skyscrapers",
+            "source_url": "https://pixabay.com/photos/germany-city-skyscrapers-frankfurt-7409782/",
+            "original_url": "https://pixabay.com/get/gde4094ee74c926ed08efd6b5ac0f189ea9c6a872f4023322a0dbbbd48d345cb174933f794dde9811014df0ab93ff88336a3dd26d5947c90eeba3b37d0b51529e_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gf3c67fe13027a4fdd598315abb1d1c59086c4fc7a7b424fc11be06c0c12b2382bf169a2db646a1c6538543449a6d034931d71626b15a588f154cf833352cbeda_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4872,
+            "height": 6836,
+            "creator": "Leonhard_Niederwimmer",
+            "creator_url": "https://pixabay.com/users/1131094/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "germany, city, skyscrapers, frankfurt, frankfurt am main, skyline, urban, europe, buildings, road, financial center, finance, city, city, city, city, city, frankfurt, finance, finance, finance, finance",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/germany-city-skyscrapers-frankfurt-7409782/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/9352f5d4b69e78a8.jpg",
+            "download_bytes": 101394,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/germany-city-skyscrapers-frankfurt-7409782/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/160b8ebe26f61013.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "Describe the subject in detail. Describe the image in detail. Describe the image in a short factual sentence. Describe the image in a short factual sentence.",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Invalid or instruction-echoing vision description",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "5772121",
+            "title": "city, buildings, night",
+            "source_url": "https://pixabay.com/photos/city-buildings-night-city-lights-5772121/",
+            "original_url": "https://pixabay.com/get/gbbd862155f04e96ea4d07428da206188e509bc8ec01aafc5a07e7967e7eb4e1707b76d852f29ba3d12894e9ce327218918ffbd8dbdf770bc83622b9655594277_1280.jpg",
+            "preview_url": "https://pixabay.com/get/g509008e8b22366fbf81e0563bec408913ff1a21e6e3cb4a322a2e6be5f51f79ff5edbe0e81cdb6e99daa9fcbfe36f8a8a5b581d4c2cd23ea778b0bed4cd0ec1c_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 4000,
+            "height": 2667,
+            "creator": "xegxef",
+            "creator_url": "https://pixabay.com/users/1679630/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "city, buildings, night, city lights, skyscrapers, skyline, cityscape, office buildings, infrastructures, business district, towers, high-rise, high-rise buildings, downtown, urban, evening, view, umeda, osaka, japan, city, osaka, japan, japan, japan, japan, japan",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/city-buildings-night-city-lights-5772121/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/160b8ebe26f61013.jpg",
+            "download_bytes": 166842,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/city-buildings-night-city-lights-5772121/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "image": "data/live_90s_full/06_beat_04_phase_00/photo/3d14162ae0b8eaa6.jpg",
+          "target": "A textbook open to a page showing a map of Africa south of the Sahara with a highlighted section labeled 'before European arrival' and a simple text box indicating 'no cities, no engineering, no written culture'",
+          "description": "The image depicts a busy urban street scene, characterized by a mix of vehicles, pedestrians, and buildings. The central focus is on a busy intersection, where multiple lanes of traffic converge, including",
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Main subject is a busy urban street scene, not a textbook page or map showing Africa south of the Sahara with highlighted section 'before European arrival' and text box indicating 'no cities, no engineering, no written culture'.",
+          "asset": {
+            "provider": "pixabay",
+            "provider_id": "7425079",
+            "title": "road, asia, thailand",
+            "source_url": "https://pixabay.com/photos/road-asia-thailand-bangkok-7425079/",
+            "original_url": "https://pixabay.com/get/gecde2b9292258b37afc1512b03a8ff65be4a371afcb0f0f0f8d5785486fecc9b30ef3cea8f6bdb37886711dd214fe6a2ba401ceaa9bee499e7df08c23b483276_1280.jpg",
+            "preview_url": "https://pixabay.com/get/gaf730ac0437e0ee6b0a7a669667b9b94ae46d95db141ed732e986ef66b30f75e53c46d61c5d0eea510b7a1793a4cf45dd0c5bbc5c36064d6db72c36530a3e68a_640.jpg",
+            "media_type": "BITMAP",
+            "mime_type": "image/jpeg",
+            "width": 3999,
+            "height": 2667,
+            "creator": "viarami",
+            "creator_url": "https://pixabay.com/users/13458823/",
+            "license_short": "Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "is_ai_generated": false,
+            "tags": "road, asia, thailand, bangkok, capital city, city, siam, architecture, travel, tourism, dusk, urban, urban landscape, destination, location, downtown, landscape, thailand, thailand, thailand, bangkok, bangkok, bangkok, bangkok, bangkok, city, location, location",
+            "search_query": "textbook illustration of African continent with no cities and no infrastructure",
+            "matched_queries": [
+              "textbook illustration of African continent with no cities and no infrastructure"
+            ],
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: Pixabay Content License",
+              "license_url": "https://pixabay.com/service/license-summary/",
+              "source_url": "https://pixabay.com/photos/road-asia-thailand-bangkok-7425079/",
+              "artist": "",
+              "credit": ""
+            },
+            "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/3d14162ae0b8eaa6.jpg",
+            "download_bytes": 119155,
+            "content_type": "image/jpeg"
+          },
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/road-asia-thailand-bangkok-7425079/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "rights_rejected": [],
+      "identity_rejected": [],
+      "media_rejected": [],
+      "unavailable": [],
+      "download_failed": []
+    },
+    "status": "SEARCHED"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "scene": {
+    "source_word_start": 20,
+    "source_word_end": 38,
+    "start": 9.5,
+    "end": 17.98
+  },
+  "planner_reason": "The narration describes a shift in location and setting from the colonizer's office to a foreign museum storage — a clear semantic transition in location and context that requires a visual change. The pronoun 'она' refers to the stone bird artifact, and the scene moves from one physical location to another, necessitating a visual beat change at 'потом' to reflect the new setting.",
+  "needs_multiple_beats": true,
+  "grounding_context": {
+    "master_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора, потом в музейном хранилище чужой страны.",
+    "chapter_match_score": 0,
+    "chapters": [],
+    "entities": []
+  },
+  "beats": [
+    {
+      "source_word_start": 20,
+      "source_word_end": 32,
+      "visual_intent": "A steady, static shot of a stone bird sculpture carved from soapstone, displayed in a natural outdoor setting on the hilly terrain near Masvingo, Zimbabwe, where it has been historically venerated by local communities. The bird is visible and stable, with ambient natural lighting and subtle environmental details such as dry grass and stone ground.",
+      "search_queries": [
+        "soapstone bird sculpture on hillside near Masvingo Zimbabwe",
+        "stone bird artifact in outdoor setting at Great Zimbabwe ruins",
+        "Zimbabwe bird sculpture in natural outdoor environment"
+      ],
+      "requirements": [
+        "a stone bird sculpture carved from soapstone is clearly visible and stable in the frame",
+        "the setting is an outdoor, natural hillside environment near Masvingo, Zimbabwe",
+        "the scene shows natural lighting and ambient environmental details without artificial enhancement"
+      ],
+      "avoid": [
+        "a person interacting with the bird",
+        "modern or restored interior",
+        "text, labels, or signs on the wall",
+        "a museum or storage environment",
+        "wooden furniture",
+        "a desk",
+        "a window",
+        "a distant view of countryside",
+        "any form of staged or artificial setting"
+      ],
+      "edit": "Hold on a single static frame of the stone bird in natural outdoor setting, with gentle ambient light and subtle environmental texture to preserve authenticity and historical context.",
+      "start": 9.5,
+      "end": 14.96,
+      "duration": 5.460000000000001,
+      "voice_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора,"
+    },
+    {
+      "source_word_start": 33,
+      "source_word_end": 38,
+      "visual_intent": "A stone bird sculpture is stored in a low-light, institutional storage space within a foreign museum, with no people, no activity, and no visible handling. The setting is neutral and preserved, reflecting long-term conservation without environmental or contextual embellishment.",
+      "search_queries": [
+        "soapstone bird sculpture in museum storage room",
+        "Zimbabwe bird in institutional storage without glass",
+        "stone bird artifact in unmarked storage room",
+        "Great Zimbabwe soapstone bird in dimly lit storage"
+      ],
+      "requirements": [
+        "stone bird sculpture in storage room",
+        "low light conditions",
+        "no people present",
+        "no activity or movement",
+        "no display case or glass enclosure"
+      ],
+      "avoid": [
+        "a person entering or exiting the room",
+        "a guard or military presence",
+        "a map, label, or explanatory text",
+        "a view of the outside world or city",
+        "climate control",
+        "sealed case or display case",
+        "any form of institutional signage",
+        "ambient environmental cues beyond the artifact"
+      ],
+      "edit": "Static, wide-angle shot of the storage room focusing solely on the stone bird, with minimal ambient light and institutional backdrop; no movement, no environmental cues beyond the artifact and its surroundings.",
+      "start": 15.28,
+      "end": 17.98,
+      "duration": 2.700000000000001,
+      "voice_text": "потом в музейном хранилище чужой страны."
+    }
+  ],
+  "diagnostics": [
+    {
+      "source_word_start": 20,
+      "source_word_end": 32,
+      "issues_before": [],
+      "issues_after": [],
+      "repair_attempts": [
+        {
+          "attempt": 1,
+          "issues_before": [
+            {
+              "type": "UNSUPPORTED_STAGING_DETAIL",
+              "severity": "HIGH",
+              "detail": "Visual plan requires furniture without support in narration."
+            },
+            {
+              "type": "UNSUPPORTED_STAGING_DETAIL",
+              "severity": "HIGH",
+              "detail": "Visual plan requires desk without support in narration."
+            },
+            {
+              "type": "UNSUPPORTED_STAGING_DETAIL",
+              "severity": "HIGH",
+              "detail": "Visual plan requires window without support in narration."
+            },
+            {
+              "type": "UNSUPPORTED_STAGING_DETAIL",
+              "severity": "HIGH",
+              "detail": "Visual plan requires countryside view without support in narration."
+            }
+          ],
+          "visual_before": {
+            "visual_intent": "A stone bird sculpture, carved from soapstone, sits in a colonial-era office room with wooden furniture, a desk, and a window showing a distant view of the Zimbabwean countryside. The bird is displayed in a plain, unadorned setting, consistent with a colonial administrator's study.",
+            "search_queries": [
+              "colonial era office room with stone bird sculpture",
+              "soapstone bird in 19th century African colonial office",
+              "stone bird in Zimbabwe colonial administration room"
+            ],
+            "requirements": [
+              "a stone bird sculpture visible and stable in the frame",
+              "setting is a colonial-era office with wooden furniture and a window",
+              "the bird is not in motion or being handled",
+              "the bird is not labeled or annotated"
+            ],
+            "avoid": [
+              "a person interacting with the bird",
+              "modern or restored interior",
+              "text, labels, or signs on the wall",
+              "a museum or storage environment"
+            ],
+            "edit": "Steady, static shot of the stone bird in a colonial office, showing natural lighting and ambient details; no movement or zoom."
+          },
+          "issues_after": []
+        }
+      ]
+    },
+    {
+      "source_word_start": 33,
+      "source_word_end": 38,
+      "issues_before": [],
+      "issues_after": [],
+      "repair_attempts": [
+        {
+          "attempt": 1,
+          "issues_before": [
+            {
+              "type": "UNSUPPORTED_STAGING_DETAIL",
+              "severity": "HIGH",
+              "detail": "Visual plan requires climate control without support in narration."
+            },
+            {
+              "type": "UNSUPPORTED_STAGING_DETAIL",
+              "severity": "HIGH",
+              "detail": "Visual plan requires sealed case without support in narration."
+            }
+          ],
+          "visual_before": {
+            "visual_intent": "A stone bird sculpture is stored in a climate-controlled, low-light museum storage room, possibly behind glass or in a sealed case. The room is empty except for the artifact, with minimal institutional signage (if any) and no human presence. The setting is neutral and institutional, reflecting a foreign country's museum preservation.",
+            "search_queries": [
+              "stone bird in museum storage room",
+              "soapstone bird in museum storage behind glass",
+              "museum storage room with stone artifact",
+              "Zimbabwe bird in museum archive"
+            ],
+            "requirements": [
+              "a stone bird sculpture in a storage room",
+              "low light, institutional, climate-controlled environment",
+              "no people, no activity, no visible handling",
+              "the bird is not in a display case with explanatory text"
+            ],
+            "avoid": [
+              "a person entering or exiting the room",
+              "a guard or military presence",
+              "a map, label, or explanatory text",
+              "a view of the outside world or city"
+            ],
+            "edit": "Static, wide-angle shot of the storage room showing only the stone bird in a secure, enclosed space; focus on the artifact and its surroundings, no movement."
+          },
+          "issues_after": [
+            {
+              "type": "UNSUPPORTED_STAGING_DETAIL",
+              "severity": "HIGH",
+              "detail": "Visual plan requires climate control without support in narration."
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "issues_before": [
+            {
+              "type": "UNSUPPORTED_STAGING_DETAIL",
+              "severity": "HIGH",
+              "detail": "Visual plan requires climate control without support in narration."
+            }
+          ],
+          "visual_before": {
+            "visual_intent": "A stone bird sculpture is stored in a low-light, institutional storage space within a foreign museum, with no people, no activity, and no visible handling. The setting is neutral and preserved, reflecting long-term conservation without environmental or contextual embellishment.",
+            "search_queries": [
+              "soapstone bird sculpture in museum storage room",
+              "Zimbabwe bird in institutional storage without glass",
+              "stone bird artifact in climate-controlled room",
+              "Great Zimbabwe soapstone bird in unmarked storage"
+            ],
+            "requirements": [
+              "stone bird sculpture in a storage room",
+              "low light, institutional environment",
+              "no people, no activity, no handling",
+              "no display case, no explanatory signage"
+            ],
+            "avoid": [
+              "a person entering or exiting the room",
+              "a guard or military presence",
+              "a map, label, or explanatory text",
+              "a view of the outside world or city",
+              "climate control",
+              "sealed case or display case",
+              "any form of institutional signage"
+            ],
+            "edit": "Static, wide-angle shot of the storage room focusing solely on the stone bird, with minimal ambient light and institutional backdrop; no movement, no environmental cues beyond the artifact and its surroundings."
+          },
+          "issues_after": []
+        }
+      ]
+    }
+  ]
+}

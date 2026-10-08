@@ -1,0 +1,53 @@
+{
+  "scene": {
+    "source_word_start": 16,
+    "source_word_end": 19,
+    "start": 7.44,
+    "end": 9.5
+  },
+  "planner_reason": "The narration describes a single action—'Он встречал каменную птицу'—with no semantic shift in subject, location, action, or state. The visual can remain continuous and grounded in the presence of a stone bird as a singular object. No negation, absence, or implied event requires invention. The preceding context confirms the subject is a military guard at an airport, and the stone bird is a distinct object. No split is needed.",
+  "needs_multiple_beats": false,
+  "grounding_context": {
+    "master_text": "Он встречал каменную птицу.",
+    "chapter_match_score": 0,
+    "chapters": [],
+    "entities": []
+  },
+  "beats": [
+    {
+      "source_word_start": 16,
+      "source_word_end": 19,
+      "visual_intent": "A military guard at an airport observing a stone bird standing still in an open area, possibly on a concrete surface or near a gate, with natural lighting and ambient environment.",
+      "search_queries": [
+        "military guard at airport with stone bird",
+        "stone bird in airport setting",
+        "stone bird photograph real life"
+      ],
+      "requirements": [
+        "a military guard",
+        "a stone bird",
+        "an airport environment",
+        "the stone bird is visible and stationary"
+      ],
+      "avoid": [
+        "a human reacting to the bird",
+        "a person holding or touching the bird",
+        "a building or structure with the bird inside",
+        "a fantasy or animated version of the bird"
+      ],
+      "edit": "Stabilized wide shot of the guard and the stone bird, with natural ambient lighting, showing the bird as a static, tangible object in the environment.",
+      "start": 7.44,
+      "end": 9.5,
+      "duration": 2.0599999999999996,
+      "voice_text": "Он встречал каменную птицу."
+    }
+  ],
+  "diagnostics": [
+    {
+      "source_word_start": 16,
+      "source_word_end": 19,
+      "issues_before": [],
+      "issues_after": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes a clear shift in location and function of the terracotta head—from lying in the earth for two and a half millennia, to being used as a scarecrow on a jackfruit garden for a year, to finally being recognized as a held object. These are distinct visual states requiring separate shots.",
+  "beats": [
+    {
+      "source_word_start": 87,
+      "source_word_end": 93,
+      "visual_intent": "A terracotta head lies buried in the soil, surrounded by earth and roots, with no human presence visible.",
+      "search_queries": ["terracotta head buried in soil", "ancient terracotta sculpture in earth", "ancient Chinese terracotta head in archaeological context"],
+      "requirements": ["terracotta head", "buried in soil", "no human activity", "natural environment"],
+      "avoid": ["modern setting", "human hands", "garden", "light exposure"],
+      "edit": "Static wide shot of a terracotta head half-buried in soil, showing erosion and age, with subtle wind and leaf movement."
+    },
+    {
+      "source_word_start": 94,
+      "source_word_end": 101,
+      "visual_intent": "The same terracotta head is now placed on a garden plot, acting as a scarecrow, with a jackfruit tree growing nearby.",
+      "search_queries": ["terracotta scarecrow on jackfruit garden", "ancient terracotta as scarecrow", "jackfruit tree with terracotta object"],
+      "requirements": ["terracotta head", "on a garden", "jackfruit tree visible", "scarecrow function", "one year of exposure"],
+      "avoid": ["buried", "in soil", "no jackfruit tree", "no scarecrow function"],
+      "edit": "Medium shot of a terracotta head standing upright on a small garden, with a jackfruit tree in the background, wind gently blowing."
+    },
+    {
+      "source_word_start": 102,
+      "source_word_end": 114,
+      "visual_intent": "A person is holding the terracotta head in their hands, looking at it with realization.",
+      "search_queries": ["person holding ancient terracotta head", "someone discovering ancient artifact in hands", "hands holding terracotta sculpture"],
+      "requirements": ["person", "holding terracotta head", "expression of realization", "close-up of hands and object"],
+      "avoid": ["in soil", "on garden", "no person", "no realization"],
+      "edit": "Close-up of hands gently cradling the terracotta head, with soft ambient light and a subtle background of a rural setting."
+    }
+  ]
+}

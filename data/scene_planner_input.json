@@ -1,0 +1,92 @@
+{
+  "instructions": "You are the Visual Brain of an automated documentary video editor.\n\nYour job is to transform timed narration into a precise visual editing plan.\n\nCORE RULES:\n- Understand the meaning of the narration, not just keywords.\n- Split narration into visual scenes only when the visual idea genuinely changes.\n- Never split mechanically by duration.\n- A short sentence may need one shot; a long sentence may need several.\n- Every scene must remain inside the timing boundaries of the supplied narration.\n- Prefer real documentary footage and real photography.\n- Distinguish factual visuals from illustrative B-roll.\n- If the narration names or clearly implies a specific place, artifact, archaeological site, historical object, event, or culture, factual_priority must be true.\n- For factual_priority scenes, search queries must target the exact subject rather than a generic substitute.\n- Search queries must be written in English and optimized for stock footage, archives, museums, Wikimedia Commons, and public-domain collections.\n- Generate multiple complementary search queries when useful.\n- requirements must state what absolutely needs to be visible.\n- avoid must state visually plausible but incorrect substitutes.\n- Choose VIDEO when real moving footage would improve the scene.\n- Choose PHOTO when historical specificity, rarity, archival material, artifacts, maps, or old documentation makes photography more appropriate.\n- Do not force a fixed video/photo ratio scene by scene.\n- visual_intent must describe what the viewer should actually see.\n- edit must describe restrained documentary editing: cut, slow push-in, pan, crop, map movement, archival treatment, or similar.\n- mood must follow the narration.\n- Do not invent facts that are not supported by the narration.\n- Optimize for viewer comprehension, credibility, pacing, and retention.",
+  "narration": [
+    {
+      "sentence_id": 1,
+      "start": 0.11000000000000004,
+      "end": 7.0,
+      "duration": 6.89,
+      "text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+      "word_start_index": 0,
+      "word_end_index": 15
+    },
+    {
+      "sentence_id": 2,
+      "start": 7.44,
+      "end": 9.5,
+      "duration": 2.0599999999999996,
+      "text": "Он встречал каменную птицу.",
+      "word_start_index": 16,
+      "word_end_index": 19
+    },
+    {
+      "sentence_id": 3,
+      "start": 9.5,
+      "end": 17.98,
+      "duration": 8.48,
+      "text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора, потом в музейном хранилище чужой страны.",
+      "word_start_index": 20,
+      "word_end_index": 38
+    },
+    {
+      "sentence_id": 4,
+      "start": 17.98,
+      "end": 30.56,
+      "duration": 12.579999999999998,
+      "text": "Учебник скажет вам: до прихода европейцев Африка южнее Сахары не знала ни городов, ни инженерии, ни письменной культуры только разрозненные племена и пустые пространства на карте.",
+      "word_start_index": 39,
+      "word_end_index": 64
+    },
+    {
+      "sentence_id": 5,
+      "start": 31.1,
+      "end": 33.44,
+      "duration": 2.3399999999999963,
+      "text": "Раскопки говорят прямо противоположное.",
+      "word_start_index": 65,
+      "word_end_index": 68
+    },
+    {
+      "sentence_id": 6,
+      "start": 34.06,
+      "end": 42.96,
+      "duration": 8.899999999999999,
+      "text": "Каменный круг посреди пустыни рассчитывает солнцестояние точнее, чем многие сооружения, которые появятся на тысячу с лишним лет позже.",
+      "word_start_index": 69,
+      "word_end_index": 86
+    },
+    {
+      "sentence_id": 7,
+      "start": 42.96,
+      "end": 53.9,
+      "duration": 10.939999999999998,
+      "text": "Терракотовая голова две с половиной тысячи лет пролежала в земле, а потом ещё год простояла пугалом на грядке с ямсом, прежде чем кто-то понял, что держит в руках.",
+      "word_start_index": 87,
+      "word_end_index": 114
+    },
+    {
+      "sentence_id": 8,
+      "start": 54.56,
+      "end": 60.33,
+      "duration": 5.769999999999996,
+      "text": "Библиотеку в пустыне спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода.",
+      "word_start_index": 115,
+      "word_end_index": 128
+    }
+  ],
+  "required_output_fields": [
+    "start",
+    "end",
+    "voice_text",
+    "visual_intent",
+    "media_type",
+    "factual_priority",
+    "search_queries",
+    "requirements",
+    "avoid",
+    "edit",
+    "mood",
+    "source_word_start",
+    "source_word_end"
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "total_scenes": 12,
+  "passed": 7,
+  "failed": 5,
+  "results": [
+    {
+      "scene_number": 2,
+      "result": {
+        "scene": {
+          "source_word_start": 16,
+          "source_word_end": 19,
+          "start": 7.44,
+          "end": 9.5
+        },
+        "planner_reason": "The narration describes a single, unified visual scene: a stone bird standing as a sacred symbol on the ground, with a guard presence in the background. No semantic transitions occur between words that would require a visual change. The visual intent is consistent and naturally covers the entire narration.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Он встречал каменную птицу.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 16,
+            "source_word_end": 19,
+            "visual_intent": "На фоне караула, в центре внимания — каменная птица, стоящая на земле, как священный символ",
+            "search_queries": [
+              "ancient stone bird sculpture with guards in field"
+            ],
+            "requirements": [
+              "каменная птица",
+              "на земле",
+              "в центре внимания",
+              "фон — караула",
+              "священный символ"
+            ],
+            "avoid": [
+              "живая птица",
+              "модель каменной птицы",
+              "птица в воздухе",
+              "птица на дереве",
+              "символ не священный"
+            ],
+            "edit": "Steady, static shot focusing on the stone bird, with subtle ambient sound of guards and wind. Maintain consistent framing and lighting to emphasize the sacred stillness",
+            "start": 7.44,
+            "end": 9.5,
+            "duration": 2.0599999999999996,
+            "voice_text": "Он встречал каменную птицу."
+          }
+        ],
+        "diagnostics": [
+          {
+            "source_word_start": 16,
+            "source_word_end": 19,
+            "issues_before": [
+              {
+                "type": "UNSUPPORTED_ROLE",
+                "severity": "HIGH",
+                "term": "soldier",
+                "detail": "Generated role 'soldier' is not supported by MASTER or local grounding."
+              }
+            ],
+            "issues_after": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 3,
+      "result": {
+        "scene": {
+          "source_word_start": 20,
+          "source_word_end": 38,
+          "start": 9.5,
+          "end": 17.98
+        },
+        "planner_reason": "The narration describes a shift in location from the colonizer's office to a foreign museum storage, requiring a visual transition to reflect the change in setting.",
+        "needs_multiple_beats": true,
+        "grounding_context": {
+          "master_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора, потом в музейном хранилище чужой страны.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 20,
+            "source_word_end": 32,
+            "visual_intent": "A stone bird is shown in the colonizer's office, isolated from the home environment, in a formal, institutional setting.",
+            "search_queries": [
+              "stone bird in colonial office",
+              "stone bird in 19th century colonial administration room",
+              "stone bird museum exhibit colonial setting"
+            ],
+            "requirements": [
+              "stone bird visible in a colonial office",
+              "office setting with institutional furniture and signage",
+              "bird is physically separated from the home"
+            ],
+            "avoid": [
+              "stone bird in a modern office",
+              "stone bird with family members or home background",
+              "bird in a natural outdoor setting"
+            ],
+            "edit": "Hold the shot of the stone bird in the colonizer's office with subtle ambient sound of administrative work",
+            "start": 9.5,
+            "end": 14.96,
+            "duration": 5.460000000000001,
+            "voice_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора,"
+          },
+          {
+            "source_word_start": 33,
+            "source_word_end": 38,
+            "visual_intent": "The stone bird is now shown in a foreign museum storage room, behind glass, in a climate-controlled environment, with no direct connection to the home.",
+            "search_queries": [
+              "stone bird in foreign museum storage room",
+              "stone bird behind glass in museum archive",
+              "museum storage room with artifacts from other country"
+            ],
+            "requirements": [
+              "stone bird in a museum storage room",
+              "room is cold, dimly lit, with shelves and climate control signs",
+              "bird is behind glass, not visible to the public"
+            ],
+            "avoid": [
+              "stone bird in a public exhibition",
+              "stone bird in a home or private space",
+              "bird with family or domestic context"
+            ],
+            "edit": "Cut to a low-angle shot of the stone bird behind glass in a museum storage room, with a slow pan to show the institutional environment",
+            "start": 15.28,
+            "end": 17.98,
+            "duration": 2.700000000000001,
+            "voice_text": "потом в музейном хранилище чужой страны."
+          }
+        ],
+        "diagnostics": [
+          {
+            "source_word_start": 20,
+            "source_word_end": 32,
+            "issues_before": [],
+            "issues_after": []
+          },
+          {
+            "source_word_start": 33,
+            "source_word_end": 38,
+            "issues_before": [],
+            "issues_after": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 4,
+      "result": {
+        "scene": {
+          "source_word_start": 39,
+          "source_word_end": 64,
+          "start": 18.48,
+          "end": 30.56
+        },
+        "planner_reason": "The visual intent is consistent and directly tied to a single, clear spatial and cultural depiction: a map of Africa south of the Sahara showing scattered tribes and empty spaces, with no cities, engineering, or written culture. No semantic transitions occur that require a change in visual focus; the entire scene describes a static, unified state. A single continuous visual beat suffices.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Учебник скажет вам: до прихода европейцев Африка южнее Сахары не знала ни городов, ни инженерии, ни письменной культуры только разрозненные племена и пустые пространства на карте.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 39,
+            "source_word_end": 64,
+            "visual_intent": "На карте Африки южнее Сахары — пустые пространства, разрозненные племена, отсутствие городов, инженерии и письменной культуры до прихода европейцев.",
+            "search_queries": [
+              "map of Africa south of Sahara showing desert and sparse tribes",
+              "African map with empty spaces south of Sahara",
+              "traditional African tribes in southern Sahara region"
+            ],
+            "requirements": [
+              "map clearly showing region south of Sahara",
+              "indicating absence of cities, engineering, and written culture",
+              "depicting scattered tribal groups and empty spaces"
+            ],
+            "avoid": [
+              "cities or infrastructure south of Sahara",
+              "written scripts or ancient buildings",
+              "modern roads or European-style settlements"
+            ],
+            "edit": "Steady, unbroken shot of a historical map of Africa south of the Sahara, emphasizing empty spaces and isolated tribal markings. No transitions or cuts.",
+            "start": 18.48,
+            "end": 30.56,
+            "duration": 12.079999999999998,
+            "voice_text": "Учебник скажет вам: до прихода европейцев Африка южнее Сахары не знала ни городов, ни инженерии, ни письменной культуры только разрозненные племена и пустые пространства на карте."
+          }
+        ],
+        "diagnostics": [
+          {
+            "source_word_start": 39,
+            "source_word_end": 64,
+            "issues_before": [],
+            "issues_after": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 5,
+      "result": {
+        "scene": {
+          "source_word_start": 65,
+          "source_word_end": 68,
+          "start": 31.08,
+          "end": 33.44
+        },
+        "planner_reason": "The narration describes a single, coherent visual scene: a stone circle on a desert background, static and precisely aligned with solstice. No semantic shift in subject, location, action, or time occurs. A single visual beat suffices to represent the entire statement without contradiction or lag.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Раскопки говорят прямо противоположное.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 65,
+            "source_word_end": 68,
+            "visual_intent": "На пустынном фоне, каменный круг — статичный, но точный, рассчитывающий солнцестояние.",
+            "search_queries": [
+              "stone circle in desert landscape",
+              "ancient stone circle aligned with solstice",
+              "desert stone circle solar alignment"
+            ],
+            "requirements": [
+              "desert background",
+              "stone circle visible and intact",
+              "circle aligned with solstice position",
+              "static and precise appearance"
+            ],
+            "avoid": [
+              "moving stones",
+              "modern construction",
+              "urban setting",
+              "people present"
+            ],
+            "edit": "Steady, unbroken shot focusing on the stone circle and surrounding desert, emphasizing its geometric precision and solar alignment.",
+            "start": 31.08,
+            "end": 33.44,
+            "duration": 2.3599999999999994,
+            "voice_text": "Раскопки говорят прямо противоположное."
+          }
+        ],
+        "diagnostics": [
+          {
+            "source_word_start": 65,
+            "source_word_end": 68,
+            "issues_before": [],
+            "issues_after": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 6,
+      "result": {
+        "scene": {
+          "source_word_start": 69,
+          "source_word_end": 86,
+          "start": 34.04,
+          "end": 42.96
+        },
+        "planner_reason": "The visual intent remains consistent throughout the narration: a single stone circle in the desert performing a solar alignment. No semantic shift in subject, location, action, or time occurs that would require a visual break. The narration describes a static, observational fact about the circle's precision relative to later constructions, which can be shown as a continuous visual of the stone circle in the desert. No visual change is needed to match the narration's progression.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Каменный круг посреди пустыни рассчитывает солнцестояние точнее, чем многие сооружения, которые появятся на тысячу с лишним лет позже.",
+          "chapter_match_score": 2,
+          "chapters": [
+            {
+              "chapter_id": 2,
+              "title": "Набта-Плайя: камни в пустыне",
+              "primary_subject": "камни Набта-Плайя",
+              "subject_type": "археологическое сооружение",
+              "location": "шестиста километров к югу от Каира, у границы с Суданом",
+              "aliases": [
+                "каменный круг",
+                "каменные плиты"
+              ],
+              "key_objects": [
+                "каменный круг",
+                "каменная камера"
+              ],
+              "confidence": "HIGH"
+            }
+          ],
+          "entities": [
+            {
+              "canonical_subject": "Набта-Плайя",
+              "subject_type": "археологическое место",
+              "location": "шестиста километров к югу от Каира, у границы с Суданом",
+              "aliases_or_descriptions": [
+                "высохшее русло древнего озера Набта-Плайя",
+                "каменный круг",
+                "камни в пустыне",
+                "каменные плиты",
+                "солнцестояние"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "в шестистах километрах к югу от Каира, у самой границы с Суданом, лежит высохшее русло древнего озера Набта-Плайя",
+                "Девять массивных плит стоят в ряд с промежутком около ста метров между ними",
+                "каменный круг диаметром около четырёх метров, сложенный из более мелких плит и четырёх пар крупных"
+              ]
+            }
+          ]
+        },
+        "beats": [
+          {
+            "source_word_start": 69,
+            "source_word_end": 86,
+            "visual_intent": "A stone circle in the desert, with nine large stones arranged in a row, spaced about 100 meters apart, standing in a dry riverbed near the edge of the Sahara, where the sun rises and sets in alignment with the stones.",
+            "search_queries": [
+              "stone circle in desert dry riverbed with nine large stones arranged in a row",
+              "Nabta Playa stone circle with stones spaced 100 meters apart",
+              "ancient stone circle in Sahara desert alignment with sun"
+            ],
+            "requirements": [
+              "nine large stones arranged in a row",
+              "spaced approximately 100 meters apart",
+              "set in a dry riverbed in the Sahara",
+              "location: 600 km south of Cairo, near Sudan border"
+            ],
+            "avoid": [
+              "modern construction",
+              "artificial lighting",
+              "overgrown vegetation",
+              "stones not in a row or not in desert"
+            ],
+            "edit": "Steady, static shot of the stone circle in the desert, emphasizing the alignment with the sun and the surrounding dry riverbed. No cuts or transitions.",
+            "start": 34.04,
+            "end": 42.96,
+            "duration": 8.920000000000002,
+            "voice_text": "Каменный круг посреди пустыни рассчитывает солнцестояние точнее, чем многие сооружения, которые появятся на тысячу с лишним лет позже."
+          }
+        ],
+        "diagnostics": [
+          {
+            "source_word_start": 69,
+            "source_word_end": 86,
+            "issues_before": [],
+            "issues_after": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 7,
+      "result": {
+        "scene": {
+          "source_word_start": 87,
+          "source_word_end": 114,
+          "start": 43.58,
+          "end": 53.9
+        },
+        "planner_reason": "The narration describes three distinct visual states: the head lying in the earth for two and a half millennia, then standing as a scarecrow on a yam patch for a year, and finally being recognized in hands. Each state requires a separate visual to match the semantic shift in location, function, and perception.",
+        "needs_multiple_beats": true,
+        "grounding_context": {
+          "master_text": "Терракотовая голова две с половиной тысячи лет пролежала в земле, а потом ещё год простояла пугалом на грядке с ямсом, прежде чем кто-то понял, что держит в руках.",
+          "chapter_match_score": 2,
+          "chapters": [
+            {
+              "chapter_id": 3,
+              "title": "Культура Нок: терракотовые фигуры",
+              "primary_subject": "культура Нок",
+              "subject_type": "археологическая культура",
+              "location": "центральная Нигерия, деревня Нок",
+              "aliases": [
+                "терракотовые фигуры",
+                "железные печи"
+              ],
+              "key_objects": [
+                "терракотовая голова из Джемаа",
+                "печи для выплавки железа"
+              ],
+              "confidence": "HIGH"
+            }
+          ],
+          "entities": [
+            {
+              "canonical_subject": "культура Нок",
+              "subject_type": "археологическая культура",
+              "location": "центральная Нигерия, деревня Нок",
+              "aliases_or_descriptions": [
+                "терракотовые фигуры",
+                "терракотовая голова из Джемаа",
+                "железные печи",
+                "культура, жившая в Ноке"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "Тысяча девятнадцатый год, деревня Нок в центральной Нигерии, оловянный рудник. Один из работников рудника подобрал у ямсовой грядки терракотовую голову",
+                "за несколько лет он собрал около двухсот терракотовых фигур: людей и животных",
+                "в девяноста милях от Нока, раскопали тринадцать печей для выплавки железа"
+              ]
+            }
+          ]
+        },
+        "beats": [
+          {
+            "source_word_start": 87,
+            "source_word_end": 96,
+            "visual_intent": "A terracotta head lying in soil, buried and undisturbed, in a rural field or garden setting in central Nigeria, with surrounding vegetation and earth showing age and decay.",
+            "search_queries": [
+              "terracotta head buried in soil central Nigeria",
+              "ancient terracotta figure in earth archaeological site",
+              "terracotta head in field Nigeria"
+            ],
+            "requirements": [
+              "head is buried in soil",
+              "setting is rural, in central Nigeria",
+              "context shows age and natural decay"
+            ],
+            "avoid": [
+              "head in modern context",
+              "head being handled or visible above ground",
+              "urban or indoor setting"
+            ],
+            "edit": "Slow, steady shot of the head in soil, with subtle environmental details like roots or soil erosion to imply time passage.",
+            "start": 43.58,
+            "end": 47.34,
+            "duration": 3.760000000000005,
+            "voice_text": "Терракотовая голова две с половиной тысячи лет пролежала в земле,"
+          },
+          {
+            "source_word_start": 97,
+            "source_word_end": 106,
+            "visual_intent": "The same terracotta head placed as a scarecrow on a patch of land growing yams, with yam plants visible and the head partially exposed, standing still in a rural field.",
+            "search_queries": [
+              "terracotta scarecrow on yam patch Nigeria",
+              "ancient terracotta figure as scarecrow in field",
+              "terracotta head on yam garden central Nigeria"
+            ],
+            "requirements": [
+              "head is positioned as a scarecrow",
+              "yam plants growing nearby",
+              "setting is rural, central Nigeria",
+              "head is not buried, but upright"
+            ],
+            "avoid": [
+              "head in soil",
+              "head in hands",
+              "modern farm equipment or people present"
+            ],
+            "edit": "Medium shot showing the head as a scarecrow, with yam plants in background, emphasizing stillness and rural life.",
+            "start": 47.7,
+            "end": 51.2,
+            "duration": 3.5,
+            "voice_text": "а потом ещё год простояла пугалом на грядке с ямсом,"
+          },
+          {
+            "source_word_start": 107,
+            "source_word_end": 114,
+            "visual_intent": "A person's hand reaching toward or holding the terracotta head, with the head visible in their grip, in a rural setting in central Nigeria",
+            "search_queries": [
+              "hand holding terracotta head Nigeria",
+              "person picking up ancient terracotta sculpture"
+            ],
+            "requirements": [
+              "a person's hand is visible holding the head",
+              "setting is rural, central Nigeria"
+            ],
+            "avoid": [
+              "head in soil",
+              "head as scarecrow",
+              "no person present or hand visible"
+            ],
+            "edit": "Close-up of hand gently lifting or holding the head, with soft lighting and background showing rural context to emphasize the moment of",
+            "start": 51.2,
+            "end": 53.9,
+            "duration": 2.6999999999999957,
+            "voice_text": "прежде чем кто-то понял, что держит в руках."
+          }
+        ],
+        "diagnostics": [
+          {
+            "source_word_start": 87,
+            "source_word_end": 96,
+            "issues_before": [],
+            "issues_after": []
+          },
+          {
+            "source_word_start": 97,
+            "source_word_end": 106,
+            "issues_before": [],
+            "issues_after": []
+          },
+          {
+            "source_word_start": 107,
+            "source_word_end": 114,
+            "issues_before": [
+              {
+                "type": "UNSUPPORTED_ROLE",
+                "severity": "HIGH",
+                "term": "farmer",
+                "detail": "Generated role 'farmer' is not supported by MASTER or local grounding."
+              },
+              {
+                "type": "UNSUPPORTED_REACTION",
+                "severity": "HIGH",
+                "term": "recognition",
+                "detail": "Generated reaction 'recognition' is not explicitly supported by MASTER narration."
+              }
+            ],
+            "issues_after": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 11,
+      "result": {
+        "scene": {
+          "source_word_start": 171,
+          "source_word_end": 178,
+          "start": 78.44,
+          "end": 83.4
+        },
+        "planner_reason": "The visual intent is clear and consistent across the entire narration: eight African civilizations existing before European contact, not mentioned in textbooks. No semantic transition occurs that would require a visual change; the scene naturally presents a single, unified visual of eight African civilizations. No split is needed.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Сегодня восемь цивилизаций Африки, которую мы, кажется, знаем.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 171,
+            "source_word_end": 178,
+            "visual_intent": "На экране — восемь африканских цивилизаций, существовавших до прихода европейцев, не упоминаемых в учебниках.",
+            "search_queries": [
+              "eight ancient African civilizations before European arrival",
+              "African civilizations not in textbooks",
+              "pre-colonial African societies map"
+            ],
+            "requirements": [
+              "eight distinct African civilizations",
+              "pre-European contact",
+              "not mentioned in standard textbooks"
+            ],
+            "avoid": [
+              "modern African nations",
+              "European colonial cities",
+              "civilizations with European influence"
+            ],
+            "edit": "Steady, static visual of a map or timeline showing eight African civilizations with clear labels and historical context, emphasizing their pre-European existence and absence from mainstream education.",
+            "start": 78.44,
+            "end": 83.4,
+            "duration": 4.960000000000008,
+            "voice_text": "Сегодня восемь цивилизаций Африки, которую мы, кажется, знаем."
+          }
+        ],
+        "diagnostics": [
+          {
+            "source_word_start": 171,
+            "source_word_end": 178,
+            "issues_before": [],
+            "issues_after": []
+          }
+        ]
+      }
+    }
+  ],
+  "failures": [
+    {
+      "scene_number": 1,
+      "source_word_start": 0,
+      "source_word_end": 15,
+      "error": "AMBIGUOUS_BEAT_BOUNDARIES: 2 proposed beats require 1 boundaries, but MASTER supplied 0 candidates: []"
+    },
+    {
+      "scene_number": 8,
+      "source_word_start": 115,
+      "source_word_end": 128,
+      "error": "AMBIGUOUS_BEAT_BOUNDARIES: 3 proposed beats require 2 boundaries, but MASTER supplied 0 candidates: []"
+    },
+    {
+      "scene_number": 9,
+      "source_word_start": 129,
+      "source_word_end": 149,
+      "error": "AMBIGUOUS_BEAT_BOUNDARIES: 2 proposed beats require 1 boundaries, but MASTER supplied 0 candidates: []"
+    },
+    {
+      "scene_number": 10,
+      "source_word_start": 150,
+      "source_word_end": 170,
+      "error": "AMBIGUOUS_BEAT_BOUNDARIES: 2 proposed beats require 1 boundaries, but MASTER supplied 0 candidates: []"
+    },
+    {
+      "scene_number": 12,
+      "source_word_start": 179,
+      "source_word_end": 214,
+      "error": "AMBIGUOUS_BEAT_BOUNDARIES: 2 proposed beats require 1 boundaries, but MASTER supplied 0 candidates: []"
+    }
+  ]
+}

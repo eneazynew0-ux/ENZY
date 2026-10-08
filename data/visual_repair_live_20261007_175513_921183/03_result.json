@@ -1,0 +1,519 @@
+{
+  "scene": {
+    "source_word_start": 20,
+    "source_word_end": 38,
+    "start": 9.5,
+    "end": 17.98
+  },
+  "planner_reason": "The narration describes a shift in location and setting from the colonizer's office to a foreign museum storage — a clear semantic transition in location and context that requires a visual change. The pronoun 'она' refers to the stone bird artifact, and the scene moves from one physical location to another, necessitating a visual beat change at 'потом' to reflect the new setting.",
+  "needs_multiple_beats": true,
+  "grounding_context": {
+    "master_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора, потом в музейном хранилище чужой страны.",
+    "chapter_match_score": 0,
+    "chapters": [],
+    "entities": []
+  },
+  "beats": [
+    {
+      "source_word_start": 20,
+      "source_word_end": 32,
+      "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+      "search_queries": [
+        "Zimbabwe Bird soapstone bird sculpture",
+        "Zimbabwe Bird artifact photograph"
+      ],
+      "requirements": [
+        "Zimbabwe Bird",
+        "soapstone bird sculpture",
+        "Verified artifact-group identity; contextual subject only"
+      ],
+      "avoid": [
+        "Historical event reconstruction",
+        "Specific historical placement or handling",
+        "People interacting with the artifact",
+        "Unverified individual specimen identity",
+        "Watermarks, logos or added captions"
+      ],
+      "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+      "start": 9.5,
+      "end": 14.96,
+      "duration": 5.460000000000001,
+      "voice_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора,",
+      "visual_contract": {
+        "mode": "CONTEXTUAL_SUBJECT",
+        "identity_scope": "ARTIFACT_GROUP",
+        "subject": "Zimbabwe Bird",
+        "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+        "identity_trace": {
+          "matched_mentions": [],
+          "matched_quotes": [
+            "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+          ],
+          "scope": "current_and_preceding_narration_only"
+        },
+        "depicts_narrated_event": false,
+        "asset_identity_verified": false
+      }
+    },
+    {
+      "source_word_start": 33,
+      "source_word_end": 38,
+      "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+      "search_queries": [
+        "Zimbabwe Bird soapstone bird sculpture",
+        "Zimbabwe Bird artifact photograph"
+      ],
+      "requirements": [
+        "Zimbabwe Bird",
+        "soapstone bird sculpture",
+        "Verified artifact-group identity; contextual subject only"
+      ],
+      "avoid": [
+        "Historical event reconstruction",
+        "Specific historical placement or handling",
+        "People interacting with the artifact",
+        "Unverified individual specimen identity",
+        "Watermarks, logos or added captions"
+      ],
+      "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+      "start": 15.28,
+      "end": 17.98,
+      "duration": 2.700000000000001,
+      "voice_text": "потом в музейном хранилище чужой страны.",
+      "visual_contract": {
+        "mode": "CONTEXTUAL_SUBJECT",
+        "identity_scope": "ARTIFACT_GROUP",
+        "subject": "Zimbabwe Bird",
+        "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+        "identity_trace": {
+          "matched_mentions": [],
+          "matched_quotes": [
+            "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+          ],
+          "scope": "current_and_preceding_narration_only"
+        },
+        "depicts_narrated_event": false,
+        "asset_identity_verified": false
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "identity_context": {
+        "master_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора,",
+        "chapters": [],
+        "entities": [
+          {
+            "canonical_subject": "каменная птица",
+            "exact_subject": "",
+            "aliases_or_descriptions": [
+              "каменная птица",
+              "священный символ",
+              "птица-символ",
+              "птица чапунгу",
+              "символ, изображённый на флаге Зимбабве",
+              "птица, украденная колониальными учёными"
+            ],
+            "evidence": [
+              "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+            ],
+            "identity_trace": {
+              "matched_mentions": [],
+              "matched_quotes": [
+                "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+              ],
+              "scope": "current_and_preceding_narration_only"
+            },
+            "researched_search_identity": {
+              "status": "VERIFIED",
+              "canonical_subject": "Zimbabwe Bird",
+              "subject_type": "soapstone bird sculpture",
+              "aliases": [
+                "Zimbabwe birds",
+                "Great Zimbabwe soapstone birds"
+              ],
+              "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+              "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+              "scope": "ARTIFACT_GROUP"
+            }
+          },
+          {
+            "canonical_subject": "аэропорт Хараре",
+            "exact_subject": "",
+            "aliases_or_descriptions": [
+              "аэропорт Хараре",
+              "аэропорт Хараре",
+              "аэропорту Хараре",
+              "аэропорта Хараре",
+              "аэропортом Хараре"
+            ],
+            "evidence": [
+              "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+            ],
+            "identity_trace": {
+              "matched_mentions": [
+                "аэропорту Хараре"
+              ],
+              "matched_quotes": [
+                "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+              ],
+              "scope": "current_and_preceding_narration_only"
+            }
+          }
+        ],
+        "withheld_entities": [
+          {
+            "canonical_subject": "Набта-Плайя",
+            "terms": [
+              "Набта-Плайя",
+              "высохшее русло древнего озера Набта-Плайя",
+              "каменный круг",
+              "камни в пустыне",
+              "каменные плиты",
+              "солнцестояние"
+            ]
+          },
+          {
+            "canonical_subject": "культура Нок",
+            "terms": [
+              "культура Нок",
+              "терракотовые фигуры",
+              "терракотовая голова из Джемаа",
+              "железные печи",
+              "культура, жившая в Ноке"
+            ]
+          },
+          {
+            "canonical_subject": "библиотеки Тимбукту",
+            "terms": [
+              "библиотеки Тимбукту",
+              "библиотеки Санкоре",
+              "архивы университета",
+              "рукописи по астрономии, медицине, математике и праву",
+              "библиотеки, спасённые от боевиков"
+            ]
+          },
+          {
+            "canonical_subject": "ров Эредо",
+            "terms": [
+              "ров Эредо",
+              "археологический ров",
+              "вала и ров",
+              "ров и вал",
+              "Биликису Сунгбо"
+            ]
+          },
+          {
+            "canonical_subject": "Аксум",
+            "terms": [
+              "Аксум",
+              "столица Аксума",
+              "город Аксум",
+              "царство Аксум",
+              "стела Аксума"
+            ]
+          },
+          {
+            "canonical_subject": "город Дженне-Дьено",
+            "terms": [
+              "город Дженне-Дьено",
+              "город, который исчез",
+              "город, покинутый без объяснения",
+              "город старше многих европейских столиц"
+            ]
+          },
+          {
+            "canonical_subject": "церкви Лалибела",
+            "terms": [
+              "церкви Лалибела",
+              "церкви в скале",
+              "церкви-обелиски",
+              "церкви, построенные ангелами",
+              "Бете-Гиоргис"
+            ]
+          },
+          {
+            "canonical_subject": "Великий Зимбабве",
+            "terms": [
+              "Великий Зимбабве",
+              "столица шона",
+              "город шона",
+              "Большая ограда",
+              "город без гвоздей"
+            ]
+          }
+        ],
+        "chapter_match_score": 0
+      },
+      "visual_final": {
+        "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+        "search_queries": [
+          "Zimbabwe Bird soapstone bird sculpture",
+          "Zimbabwe Bird artifact photograph"
+        ],
+        "requirements": [
+          "Zimbabwe Bird",
+          "soapstone bird sculpture",
+          "Verified artifact-group identity; contextual subject only"
+        ],
+        "avoid": [
+          "Historical event reconstruction",
+          "Specific historical placement or handling",
+          "People interacting with the artifact",
+          "Unverified individual specimen identity",
+          "Watermarks, logos or added captions"
+        ],
+        "edit": "Gentle push-in on the artifact photograph; no added factual elements."
+      },
+      "source_word_start": 20,
+      "source_word_end": 32,
+      "issues_before": [],
+      "issues_after": [],
+      "repair_attempts": [
+        {
+          "attempt": 1,
+          "issues_before": [
+            {
+              "type": "ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN",
+              "severity": "HIGH",
+              "detail": "Group-level identity cannot authorize staged historical surroundings or events.",
+              "identity_scope": "ARTIFACT_GROUP",
+              "subject": "Zimbabwe Bird"
+            }
+          ],
+          "visual_before": {
+            "visual_intent": "A stone bird sculpture, carved from soapstone, sits in a colonial-era office room with wooden furniture, a desk, and a window showing a distant view of the Zimbabwean countryside. The bird is displayed in a plain, unadorned setting, consistent with a colonial administrator's study.",
+            "search_queries": [
+              "colonial era office room with stone bird sculpture",
+              "soapstone bird in 19th century African colonial office",
+              "stone bird in Zimbabwe colonial administration room"
+            ],
+            "requirements": [
+              "a stone bird sculpture visible and stable in the frame",
+              "setting is a colonial-era office with wooden furniture and a window",
+              "the bird is not in motion or being handled",
+              "the bird is not labeled or annotated"
+            ],
+            "avoid": [
+              "a person interacting with the bird",
+              "modern or restored interior",
+              "text, labels, or signs on the wall",
+              "a museum or storage environment"
+            ],
+            "edit": "Steady, static shot of the stone bird in a colonial office, showing natural lighting and ambient details; no movement or zoom."
+          },
+          "issues_after": []
+        }
+      ]
+    },
+    {
+      "identity_context": {
+        "master_text": "потом в музейном хранилище чужой страны.",
+        "chapters": [],
+        "entities": [
+          {
+            "canonical_subject": "каменная птица",
+            "exact_subject": "",
+            "aliases_or_descriptions": [
+              "каменная птица",
+              "священный символ",
+              "птица-символ",
+              "птица чапунгу",
+              "символ, изображённый на флаге Зимбабве",
+              "птица, украденная колониальными учёными"
+            ],
+            "evidence": [
+              "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+            ],
+            "identity_trace": {
+              "matched_mentions": [],
+              "matched_quotes": [
+                "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+              ],
+              "scope": "current_and_preceding_narration_only"
+            },
+            "researched_search_identity": {
+              "status": "VERIFIED",
+              "canonical_subject": "Zimbabwe Bird",
+              "subject_type": "soapstone bird sculpture",
+              "aliases": [
+                "Zimbabwe birds",
+                "Great Zimbabwe soapstone birds"
+              ],
+              "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+              "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+              "scope": "ARTIFACT_GROUP"
+            }
+          },
+          {
+            "canonical_subject": "аэропорт Хараре",
+            "exact_subject": "",
+            "aliases_or_descriptions": [
+              "аэропорт Хараре",
+              "аэропорт Хараре",
+              "аэропорту Хараре",
+              "аэропорта Хараре",
+              "аэропортом Хараре"
+            ],
+            "evidence": [
+              "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+            ],
+            "identity_trace": {
+              "matched_mentions": [
+                "аэропорту Хараре"
+              ],
+              "matched_quotes": [
+                "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+              ],
+              "scope": "current_and_preceding_narration_only"
+            }
+          }
+        ],
+        "withheld_entities": [
+          {
+            "canonical_subject": "Набта-Плайя",
+            "terms": [
+              "Набта-Плайя",
+              "высохшее русло древнего озера Набта-Плайя",
+              "каменный круг",
+              "камни в пустыне",
+              "каменные плиты",
+              "солнцестояние"
+            ]
+          },
+          {
+            "canonical_subject": "культура Нок",
+            "terms": [
+              "культура Нок",
+              "терракотовые фигуры",
+              "терракотовая голова из Джемаа",
+              "железные печи",
+              "культура, жившая в Ноке"
+            ]
+          },
+          {
+            "canonical_subject": "библиотеки Тимбукту",
+            "terms": [
+              "библиотеки Тимбукту",
+              "библиотеки Санкоре",
+              "архивы университета",
+              "рукописи по астрономии, медицине, математике и праву",
+              "библиотеки, спасённые от боевиков"
+            ]
+          },
+          {
+            "canonical_subject": "ров Эредо",
+            "terms": [
+              "ров Эредо",
+              "археологический ров",
+              "вала и ров",
+              "ров и вал",
+              "Биликису Сунгбо"
+            ]
+          },
+          {
+            "canonical_subject": "Аксум",
+            "terms": [
+              "Аксум",
+              "столица Аксума",
+              "город Аксум",
+              "царство Аксум",
+              "стела Аксума"
+            ]
+          },
+          {
+            "canonical_subject": "город Дженне-Дьено",
+            "terms": [
+              "город Дженне-Дьено",
+              "город, который исчез",
+              "город, покинутый без объяснения",
+              "город старше многих европейских столиц"
+            ]
+          },
+          {
+            "canonical_subject": "церкви Лалибела",
+            "terms": [
+              "церкви Лалибела",
+              "церкви в скале",
+              "церкви-обелиски",
+              "церкви, построенные ангелами",
+              "Бете-Гиоргис"
+            ]
+          },
+          {
+            "canonical_subject": "Великий Зимбабве",
+            "terms": [
+              "Великий Зимбабве",
+              "столица шона",
+              "город шона",
+              "Большая ограда",
+              "город без гвоздей"
+            ]
+          }
+        ],
+        "chapter_match_score": 0
+      },
+      "visual_final": {
+        "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+        "search_queries": [
+          "Zimbabwe Bird soapstone bird sculpture",
+          "Zimbabwe Bird artifact photograph"
+        ],
+        "requirements": [
+          "Zimbabwe Bird",
+          "soapstone bird sculpture",
+          "Verified artifact-group identity; contextual subject only"
+        ],
+        "avoid": [
+          "Historical event reconstruction",
+          "Specific historical placement or handling",
+          "People interacting with the artifact",
+          "Unverified individual specimen identity",
+          "Watermarks, logos or added captions"
+        ],
+        "edit": "Gentle push-in on the artifact photograph; no added factual elements."
+      },
+      "source_word_start": 33,
+      "source_word_end": 38,
+      "issues_before": [],
+      "issues_after": [],
+      "repair_attempts": [
+        {
+          "attempt": 1,
+          "issues_before": [
+            {
+              "type": "ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN",
+              "severity": "HIGH",
+              "detail": "Group-level identity cannot authorize staged historical surroundings or events.",
+              "identity_scope": "ARTIFACT_GROUP",
+              "subject": "Zimbabwe Bird"
+            }
+          ],
+          "visual_before": {
+            "visual_intent": "A stone bird sculpture is stored in a climate-controlled, low-light museum storage room, possibly behind glass or in a sealed case. The room is empty except for the artifact, with minimal institutional signage (if any) and no human presence. The setting is neutral and institutional, reflecting a foreign country's museum preservation.",
+            "search_queries": [
+              "stone bird in museum storage room",
+              "soapstone bird in museum storage behind glass",
+              "museum storage room with stone artifact",
+              "Zimbabwe bird in museum archive"
+            ],
+            "requirements": [
+              "a stone bird sculpture in a storage room",
+              "low light, institutional, climate-controlled environment",
+              "no people, no activity, no visible handling",
+              "the bird is not in a display case with explanatory text"
+            ],
+            "avoid": [
+              "a person entering or exiting the room",
+              "a guard or military presence",
+              "a map, label, or explanatory text",
+              "a view of the outside world or city"
+            ],
+            "edit": "Static, wide-angle shot of the storage room showing only the stone bird in a secure, enclosed space; focus on the artifact and its surroundings, no movement."
+          },
+          "issues_after": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "canonical_subject": "аэропорт Хараре",
+      "subject_type": "place",
+      "location": "UNKNOWN",
+      "aliases_or_descriptions": [
+        "аэропорт Хараре"
+      ],
+      "confidence": "HIGH",
+      "evidence": [
+        "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+      ],
+      "time_expression": "UNKNOWN"
+    }
+  ]
+}

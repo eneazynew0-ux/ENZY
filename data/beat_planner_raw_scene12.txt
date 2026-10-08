@@ -1,0 +1,47 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration shifts from describing visual representation (magnets, brochures, atlases) to the content of those visuals (savanna, sunset, elephant silhouettes) and then to a critical omission (no hint of pre-European construction), requiring distinct visual beats to reflect the change in subject and implied historical absence.",
+  "beats": [
+    {
+      "source_word_start": 179,
+      "source_word_end": 194,
+      "visual_intent": "A close-up of a magnetic strip or a school magnet showing a map of Africa south of the Sahara, with the region labeled and featuring a savanna landscape, sunset, and silhouettes of elephants against a sky.",
+      "search_queries": [
+        "african south of sahara school magnet with savanna sunset elephants",
+        "school atlas magnet showing african savanna and elephants"
+      ],
+      "requirements": [
+        "African landscape south of Sahara",
+        "Savanna visible",
+        "Sunset in background",
+        "Elephant silhouettes",
+        "Sky in background"
+      ],
+      "avoid": [
+        "Buildings or human activity",
+        "Modern infrastructure",
+        "Indigenous people or villages"
+      ],
+      "edit": "Steady, static shot of a school magnet or brochure page showing the standardized African image"
+    },
+    {
+      "source_word_start": 195,
+      "source_word_end": 214,
+      "visual_intent": "Same visual as previous beat, but with a subtle overlay or text annotation indicating 'no mention of pre-European construction' or a faded image of a structure with a red 'missing' label.",
+      "search_queries": [
+        "african south of sahara map with no buildings or construction marked",
+        "school atlas showing no human structures before europeans"
+      ],
+      "requirements": [
+        "Same visual as previous beat",
+        "Clear absence of any buildings or construction",
+        "Indication of absence of pre-European activity"
+      ],
+      "avoid": [
+        "Any visible buildings, roads, or settlements",
+        "Evidence of human engineering or urban planning"
+      ],
+      "edit": "Cut to a slightly different angle or zoom to emphasize the emptiness, with a subtle text overlay or fade-in of 'no hint of construction' to match narration"
+    }
+  ]
+}

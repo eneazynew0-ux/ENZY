@@ -1,0 +1,70 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes three distinct visual states: the head lying in the earth for two and a half millennia, then standing as a scarecrow on a yam patch for a year, and finally being recognized in hands. Each state requires a separate visual to match the semantic shift in location, function, and perception.",
+  "beats": [
+    {
+      "source_word_start": 87,
+      "source_word_end": 93,
+      "visual_intent": "A terracotta head lying in soil, buried and undisturbed, in a rural field or garden setting in central Nigeria, with surrounding vegetation and earth showing age and decay.",
+      "search_queries": [
+        "terracotta head buried in soil central Nigeria",
+        "ancient terracotta figure in earth archaeological site",
+        "terracotta head in field Nigeria"
+      ],
+      "requirements": [
+        "head is buried in soil",
+        "setting is rural, in central Nigeria",
+        "context shows age and natural decay"
+      ],
+      "avoid": [
+        "head in modern context",
+        "head being handled or visible above ground",
+        "urban or indoor setting"
+      ],
+      "edit": "Slow, steady shot of the head in soil, with subtle environmental details like roots or soil erosion to imply time passage."
+    },
+    {
+      "source_word_start": 98,
+      "source_word_end": 106,
+      "visual_intent": "The same terracotta head placed as a scarecrow on a patch of land growing yams, with yam plants visible and the head partially exposed, standing still in a rural field.",
+      "search_queries": [
+        "terracotta scarecrow on yam patch Nigeria",
+        "ancient terracotta figure as scarecrow in field",
+        "terracotta head on yam garden central Nigeria"
+      ],
+      "requirements": [
+        "head is positioned as a scarecrow",
+        "yam plants growing nearby",
+        "setting is rural, central Nigeria",
+        "head is not buried, but upright"
+      ],
+      "avoid": [
+        "head in soil",
+        "head in hands",
+        "modern farm equipment or people present"
+      ],
+      "edit": "Medium shot showing the head as a scarecrow, with yam plants in background, emphasizing stillness and rural life."
+    },
+    {
+      "source_word_start": 107,
+      "source_word_end": 114,
+      "visual_intent": "A person's hand reaching toward or holding the terracotta head, with the head visible in their grip, in a rural setting in central Nigeria, suggesting recognition and surprise.",
+      "search_queries": [
+        "hand holding terracotta head Nigeria",
+        "person picking up ancient terracotta sculpture",
+        "Nigerian farmer holding ancient head"
+      ],
+      "requirements": [
+        "a person's hand is visible holding the head",
+        "setting is rural, central Nigeria",
+        "expression shows recognition or surprise"
+      ],
+      "avoid": [
+        "head in soil",
+        "head as scarecrow",
+        "no person present or hand visible"
+      ],
+      "edit": "Close-up of hand gently lifting or holding the head, with soft lighting and background showing rural context to emphasize the moment of realization."
+    }
+  ]
+}

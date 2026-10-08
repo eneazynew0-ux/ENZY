@@ -1,0 +1,303 @@
+[
+  {
+    "request_number": 1,
+    "beat_index": 0,
+    "phase_index": 0,
+    "action": "SEARCH_UNIFIED",
+    "start": 0.09000000000000002,
+    "end": 4.236,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "pixabay",
+    "title": "men, honor guard, soldiers",
+    "local_path": "data/live_90s_full/01_beat_00_phase_00/unified/photo/1273d62d0f6870a6.jpg",
+    "identity": null,
+    "result_file": "data/live_90s_full/01_result.json"
+  },
+  {
+    "request_number": 2,
+    "beat_index": 1,
+    "phase_index": 0,
+    "action": "SEARCH_VIDEO",
+    "start": 7.44,
+    "end": 9.5,
+    "status": "NO_SELECTION",
+    "media_type": null,
+    "provider": null,
+    "title": null,
+    "local_path": null,
+    "identity": null,
+    "result_file": "data/live_90s_full/02_result.json"
+  },
+  {
+    "request_number": 3,
+    "beat_index": 2,
+    "phase_index": 0,
+    "action": "SEARCH_ARCHIVE",
+    "start": 9.5,
+    "end": 12.776,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "pixabay",
+    "title": "vietnam, woman, vintage clothes",
+    "local_path": "data/live_90s_full/03_beat_02_phase_00/archive/507c9b27ce6fba20.jpg",
+    "identity": null,
+    "result_file": "data/live_90s_full/03_result.json"
+  },
+  {
+    "request_number": 4,
+    "beat_index": 2,
+    "phase_index": 1,
+    "action": "SEARCH_ARCHIVE",
+    "start": 12.776,
+    "end": 14.96,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "pixabay",
+    "title": "vietnam, woman, vintage clothes",
+    "local_path": "data/live_90s_full/04_beat_02_phase_01/archive/19ca7e87e5aae385.jpg",
+    "identity": null,
+    "result_file": "data/live_90s_full/04_result.json"
+  },
+  {
+    "request_number": 5,
+    "beat_index": 3,
+    "phase_index": 0,
+    "action": "SEARCH_ARCHIVE",
+    "start": 15.28,
+    "end": 17.98,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "pixabay",
+    "title": "statue, khonsu statue, tutankhamun",
+    "local_path": "data/live_90s_full/05_beat_03_phase_00/archive/f4a1033fb1357416.jpg",
+    "identity": null,
+    "result_file": "data/live_90s_full/05_result.json"
+  },
+  {
+    "request_number": 6,
+    "beat_index": 4,
+    "phase_index": 0,
+    "action": "SEARCH_PHOTO",
+    "start": 18.48,
+    "end": 22.5872,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "pixabay",
+    "title": "books, education, school",
+    "local_path": "data/live_90s_full/06_beat_04_phase_00/photo/7d7e86de1360b5ec.jpg",
+    "identity": null,
+    "result_file": "data/live_90s_full/06_result.json"
+  },
+  {
+    "request_number": 7,
+    "beat_index": 4,
+    "phase_index": 1,
+    "action": "SEARCH_PHOTO",
+    "start": 22.5872,
+    "end": 27.177599999999998,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "pixabay",
+    "title": "books, education, school",
+    "local_path": "data/live_90s_full/07_beat_04_phase_01/photo/361589d42ece5376.jpg",
+    "identity": null,
+    "result_file": "data/live_90s_full/07_result.json"
+  },
+  {
+    "request_number": 8,
+    "beat_index": 5,
+    "phase_index": 0,
+    "action": "SEARCH_VIDEO",
+    "start": 31.08,
+    "end": 33.44,
+    "status": "NO_SELECTION",
+    "media_type": null,
+    "provider": null,
+    "title": null,
+    "local_path": null,
+    "identity": null,
+    "result_file": "data/live_90s_full/08_result.json"
+  },
+  {
+    "request_number": 9,
+    "beat_index": 6,
+    "phase_index": 0,
+    "action": "SEARCH_UNIFIED",
+    "start": 34.04,
+    "end": 39.392,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "internet_archive",
+    "title": "Megaliths from Nabta Playa",
+    "local_path": "data/live_90s_full/09_beat_06_phase_00/unified/photo/0348db2500f204cd.png",
+    "identity": {
+      "status": "VERIFIED",
+      "confidence": "HIGH",
+      "matched_term": "Nabta Playa",
+      "context_matches": [],
+      "reason": "Asset metadata explicitly contains the full canonical factual identity"
+    },
+    "result_file": "data/live_90s_full/09_result.json"
+  },
+  {
+    "request_number": 10,
+    "beat_index": 7,
+    "phase_index": 0,
+    "action": "SEARCH_PHOTO",
+    "start": 43.58,
+    "end": 47.34,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "wikimedia",
+    "title": "File:Erected Nok Terracotta.jpg",
+    "local_path": "data/live_90s_full/10_beat_07_phase_00/photo/0238ce74c35b3382.jpg",
+    "identity": {
+      "status": "VERIFIED",
+      "confidence": "MEDIUM",
+      "matched_term": "nok",
+      "context_matches": [
+        "terracotta"
+      ],
+      "reason": "Canonical identity is supported by independent entity context in metadata"
+    },
+    "result_file": "data/live_90s_full/10_result.json"
+  },
+  {
+    "request_number": 11,
+    "beat_index": 8,
+    "phase_index": 0,
+    "action": "SEARCH_UNIFIED",
+    "start": 47.7,
+    "end": 51.2,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "wikimedia",
+    "title": "File:Erected Nok Terracotta.jpg",
+    "local_path": "data/live_90s_full/11_beat_08_phase_00/unified/photo/0238ce74c35b3382.jpg",
+    "identity": {
+      "status": "VERIFIED",
+      "confidence": "MEDIUM",
+      "matched_term": "nok",
+      "context_matches": [
+        "terracotta"
+      ],
+      "reason": "Canonical identity is supported by independent entity context in metadata"
+    },
+    "result_file": "data/live_90s_full/11_result.json"
+  },
+  {
+    "request_number": 12,
+    "beat_index": 9,
+    "phase_index": 0,
+    "action": "SEARCH_PHOTO",
+    "start": 51.2,
+    "end": 53.9,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "wikimedia",
+    "title": "File:Erected Nok Terracotta.jpg",
+    "local_path": "data/live_90s_full/12_beat_09_phase_00/photo/0238ce74c35b3382.jpg",
+    "identity": {
+      "status": "VERIFIED",
+      "confidence": "MEDIUM",
+      "matched_term": "nok",
+      "context_matches": [
+        "terracotta"
+      ],
+      "reason": "Canonical identity is supported by independent entity context in metadata"
+    },
+    "result_file": "data/live_90s_full/12_result.json"
+  },
+  {
+    "request_number": 13,
+    "beat_index": 10,
+    "phase_index": 0,
+    "action": "SEARCH_UNIFIED",
+    "start": 54.54,
+    "end": 60.84,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "wikimedia",
+    "title": "File:Loc timbuktu manuscripts amm0001rs.jpg",
+    "local_path": "data/live_90s_full/13_beat_10_phase_00/unified/photo/47a22a626e2b6d4f.jpg",
+    "identity": {
+      "status": "VERIFIED",
+      "confidence": "MEDIUM",
+      "matched_term": "timbuktu",
+      "context_matches": [
+        "manuscripts"
+      ],
+      "reason": "Canonical identity is supported by independent entity context in metadata"
+    },
+    "result_file": "data/live_90s_full/13_result.json"
+  },
+  {
+    "request_number": 14,
+    "beat_index": 11,
+    "phase_index": 0,
+    "action": "SEARCH_UNIFIED",
+    "start": 61.02,
+    "end": 66.24,
+    "status": "SELECTED",
+    "media_type": "PHOTO",
+    "provider": "wikimedia",
+    "title": "File:Ethiopia - sunset at Church of Saint George, Lalibela 01.jpg",
+    "local_path": "data/live_90s_full/14_beat_11_phase_00/unified/photo/d79eb7d23f422e91.jpg",
+    "identity": {
+      "status": "VERIFIED",
+      "confidence": "MEDIUM",
+      "matched_term": "lalibela",
+      "context_matches": [
+        "ethiopia"
+      ],
+      "reason": "Canonical identity is supported by independent entity context in metadata"
+    },
+    "result_file": "data/live_90s_full/14_result.json"
+  },
+  {
+    "request_number": 15,
+    "beat_index": 12,
+    "phase_index": 0,
+    "action": "SEARCH_UNIFIED",
+    "start": 70.7,
+    "end": 75.344,
+    "status": "SELECTED",
+    "media_type": "VIDEO",
+    "provider": "pixabay",
+    "title": "night, lighting, light",
+    "local_path": "data/live_90s_full/15_beat_12_phase_00/unified/video/candidate_1/videos/d7c91deb8e4e8090.mp4",
+    "identity": null,
+    "result_file": "data/live_90s_full/15_result.json"
+  },
+  {
+    "request_number": 16,
+    "beat_index": 14,
+    "phase_index": 0,
+    "action": "SEARCH_VIDEO",
+    "start": 84.28,
+    "end": 88.648,
+    "status": "NO_SELECTION",
+    "media_type": null,
+    "provider": null,
+    "title": null,
+    "local_path": null,
+    "identity": null,
+    "result_file": "data/live_90s_full/16_result.json"
+  },
+  {
+    "request_number": 17,
+    "beat_index": 15,
+    "phase_index": 0,
+    "action": "SEARCH_VIDEO",
+    "start": 92.4,
+    "end": 97.80000000000001,
+    "status": "NO_SELECTION",
+    "media_type": null,
+    "provider": null,
+    "title": null,
+    "local_path": null,
+    "identity": null,
+    "result_file": "data/live_90s_full/17_result.json"
+  }
+]

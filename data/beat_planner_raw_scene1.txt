@@ -1,0 +1,24 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration shifts from a general description of a military guard at an airport to a specific visual of the stone bird being met, requiring a visual transition to show the stone bird as the actual object being encountered.",
+  "beats": [
+    {
+      "source_word_start": 0,
+      "source_word_end": 15,
+      "visual_intent": "В аэропорту Хараре, военный караул стоит на посту, не встречая президента или иностранной делегации.",
+      "search_queries": ["military guard at Harare airport", "military sentry at Harare airport", "airport security post Harare Zimbabwe"],
+      "requirements": ["military guard visible on post", "airport setting in Harare", "no president or foreign delegation in frame"],
+      "avoid": ["president or foreign delegation visible", "crowd or civilians in scene", "modern airport with passengers"],
+      "edit": "Hold the guard on post with static shot, emphasizing emptiness of the greeting"
+    },
+    {
+      "source_word_start": 15,
+      "source_word_end": 15,
+      "visual_intent": "На фоне караула — каменная птица, стоящая на земле, в центре внимания, с отражением в тени или в виде тени на земле.",
+      "search_queries": ["stone bird statue Harare", "stone bird Zimbabwe Harare", "stone bird sculpture at Harare airport"],
+      "requirements": ["stone bird visible and distinct", "location in airport or adjacent area", "stone bird is the object being met"],
+      "avoid": ["any other object as the focus", "modern statue or digital rendering", "stone bird in ruins or damaged"],
+      "edit": "Cut to a medium shot of the stone bird, showing it as a central object, with context of being observed by the guard"
+    }
+  ]
+}

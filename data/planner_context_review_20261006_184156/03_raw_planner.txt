@@ -1,0 +1,52 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes a shift in location and setting from the colonist's office to a foreign museum storehouse, requiring a visual transition that reflects the change in environment and subject placement.",
+  "beats": [
+    {
+      "source_word_start": 20,
+      "source_word_end": 32,
+      "visual_intent": "A woman standing in a colonial-era office, possibly with a desk and maps, in a room with a colonial-style architecture, showing a colonial officer's workspace with archival documents and a window view of a distant landscape.",
+      "search_queries": [
+        "woman in colonial office 1950s",
+        "colonial administrator workspace 1950s",
+        "colonial office with maps and documents"
+      ],
+      "requirements": [
+        "a woman visible in the scene",
+        "a colonial-style office setting",
+        "archival documents or maps on a desk",
+        "a window showing outdoor landscape"
+      ],
+      "avoid": [
+        "a modern office",
+        "a military or government building",
+        "a person holding a weapon or in uniform",
+        "a cityscape or urban environment"
+      ],
+      "edit": "Steady shot, medium close-up, natural lighting, showing the woman in a static position, emphasizing the institutional and bureaucratic atmosphere of the colonial office."
+    },
+    {
+      "source_word_start": 33,
+      "source_word_end": 38,
+      "visual_intent": "A woman standing in a museum storage room, possibly with a locked cabinet or display case, in a dimly lit space with rows of artifacts, indicating a foreign museum's preservation facility.",
+      "search_queries": [
+        "woman in museum storage room",
+        "museum storage room with artifacts",
+        "foreign museum storage room 20th century"
+      ],
+      "requirements": [
+        "a woman visible in the scene",
+        "a museum storage room with shelves or cabinets",
+        "archival or preserved artifacts in background",
+        "dim lighting, suggesting preservation or conservation"
+      ],
+      "avoid": [
+        "a public exhibition space",
+        "a bright or well-lit environment",
+        "a person interacting with artifacts",
+        "a foreign flag or national emblem visible"
+      ],
+      "edit": "Medium shot, slightly off-center, showing the woman in a quiet, institutional space, emphasizing the stillness and isolation of the setting."
+    }
+  ]
+}

@@ -1,0 +1,1652 @@
+{
+  "status": "NO_SELECTION",
+  "resolver_action": "SEARCH_VIDEO",
+  "selected_media": {
+    "status": "NO_SELECTION",
+    "media_type": null,
+    "asset": null,
+    "segment": null
+  },
+  "raw_result": {
+    "status": "NO_VIDEO_CANDIDATES",
+    "plan": {
+      "beat": {
+        "source_word_start": 16,
+        "source_word_end": 19,
+        "visual_intent": "A man walking through a desert or rural landscape, encountering a stone sculpture shaped like a bird, possibly half-buried in sand or resting on a rock surface.",
+        "search_queries": [
+          "man walking desert meeting stone bird sculpture",
+          "stone bird carved in desert",
+          "desert stone bird statue"
+        ],
+        "requirements": [
+          "a man",
+          "a stone bird",
+          "in a desert or rural setting",
+          "stone bird is visible and present"
+        ],
+        "avoid": [
+          "a living bird",
+          "a mechanical or animated bird",
+          "a digital or holographic bird",
+          "a person holding or touching the bird"
+        ],
+        "edit": "Stabilized wide shot showing the man and the stone bird in natural environment; no zoom, no animation, no text overlay",
+        "start": 7.44,
+        "end": 9.5,
+        "duration": 2.0599999999999996,
+        "voice_text": "Он встречал каменную птицу.",
+        "documentary_mode": "REAL_VIDEO",
+        "prefer_motion": true,
+        "identity_sensitive": false,
+        "requires_identity_gate": false,
+        "motion_strategy": "REAL_VIDEO_PRIMARY",
+        "real_video_preferred": true,
+        "composition_strategy": "SINGLE_OR_SEQUENCE",
+        "retention_phases": [
+          {
+            "phase_index": 0,
+            "role": "PRIMARY",
+            "start": 7.44,
+            "end": 9.5,
+            "duration": 2.0599999999999996,
+            "asset_requirement": "VIDEO_PRIMARY",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_VIDEO",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 7.44,
+              "beat_end": 9.5,
+              "beat_duration": 2.0599999999999996,
+              "documentary_mode": "REAL_VIDEO",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 0,
+              "phase_role": "PRIMARY",
+              "phase_start": 7.44,
+              "phase_end": 9.5,
+              "phase_duration": 2.0599999999999996,
+              "asset_requirement": "VIDEO_PRIMARY",
+              "resolver_action": "SEARCH_VIDEO",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VIDEO_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "VIDEO_PRIMARY"
+            }
+          }
+        ],
+        "retention_phase_count": 1
+      },
+      "entity_resolution": {
+        "status": "UNRESOLVED",
+        "entities": [],
+        "resolver": "NO_CANDIDATES"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": false,
+        "confidence": "HIGH",
+        "reason": "NO_RESOLVED_ENTITY"
+      },
+      "visual_entity": null,
+      "search_entity": null,
+      "factual_search": false,
+      "queries": {
+        "exact": [],
+        "broad": [
+          "man walking desert meeting stone bird sculpture",
+          "stone bird carved in desert",
+          "desert stone bird statue"
+        ],
+        "visual": [
+          "A man walking through a desert or rural landscape, encountering a stone sculpture shaped like a bird, possibly half-buried in sand or resting on a rock surface.",
+          "a man a stone bird in a desert or rural setting"
+        ],
+        "all": [
+          "man walking desert meeting stone bird sculpture",
+          "stone bird carved in desert",
+          "desert stone bird statue",
+          "A man walking through a desert or rural landscape, encountering a stone sculpture shaped like a bird, possibly half-buried in sand or resting on a rock surface.",
+          "a man a stone bird in a desert or rural setting"
+        ],
+        "used_visual_entity": false
+      }
+    },
+    "video_search": {
+      "queries": [
+        "man walking desert meeting stone bird sculpture",
+        "stone bird carved in desert",
+        "desert stone bird statue",
+        "A man walking through a desert or rural landscape, encountering a stone sculpture shaped like a bird, possibly half-buried in sand or resting on a rock surface.",
+        "a man a stone bird in a desert or rural setting"
+      ],
+      "query_stats": [
+        {
+          "query": "man walking desert meeting stone bird sculpture",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "stone bird carved in desert",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "desert stone bird statue",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "A man walking through a desert or rural landscape, encountering a stone sculpture shaped like a bird, possibly half-buried in sand or resting on a rock surface.",
+          "provider": "pixabay",
+          "found": 0,
+          "error": null
+        },
+        {
+          "query": "a man a stone bird in a desert or rural setting",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        }
+      ],
+      "fallback_used": false,
+      "fallback_provider": null,
+      "stats": {
+        "query_count": 5,
+        "search_found_raw": 20,
+        "search_unique": 16,
+        "duplicates_removed": 4,
+        "missing_identity": 0,
+        "rights_allowed": 16,
+        "rights_rejected": 0,
+        "export_rights_allowed": 16,
+        "export_rights_rejected": 0,
+        "identity_required": false,
+        "identity_verified": 16,
+        "identity_rejected": 0,
+        "final_candidates": 16,
+        "specialized_fallback_used": false
+      },
+      "assets": [
+        {
+          "provider": "pixabay",
+          "provider_id": "2340",
+          "title": "meeting, planning, marketing",
+          "source_url": "https://pixabay.com/videos/id-2340/",
+          "original_url": "https://cdn.pixabay.com/video/2016/02/29/2340-157269921_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 44,
+          "creator": "Life-Of-Vids",
+          "creator_url": "https://pixabay.com/users/1282862/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "meeting, planning, marketing, business, team, people, office, teamwork, group, discussion, business meeting, group meeting, office meeting, team meeting, communication, corporate, talking, plan",
+          "video_quality": "large",
+          "matched_queries": [
+            "man walking desert meeting stone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-2340/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-2340/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "199623",
+          "title": "man, walking, suit",
+          "source_url": "https://pixabay.com/videos/id-199623/",
+          "original_url": "https://cdn.pixabay.com/video/2024/02/07/199623-910995789_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 12,
+          "creator": "MujtabaAhemad",
+          "creator_url": "https://pixabay.com/users/27229811/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "man, walking, suit, business, office",
+          "video_quality": "large",
+          "matched_queries": [
+            "man walking desert meeting stone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-199623/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-199623/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "282995",
+          "title": "hiking, walking, trail",
+          "source_url": "https://pixabay.com/videos/id-282995/",
+          "original_url": "https://cdn.pixabay.com/video/2025/06/01/282995_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 14,
+          "creator": "Matthias_Groeneveld",
+          "creator_url": "https://pixabay.com/users/4535957/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "hiking, walking, trail, man, alone, single, middle-aged, adult, human, forest, landscape, path, environment, fog, winter, frost, woodlands, wood, mist, sunbeams",
+          "video_quality": "large",
+          "matched_queries": [
+            "man walking desert meeting stone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-282995/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-282995/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "202743",
+          "title": "man, walking, path",
+          "source_url": "https://pixabay.com/videos/id-202743/",
+          "original_url": "https://cdn.pixabay.com/video/2024/03/03/202743-918944206_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 31,
+          "creator": "Matthias_Groeneveld",
+          "creator_url": "https://pixabay.com/users/4535957/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "man, walking, path, netherlands, drenthe, alone, sunrise",
+          "video_quality": "large",
+          "matched_queries": [
+            "man walking desert meeting stone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-202743/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-202743/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "202753",
+          "title": "man, path, walking",
+          "source_url": "https://pixabay.com/videos/id-202753/",
+          "original_url": "https://cdn.pixabay.com/video/2024/03/03/202753-918944243_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1080,
+          "height": 1920,
+          "duration": 26,
+          "creator": "Matthias_Groeneveld",
+          "creator_url": "https://pixabay.com/users/4535957/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "man, path, walking, sunrise, netherlands, drenthe, alone",
+          "video_quality": "large",
+          "matched_queries": [
+            "man walking desert meeting stone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-202753/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-202753/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "38270",
+          "title": "desert, wind, the oases in the desert",
+          "source_url": "https://pixabay.com/videos/id-38270/",
+          "original_url": "https://cdn.pixabay.com/video/2020/05/06/38270-415950888_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 59,
+          "creator": "AndersonCampos",
+          "creator_url": "https://pixabay.com/users/14853588/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "desert, wind, the oases in the desert, sahara, egypt, afternoon, heat, animated wallpaper in pc, zeppelin, trip",
+          "video_quality": "large",
+          "matched_queries": [
+            "stone bird carved in desert"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-38270/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-38270/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "304330",
+          "title": "mountains, desert, view",
+          "source_url": "https://pixabay.com/videos/id-304330/",
+          "original_url": "https://cdn.pixabay.com/video/2025/09/15/304330_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 15,
+          "creator": "ertugrulgazikul",
+          "creator_url": "https://pixabay.com/users/29705134/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "mountains, desert, view",
+          "video_quality": "large",
+          "matched_queries": [
+            "stone bird carved in desert",
+            "desert stone bird statue"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-304330/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-304330/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "35737",
+          "title": "canyon, mountains, desert",
+          "source_url": "https://pixabay.com/videos/id-35737/",
+          "original_url": "https://cdn.pixabay.com/video/2020/04/11/35737-412873764_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 2560,
+          "height": 1440,
+          "duration": 43,
+          "creator": "Tyutyunov",
+          "creator_url": "https://pixabay.com/users/15995849/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "canyon, mountains, desert, stone, sandstone, travel, tourism, kazakhstan",
+          "video_quality": "large",
+          "matched_queries": [
+            "stone bird carved in desert",
+            "desert stone bird statue"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-35737/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-35737/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "284566",
+          "title": "desert, dunes, sand",
+          "source_url": "https://pixabay.com/videos/id-284566/",
+          "original_url": "https://cdn.pixabay.com/video/2025/06/09/284566_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 20,
+          "creator": "antonlukin",
+          "creator_url": "https://pixabay.com/users/29278027/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "desert, dunes, sand, namibia, nature, africa, drone",
+          "video_quality": "large",
+          "matched_queries": [
+            "stone bird carved in desert",
+            "desert stone bird statue"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-284566/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-284566/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "284568",
+          "title": "namibia, nature, africa",
+          "source_url": "https://pixabay.com/videos/id-284568/",
+          "original_url": "https://cdn.pixabay.com/video/2025/06/09/284568_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 2160,
+          "height": 3840,
+          "duration": 17,
+          "creator": "antonlukin",
+          "creator_url": "https://pixabay.com/users/29278027/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "namibia, nature, africa, drone, desert, sand, dunes",
+          "video_quality": "large",
+          "matched_queries": [
+            "stone bird carved in desert",
+            "desert stone bird statue"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-284568/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-284568/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "184734",
+          "title": "car, desert, driving",
+          "source_url": "https://pixabay.com/videos/id-184734/",
+          "original_url": "https://cdn.pixabay.com/video/2023/10/12/184734-873923034_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 10,
+          "creator": "santosjesus90",
+          "creator_url": "https://pixabay.com/users/39838168/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "car, desert, driving, drone, sand, arial, tajikistan",
+          "video_quality": "large",
+          "matched_queries": [
+            "desert stone bird statue"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-184734/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-184734/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "16160",
+          "title": "storm, ocean, sky",
+          "source_url": "https://pixabay.com/videos/id-16160/",
+          "original_url": "https://cdn.pixabay.com/video/2018/05/11/16160-269534741_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 40,
+          "creator": "Macb3t",
+          "creator_url": "https://pixabay.com/users/8900437/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "storm, ocean, sky, rain, the waves, wind, dark clouds, rolling sea, anger, a strong wind, clouds, sea, night, darkness, rainy, cloudy, water, lightning",
+          "video_quality": "large",
+          "matched_queries": [
+            "a man a stone bird in a desert or rural setting"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-16160/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-16160/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "4788",
+          "title": "earth, animation, revolution",
+          "source_url": "https://pixabay.com/videos/id-4788/",
+          "original_url": "https://cdn.pixabay.com/video/2016/08/24/4788-180289892_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 20,
+          "creator": "PIRO4D",
+          "creator_url": "https://pixabay.com/users/2707530/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "earth, animation, revolution, planet, world, globe, space, map of the world, africa, europe, a day, rendering, 3d, 3d model",
+          "video_quality": "large",
+          "matched_queries": [
+            "a man a stone bird in a desert or rural setting"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-4788/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-4788/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "32287",
+          "title": "a street in bangalore, karnataka, south india",
+          "source_url": "https://pixabay.com/videos/id-32287/",
+          "original_url": "https://cdn.pixabay.com/video/2020/02/13/32287-391434445_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 7,
+          "creator": "shekharpoorna",
+          "creator_url": "https://pixabay.com/users/9592159/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "a street in bangalore, karnataka, south india, people, street",
+          "video_quality": "large",
+          "matched_queries": [
+            "a man a stone bird in a desert or rural setting"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-32287/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-32287/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "28042",
+          "title": "person, red hair, woman",
+          "source_url": "https://pixabay.com/videos/id-28042/",
+          "original_url": "https://cdn.pixabay.com/video/2019/10/18/28042-367222503_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 19,
+          "creator": "MabelAmber",
+          "creator_url": "https://pixabay.com/users/1377835/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "person, red hair, woman, taking a walk, a walk in the park, walking, forest, tree, path, bridge, exercise, motion, activity, umbrella, knapsack, lifestyle",
+          "video_quality": "large",
+          "matched_queries": [
+            "a man a stone bird in a desert or rural setting"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-28042/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-28042/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "143016",
+          "title": "astronaut, astronaut in space, black hole",
+          "source_url": "https://pixabay.com/videos/id-143016/",
+          "original_url": "https://cdn.pixabay.com/video/2022/12/15/143016-781982529_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 16,
+          "creator": "AiVreaSaStii",
+          "creator_url": "https://pixabay.com/users/28244525/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "astronaut, astronaut in space, black hole, astronaut inside a black hole, space astronaut, universe, space",
+          "video_quality": "large",
+          "matched_queries": [
+            "a man a stone bird in a desert or rural setting"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-143016/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-143016/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "rights_rejected": [],
+      "export_rights_rejected": [],
+      "identity_rejected": [],
+      "missing_identity": []
+    },
+    "attempts": [],
+    "metadata_rejected": [
+      {
+        "provider": "pixabay",
+        "provider_id": "2340",
+        "title": "meeting, planning, marketing",
+        "source_url": "https://pixabay.com/videos/id-2340/",
+        "original_url": "https://cdn.pixabay.com/video/2016/02/29/2340-157269921_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 44,
+        "creator": "Life-Of-Vids",
+        "creator_url": "https://pixabay.com/users/1282862/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "meeting, planning, marketing, business, team, people, office, teamwork, group, discussion, business meeting, group meeting, office meeting, team meeting, communication, corporate, talking, plan",
+        "video_quality": "large",
+        "matched_queries": [
+          "man walking desert meeting stone bird sculpture"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-2340/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-2340/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "No mention of desert, rural landscape, stone sculpture, bird, or outdoor setting"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "199623",
+        "title": "man, walking, suit",
+        "source_url": "https://pixabay.com/videos/id-199623/",
+        "original_url": "https://cdn.pixabay.com/video/2024/02/07/199623-910995789_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 12,
+        "creator": "MujtabaAhemad",
+        "creator_url": "https://pixabay.com/users/27229811/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "man, walking, suit, business, office",
+        "video_quality": "large",
+        "matched_queries": [
+          "man walking desert meeting stone bird sculpture"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-199623/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-199623/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata describes a man walking in a business/office context, not a desert or rural landscape with a stone bird sculpture"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "282995",
+        "title": "hiking, walking, trail",
+        "source_url": "https://pixabay.com/videos/id-282995/",
+        "original_url": "https://cdn.pixabay.com/video/2025/06/01/282995_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 14,
+        "creator": "Matthias_Groeneveld",
+        "creator_url": "https://pixabay.com/users/4535957/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "hiking, walking, trail, man, alone, single, middle-aged, adult, human, forest, landscape, path, environment, fog, winter, frost, woodlands, wood, mist, sunbeams",
+        "video_quality": "large",
+        "matched_queries": [
+          "man walking desert meeting stone bird sculpture"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-282995/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-282995/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata mentions forest, woodlands, fog, and winter landscapes, not desert or rural desert with stone bird sculpture"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "202743",
+        "title": "man, walking, path",
+        "source_url": "https://pixabay.com/videos/id-202743/",
+        "original_url": "https://cdn.pixabay.com/video/2024/03/03/202743-918944206_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 31,
+        "creator": "Matthias_Groeneveld",
+        "creator_url": "https://pixabay.com/users/4535957/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "man, walking, path, netherlands, drenthe, alone, sunrise",
+        "video_quality": "large",
+        "matched_queries": [
+          "man walking desert meeting stone bird sculpture"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-202743/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-202743/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of stone sculpture, bird shape, desert, or rural landscape with archaeological or artistic context"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "202753",
+        "title": "man, path, walking",
+        "source_url": "https://pixabay.com/videos/id-202753/",
+        "original_url": "https://cdn.pixabay.com/video/2024/03/03/202753-918944243_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1080,
+        "height": 1920,
+        "duration": 26,
+        "creator": "Matthias_Groeneveld",
+        "creator_url": "https://pixabay.com/users/4535957/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "man, path, walking, sunrise, netherlands, drenthe, alone",
+        "video_quality": "large",
+        "matched_queries": [
+          "man walking desert meeting stone bird sculpture"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-202753/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-202753/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of stone sculpture, bird shape, desert, or rural landscape features; metadata only describes a man walking in a path in the Netherlands."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "38270",
+        "title": "desert, wind, the oases in the desert",
+        "source_url": "https://pixabay.com/videos/id-38270/",
+        "original_url": "https://cdn.pixabay.com/video/2020/05/06/38270-415950888_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 59,
+        "creator": "AndersonCampos",
+        "creator_url": "https://pixabay.com/users/14853588/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "desert, wind, the oases in the desert, sahara, egypt, afternoon, heat, animated wallpaper in pc, zeppelin, trip",
+        "video_quality": "large",
+        "matched_queries": [
+          "stone bird carved in desert"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-38270/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-38270/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of a man, stone sculpture, bird-shaped artifact, or rural/desert landscape with specific cultural or archaeological context."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "304330",
+        "title": "mountains, desert, view",
+        "source_url": "https://pixabay.com/videos/id-304330/",
+        "original_url": "https://cdn.pixabay.com/video/2025/09/15/304330_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 15,
+        "creator": "ertugrulgazikul",
+        "creator_url": "https://pixabay.com/users/29705134/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "mountains, desert, view",
+        "video_quality": "large",
+        "matched_queries": [
+          "stone bird carved in desert",
+          "desert stone bird statue"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-304330/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-304330/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "no mention of a man, stone sculpture, or bird-shaped object"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "35737",
+        "title": "canyon, mountains, desert",
+        "source_url": "https://pixabay.com/videos/id-35737/",
+        "original_url": "https://cdn.pixabay.com/video/2020/04/11/35737-412873764_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 2560,
+        "height": 1440,
+        "duration": 43,
+        "creator": "Tyutyunov",
+        "creator_url": "https://pixabay.com/users/15995849/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "canyon, mountains, desert, stone, sandstone, travel, tourism, kazakhstan",
+        "video_quality": "large",
+        "matched_queries": [
+          "stone bird carved in desert",
+          "desert stone bird statue"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-35737/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-35737/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of a man, bird-shaped sculpture, or stone sculpture specifically; lacks evidence of a human encountering a bird-like stone object"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "284566",
+        "title": "desert, dunes, sand",
+        "source_url": "https://pixabay.com/videos/id-284566/",
+        "original_url": "https://cdn.pixabay.com/video/2025/06/09/284566_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 20,
+        "creator": "antonlukin",
+        "creator_url": "https://pixabay.com/users/29278027/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "desert, dunes, sand, namibia, nature, africa, drone",
+        "video_quality": "large",
+        "matched_queries": [
+          "stone bird carved in desert",
+          "desert stone bird statue"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-284566/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-284566/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of a stone sculpture or bird-shaped object; metadata only describes desert landscape without evidence of a specific sculpture or bird-like formation."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "284568",
+        "title": "namibia, nature, africa",
+        "source_url": "https://pixabay.com/videos/id-284568/",
+        "original_url": "https://cdn.pixabay.com/video/2025/06/09/284568_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 2160,
+        "height": 3840,
+        "duration": 17,
+        "creator": "antonlukin",
+        "creator_url": "https://pixabay.com/users/29278027/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "namibia, nature, africa, drone, desert, sand, dunes",
+        "video_quality": "large",
+        "matched_queries": [
+          "stone bird carved in desert",
+          "desert stone bird statue"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-284568/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-284568/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of a stone sculpture or bird-shaped object; desert and nature are too generic and lack specific visual evidence"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "184734",
+        "title": "car, desert, driving",
+        "source_url": "https://pixabay.com/videos/id-184734/",
+        "original_url": "https://cdn.pixabay.com/video/2023/10/12/184734-873923034_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 10,
+        "creator": "santosjesus90",
+        "creator_url": "https://pixabay.com/users/39838168/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "car, desert, driving, drone, sand, arial, tajikistan",
+        "video_quality": "large",
+        "matched_queries": [
+          "desert stone bird statue"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-184734/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-184734/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata mentions car, desert, driving, and drone — no mention of a man walking or a stone bird sculpture"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "16160",
+        "title": "storm, ocean, sky",
+        "source_url": "https://pixabay.com/videos/id-16160/",
+        "original_url": "https://cdn.pixabay.com/video/2018/05/11/16160-269534741_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 40,
+        "creator": "Macb3t",
+        "creator_url": "https://pixabay.com/users/8900437/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "storm, ocean, sky, rain, the waves, wind, dark clouds, rolling sea, anger, a strong wind, clouds, sea, night, darkness, rainy, cloudy, water, lightning",
+        "video_quality": "large",
+        "matched_queries": [
+          "a man a stone bird in a desert or rural setting"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-16160/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-16160/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata describes a stormy ocean scene with no mention of desert, rural landscape, stone sculpture, or bird-shaped object"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "4788",
+        "title": "earth, animation, revolution",
+        "source_url": "https://pixabay.com/videos/id-4788/",
+        "original_url": "https://cdn.pixabay.com/video/2016/08/24/4788-180289892_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 20,
+        "creator": "PIRO4D",
+        "creator_url": "https://pixabay.com/users/2707530/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "earth, animation, revolution, planet, world, globe, space, map of the world, africa, europe, a day, rendering, 3d, 3d model",
+        "video_quality": "large",
+        "matched_queries": [
+          "a man a stone bird in a desert or rural setting"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-4788/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-4788/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "No mention of a man, desert, rural landscape, stone sculpture, or bird-shaped artifact"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "32287",
+        "title": "a street in bangalore, karnataka, south india",
+        "source_url": "https://pixabay.com/videos/id-32287/",
+        "original_url": "https://cdn.pixabay.com/video/2020/02/13/32287-391434445_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 7,
+        "creator": "shekharpoorna",
+        "creator_url": "https://pixabay.com/users/9592159/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "a street in bangalore, karnataka, south india, people, street",
+        "video_quality": "large",
+        "matched_queries": [
+          "a man a stone bird in a desert or rural setting"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-32287/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-32287/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata describes a street in Bangalore with people, no mention of desert, rural landscape, stone sculpture, or bird-shaped object"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "28042",
+        "title": "person, red hair, woman",
+        "source_url": "https://pixabay.com/videos/id-28042/",
+        "original_url": "https://cdn.pixabay.com/video/2019/10/18/28042-367222503_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 19,
+        "creator": "MabelAmber",
+        "creator_url": "https://pixabay.com/users/1377835/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "person, red hair, woman, taking a walk, a walk in the park, walking, forest, tree, path, bridge, exercise, motion, activity, umbrella, knapsack, lifestyle",
+        "video_quality": "large",
+        "matched_queries": [
+          "a man a stone bird in a desert or rural setting"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-28042/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-28042/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata describes a woman walking in a forest, not a man in a desert or rural landscape with a stone bird sculpture"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "143016",
+        "title": "astronaut, astronaut in space, black hole",
+        "source_url": "https://pixabay.com/videos/id-143016/",
+        "original_url": "https://cdn.pixabay.com/video/2022/12/15/143016-781982529_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 16,
+        "creator": "AiVreaSaStii",
+        "creator_url": "https://pixabay.com/users/28244525/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "astronaut, astronaut in space, black hole, astronaut inside a black hole, space astronaut, universe, space",
+        "video_quality": "large",
+        "matched_queries": [
+          "a man a stone bird in a desert or rural setting"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-143016/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-143016/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata describes space and black holes, not a desert or rural landscape with a stone bird sculpture."
+        }
+      }
+    ],
+    "best": null
+  }
+}

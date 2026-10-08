@@ -1,0 +1,1584 @@
+{
+  "status": "NO_SELECTION",
+  "resolver_action": "SEARCH_VIDEO",
+  "selected_media": {
+    "status": "NO_SELECTION",
+    "media_type": null,
+    "asset": null,
+    "segment": null
+  },
+  "raw_result": {
+    "status": "NO_VIDEO_CANDIDATES",
+    "plan": {
+      "beat": {
+        "source_word_start": 195,
+        "source_word_end": 214,
+        "visual_intent": "A plain, neutral background with a subtle overlay or text indicating 'no mention of human activity' or 'no evidence of construction', shown as a blank or faded image with a faint absence of any structures or people.",
+        "search_queries": [
+          "african landscape south of sahara with no buildings or people",
+          "blank map of africa south of sahara with no human activity",
+          "empty savanna with no structures"
+        ],
+        "requirements": [
+          "visual shows absence of human-made structures or people",
+          "no indication of past or present human activity",
+          "no suggestion of buildings, roads, or settlements"
+        ],
+        "avoid": [
+          "showing any actual buildings, villages, or tools",
+          "showing a historical or archaeological site",
+          "showing a person or group of people"
+        ],
+        "edit": "Fade-in of a plain, empty savanna with no human presence, emphasizing the absence of structures; no additional text or labels.",
+        "start": 92.4,
+        "end": 101.4,
+        "duration": 9.0,
+        "voice_text": "саванна, закат, силуэты слонов на фоне неба и ни намёка на то, что здесь вообще что-то строили до прихода европейцев.",
+        "documentary_mode": "ILLUSTRATIVE_VIDEO",
+        "prefer_motion": true,
+        "identity_sensitive": false,
+        "requires_identity_gate": false,
+        "motion_strategy": "REAL_VIDEO_PRIMARY",
+        "real_video_preferred": true,
+        "composition_strategy": "SINGLE_OR_SEQUENCE",
+        "retention_phases": [
+          {
+            "phase_index": 0,
+            "role": "PRIMARY",
+            "start": 92.4,
+            "end": 97.80000000000001,
+            "duration": 5.400000000000006,
+            "asset_requirement": "VIDEO_PRIMARY",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_VIDEO",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 92.4,
+              "beat_end": 101.4,
+              "beat_duration": 9.0,
+              "documentary_mode": "ILLUSTRATIVE_VIDEO",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 0,
+              "phase_role": "PRIMARY",
+              "phase_start": 92.4,
+              "phase_end": 97.80000000000001,
+              "phase_duration": 5.400000000000006,
+              "asset_requirement": "VIDEO_PRIMARY",
+              "resolver_action": "SEARCH_VIDEO",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VIDEO_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "VIDEO_PRIMARY"
+            }
+          },
+          {
+            "phase_index": 1,
+            "role": "DETAIL",
+            "start": 97.80000000000001,
+            "end": 101.4,
+            "duration": 3.5999999999999943,
+            "asset_requirement": "SAME_VIDEO_DETAIL_OR_SECOND_VIDEO",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "REUSE_SELECTED_VIDEO",
+            "requires_external_search": false,
+            "reuse_existing_media": true,
+            "execution_request": {
+              "beat_start": 92.4,
+              "beat_end": 101.4,
+              "beat_duration": 9.0,
+              "documentary_mode": "ILLUSTRATIVE_VIDEO",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 1,
+              "phase_role": "DETAIL",
+              "phase_start": 97.80000000000001,
+              "phase_end": 101.4,
+              "phase_duration": 3.5999999999999943,
+              "asset_requirement": "SAME_VIDEO_DETAIL_OR_SECOND_VIDEO",
+              "resolver_action": "REUSE_SELECTED_VIDEO",
+              "requires_identity_verification": false,
+              "execution_backend": "LOCAL_VIDEO_REUSE",
+              "execute_external_search": false,
+              "execute_local_reuse": true,
+              "execution_policy": "LOCAL_ONLY"
+            }
+          }
+        ],
+        "retention_phase_count": 2
+      },
+      "entity_resolution": {
+        "status": "UNRESOLVED",
+        "entities": [],
+        "resolver": "NO_CANDIDATES"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": false,
+        "confidence": "HIGH",
+        "reason": "NO_RESOLVED_ENTITY"
+      },
+      "visual_entity": null,
+      "search_entity": null,
+      "factual_search": false,
+      "queries": {
+        "exact": [],
+        "broad": [
+          "african landscape south of sahara with no buildings or people",
+          "blank map of africa south of sahara with no human activity",
+          "empty savanna with no structures"
+        ],
+        "visual": [
+          "A plain, neutral background with a subtle overlay or text indicating 'no mention of human activity' or 'no evidence of construction', shown as a blank or faded image with a faint absence of any structures or people.",
+          "visual shows absence of human-made structures or people no indication of past or present human activity no suggestion of buildings, roads, or settlements"
+        ],
+        "all": [
+          "african landscape south of sahara with no buildings or people",
+          "blank map of africa south of sahara with no human activity",
+          "empty savanna with no structures",
+          "A plain, neutral background with a subtle overlay or text indicating 'no mention of human activity' or 'no evidence of construction', shown as a blank or faded image with a faint absence of any structures or people.",
+          "visual shows absence of human-made structures or people no indication of past or present human activity no suggestion of buildings, roads, or settlements"
+        ],
+        "used_visual_entity": false
+      }
+    },
+    "video_search": {
+      "queries": [
+        "african landscape south of sahara with no buildings or people",
+        "blank map of africa south of sahara with no human activity",
+        "empty savanna with no structures",
+        "A plain, neutral background with a subtle overlay or text indicating 'no mention of human activity' or 'no evidence of construction', shown as a blank or faded image with a faint absence of any structures or people.",
+        "visual shows absence of human-made structures or people no indication of past or present human activity no suggestion of buildings, roads, or settlements"
+      ],
+      "query_stats": [
+        {
+          "query": "african landscape south of sahara with no buildings or people",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "blank map of africa south of sahara with no human activity",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "empty savanna with no structures",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "A plain, neutral background with a subtle overlay or text indicating 'no mention of human activity' or 'no evidence of construction', shown as a blank or faded image with a faint absence of any structures or people.",
+          "provider": "pixabay",
+          "found": 0,
+          "error": null
+        },
+        {
+          "query": "visual shows absence of human-made structures or people no indication of past or present human activity no suggestion of buildings, roads, or settlements",
+          "provider": "pixabay",
+          "found": 0,
+          "error": null
+        }
+      ],
+      "fallback_used": false,
+      "fallback_provider": null,
+      "stats": {
+        "query_count": 5,
+        "search_found_raw": 15,
+        "search_unique": 15,
+        "duplicates_removed": 0,
+        "missing_identity": 0,
+        "rights_allowed": 15,
+        "rights_rejected": 0,
+        "export_rights_allowed": 15,
+        "export_rights_rejected": 0,
+        "identity_required": false,
+        "identity_verified": 15,
+        "identity_rejected": 0,
+        "final_candidates": 15,
+        "specialized_fallback_used": false
+      },
+      "assets": [
+        {
+          "provider": "pixabay",
+          "provider_id": "188778",
+          "title": "winter, snow, people",
+          "source_url": "https://pixabay.com/videos/id-188778/",
+          "original_url": "https://cdn.pixabay.com/video/2023/11/12/188778-883818276_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 23,
+          "creator": "NickyPe",
+          "creator_url": "https://pixabay.com/users/10327513/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "winter, snow, people, walk, to stroll, landscape, winter landscape, covered in snow, trees, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "african landscape south of sahara with no buildings or people"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-188778/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-188778/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "126215",
+          "title": "elephants, african elephant, elephant",
+          "source_url": "https://pixabay.com/videos/id-126215/",
+          "original_url": "https://cdn.pixabay.com/video/2022/07/31/126215-735676475_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 9,
+          "creator": "gavinllo",
+          "creator_url": "https://pixabay.com/users/2238038/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "elephants, african elephant, elephant, animals, mammals, safari, wildlife, conservation, baby elephant, walking, africa, south africa, herd, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "african landscape south of sahara with no buildings or people"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-126215/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-126215/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "126211",
+          "title": "elephant, eating, animal",
+          "source_url": "https://pixabay.com/videos/id-126211/",
+          "original_url": "https://cdn.pixabay.com/video/2022/07/31/126211-735676461_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 16,
+          "creator": "gavinllo",
+          "creator_url": "https://pixabay.com/users/2238038/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "elephant, eating, animal, nature, wildlife, big5, conservation, safari, south africa, africa, african elephant, mammals",
+          "video_quality": "large",
+          "matched_queries": [
+            "african landscape south of sahara with no buildings or people"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-126211/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-126211/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "126216",
+          "title": "elephants, herd, baby",
+          "source_url": "https://pixabay.com/videos/id-126216/",
+          "original_url": "https://cdn.pixabay.com/video/2022/07/31/126216-735676477_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 9,
+          "creator": "gavinllo",
+          "creator_url": "https://pixabay.com/users/2238038/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "elephants, herd, baby, baby elephant, animals, elephant, nature, wildlife, safari, african elephant, conservation, mammals, south africa, africa",
+          "video_quality": "large",
+          "matched_queries": [
+            "african landscape south of sahara with no buildings or people"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-126216/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-126216/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "92837",
+          "title": "desert, sand, dunes",
+          "source_url": "https://pixabay.com/videos/id-92837/",
+          "original_url": "https://cdn.pixabay.com/video/2021/10/22/92837-638016606_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 7,
+          "creator": "23974438",
+          "creator_url": "https://pixabay.com/users/23974438/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "desert, sand, dunes, dry, travel, clouds, hill, hot, sahara, sand dune, landscape, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "african landscape south of sahara with no buildings or people"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-92837/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-92837/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "4788",
+          "title": "earth, animation, revolution",
+          "source_url": "https://pixabay.com/videos/id-4788/",
+          "original_url": "https://cdn.pixabay.com/video/2016/08/24/4788-180289892_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 20,
+          "creator": "PIRO4D",
+          "creator_url": "https://pixabay.com/users/2707530/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "earth, animation, revolution, planet, world, globe, space, map of the world, africa, europe, a day, rendering, 3d, 3d model",
+          "video_quality": "large",
+          "matched_queries": [
+            "blank map of africa south of sahara with no human activity"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-4788/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-4788/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "30089",
+          "title": "australia, map, geography",
+          "source_url": "https://pixabay.com/videos/id-30089/",
+          "original_url": "https://cdn.pixabay.com/video/2019/12/11/30089-379047799_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 19,
+          "creator": "caelan",
+          "creator_url": "https://pixabay.com/users/12802865/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "australia, map, geography, earth, world, globe, asia, africa, global, europe, planet, international, compass, continent, cartography, south, antarctica, ocean, sea, country, continents",
+          "video_quality": "large",
+          "matched_queries": [
+            "blank map of africa south of sahara with no human activity"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-30089/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-30089/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "190466",
+          "title": "sunset, dunes, desert",
+          "source_url": "https://pixabay.com/videos/id-190466/",
+          "original_url": "https://cdn.pixabay.com/video/2023/11/23/190466-888131689_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 20,
+          "creator": "MAURICIO_BR",
+          "creator_url": "https://pixabay.com/users/19223273/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "sunset, dunes, desert, sand dunes, sahara, namibia, africa, landscape, sand, national park, safari, drought, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "blank map of africa south of sahara with no human activity"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-190466/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-190466/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "26085",
+          "title": "namibia, sundowner, sunset",
+          "source_url": "https://pixabay.com/videos/id-26085/",
+          "original_url": "https://cdn.pixabay.com/video/2019/08/16/26085-354651392_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 73,
+          "creator": "TeeFarm",
+          "creator_url": "https://pixabay.com/users/199315/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "namibia, sundowner, sunset, africa, landscape, sahara, sand, national park, desert, safari, sandy, drought, nature, dunes, sand dunes",
+          "video_quality": "large",
+          "matched_queries": [
+            "blank map of africa south of sahara with no human activity"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-26085/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-26085/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "147663",
+          "title": "sunset, dunes, desert",
+          "source_url": "https://pixabay.com/videos/id-147663/",
+          "original_url": "https://cdn.pixabay.com/video/2023/01/23/147663-792078281_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 26,
+          "creator": "MAURICIO_BR",
+          "creator_url": "https://pixabay.com/users/19223273/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "sunset, dunes, desert, sand dunes, sahara, namibia, africa, landscape, sand, national park, safari, drought, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "blank map of africa south of sahara with no human activity"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-147663/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-147663/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "94169",
+          "title": "lion, face, king",
+          "source_url": "https://pixabay.com/videos/id-94169/",
+          "original_url": "https://cdn.pixabay.com/video/2021/11/01/94169-641767865_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 20,
+          "creator": "prescott10",
+          "creator_url": "https://pixabay.com/users/23033735/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "lion, face, king, animal, predator, big, zoo, park, savanna, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "empty savanna with no structures"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-94169/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-94169/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "1200",
+          "title": "squares, abstract, background",
+          "source_url": "https://pixabay.com/videos/id-1200/",
+          "original_url": "https://cdn.pixabay.com/video/2015/10/27/1200-143842692_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 10,
+          "creator": "TBIT",
+          "creator_url": "https://pixabay.com/users/715211/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "squares, abstract, background, template, beautiful wallpaper, multicoloured, coloured, structure, flying",
+          "video_quality": "large",
+          "matched_queries": [
+            "empty savanna with no structures"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-1200/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-1200/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "44514",
+          "title": "abandoned, broken, collapse",
+          "source_url": "https://pixabay.com/videos/id-44514/",
+          "original_url": "https://cdn.pixabay.com/video/2020/07/12/44514-439384467_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 14,
+          "creator": "Matthias_Groeneveld",
+          "creator_url": "https://pixabay.com/users/4535957/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "abandoned, broken, collapse, daytime, debris, destroyed, empty, ruins, rundown, walls, waste, structure, old, building, garbage, trash, demolition, nobody, pile, stone, brick",
+          "video_quality": "large",
+          "matched_queries": [
+            "empty savanna with no structures"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-44514/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-44514/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "260654",
+          "title": "zebra, nature, animal",
+          "source_url": "https://pixabay.com/videos/id-260654/",
+          "original_url": "https://cdn.pixabay.com/video/2025/02/24/260654_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 42,
+          "creator": "Thamnguyen_TBVN",
+          "creator_url": "https://pixabay.com/users/47826003/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "zebra, nature, animal, wildlife, mammal, safari, africa, fauna, species, horse, savanna",
+          "video_quality": "large",
+          "matched_queries": [
+            "empty savanna with no structures"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-260654/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-260654/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "44536",
+          "title": "abandoned, broken, collapse",
+          "source_url": "https://pixabay.com/videos/id-44536/",
+          "original_url": "https://cdn.pixabay.com/video/2020/07/12/44536-439384637_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 16,
+          "creator": "Matthias_Groeneveld",
+          "creator_url": "https://pixabay.com/users/4535957/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "abandoned, broken, collapse, daytime, debris, destroyed, empty, rundown, waste, wall, structure, old, building, garbage, trash, demolition, nobody, pile, stone, brick, ruin",
+          "video_quality": "large",
+          "matched_queries": [
+            "empty savanna with no structures"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-44536/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-44536/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "rights_rejected": [],
+      "export_rights_rejected": [],
+      "identity_rejected": [],
+      "missing_identity": []
+    },
+    "attempts": [],
+    "metadata_rejected": [
+      {
+        "provider": "pixabay",
+        "provider_id": "188778",
+        "title": "winter, snow, people",
+        "source_url": "https://pixabay.com/videos/id-188778/",
+        "original_url": "https://cdn.pixabay.com/video/2023/11/12/188778-883818276_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 23,
+        "creator": "NickyPe",
+        "creator_url": "https://pixabay.com/users/10327513/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "winter, snow, people, walk, to stroll, landscape, winter landscape, covered in snow, trees, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "african landscape south of sahara with no buildings or people"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-188778/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-188778/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata includes 'people', 'walk', 'stroll' indicating human activity, contradicting the target of no human activity."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "126215",
+        "title": "elephants, african elephant, elephant",
+        "source_url": "https://pixabay.com/videos/id-126215/",
+        "original_url": "https://cdn.pixabay.com/video/2022/07/31/126215-735676475_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 9,
+        "creator": "gavinllo",
+        "creator_url": "https://pixabay.com/users/2238038/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephants, african elephant, elephant, animals, mammals, safari, wildlife, conservation, baby elephant, walking, africa, south africa, herd, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "african landscape south of sahara with no buildings or people"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-126215/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-126215/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata focuses on elephants and wildlife in Africa with active movement and natural context; no indication of neutral background or absence of human activity or construction."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "126211",
+        "title": "elephant, eating, animal",
+        "source_url": "https://pixabay.com/videos/id-126211/",
+        "original_url": "https://cdn.pixabay.com/video/2022/07/31/126211-735676461_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 16,
+        "creator": "gavinllo",
+        "creator_url": "https://pixabay.com/users/2238038/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephant, eating, animal, nature, wildlife, big5, conservation, safari, south africa, africa, african elephant, mammals",
+        "video_quality": "large",
+        "matched_queries": [
+          "african landscape south of sahara with no buildings or people"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-126211/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-126211/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata describes elephants in nature, not a neutral background with absence of human activity or construction"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "126216",
+        "title": "elephants, herd, baby",
+        "source_url": "https://pixabay.com/videos/id-126216/",
+        "original_url": "https://cdn.pixabay.com/video/2022/07/31/126216-735676477_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 9,
+        "creator": "gavinllo",
+        "creator_url": "https://pixabay.com/users/2238038/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephants, herd, baby, baby elephant, animals, elephant, nature, wildlife, safari, african elephant, conservation, mammals, south africa, africa",
+        "video_quality": "large",
+        "matched_queries": [
+          "african landscape south of sahara with no buildings or people"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-126216/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-126216/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata focuses on elephants and wildlife in Africa with no mention of neutral background, absence of human activity, or faded/blank visuals"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "92837",
+        "title": "desert, sand, dunes",
+        "source_url": "https://pixabay.com/videos/id-92837/",
+        "original_url": "https://cdn.pixabay.com/video/2021/10/22/92837-638016606_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 7,
+        "creator": "23974438",
+        "creator_url": "https://pixabay.com/users/23974438/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "desert, sand, dunes, dry, travel, clouds, hill, hot, sahara, sand dune, landscape, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "african landscape south of sahara with no buildings or people"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-92837/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-92837/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata describes a desert landscape with sand dunes and nature elements, not a neutral background with text indicating absence of human activity or construction."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "4788",
+        "title": "earth, animation, revolution",
+        "source_url": "https://pixabay.com/videos/id-4788/",
+        "original_url": "https://cdn.pixabay.com/video/2016/08/24/4788-180289892_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 20,
+        "creator": "PIRO4D",
+        "creator_url": "https://pixabay.com/users/2707530/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "earth, animation, revolution, planet, world, globe, space, map of the world, africa, europe, a day, rendering, 3d, 3d model",
+        "video_quality": "large",
+        "matched_queries": [
+          "blank map of africa south of sahara with no human activity"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-4788/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-4788/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata describes a 3D animation of Earth/planet with global regions, not a neutral background with text indicating absence of human activity or construction."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "30089",
+        "title": "australia, map, geography",
+        "source_url": "https://pixabay.com/videos/id-30089/",
+        "original_url": "https://cdn.pixabay.com/video/2019/12/11/30089-379047799_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 19,
+        "creator": "caelan",
+        "creator_url": "https://pixabay.com/users/12802865/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "australia, map, geography, earth, world, globe, asia, africa, global, europe, planet, international, compass, continent, cartography, south, antarctica, ocean, sea, country, continents",
+        "video_quality": "large",
+        "matched_queries": [
+          "blank map of africa south of sahara with no human activity"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-30089/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-30089/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata describes a geographical map of Australia and continents, not a neutral background with text indicating absence of human activity or construction."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "190466",
+        "title": "sunset, dunes, desert",
+        "source_url": "https://pixabay.com/videos/id-190466/",
+        "original_url": "https://cdn.pixabay.com/video/2023/11/23/190466-888131689_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 20,
+        "creator": "MAURICIO_BR",
+        "creator_url": "https://pixabay.com/users/19223273/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "sunset, dunes, desert, sand dunes, sahara, namibia, africa, landscape, sand, national park, safari, drought, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "blank map of africa south of sahara with no human activity"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-190466/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-190466/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata describes a desert landscape with sunset and dunes, indicating active natural environment and human presence (safari, national park) — contradicts 'no human activity' or 'no construction' requirement"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "26085",
+        "title": "namibia, sundowner, sunset",
+        "source_url": "https://pixabay.com/videos/id-26085/",
+        "original_url": "https://cdn.pixabay.com/video/2019/08/16/26085-354651392_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 73,
+        "creator": "TeeFarm",
+        "creator_url": "https://pixabay.com/users/199315/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "namibia, sundowner, sunset, africa, landscape, sahara, sand, national park, desert, safari, sandy, drought, nature, dunes, sand dunes",
+        "video_quality": "large",
+        "matched_queries": [
+          "blank map of africa south of sahara with no human activity"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-26085/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-26085/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata describes a desert landscape with sand dunes and sunset, indicating active natural environment with structures and human activity (safari, national park) not absent; no evidence of neutral background or absence of human activity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "147663",
+        "title": "sunset, dunes, desert",
+        "source_url": "https://pixabay.com/videos/id-147663/",
+        "original_url": "https://cdn.pixabay.com/video/2023/01/23/147663-792078281_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 26,
+        "creator": "MAURICIO_BR",
+        "creator_url": "https://pixabay.com/users/19223273/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "sunset, dunes, desert, sand dunes, sahara, namibia, africa, landscape, sand, national park, safari, drought, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "blank map of africa south of sahara with no human activity"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-147663/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-147663/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata describes a desert landscape with sunset and dunes, indicating active natural environment and human presence (safari, national park) — contradicts 'no human activity' or 'no construction' requirement"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "94169",
+        "title": "lion, face, king",
+        "source_url": "https://pixabay.com/videos/id-94169/",
+        "original_url": "https://cdn.pixabay.com/video/2021/11/01/94169-641767865_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 20,
+        "creator": "prescott10",
+        "creator_url": "https://pixabay.com/users/23033735/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "lion, face, king, animal, predator, big, zoo, park, savanna, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "empty savanna with no structures"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-94169/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-94169/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata describes a lion in a zoo or savanna, indicating animal activity and natural environment, contradicting the need for a neutral background with no human or construction activity."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "1200",
+        "title": "squares, abstract, background",
+        "source_url": "https://pixabay.com/videos/id-1200/",
+        "original_url": "https://cdn.pixabay.com/video/2015/10/27/1200-143842692_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "creator": "TBIT",
+        "creator_url": "https://pixabay.com/users/715211/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "squares, abstract, background, template, beautiful wallpaper, multicoloured, coloured, structure, flying",
+        "video_quality": "large",
+        "matched_queries": [
+          "empty savanna with no structures"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-1200/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-1200/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "metadata mentions 'structure' and 'flying', suggesting visual elements not matching the neutral, human-activity-free background target"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "44514",
+        "title": "abandoned, broken, collapse",
+        "source_url": "https://pixabay.com/videos/id-44514/",
+        "original_url": "https://cdn.pixabay.com/video/2020/07/12/44514-439384467_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 14,
+        "creator": "Matthias_Groeneveld",
+        "creator_url": "https://pixabay.com/users/4535957/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "abandoned, broken, collapse, daytime, debris, destroyed, empty, ruins, rundown, walls, waste, structure, old, building, garbage, trash, demolition, nobody, pile, stone, brick",
+        "video_quality": "large",
+        "matched_queries": [
+          "empty savanna with no structures"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-44514/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-44514/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata describes ruins, debris, and empty structures, indicating active or past human activity and physical remains, contradicting the target of a neutral background with no human activity or construction evidence."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "260654",
+        "title": "zebra, nature, animal",
+        "source_url": "https://pixabay.com/videos/id-260654/",
+        "original_url": "https://cdn.pixabay.com/video/2025/02/24/260654_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 42,
+        "creator": "Thamnguyen_TBVN",
+        "creator_url": "https://pixabay.com/users/47826003/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "zebra, nature, animal, wildlife, mammal, safari, africa, fauna, species, horse, savanna",
+        "video_quality": "large",
+        "matched_queries": [
+          "empty savanna with no structures"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-260654/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-260654/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata focuses on zebra and African wildlife, indicating a natural environment with animals and activity, contradicting the need for a neutral background with no human or construction elements."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "44536",
+        "title": "abandoned, broken, collapse",
+        "source_url": "https://pixabay.com/videos/id-44536/",
+        "original_url": "https://cdn.pixabay.com/video/2020/07/12/44536-439384637_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 16,
+        "creator": "Matthias_Groeneveld",
+        "creator_url": "https://pixabay.com/users/4535957/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "abandoned, broken, collapse, daytime, debris, destroyed, empty, rundown, waste, wall, structure, old, building, garbage, trash, demolition, nobody, pile, stone, brick, ruin",
+        "video_quality": "large",
+        "matched_queries": [
+          "empty savanna with no structures"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-44536/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-44536/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata describes abandoned structures and debris, indicating human-made ruins and active presence of buildings/walls, contradicting the target of a neutral background with no human activity or structures."
+        }
+      }
+    ],
+    "best": null
+  }
+}

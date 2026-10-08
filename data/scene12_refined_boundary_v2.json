@@ -1,0 +1,50 @@
+[
+  {
+    "source_word_start": 179,
+    "source_word_end": 207,
+    "visual_intent": "На магнитах, в рекламных буклетах и в школьных атласах Африка южнее Сахары чаще всего выглядит одинаково: саванна, закат, силуэты слонов на фоне неба",
+    "media_type": "PHOTO",
+    "factual_priority": true,
+    "search_queries": [
+      "school atlas Africa south of Sahara",
+      "African school textbooks South of Sahara",
+      "textbook images of African savanna with no cities"
+    ],
+    "requirements": [
+      "школьные атласы",
+      "рекламные магниты",
+      "саванна",
+      "закат",
+      "силуэты слонов",
+      "отсутствие строений"
+    ],
+    "avoid": [
+      "артефакты",
+      "археологические объекты"
+    ],
+    "edit": "side-by-side comparison: textbook vs. real sites",
+    "mood": "critical, ironic"
+  },
+  {
+    "source_word_start": 208,
+    "source_word_end": 214,
+    "visual_intent": "и ни намёка на то, что здесь вообще что-то строили до прихода европейцев.",
+    "media_type": "PHOTO",
+    "factual_priority": true,
+    "search_queries": [
+      "African sites south of Sahara before European arrival",
+      "archaeological sites in Africa south of Sahara pre-colonial",
+      "pre-colonial African settlements south of Sahara"
+    ],
+    "requirements": [
+      "отсутствие намёка на строения",
+      "археологические объекты до прихода европейцев"
+    ],
+    "avoid": [
+      "артефакты",
+      "археологические объекты"
+    ],
+    "edit": "side-by-side comparison: textbook vs. real sites",
+    "mood": "critical, ironic"
+  }
+]

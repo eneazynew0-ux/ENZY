@@ -1,0 +1,142 @@
+{
+  "status": "FALLBACK",
+  "reason": "REFINEMENT_FAILED_VALIDATION",
+  "scenes": [
+    {
+      "source_word_start": 115,
+      "source_word_end": 128,
+      "visual_intent": "В пустыне, библиотеку спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода.",
+      "media_type": "VIDEO",
+      "factual_priority": true,
+      "search_queries": [
+        "Timbuktu libraries saved from militants in boats",
+        "Timbuktu manuscripts saved in vehicles",
+        "militants in Timbuktu 2012 attack"
+      ],
+      "requirements": [
+        "библиотеки Тимбукту",
+        "боевики",
+        "лодки",
+        "внедорожники",
+        "полгода"
+      ],
+      "avoid": [
+        "свежие фото",
+        "созданные сцены"
+      ],
+      "edit": "archival footage of boats and vehicles, slow movement",
+      "mood": "tense, urgent",
+      "start": 54.54,
+      "end": 60.84,
+      "duration": 6.300000000000004,
+      "voice_text": "Библиотеку в пустыне спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода."
+    }
+  ],
+  "history": [
+    {
+      "attempt": 0,
+      "valid": false,
+      "issues": [
+        "SCENE_1_UNSUPPORTED_QUERY_YEAR:2012"
+      ],
+      "candidate": [
+        {
+          "source_word_start": 115,
+          "source_word_end": 128,
+          "visual_intent": "В пустыне, библиотеку спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода.",
+          "media_type": "VIDEO",
+          "factual_priority": true,
+          "search_queries": [
+            "библиотеки Тимбукту спасены от боевиков в лодках",
+            "библиотеки Тимбукту спасены в внедорожниках",
+            "библиотеки Тимбукту спасены по частям",
+            "библиотеки Тимбукту в пустыне, боевики 2012"
+          ],
+          "requirements": [
+            "библиотеки Тимбукту",
+            "боевики",
+            "лодки",
+            "внедорожники",
+            "полгода"
+          ],
+          "avoid": [
+            "свежие фото",
+            "созданные сцены"
+          ],
+          "edit": "archival footage of boats and vehicles, slow movement",
+          "mood": "tense, urgent"
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "valid": false,
+      "issues": [
+        "SCENE_1_UNSUPPORTED_QUERY_YEAR:2012"
+      ],
+      "candidate": [
+        {
+          "source_word_start": 115,
+          "source_word_end": 128,
+          "visual_intent": "В пустыне, библиотеку спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода.",
+          "media_type": "VIDEO",
+          "factual_priority": true,
+          "search_queries": [
+            "библиотеки Тимбукту спасены от боевиков в лодках и багажниках внедорожников",
+            "библиотеки Тимбукту спасены в лодках и внедорожниках 2012",
+            "библиотеки Тимбукту спасены по частям, полгода",
+            "библиотеки Тимбукту в пустыне, боевики 2012"
+          ],
+          "requirements": [
+            "библиотеки Тимбукту",
+            "боевики",
+            "лодки",
+            "внедорожники",
+            "полгода"
+          ],
+          "avoid": [
+            "свежие фото",
+            "созданные сцены"
+          ],
+          "edit": "archival footage of boats and vehicles, slow movement",
+          "mood": "tense, urgent"
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "valid": false,
+      "issues": [
+        "SCENE_1_UNSUPPORTED_QUERY_YEAR:2012"
+      ],
+      "candidate": [
+        {
+          "source_word_start": 115,
+          "source_word_end": 128,
+          "visual_intent": "В пустыне, библиотеку спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода.",
+          "media_type": "VIDEO",
+          "factual_priority": true,
+          "search_queries": [
+            "библиотеки Тимбукту спасены от боевиков в лодках и багажниках внедорожников",
+            "библиотеки Тимбукту спасены в лодках и внедорожниках 2012",
+            "библиотеки Тимбукту спасены по частям, полгода",
+            "библиотеки Тимбукту в пустыне, боевики 2012"
+          ],
+          "requirements": [
+            "библиотеки Тимбукту",
+            "боевики",
+            "лодки",
+            "внедорожники",
+            "полгода"
+          ],
+          "avoid": [
+            "свежие фото",
+            "созданные сцены"
+          ],
+          "edit": "archival footage of boats and vehicles, slow movement",
+          "mood": "tense, urgent"
+        }
+      ]
+    }
+  ]
+}

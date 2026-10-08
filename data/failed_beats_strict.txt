@@ -1,0 +1,197 @@
+
+========== SCENE 1 ==========
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration shifts from a general description of a military guard at an airport to a specific visual of the stone bird being met, requiring a visual transition to show the stone bird as the actual object being encountered.",
+  "beats": [
+    {
+      "source_word_start": 0,
+      "source_word_end": 15,
+      "visual_intent": "В аэропорту Хараре, военный караул стоит на посту, не встречая президента или иностранной делегации.",
+      "search_queries": ["military guard at Harare airport", "military sentry at Harare airport", "airport security post Harare Zimbabwe"],
+      "requirements": ["military guard visible on post", "airport setting in Harare", "no president or foreign delegation in frame"],
+      "avoid": ["president or foreign delegation visible", "crowd or civilians in scene", "modern airport with passengers"],
+      "edit": "Hold the guard on post with static shot, emphasizing emptiness of the greeting"
+    },
+    {
+      "source_word_start": 15,
+      "source_word_end": 15,
+      "visual_intent": "На фоне караула — каменная птица, стоящая на земле, в центре внимания, с отражением в тени или в виде тени на земле.",
+      "search_queries": ["stone bird statue Harare", "stone bird Zimbabwe Harare", "stone bird sculpture at Harare airport"],
+      "requirements": ["stone bird visible and distinct", "location in airport or adjacent area", "stone bird is the object being met"],
+      "avoid": ["any other object as the focus", "modern statue or digital rendering", "stone bird in ruins or damaged"],
+      "edit": "Cut to a medium shot of the stone bird, showing it as a central object, with context of being observed by the guard"
+    }
+  ]
+}
+========== SCENE 8 ==========
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes a shift from the location of the library (Timbuktu) to the method of rescue (in boats and trunk trailers) and the scale of recovery (in parts, over half a year), requiring distinct visual transitions to reflect changes in subject, action, and spatial context.",
+  "beats": [
+    {
+      "source_word_start": 115,
+      "source_word_end": 118,
+      "visual_intent": "Aerial or wide shot of the desert landscape near Timbuktu, showing the ruins of ancient libraries or stone structures, with a focus on the city of Timbuktu in the distance, located in northern Mali, at the edge of the Sahara.",
+      "search_queries": [
+        "desert landscape near Timbuktu Mali",
+        "ancient libraries in Timbuktu desert",
+        "view of Timbuktu from the edge of Sahara"
+      ],
+      "requirements": [
+        "Desert setting with visible signs of the city of Timbuktu",
+        "Presence of ancient stone structures or library ruins",
+        "Location in northern Mali, near the Sahara border"
+      ],
+      "avoid": [
+        "Images of Nubta-Plaia or stone circles",
+        "Modern buildings or urban development",
+        "Any visual suggesting a different location"
+      ],
+      "edit": "Hold for one full frame to establish the setting before transitioning to the rescue action"
+    },
+    {
+      "source_word_start": 119,
+      "source_word_end": 124,
+      "visual_intent": "A shot of armed militants in the desert, moving through the area, with a vehicle (possibly a pickup truck) carrying a large wooden crate or trunk, partially obscured by sand, showing the threat to the library.",
+      "search_queries": [
+        "militants in desert attacking library",
+        "boeviki in desert with vehicles",
+        "desert convoy with cargo in Mali"
+      ],
+      "requirements": [
+        "Visible presence of armed individuals or vehicles",
+        "Movement of a vehicle with cargo (trunk or crate)",
+        "Desert environment with sand and heat"
+      ],
+      "avoid": [
+        "Peaceful or neutral scenes",
+        "Images of intact libraries",
+        "Any suggestion of successful rescue yet"
+      ],
+      "edit": "Cut to a dynamic, tense shot showing the threat to the library, emphasizing danger and urgency"
+    },
+    {
+      "source_word_start": 125,
+      "source_word_end": 128,
+      "visual_intent": "A sequence of shots showing a truck or boat transporting library fragments, with hands or workers loading and unloading books, in a desert or riverbank setting, with a focus on the physical movement of books and the partial recovery over time.",
+      "search_queries": [
+        "desert truck transporting books",
+        "books being moved in a vehicle in desert",
+        "library books in trunk of off-road vehicle"
+      ],
+      "requirements": [
+        "Visible movement of books or manuscripts in a vehicle",
+        "Desert or remote location with limited infrastructure",
+        "Evidence of partial recovery over time"
+      ],
+      "avoid": [
+        "Full library intact",
+        "Modern urban setting",
+        "Any indication of complete recovery"
+      ],
+      "edit": "Use a montage of short, rhythmic shots to show the fragmented, piece-by-piece recovery process"
+    }
+  ]
+}
+========== SCENE 9 ==========
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes a shift in visual focus from the church carved into the rock to the pilgrims kneeling and touching the stone floor, requiring distinct visual beats to match the changing subject and action.",
+  "beats": [
+    {
+      "source_word_start": 129,
+      "source_word_end": 149,
+      "visual_intent": "A cliff face with a church carved vertically into the rock, visible from a distance, showing the carved structure embedded in the mountain stone, with a sense of scale and natural integration.",
+      "search_queries": [
+        "church carved into mountain rock Ethiopia",
+        "Lalibela churches carved in stone mountain",
+        "rock-cut church in Ethiopian highlands"
+      ],
+      "requirements": [
+        "church carved vertically into a single rock mass",
+        "location in northern Ethiopia, Laast mountains",
+        "visible from aerial view as a cluster of structures"
+      ],
+      "avoid": [
+        "modern construction",
+        "artificial lighting",
+        "urban setting",
+        "non-Ethiopian or non-Lalibela architecture"
+      ],
+      "edit": "Steady, wide shot showing the entire carved complex from a distance, emphasizing the natural integration of the church into the rock"
+    },
+    {
+      "source_word_start": 138,
+      "source_word_end": 149,
+      "visual_intent": "A close-up of pilgrims kneeling on the stone floor of the church, touching the stone with their foreheads, in a reverent pose, with soft natural light and a sense of quiet devotion.",
+      "search_queries": [
+        "pilgrims kneeling on stone floor Lalibela",
+        "pilgrims touching stone floor in Lalibela churches",
+        "Ethiopian pilgrims praying at Lalibela churches"
+      ],
+      "requirements": [
+        "pilgrims on their knees",
+        "touching the stone floor with foreheads",
+        "in a traditional religious gesture",
+        "setting in northern Ethiopia, Lalibela"
+      ],
+      "avoid": [
+        "modern or touristy appearance",
+        "people not in traditional dress",
+        "any indication of non-religious activity"
+      ],
+      "edit": "Slow, respectful close-up focusing on hands and foreheads touching the stone, with ambient sound of quiet reverence"
+    }
+  ]
+}
+========== SCENE 10 ==========
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration shifts from describing a general ending story to a specific visual of the stone bird at the airport, requiring a visual transition from the airport background to the stone bird as the focal point.",
+  "beats": [
+    {
+      "source_word_start": 150,
+      "source_word_end": 158,
+      "visual_intent": "На фоне аэропорта Хараре, видны стены и крыши аэропорта, с транспортными средствами и военным караулом, в центре внимания — каменная птица, стоящая на фоне, как символ, который ждёт в конце.",
+      "search_queries": [
+        "aerial view of Harare airport with stone bird sculpture",
+        "Harare airport military guard with stone bird in background",
+        "stone bird at Harare airport entrance"
+      ],
+      "requirements": [
+        "aerial or wide shot of Harare airport",
+        "military guard visible in the background",
+        "stone bird clearly visible in the foreground or center",
+        "setting matches the location of the airport in Harare"
+      ],
+      "avoid": [
+        "any image of a different artifact or object",
+        "a scene without the stone bird",
+        "a scene showing a different city or country"
+      ],
+      "edit": "Hold the shot with the stone bird slowly appearing as the focal point, emphasizing its presence as the climax of the narrative."
+    },
+    {
+      "source_word_start": 159,
+      "source_word_end": 170,
+      "visual_intent": "На экране — каменная птица, изображённая на флаге Зимбабве, с тенью и фоном аэропорта, показывает, что она — символ, который замыкает круг, открытый ранее в Хараре.",
+      "search_queries": [
+        "stone bird on Zimbabwian flag and airport background",
+        "stone bird sculpture in Harare airport with national symbols",
+        "stone bird as national symbol in Zimbabwian context"
+      ],
+      "requirements": [
+        "the stone bird is clearly visible and recognized as a national symbol",
+        "it is shown in context with the airport and the narrative of closure",
+        "the visual links back to the earlier mention of the airport and the opening chapter"
+      ],
+      "avoid": [
+        "a scene of the stone bird in a different location or context",
+        "a scene without the airport or with a different artifact",
+        "a scene showing the stone bird being moved or destroyed"
+      ],
+      "edit": "Cut to a close-up of the stone bird with subtle overlay of the national flag and banknote, reinforcing its symbolic role in closing the narrative loop."
+    }
+  ]
+}

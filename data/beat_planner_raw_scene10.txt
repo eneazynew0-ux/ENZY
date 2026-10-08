@@ -1,0 +1,49 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration shifts from describing a general ending story to a specific visual of the stone bird at the airport, requiring a visual transition from the airport background to the stone bird as the focal point.",
+  "beats": [
+    {
+      "source_word_start": 150,
+      "source_word_end": 158,
+      "visual_intent": "На фоне аэропорта Хараре, видны стены и крыши аэропорта, с транспортными средствами и военным караулом, в центре внимания — каменная птица, стоящая на фоне, как символ, который ждёт в конце.",
+      "search_queries": [
+        "aerial view of Harare airport with stone bird sculpture",
+        "Harare airport military guard with stone bird in background",
+        "stone bird at Harare airport entrance"
+      ],
+      "requirements": [
+        "aerial or wide shot of Harare airport",
+        "military guard visible in the background",
+        "stone bird clearly visible in the foreground or center",
+        "setting matches the location of the airport in Harare"
+      ],
+      "avoid": [
+        "any image of a different artifact or object",
+        "a scene without the stone bird",
+        "a scene showing a different city or country"
+      ],
+      "edit": "Hold the shot with the stone bird slowly appearing as the focal point, emphasizing its presence as the climax of the narrative."
+    },
+    {
+      "source_word_start": 159,
+      "source_word_end": 170,
+      "visual_intent": "На экране — каменная птица, изображённая на флаге Зимбабве, с тенью и фоном аэропорта, показывает, что она — символ, который замыкает круг, открытый ранее в Хараре.",
+      "search_queries": [
+        "stone bird on Zimbabwian flag and airport background",
+        "stone bird sculpture in Harare airport with national symbols",
+        "stone bird as national symbol in Zimbabwian context"
+      ],
+      "requirements": [
+        "the stone bird is clearly visible and recognized as a national symbol",
+        "it is shown in context with the airport and the narrative of closure",
+        "the visual links back to the earlier mention of the airport and the opening chapter"
+      ],
+      "avoid": [
+        "a scene of the stone bird in a different location or context",
+        "a scene without the airport or with a different artifact",
+        "a scene showing the stone bird being moved or destroyed"
+      ],
+      "edit": "Cut to a close-up of the stone bird with subtle overlay of the national flag and banknote, reinforcing its symbolic role in closing the narrative loop."
+    }
+  ]
+}

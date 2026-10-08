@@ -1,0 +1,50 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes a shift in visual focus from the church carved into the rock to the pilgrims kneeling and touching the stone floor, requiring distinct visual beats to match the changing subject and action.",
+  "beats": [
+    {
+      "source_word_start": 129,
+      "source_word_end": 149,
+      "visual_intent": "A cliff face with a church carved vertically into the rock, visible from a distance, showing the carved structure embedded in the mountain stone, with a sense of scale and natural integration.",
+      "search_queries": [
+        "church carved into mountain rock Ethiopia",
+        "Lalibela churches carved in stone mountain",
+        "rock-cut church in Ethiopian highlands"
+      ],
+      "requirements": [
+        "church carved vertically into a single rock mass",
+        "location in northern Ethiopia, Laast mountains",
+        "visible from aerial view as a cluster of structures"
+      ],
+      "avoid": [
+        "modern construction",
+        "artificial lighting",
+        "urban setting",
+        "non-Ethiopian or non-Lalibela architecture"
+      ],
+      "edit": "Steady, wide shot showing the entire carved complex from a distance, emphasizing the natural integration of the church into the rock"
+    },
+    {
+      "source_word_start": 138,
+      "source_word_end": 149,
+      "visual_intent": "A close-up of pilgrims kneeling on the stone floor of the church, touching the stone with their foreheads, in a reverent pose, with soft natural light and a sense of quiet devotion.",
+      "search_queries": [
+        "pilgrims kneeling on stone floor Lalibela",
+        "pilgrims touching stone floor in Lalibela churches",
+        "Ethiopian pilgrims praying at Lalibela churches"
+      ],
+      "requirements": [
+        "pilgrims on their knees",
+        "touching the stone floor with foreheads",
+        "in a traditional religious gesture",
+        "setting in northern Ethiopia, Lalibela"
+      ],
+      "avoid": [
+        "modern or touristy appearance",
+        "people not in traditional dress",
+        "any indication of non-religious activity"
+      ],
+      "edit": "Slow, respectful close-up focusing on hands and foreheads touching the stone, with ambient sound of quiet reverence"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes a clear shift in location, state, and action of the terracotta head—from lying in the earth for two and a half millennia, to standing as a scarecrow on a yam patch for a year, to being recognized in someone's hands. Each phase involves a distinct visual state that must be shown separately to avoid contradiction or misrepresentation.",
+  "beats": [
+    {
+      "source_word_start": 87,
+      "source_word_end": 93,
+      "visual_intent": "A terracotta head lying in the soil, deeply buried, with surrounding earth and roots, showing ancient age and stillness.",
+      "search_queries": ["ancient terracotta head buried in soil", "terracotta sculpture in earth ancient", "ancient pottery head in archaeological context"],
+      "requirements": ["terracotta head", "in soil", "ancient setting", "no human presence"],
+      "avoid": ["modern setting", "human interaction", "visible cracks or damage suggesting recent handling"],
+      "edit": "Slow, steady shot with natural light filtering through soil; subtle wind movement to imply time passing"
+    },
+    {
+      "source_word_start": 94,
+      "source_word_end": 101,
+      "visual_intent": "The same terracotta head now placed on a garden plot, acting as a scarecrow, with a patch of yams growing nearby, showing a rural, agricultural setting.",
+      "search_queries": ["terracotta scarecrow on yam patch", "ancient terracotta as scarecrow in field", "yam field with old pottery scarecrow"],
+      "requirements": ["terracotta head", "on a garden or field", "yam plants growing nearby", "scarecrow posture", "rural background"],
+      "avoid": ["urban setting", "modern farm equipment", "no yam plants", "head in hands"],
+      "edit": "Medium shot from a distance showing the head as a scarecrow, with sunlight and wind gently moving the yam plants"
+    },
+    {
+      "source_word_start": 102,
+      "source_word_end": 114,
+      "visual_intent": "A person's hand reaching toward or holding the terracotta head, with a close-up of the hand and the object, showing recognition and surprise.",
+      "search_queries": ["hand holding ancient terracotta head", "person discovering ancient artifact in hand", "close-up of hand with terracotta sculpture"],
+      "requirements": ["a person's hand", "holding the terracotta head", "expression of recognition or surprise", "realistic human interaction"],
+      "avoid": ["no hand", "head in soil", "no recognition", "multiple people"],
+      "edit": "Close-up on hand slowly reaching and grasping the head, with a subtle reaction to the object being recognized"
+    }
+  ]
+}

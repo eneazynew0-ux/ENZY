@@ -1,0 +1,2205 @@
+{
+  "status": "NO_MATCH",
+  "reason": "No verified contextual photo",
+  "search": {
+    "queries": [
+      "Zimbabwe Bird",
+      "Zimbabwe Bird Great Zimbabwe"
+    ],
+    "target": "A documentary photograph of the actual physical soapstone bird sculpture: Zimbabwe Bird. Show the object itself, not a flag, logo, emblem or drawing. The subject must be a carved sculpture or artifact. Reject living animals, including live birds.",
+    "provider_stats": {
+      "wikimedia": 10,
+      "internet_archive": 2,
+      "pixabay": 10,
+      "pexels": 10
+    },
+    "query_stats": {
+      "Zimbabwe Bird": {
+        "wikimedia": 5,
+        "internet_archive": 2,
+        "pixabay": 5,
+        "pexels": 5
+      },
+      "Zimbabwe Bird Great Zimbabwe": {
+        "wikimedia": 5,
+        "internet_archive": 0,
+        "pixabay": 5,
+        "pexels": 5
+      }
+    },
+    "stats": {
+      "query_count": 2,
+      "search_found_raw": 32,
+      "search_unique": 29,
+      "duplicates_removed": 3,
+      "missing_identity": 0,
+      "rights_allowed": 28,
+      "rights_rejected": 1,
+      "export_rights_allowed": 23,
+      "export_rights_rejected": 5,
+      "identity_required": true,
+      "identity_verified": 0,
+      "identity_rejected": 23,
+      "media_accepted": 0,
+      "media_rejected": 0,
+      "unavailable": 0,
+      "downloaded": 0,
+      "download_failed": 0,
+      "visual_matches": 0,
+      "visual_rejected": 0
+    },
+    "best": null,
+    "matches": [],
+    "visual_rejected": [],
+    "rights_rejected": [
+      {
+        "provider": "internet_archive",
+        "identifier": "the-endlos-museum-acht-vierzig",
+        "title": "The Endlos Museum — Acht Vierzig",
+        "creator": "Humanity",
+        "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "rights_text": "All of the images and photographs contained in here do not belong to me, but rather to their respective creators with the correspondent license.",
+        "description_url": "https://archive.org/details/the-endlos-museum-acht-vierzig",
+        "license_short": "CC BY-NC-SA 4.0",
+        "search_query": "Zimbabwe Bird",
+        "_precheck_rights": {
+          "status": "BLOCKED",
+          "reason": "Restricted license: CC BY-NC-SA 4.0"
+        },
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "BLOCKED",
+          "reason": "Restricted license: CC BY-NC-SA 4.0"
+        }
+      }
+    ],
+    "export_rights_rejected": [
+      {
+        "pageid": 115393725,
+        "title": "File:Zimbabwe Bird of the Kingdom of Zimbabwe.svg",
+        "description": "Zimbabwe Bird of the Kingdom of Zimbabwe",
+        "description_html": "Zimbabwe Bird of the Kingdom of Zimbabwe",
+        "source_date": "2022-02-20",
+        "width": 512,
+        "height": 929,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2022-02-20 03:15:18",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Zimbabwe Bird of the Kingdom of Zimbabwe",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Zimbabwe Bird|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Zimbabwe Bird of the Kingdom of Zimbabwe",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-02-20",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, source: <a href=\"//commons.wikimedia.org/wiki/File:Soapstone_birds_on_pedestals.jpg\" title=\"File:Soapstone birds on pedestals.jpg\">The Ruined Cities of Mashonaland</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Samhanin\" title=\"User:Samhanin\">Samhanin</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Zimbabwe_Bird_of_the_Kingdom_of_Zimbabwe.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Zimbabwe_Bird_of_the_Kingdom_of_Zimbabwe.svg/960px-Zimbabwe_Bird_of_the_Kingdom_of_Zimbabwe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird_of_the_Kingdom_of_Zimbabwe.svg",
+        "media_type": "DRAWING",
+        "mime": "image/svg+xml",
+        "license_short": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Samhanin\" title=\"User:Samhanin\">Samhanin</a>",
+        "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, source: <a href=\"//commons.wikimedia.org/wiki/File:Soapstone_birds_on_pedestals.jpg\" title=\"File:Soapstone birds on pedestals.jpg\">The Ruined Cities of Mashonaland</a>",
+        "usage_terms": "Creative Commons Attribution 3.0",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird_of_the_Kingdom_of_Zimbabwe.svg",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Samhanin\" title=\"User:Samhanin\">Samhanin</a>",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, source: <a href=\"//commons.wikimedia.org/wiki/File:Soapstone_birds_on_pedestals.jpg\" title=\"File:Soapstone birds on pedestals.jpg\">The Ruined Cities of Mashonaland</a>"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird_of_the_Kingdom_of_Zimbabwe.svg",
+            "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Samhanin\" title=\"User:Samhanin\">Samhanin</a>",
+            "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, source: <a href=\"//commons.wikimedia.org/wiki/File:Soapstone_birds_on_pedestals.jpg\" title=\"File:Soapstone birds on pedestals.jpg\">The Ruined Cities of Mashonaland</a>"
+          }
+        }
+      },
+      {
+        "provider": "internet_archive",
+        "identifier": "zimbabwe-bird-endlos",
+        "title": "Zimbabwe Bird",
+        "creator": "Humanity",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights_text": "This material is based on content from Wikipedia and other sites and is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. Reuse of this material is permitted so long as original attribution is held.",
+        "description_url": "https://archive.org/details/zimbabwe-bird-endlos",
+        "license_short": "CC BY-SA 4.0",
+        "search_query": "Zimbabwe Bird",
+        "artist": "Humanity",
+        "credit": "Humanity",
+        "original_url": "https://archive.org/download/zimbabwe-bird-endlos/Zimbabwe%20Bird.png",
+        "preview_url": "https://archive.org/download/zimbabwe-bird-endlos/Zimbabwe%20Bird.png",
+        "filename": "Zimbabwe Bird.png",
+        "file_size": 176529,
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://archive.org/details/zimbabwe-bird-endlos",
+          "artist": "Humanity",
+          "credit": "Humanity"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source_url": "https://archive.org/details/zimbabwe-bird-endlos",
+            "artist": "Humanity",
+            "credit": "Humanity"
+          }
+        }
+      },
+      {
+        "pageid": 6933690,
+        "title": "File:Zimbabwebird1.jpg",
+        "description": "Zimbabwe bird bannister, Brian Gratwicke",
+        "description_html": "Zimbabwe bird bannister, Brian Gratwicke",
+        "source_date": "5 November 2006 (original upload date)",
+        "width": 401,
+        "height": 650,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2009-06-03 13:31:11",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Zimbabwebird1",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Cecil Rhodes|Great Zimbabwe|Zimbabwe Bird|Photographs by Brian Gratwicke",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Zimbabwe bird bannister, Brian Gratwicke",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "5 November 2006 (original upload date)",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons by <a href=\"//commons.wikimedia.org/wiki/User:Mario1952\" title=\"User:Mario1952\">Mario1952</a> using <a href=\"https://iw.toolforge.org/commonshelper/\" class=\"extiw\" title=\"toollabs:commonshelper/\">CommonsHelper</a>.</bdi>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:Brian.gratwicke\" class=\"extiw\" title=\"wikipedia:User:Brian.gratwicke\">Brian.gratwicke</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.5",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.5",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.5",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.5",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Zimbabwebird1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Zimbabwebird1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Zimbabwebird1.jpg",
+        "media_type": "BITMAP",
+        "mime": "image/jpeg",
+        "license_short": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5",
+        "artist": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:Brian.gratwicke\" class=\"extiw\" title=\"wikipedia:User:Brian.gratwicke\">Brian.gratwicke</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.",
+        "credit": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons by <a href=\"//commons.wikimedia.org/wiki/User:Mario1952\" title=\"User:Mario1952\">Mario1952</a> using <a href=\"https://iw.toolforge.org/commonshelper/\" class=\"extiw\" title=\"toollabs:commonshelper/\">CommonsHelper</a>.</bdi>",
+        "usage_terms": "Creative Commons Attribution 2.5",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY 2.5",
+          "license_url": "https://creativecommons.org/licenses/by/2.5",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwebird1.jpg",
+          "artist": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:Brian.gratwicke\" class=\"extiw\" title=\"wikipedia:User:Brian.gratwicke\">Brian.gratwicke</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.",
+          "credit": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons by <a href=\"//commons.wikimedia.org/wiki/User:Mario1952\" title=\"User:Mario1952\">Mario1952</a> using <a href=\"https://iw.toolforge.org/commonshelper/\" class=\"extiw\" title=\"toollabs:commonshelper/\">CommonsHelper</a>.</bdi>"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY 2.5",
+            "license_url": "https://creativecommons.org/licenses/by/2.5",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwebird1.jpg",
+            "artist": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:Brian.gratwicke\" class=\"extiw\" title=\"wikipedia:User:Brian.gratwicke\">Brian.gratwicke</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.",
+            "credit": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons by <a href=\"//commons.wikimedia.org/wiki/User:Mario1952\" title=\"User:Mario1952\">Mario1952</a> using <a href=\"https://iw.toolforge.org/commonshelper/\" class=\"extiw\" title=\"toollabs:commonshelper/\">CommonsHelper</a>.</bdi>"
+          }
+        }
+      },
+      {
+        "pageid": 8966638,
+        "title": "File:Eastern-enclosure-great-zimbabwe.jpg",
+        "description": "View west from the Eastern Enclosure, Great Zimbabwe, showing the granite boulder that resembles the Zimbabwe Bird.",
+        "description_html": "View west from the Eastern Enclosure, Great Zimbabwe, showing the granite boulder that resembles the Zimbabwe Bird.",
+        "source_date": "2006-02-03",
+        "width": 1536,
+        "height": 1024,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2010-01-12 12:15:50",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Eastern-enclosure-great-zimbabwe",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Great Zimbabwe|Flickr images reviewed by FlickreviewR|Flickr images missing SDC creator|Flickr images missing SDC published in",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "View west from the Eastern Enclosure, Great Zimbabwe, showing the granite boulder that resembles the Zimbabwe Bird.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2006-02-03",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/ctsnow/95108842/\">https://www.flickr.com/photos/ctsnow/95108842/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "ctsnow (Flikr user)",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Eastern-enclosure-great-zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Eastern-enclosure-great-zimbabwe.jpg/960px-Eastern-enclosure-great-zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Eastern-enclosure-great-zimbabwe.jpg",
+        "media_type": "BITMAP",
+        "mime": "image/jpeg",
+        "license_short": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "ctsnow (Flikr user)",
+        "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/ctsnow/95108842/\">https://www.flickr.com/photos/ctsnow/95108842/</a>",
+        "usage_terms": "Creative Commons Attribution 2.0",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Eastern-enclosure-great-zimbabwe.jpg",
+          "artist": "ctsnow (Flikr user)",
+          "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/ctsnow/95108842/\">https://www.flickr.com/photos/ctsnow/95108842/</a>"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY 2.0",
+            "license_url": "https://creativecommons.org/licenses/by/2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Eastern-enclosure-great-zimbabwe.jpg",
+            "artist": "ctsnow (Flikr user)",
+            "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/ctsnow/95108842/\">https://www.flickr.com/photos/ctsnow/95108842/</a>"
+          }
+        }
+      },
+      {
+        "pageid": 29547607,
+        "title": "File:Figure, Possibly Shona peoples, possibly Zimbabwe, Date unknown, Stone (2923620556).jpg",
+        "description": "Despite a lack of archaeological data, this enigmatic figure has, since the 1950s, been linked to the ruins of Great Zimbabwe. A collection of granite and clay wall enclosures, stone towers and platforms dating from about the 13th to the 15th centuries, Great Zimbabwe was built as a religious center for a powerful Shona kingdom. The use of stone and the suggestion of wings on this figure have led to its comparison with the soapstone birds found at the site.",
+        "description_html": "Despite a lack of archaeological data, this enigmatic figure has, since the 1950s, been linked to the ruins of Great Zimbabwe. A collection of granite and clay wall enclosures, stone towers and platforms dating from about the 13th to the 15th centuries, Great Zimbabwe was built as a religious center for a powerful Shona kingdom. The use of stone and the suggestion of wings on this figure have led to its comparison with the soapstone birds found at the site.",
+        "source_date": "2008-09-21 13:33",
+        "width": 853,
+        "height": 1280,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2013-11-11 02:21:05",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Figure, Possibly Shona peoples, possibly Zimbabwe, Date unknown, Stone (2923620556)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Canon EOS 5D|Flickr images reviewed by File Upload Bot (Magnus Manske)|Files with coordinates missing SDC location of creation|Photographs by Carl Clifford|Collections of the National Museum of African Art",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "38.888022",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-77.025564",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Despite a lack of archaeological data, this enigmatic figure has, since the 1950s, been linked to the ruins of Great Zimbabwe. A collection of granite and clay wall enclosures, stone towers and platforms dating from about the 13th to the 15th centuries, Great Zimbabwe was built as a religious center for a powerful Shona kingdom. The use of stone and the suggestion of wings on this figure have led to its comparison with the soapstone birds found at the site.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2008-09-21 13:33",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/nostri-imago/2923620556/\">Figure, Possibly Shona peoples, possibly Zimbabwe, Date unknown, Stone</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28567825@N03\">Cliff</a> from Arlington, Virginia, USA",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Figure%2C_Possibly_Shona_peoples%2C_possibly_Zimbabwe%2C_Date_unknown%2C_Stone_%282923620556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Figure%2C_Possibly_Shona_peoples%2C_possibly_Zimbabwe%2C_Date_unknown%2C_Stone_%282923620556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Figure,_Possibly_Shona_peoples,_possibly_Zimbabwe,_Date_unknown,_Stone_(2923620556).jpg",
+        "media_type": "BITMAP",
+        "mime": "image/jpeg",
+        "license_short": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28567825@N03\">Cliff</a> from Arlington, Virginia, USA",
+        "credit": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/nostri-imago/2923620556/\">Figure, Possibly Shona peoples, possibly Zimbabwe, Date unknown, Stone</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>",
+        "usage_terms": "Creative Commons Attribution 2.0",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Figure,_Possibly_Shona_peoples,_possibly_Zimbabwe,_Date_unknown,_Stone_(2923620556).jpg",
+          "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28567825@N03\">Cliff</a> from Arlington, Virginia, USA",
+          "credit": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/nostri-imago/2923620556/\">Figure, Possibly Shona peoples, possibly Zimbabwe, Date unknown, Stone</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY 2.0",
+            "license_url": "https://creativecommons.org/licenses/by/2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Figure,_Possibly_Shona_peoples,_possibly_Zimbabwe,_Date_unknown,_Stone_(2923620556).jpg",
+            "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28567825@N03\">Cliff</a> from Arlington, Virginia, USA",
+            "credit": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/nostri-imago/2923620556/\">Figure, Possibly Shona peoples, possibly Zimbabwe, Date unknown, Stone</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>"
+          }
+        }
+      }
+    ],
+    "identity_rejected": [
+      {
+        "pageid": 2944205,
+        "title": "File:Flag of Zimbabwe Rhodesia (1979).svg",
+        "description": "Flag of Zimbabwe Rhodesia (2 September – 11 December 1979).",
+        "description_html": "Flag of Zimbabwe Rhodesia (2 September – 11 December 1979).",
+        "source_date": "2007-10-19",
+        "width": 1200,
+        "height": 600,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2026-04-20 16:43:26",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Flag of Zimbabwe Rhodesia (1979)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Zimbabwe Bird|UK Government artistic works|PD-Zimbabwe|SVG historical national flags of Zimbabwe|SVG flags of former colonies of the United Kingdom|SVG flags of Zimbabwe Rhodesia (1979)|Flags with 1 yellow bird",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Flag of Zimbabwe Rhodesia (2 September – 11 December 1979).",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2007-10-19",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Thommy9\" title=\"User:Thommy9\">Thommy9</a> (original)",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Flag_of_Zimbabwe_Rhodesia_%281979%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Flag_of_Zimbabwe_Rhodesia_%281979%29.svg/960px-Flag_of_Zimbabwe_Rhodesia_%281979%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe_Rhodesia_(1979).svg",
+        "media_type": "DRAWING",
+        "mime": "image/svg+xml",
+        "license_short": "Public domain",
+        "license_url": "",
+        "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Thommy9\" title=\"User:Thommy9\">Thommy9</a> (original)",
+        "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "usage_terms": "Public domain",
+        "copyrighted": "False",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Public domain",
+          "license_url": "",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe_Rhodesia_(1979).svg",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Thommy9\" title=\"User:Thommy9\">Thommy9</a> (original)",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe_Rhodesia_(1979).svg",
+          "license_url": "",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Thommy9\" title=\"User:Thommy9\">Thommy9</a> (original)",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "pageid": 3778930,
+        "title": "File:Zimbabwe Bird.svg",
+        "description": "Zimbabwe Bird",
+        "description_html": "Zimbabwe Bird",
+        "source_date": "2008-03-26",
+        "width": 261,
+        "height": 350,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2026-03-23 21:13:49",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Zimbabwe Bird",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Symbols of Zimbabwe|Zimbabwe Bird|Self-published work|PD-self",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Zimbabwe Bird",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2008-03-26",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mangwanani\" title=\"User:Mangwanani\">Mangwanani</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Zimbabwe_Bird.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Zimbabwe_Bird.svg/960px-Zimbabwe_Bird.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird.svg",
+        "media_type": "DRAWING",
+        "mime": "image/svg+xml",
+        "license_short": "Public domain",
+        "license_url": "",
+        "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Mangwanani\" title=\"User:Mangwanani\">Mangwanani</a>",
+        "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "usage_terms": "Public domain",
+        "copyrighted": "False",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Public domain",
+          "license_url": "",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird.svg",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Mangwanani\" title=\"User:Mangwanani\">Mangwanani</a>",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird.svg",
+          "license_url": "",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Mangwanani\" title=\"User:Mangwanani\">Mangwanani</a>",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "pageid": 116705308,
+        "title": "File:Zimbabwe Bird on Star.svg",
+        "description": "Zimbabwe Bird on a red star",
+        "description_html": "<a href=\"https://en.wikipedia.org/wiki/Zimbabwe_Bird\" class=\"extiw\" title=\"w:Zimbabwe Bird\">Zimbabwe Bird on a red star</a>",
+        "source_date": "1980-present",
+        "width": 300,
+        "height": 300,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2022-06-03 16:22:07",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Zimbabwe Bird on Star",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Symbols of Zimbabwe|PD ineligible|Zimbabwe Bird|Logos of Zimbabwe|With insignia|PD-Zimbabwe|Valid SVG created with Inkscape:Flags",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "<a href=\"https://en.wikipedia.org/wiki/Zimbabwe_Bird\" class=\"extiw\" title=\"w:Zimbabwe Bird\">Zimbabwe Bird on a red star</a>",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "<b>1980-present</b>",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span>. \n</p>\n<ul><li>Based on: <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" title=\"File:Flag of Zimbabwe.svg\">File:Flag of Zimbabwe.svg</a>;</li>\n<li>See also:</li></ul>\n<ul class=\"gallery mw-gallery-traditional\">\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Victoria_Falls_2012_05_24_1608_(7421900004).jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg/120px-Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"71\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg/250px-Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"3418\" data-file-height=\"2025\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Zimbabwe.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Zimbabwe.jpg/120px-Zimbabwe.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"90\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Zimbabwe.jpg/250px-Zimbabwe.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"2816\" data-file-height=\"2112\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n</ul>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "See <i><b>File history</b></i> below for details.",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "insignia",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Zimbabwe_Bird_on_Star.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Zimbabwe_Bird_on_Star.svg/960px-Zimbabwe_Bird_on_Star.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird_on_Star.svg",
+        "media_type": "DRAWING",
+        "mime": "image/svg+xml",
+        "license_short": "Public domain",
+        "license_url": "",
+        "artist": "See <i><b>File history</b></i> below for details.",
+        "credit": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span>. \n</p>\n<ul><li>Based on: <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" title=\"File:Flag of Zimbabwe.svg\">File:Flag of Zimbabwe.svg</a>;</li>\n<li>See also:</li></ul>\n<ul class=\"gallery mw-gallery-traditional\">\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Victoria_Falls_2012_05_24_1608_(7421900004).jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg/120px-Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"71\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg/250px-Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"3418\" data-file-height=\"2025\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Zimbabwe.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Zimbabwe.jpg/120px-Zimbabwe.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"90\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Zimbabwe.jpg/250px-Zimbabwe.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"2816\" data-file-height=\"2112\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n</ul>",
+        "usage_terms": "Public domain",
+        "copyrighted": "False",
+        "restrictions": "insignia",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Public domain",
+          "license_url": "",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird_on_Star.svg",
+          "artist": "See <i><b>File history</b></i> below for details.",
+          "credit": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span>. \n</p>\n<ul><li>Based on: <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" title=\"File:Flag of Zimbabwe.svg\">File:Flag of Zimbabwe.svg</a>;</li>\n<li>See also:</li></ul>\n<ul class=\"gallery mw-gallery-traditional\">\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Victoria_Falls_2012_05_24_1608_(7421900004).jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg/120px-Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"71\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg/250px-Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"3418\" data-file-height=\"2025\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Zimbabwe.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Zimbabwe.jpg/120px-Zimbabwe.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"90\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Zimbabwe.jpg/250px-Zimbabwe.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"2816\" data-file-height=\"2112\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n</ul>"
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Bird_on_Star.svg",
+          "license_url": "",
+          "artist": "See <i><b>File history</b></i> below for details.",
+          "credit": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span>. \n</p>\n<ul><li>Based on: <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" title=\"File:Flag of Zimbabwe.svg\">File:Flag of Zimbabwe.svg</a>;</li>\n<li>See also:</li></ul>\n<ul class=\"gallery mw-gallery-traditional\">\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Victoria_Falls_2012_05_24_1608_(7421900004).jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg/120px-Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"71\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg/250px-Victoria_Falls_2012_05_24_1608_%287421900004%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"3418\" data-file-height=\"2025\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Zimbabwe.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Zimbabwe.jpg/120px-Zimbabwe.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"90\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Zimbabwe.jpg/250px-Zimbabwe.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"2816\" data-file-height=\"2112\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n</ul>"
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "pageid": 195360177,
+        "title": "File:Seal of the Order of Zimbabwe.svg",
+        "description": "The seal of the Order of Zimbabwe",
+        "description_html": "The seal of the Order of Zimbabwe",
+        "source_date": "2026-07-08",
+        "width": 602,
+        "height": 602,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2026-07-08 21:12:18",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Seal of the Order of Zimbabwe",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Symbols of Zimbabwe|Awards of Zimbabwe|CC-Zero|Zimbabwe Bird|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Self-published work|Vector images using elements from other vector images|Self-published work missing SDC copyright license|Medals of Zimbabwe",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "The seal of the Order of Zimbabwe",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2026-07-08",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "This <a href=\"https://en.wikipedia.org/wiki/vector_image\" class=\"extiw\" title=\"w:vector image\">vector image</a> includes elements that have been taken or adapted from this file:",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seal_of_the_Order_of_Zimbabwe.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seal_of_the_Order_of_Zimbabwe.svg/960px-Seal_of_the_Order_of_Zimbabwe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Order_of_Zimbabwe.svg",
+        "media_type": "DRAWING",
+        "mime": "image/svg+xml",
+        "license_short": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "This <a href=\"https://en.wikipedia.org/wiki/vector_image\" class=\"extiw\" title=\"w:vector image\">vector image</a> includes elements that have been taken or adapted from this file:",
+        "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Order_of_Zimbabwe.svg",
+          "artist": "This <a href=\"https://en.wikipedia.org/wiki/vector_image\" class=\"extiw\" title=\"w:vector image\">vector image</a> includes elements that have been taken or adapted from this file:",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "cc0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Order_of_Zimbabwe.svg",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "This <a href=\"https://en.wikipedia.org/wiki/vector_image\" class=\"extiw\" title=\"w:vector image\">vector image</a> includes elements that have been taken or adapted from this file:",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "4928241",
+        "title": "victoria falls, bird's-eye view, africa",
+        "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+        "original_url": "https://pixabay.com/get/gab1fbe3739e3762afc83a85ec84184511fa6e49ecda84b5023bc240ac6555ed5139e3dd46132cabc3ec633bf5062a4b068587e55ba4acf67aef30fba36e82e42_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g028eb5310256fab75c5c5966bb3318343ad610aec9955b42ae58b70d2bbbbdccd692ad5f6c9b891e1f5c2d75f41242ab4f338768dc8ee105eecff5635eb272b4_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6000,
+        "height": 2945,
+        "creator": "Jürgen_Bierlein",
+        "creator_url": "https://pixabay.com/users/5797981/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "victoria falls, bird's-eye view, africa, zimbabwe, river, nature, landscape, victoria falls, victoria falls, victoria falls, victoria falls, victoria falls, zimbabwe",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird",
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "5912585",
+        "title": "bird, stork, water bird",
+        "source_url": "https://pixabay.com/photos/bird-stork-water-bird-pond-water-5912585/",
+        "original_url": "https://pixabay.com/get/g2f0e1d1e1a376fc3be378100c9ed0558a7c5c09350accbfcd360ee114d63d4e0a76f7a03ede6a3b31d0081936acff0e858fc030caf577e6741c559790dbeb444_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g1c1db78941f9e927022b03922b3c8ffe45a166d95d53040d7b1290976e43d92b3b7f6ac541124013bb1ccc04ee2fb50bd4e9d62a76d38991be94bb952a94cee8_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 3847,
+        "height": 2565,
+        "creator": "fietzfotos",
+        "creator_url": "https://pixabay.com/users/6795508/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "bird, stork, water bird, pond, water, wetlands, feathers, plumage, ave, avian, ornitology, bird watching, animal, animal world, wildlife, wildlife photography, nature, fauna, bill, rattle stork, lake, grass, africa, zimbabwe, animal, africa, zimbabwe, zimbabwe, zimbabwe, zimbabwe, zimbabwe",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/bird-stork-water-bird-pond-water-5912585/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/bird-stork-water-bird-pond-water-5912585/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "1132747",
+        "title": "saddle billed stork, zimbabwe, bird",
+        "source_url": "https://pixabay.com/photos/saddle-billed-stork-zimbabwe-bird-1132747/",
+        "original_url": "https://pixabay.com/get/g852d4ef9233da654daaf4ffde25a2c25f3389d4f00ac6e238fc30de2d9b6df3e43e96b5e6d32297a8967b6be0a887cc6ce8212a5c8f46a6a00633ad803d8d0b1_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g98da371f815d4e5f32789975dba5bcd81a51bda06906501a5cb48ebb8bda8ab07618ab05bf353af2f3f35a22337ec137b6660c10799f3012fd00d94c478aac4d_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5184,
+        "height": 3456,
+        "creator": "suebrady5",
+        "creator_url": "https://pixabay.com/users/1871641/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "saddle billed stork, zimbabwe, bird, africa, wildlife, safari, nature, animal, savannah, zimbabwe, zimbabwe, zimbabwe, zimbabwe, zimbabwe",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/saddle-billed-stork-zimbabwe-bird-1132747/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/saddle-billed-stork-zimbabwe-bird-1132747/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "5974435",
+        "title": "red-breasted swallow, bird, branch",
+        "source_url": "https://pixabay.com/photos/red-breasted-swallow-bird-branch-5974435/",
+        "original_url": "https://pixabay.com/get/gc3cbbd52de59a78f3ecd84b64b49c9d8a53740a836494da9b2d576bb19f94880b1e1ba3a75c6528e64ba0a2a2b61e326c0c18215280b2e59d3637db4b4ce30dc_1280.jpg",
+        "preview_url": "https://pixabay.com/get/gbec11a467127a59e03f1f6ca32d0a2cd79bf344f73b54ada9e2e76a90101ebcf96cf41cf280d451305aac5afc60473d3548ad2a8480765ab4587c9fcff7cc05f_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 3947,
+        "height": 2528,
+        "creator": "Styx9",
+        "creator_url": "https://pixabay.com/users/19986209/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "red-breasted swallow, bird, branch, perched, swallow, animal, wildlife, beak, bill, feathers, plumage, safari, zimbabwe, africa, nature, bokeh, closeup, birdwatching",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/red-breasted-swallow-bird-branch-5974435/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/red-breasted-swallow-bird-branch-5974435/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "1048269",
+        "title": "bird, sparrow, nest",
+        "source_url": "https://pixabay.com/photos/bird-sparrow-nest-tree-thorns-1048269/",
+        "original_url": "https://pixabay.com/get/g4fa5bbd5630d072c66f8b1d1d33d4beab2f20b7fa7935244c9f457e21a2ccc7ce4f8f62f3c7ab8e2a2409050c076fcef4d20cdeb245b8ceaa586b4d10f8b24cc_1280.jpg",
+        "preview_url": "https://pixabay.com/get/gc5e542941aee9d203a3db4a9a837878ff9a7c9b50577115e1a893a4c5ce0855ce9d75e3372904b7424414dbb659303642240f81ce660bfa56b919dfe1a442123_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4608,
+        "height": 3456,
+        "creator": "942939",
+        "creator_url": "https://pixabay.com/users/942939/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "bird, sparrow, nest, tree, thorns, green, branches, nesting, nature, animal, wildlife, blue, yellow, home, natural, life, fauna, africa, wild, species, national park, kruger, wings, flying, fly, babies, grass, reeds, straw, plant, herbivore, outdoor, habitat, safari, botswana, flock, zimbabwe, conservation, bush, savannah, nest, nest, nest, nest, nest, habitat, botswana, botswana, zimbabwe, zimbabwe, zimbabwe, zimbabwe",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/bird-sparrow-nest-tree-thorns-1048269/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/bird-sparrow-nest-tree-thorns-1048269/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "5267251",
+        "title": "A striking side profile of a Southern yellow-billed hornbill in natural habitat.",
+        "source_url": "https://www.pexels.com/photo/close-up-of-hornbill-5267251/",
+        "original_url": "https://images.pexels.com/photos/5267251/pexels-photo-5267251.jpeg",
+        "preview_url": "https://images.pexels.com/photos/5267251/pexels-photo-5267251.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Roger Brown",
+        "creator_url": "https://www.pexels.com/@roger-brown-3435524",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "A striking side profile of a Southern yellow-billed hornbill in natural habitat.",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird",
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/close-up-of-hornbill-5267251/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/close-up-of-hornbill-5267251/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "34572558",
+        "title": "Majestic African Fish Eagle in flight among leafless branches under a bright blue sky.",
+        "source_url": "https://www.pexels.com/photo/african-fish-eagle-soaring-in-clear-blue-sky-34572558/",
+        "original_url": "https://images.pexels.com/photos/34572558/pexels-photo-34572558.jpeg",
+        "preview_url": "https://images.pexels.com/photos/34572558/pexels-photo-34572558.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6784,
+        "height": 4256,
+        "creator": "Derek Keats",
+        "creator_url": "https://www.pexels.com/@dkeats",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Majestic African Fish Eagle in flight among leafless branches under a bright blue sky.",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/african-fish-eagle-soaring-in-clear-blue-sky-34572558/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/african-fish-eagle-soaring-in-clear-blue-sky-34572558/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "34572551",
+        "title": "Scarlet-chested Sunbird perched on a branch, captured in the natural habitat of Zimbabwe.",
+        "source_url": "https://www.pexels.com/photo/scarlet-chested-sunbird-on-branch-in-zimbabwe-34572551/",
+        "original_url": "https://images.pexels.com/photos/34572551/pexels-photo-34572551.jpeg",
+        "preview_url": "https://images.pexels.com/photos/34572551/pexels-photo-34572551.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5464,
+        "height": 3550,
+        "creator": "Derek Keats",
+        "creator_url": "https://www.pexels.com/@dkeats",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Scarlet-chested Sunbird perched on a branch, captured in the natural habitat of Zimbabwe.",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird",
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/scarlet-chested-sunbird-on-branch-in-zimbabwe-34572551/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/scarlet-chested-sunbird-on-branch-in-zimbabwe-34572551/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "34775229",
+        "title": "A beautiful Gorgeous Bushshrike perched on a branch amidst lush greenery in Zimbabwe.",
+        "source_url": "https://www.pexels.com/photo/stunning-gorgeous-bushshrike-in-natural-habitat-34775229/",
+        "original_url": "https://images.pexels.com/photos/34775229/pexels-photo-34775229.jpeg",
+        "preview_url": "https://images.pexels.com/photos/34775229/pexels-photo-34775229.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 7910,
+        "height": 5190,
+        "creator": "Derek Keats",
+        "creator_url": "https://www.pexels.com/@dkeats",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "A beautiful Gorgeous Bushshrike perched on a branch amidst lush greenery in Zimbabwe.",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/stunning-gorgeous-bushshrike-in-natural-habitat-34775229/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/stunning-gorgeous-bushshrike-in-natural-habitat-34775229/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "34572575",
+        "title": "Close-up of a Village Weaver bird (Ploceus cucullatus) perched on grass in its natural habitat.",
+        "source_url": "https://www.pexels.com/photo/village-weaver-bird-perched-in-tall-grass-34572575/",
+        "original_url": "https://images.pexels.com/photos/34572575/pexels-photo-34572575.jpeg",
+        "preview_url": "https://images.pexels.com/photos/34572575/pexels-photo-34572575.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5352,
+        "height": 3350,
+        "creator": "Derek Keats",
+        "creator_url": "https://www.pexels.com/@dkeats",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Close-up of a Village Weaver bird (Ploceus cucullatus) perched on grass in its natural habitat.",
+        "search_query": "Zimbabwe Bird",
+        "matched_queries": [
+          "Zimbabwe Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/village-weaver-bird-perched-in-tall-grass-34572575/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/village-weaver-bird-perched-in-tall-grass-34572575/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "pageid": 94827233,
+        "title": "File:Flag of the President of Zimbabwe (1981–1986).svg",
+        "description": "Presidential flag of Zimbabwe between 1981–1986.",
+        "description_html": "Presidential flag of <a href=\"https://en.wikipedia.org/wiki/Zimbabwe\" class=\"extiw\" title=\"w:Zimbabwe\">Zimbabwe</a> between 1981–1986.",
+        "source_date": "2020-10-07",
+        "width": 1470,
+        "height": 630,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2022-06-03 14:11:57",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Flag of the President of Zimbabwe (1981–1986)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "PD-user|Zimbabwe Bird|Vector images using elements from other vector images|PD-Zimbabwe|Flags with coats of arms|Flags with kudus|SVG historical flags of Zimbabwe|Invalid SVG created with Inkscape:Flags|SVG presidential flags of Zimbabwe|Deprecated template usage: AttribSVG",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Presidential flag of <a href=\"https://en.wikipedia.org/wiki/Zimbabwe\" class=\"extiw\" title=\"w:Zimbabwe\">Zimbabwe</a> between 1981–1986.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2020-10-07",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "This <a href=\"https://en.wikipedia.org/wiki/vector_image\" class=\"extiw\" title=\"w:vector image\">vector image</a> includes elements that have been taken or adapted from this file:",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Great_Brightstar\" title=\"User:Great Brightstar\">Great Brightstar</a>",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "<p>Released into the public domain (by original authors). \n</p>\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work has been released into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b> by its author, <b><a href=\"https://en.wikipedia.org/wiki/User:Mangwanani\" class=\"extiw\" title=\"wikipedia:User:Mangwanani\">Mangwanani</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a></b>. This applies worldwide.<br><small>In some countries this may not be legally possible; if so:</small><br><a href=\"https://en.wikipedia.org/wiki/en:User:Mangwanani\" class=\"extiw\" title=\"wikipedia:en:User:Mangwanani\">Mangwanani</a> grants anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.<span class=\"licensetpl_short\" style=\"display:none;\">Public domain</span><span class=\"licensetpl_long\" style=\"display:none;\">Public domain</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>\n</td></tr></tbody></table>\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work was first published in <a href=\"https://en.wikipedia.org/wiki/Zimbabwe\" class=\"extiw\" title=\"en:Zimbabwe\">Zimbabwe</a> (or one of its antecedents) and is now in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in Zimbabwe because its copyright protection has expired or it is exempt from copyright by virtue of the <i><a rel=\"nofollow\" class=\"external text\" href=\"http://www.wipo.int/wipolex/en/details.jsp?id=8864\">Copyright and Neighboring Rights Act</a></i>, enacted 2000 (<a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Zimbabwe\" title=\"Commons:Copyright rules by territory/Zimbabwe\">details</a>). The work meets one of the following criteria:<br>\n<div style=\"font-size:85%;\">\n<ul><li>It is an anonymous work or pseudonymous work and 50 years have passed since the date of its publication (or creation, whatever date is the latest)</li>\n<li>It is a collective, audiovisual or photographic work, and 50 years have passed since the date of its publication (or creation, whatever date is the latest)</li>\n<li>It is a sound recording or broadcast and 50 years have passed since the date of its publication</li>\n<li>It is an artistic, literary, or musical work created under the direction of the state or an international organization and 50 years have passed since the date of its publication</li>\n<li>It is another kind of work, and 50 years have passed since the year of death of the author (or last-surviving author)</li></ul></div>\n<p>A Zimbabwean work that is in the public domain in Zimbabwe according to this rule is in the public domain <b><i>in the U.S.</i> only</b> if it was in the public domain in Zimbabwe in 1996, e.g. if it was published <b>before 1946</b> and no copyright was registered in the U.S. (This is the effect of the <a href=\"//commons.wikimedia.org/wiki/Commons:URAA\" class=\"mw-redirect\" title=\"Commons:URAA\">Uruguay Round Agreements Act </a>(<a rel=\"nofollow\" class=\"external text\" href=\"https://www.copyright.gov/title17/92chap1.html#104a\">17 USC 104A</a>) with its critical date of January 1, 1996.)\n</p>\n</td>\n<td><figure class=\"mw-halign-right mw-image-border\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/120px-Flag_of_Zimbabwe.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"80\" height=\"40\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/250px-Flag_of_Zimbabwe.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1200\" data-file-height=\"600\"></a><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_the_President_of_Zimbabwe_%281981%E2%80%931986%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_the_President_of_Zimbabwe_%281981%E2%80%931986%29.svg/960px-Flag_of_the_President_of_Zimbabwe_%281981%E2%80%931986%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Zimbabwe_(1981%E2%80%931986).svg",
+        "media_type": "DRAWING",
+        "mime": "image/svg+xml",
+        "license_short": "Public domain",
+        "license_url": "",
+        "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Great_Brightstar\" title=\"User:Great Brightstar\">Great Brightstar</a>",
+        "credit": "This <a href=\"https://en.wikipedia.org/wiki/vector_image\" class=\"extiw\" title=\"w:vector image\">vector image</a> includes elements that have been taken or adapted from this file:",
+        "usage_terms": "Public domain",
+        "copyrighted": "False",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Public domain",
+          "license_url": "",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Zimbabwe_(1981%E2%80%931986).svg",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Great_Brightstar\" title=\"User:Great Brightstar\">Great Brightstar</a>",
+          "credit": "This <a href=\"https://en.wikipedia.org/wiki/vector_image\" class=\"extiw\" title=\"w:vector image\">vector image</a> includes elements that have been taken or adapted from this file:"
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Zimbabwe_(1981%E2%80%931986).svg",
+          "license_url": "",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Great_Brightstar\" title=\"User:Great Brightstar\">Great Brightstar</a>",
+          "credit": "This <a href=\"https://en.wikipedia.org/wiki/vector_image\" class=\"extiw\" title=\"w:vector image\">vector image</a> includes elements that have been taken or adapted from this file:"
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "pageid": 126965257,
+        "title": "File:Flag of Zimbabwe (construction sheet).svg",
+        "description": "Flag of Zimbabwe — construction sheet",
+        "description_html": "Flag of Zimbabwe  — construction sheet",
+        "source_date": "2022-12-24",
+        "width": 1290,
+        "height": 690,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2022-12-24 15:50:57",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Flag of Zimbabwe (construction sheet)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "PD ineligible|With insignia|PD-Zimbabwe|Flag construction sheets of Zimbabwe|SVG national flag of Zimbabwe|SVG flag construction sheets",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Flag of Zimbabwe  — construction sheet",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-12-24",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span>. The basic layout of the horizontal stripes, and the triangle are based on the description and image in the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.law.co.zw/download/flag-of-zimbabwe-act/\">Flag of Zimbabwe Act.</a>.\n</p>\n<blockquote class=\"templatequote language\"><p>Vert, on a fess gules, fimbriated by two bars or, a bar sable, issuant from the dexter a pile argent fimbriated sable charged with a Molet of five points gules debruised by a representation of the Great Zimbabwe Bird.</p><div class=\"templatequotecite\">—  from the Schedule associated with section #3 of the Zimbabwe Flag Act</div>\n</blockquote>\n<ul><li>The Flag Act does not explicitly state the flag's aspect ratio, but the drawing in the Flag act is approximately 1:2.  The ratio used in this construction sheet is exactly 1:2.</li></ul>\n<ul><li>The Flag shown at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.zim.gov.zw/index.php/en/my-government/government-ministries/national-symbols/463-national-flag-of-zimbabwe\">National Symbols - National Flag of Zimbabwe</a> has a 2:3 ratio. It is not clear why it has a different ratio than the image shown in the Flag Act.</li></ul>\n<ul><li>The stripes are of equal width. This is confirmed from the description of the flag on the National Symbols website.</li></ul>\n<ul><li>From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.crwflags.com/fotw/flags/zw.html\">Flags of the World (FOTW)</a>: the right apex of the white triangle sits at <span class=\"frac nowrap\"><sup>2</sup>⁄<sub>3</sub></span> hoist from the hoist.  The fimbriation is <span class=\"frac nowrap\"><sup>1</sup>⁄<sub>42</sub></span> hoist.  Neither of these values are explicitly stated in the Flag Act, but they agree with measurements taken from the 2:3 flag image depicted on the National Symbols website.  This construction sheet adopts both values.</li></ul>\n<ul><li>The star depicted in the image in the Flag Act is not a pentagram; it is distorted with its upper arms being longer than its lower arms. The star in the image on the National Symbols web site is a standard pentagram which has been adopted by many flag manufacturers.  This construction sheet uses a pentagram; it is sized and positioned based on measurements from the image on the National Symbols web site. Two of the star's inner vertices sit on the flag's horizontal centerline. For more information about the two types of stars see: <a href=\"https://en.wikipedia.org/wiki/Flag_of_Zimbabwe#Design\" class=\"extiw\" title=\"w:Flag of Zimbabwe\">w:Flag_of_Zimbabwe#Design</a>.</li></ul>\n<ul><li>The bird used on this construction sheet is based entirely off of the bird that first appeared in <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" title=\"File:Flag of Zimbabwe.svg\">File:Flag of Zimbabwe.svg</a> on Oct 7,2020.  Bevels have been rounded and other minor cosmetic fixes have been applied.  The bird is very similar to the one found on the construction sheet at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.savaflags.org.za/spec/Zimbabwe%20-%20National.pdf\">Southern African Vexillological Association</a>.</li></ul>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:MapGrid\" title=\"User:MapGrid\">MapGrid</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "insignia",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Flag_of_Zimbabwe_%28construction_sheet%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Flag_of_Zimbabwe_%28construction_sheet%29.svg/960px-Flag_of_Zimbabwe_%28construction_sheet%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe_(construction_sheet).svg",
+        "media_type": "DRAWING",
+        "mime": "image/svg+xml",
+        "license_short": "Public domain",
+        "license_url": "",
+        "artist": "<a href=\"//commons.wikimedia.org/wiki/User:MapGrid\" title=\"User:MapGrid\">MapGrid</a>",
+        "credit": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span>. The basic layout of the horizontal stripes, and the triangle are based on the description and image in the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.law.co.zw/download/flag-of-zimbabwe-act/\">Flag of Zimbabwe Act.</a>.\n</p>\n<blockquote class=\"templatequote language\"><p>Vert, on a fess gules, fimbriated by two bars or, a bar sable, issuant from the dexter a pile argent fimbriated sable charged with a Molet of five points gules debruised by a representation of the Great Zimbabwe Bird.</p><div class=\"templatequotecite\">—  from the Schedule associated with section #3 of the Zimbabwe Flag Act</div>\n</blockquote>\n<ul><li>The Flag Act does not explicitly state the flag's aspect ratio, but the drawing in the Flag act is approximately 1:2.  The ratio used in this construction sheet is exactly 1:2.</li></ul>\n<ul><li>The Flag shown at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.zim.gov.zw/index.php/en/my-government/government-ministries/national-symbols/463-national-flag-of-zimbabwe\">National Symbols - National Flag of Zimbabwe</a> has a 2:3 ratio. It is not clear why it has a different ratio than the image shown in the Flag Act.</li></ul>\n<ul><li>The stripes are of equal width. This is confirmed from the description of the flag on the National Symbols website.</li></ul>\n<ul><li>From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.crwflags.com/fotw/flags/zw.html\">Flags of the World (FOTW)</a>: the right apex of the white triangle sits at <span class=\"frac nowrap\"><sup>2</sup>⁄<sub>3</sub></span> hoist from the hoist.  The fimbriation is <span class=\"frac nowrap\"><sup>1</sup>⁄<sub>42</sub></span> hoist.  Neither of these values are explicitly stated in the Flag Act, but they agree with measurements taken from the 2:3 flag image depicted on the National Symbols website.  This construction sheet adopts both values.</li></ul>\n<ul><li>The star depicted in the image in the Flag Act is not a pentagram; it is distorted with its upper arms being longer than its lower arms. The star in the image on the National Symbols web site is a standard pentagram which has been adopted by many flag manufacturers.  This construction sheet uses a pentagram; it is sized and positioned based on measurements from the image on the National Symbols web site. Two of the star's inner vertices sit on the flag's horizontal centerline. For more information about the two types of stars see: <a href=\"https://en.wikipedia.org/wiki/Flag_of_Zimbabwe#Design\" class=\"extiw\" title=\"w:Flag of Zimbabwe\">w:Flag_of_Zimbabwe#Design</a>.</li></ul>\n<ul><li>The bird used on this construction sheet is based entirely off of the bird that first appeared in <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" title=\"File:Flag of Zimbabwe.svg\">File:Flag of Zimbabwe.svg</a> on Oct 7,2020.  Bevels have been rounded and other minor cosmetic fixes have been applied.  The bird is very similar to the one found on the construction sheet at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.savaflags.org.za/spec/Zimbabwe%20-%20National.pdf\">Southern African Vexillological Association</a>.</li></ul>",
+        "usage_terms": "Public domain",
+        "copyrighted": "False",
+        "restrictions": "insignia",
+        "provider": "wikimedia",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Public domain",
+          "license_url": "",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe_(construction_sheet).svg",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:MapGrid\" title=\"User:MapGrid\">MapGrid</a>",
+          "credit": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span>. The basic layout of the horizontal stripes, and the triangle are based on the description and image in the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.law.co.zw/download/flag-of-zimbabwe-act/\">Flag of Zimbabwe Act.</a>.\n</p>\n<blockquote class=\"templatequote language\"><p>Vert, on a fess gules, fimbriated by two bars or, a bar sable, issuant from the dexter a pile argent fimbriated sable charged with a Molet of five points gules debruised by a representation of the Great Zimbabwe Bird.</p><div class=\"templatequotecite\">—  from the Schedule associated with section #3 of the Zimbabwe Flag Act</div>\n</blockquote>\n<ul><li>The Flag Act does not explicitly state the flag's aspect ratio, but the drawing in the Flag act is approximately 1:2.  The ratio used in this construction sheet is exactly 1:2.</li></ul>\n<ul><li>The Flag shown at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.zim.gov.zw/index.php/en/my-government/government-ministries/national-symbols/463-national-flag-of-zimbabwe\">National Symbols - National Flag of Zimbabwe</a> has a 2:3 ratio. It is not clear why it has a different ratio than the image shown in the Flag Act.</li></ul>\n<ul><li>The stripes are of equal width. This is confirmed from the description of the flag on the National Symbols website.</li></ul>\n<ul><li>From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.crwflags.com/fotw/flags/zw.html\">Flags of the World (FOTW)</a>: the right apex of the white triangle sits at <span class=\"frac nowrap\"><sup>2</sup>⁄<sub>3</sub></span> hoist from the hoist.  The fimbriation is <span class=\"frac nowrap\"><sup>1</sup>⁄<sub>42</sub></span> hoist.  Neither of these values are explicitly stated in the Flag Act, but they agree with measurements taken from the 2:3 flag image depicted on the National Symbols website.  This construction sheet adopts both values.</li></ul>\n<ul><li>The star depicted in the image in the Flag Act is not a pentagram; it is distorted with its upper arms being longer than its lower arms. The star in the image on the National Symbols web site is a standard pentagram which has been adopted by many flag manufacturers.  This construction sheet uses a pentagram; it is sized and positioned based on measurements from the image on the National Symbols web site. Two of the star's inner vertices sit on the flag's horizontal centerline. For more information about the two types of stars see: <a href=\"https://en.wikipedia.org/wiki/Flag_of_Zimbabwe#Design\" class=\"extiw\" title=\"w:Flag of Zimbabwe\">w:Flag_of_Zimbabwe#Design</a>.</li></ul>\n<ul><li>The bird used on this construction sheet is based entirely off of the bird that first appeared in <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" title=\"File:Flag of Zimbabwe.svg\">File:Flag of Zimbabwe.svg</a> on Oct 7,2020.  Bevels have been rounded and other minor cosmetic fixes have been applied.  The bird is very similar to the one found on the construction sheet at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.savaflags.org.za/spec/Zimbabwe%20-%20National.pdf\">Southern African Vexillological Association</a>.</li></ul>"
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe_(construction_sheet).svg",
+          "license_url": "",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:MapGrid\" title=\"User:MapGrid\">MapGrid</a>",
+          "credit": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span>. The basic layout of the horizontal stripes, and the triangle are based on the description and image in the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.law.co.zw/download/flag-of-zimbabwe-act/\">Flag of Zimbabwe Act.</a>.\n</p>\n<blockquote class=\"templatequote language\"><p>Vert, on a fess gules, fimbriated by two bars or, a bar sable, issuant from the dexter a pile argent fimbriated sable charged with a Molet of five points gules debruised by a representation of the Great Zimbabwe Bird.</p><div class=\"templatequotecite\">—  from the Schedule associated with section #3 of the Zimbabwe Flag Act</div>\n</blockquote>\n<ul><li>The Flag Act does not explicitly state the flag's aspect ratio, but the drawing in the Flag act is approximately 1:2.  The ratio used in this construction sheet is exactly 1:2.</li></ul>\n<ul><li>The Flag shown at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.zim.gov.zw/index.php/en/my-government/government-ministries/national-symbols/463-national-flag-of-zimbabwe\">National Symbols - National Flag of Zimbabwe</a> has a 2:3 ratio. It is not clear why it has a different ratio than the image shown in the Flag Act.</li></ul>\n<ul><li>The stripes are of equal width. This is confirmed from the description of the flag on the National Symbols website.</li></ul>\n<ul><li>From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.crwflags.com/fotw/flags/zw.html\">Flags of the World (FOTW)</a>: the right apex of the white triangle sits at <span class=\"frac nowrap\"><sup>2</sup>⁄<sub>3</sub></span> hoist from the hoist.  The fimbriation is <span class=\"frac nowrap\"><sup>1</sup>⁄<sub>42</sub></span> hoist.  Neither of these values are explicitly stated in the Flag Act, but they agree with measurements taken from the 2:3 flag image depicted on the National Symbols website.  This construction sheet adopts both values.</li></ul>\n<ul><li>The star depicted in the image in the Flag Act is not a pentagram; it is distorted with its upper arms being longer than its lower arms. The star in the image on the National Symbols web site is a standard pentagram which has been adopted by many flag manufacturers.  This construction sheet uses a pentagram; it is sized and positioned based on measurements from the image on the National Symbols web site. Two of the star's inner vertices sit on the flag's horizontal centerline. For more information about the two types of stars see: <a href=\"https://en.wikipedia.org/wiki/Flag_of_Zimbabwe#Design\" class=\"extiw\" title=\"w:Flag of Zimbabwe\">w:Flag_of_Zimbabwe#Design</a>.</li></ul>\n<ul><li>The bird used on this construction sheet is based entirely off of the bird that first appeared in <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg\" title=\"File:Flag of Zimbabwe.svg\">File:Flag of Zimbabwe.svg</a> on Oct 7,2020.  Bevels have been rounded and other minor cosmetic fixes have been applied.  The bird is very similar to the one found on the construction sheet at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.savaflags.org.za/spec/Zimbabwe%20-%20National.pdf\">Southern African Vexillological Association</a>.</li></ul>"
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "2227010",
+        "title": "waterfall, victoria falls, spray",
+        "source_url": "https://pixabay.com/photos/waterfall-victoria-falls-spray-2227010/",
+        "original_url": "https://pixabay.com/get/g66b1b0196ebfde8fae2c7aa902cbaaf1c007a2c69ac23112871f6323530ca264d3be624ce7defa4fb175ae1052a620bc0b52038ebee7c3ec7a89a3f5ddc2ec78_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g294f636f47c41481136dbc50edb6c4a3f9fa440df2817253fb68e77e1920cc1f6fbb8116d413fb09921c3968fc26fd51aa9ca32f8c24a01f16d76bb760ceea80_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 3264,
+        "height": 2176,
+        "creator": "8moments",
+        "creator_url": "https://pixabay.com/users/4532813/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "waterfall, victoria falls, spray, zambezi, flow, africa, water, zimbabwe, zambia, enormous, water masses, depth, rush, nature, wild water, hydropower, force of nature, river course, flood, river landscape, waterfall, waterfall, waterfall, waterfall, waterfall, victoria falls, victoria falls, africa, zimbabwe, zambia, flood, flood",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/waterfall-victoria-falls-spray-2227010/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/waterfall-victoria-falls-spray-2227010/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "4923375",
+        "title": "elephants, wildlife, zimbabwe",
+        "source_url": "https://pixabay.com/photos/elephants-wildlife-zimbabwe-4923375/",
+        "original_url": "https://pixabay.com/get/gb6d3b80a3ee1b2f7ace8b482d2aacc905889bd33557c7caf44d0a3734a158b58bc028403faecc1f6c1221da4d452b8bd11c28cfca84cc77127ccbf8d51cde33d_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g49cb1f9257b6424a8b48b9214912d0edffe7c938ff99a975c856e1608fdfd46dab81ebbfb71b14f296eca0ce1a57c39c7377f942738de1eb04311a50c5d811dd_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 3000,
+        "height": 2005,
+        "creator": "Mypressyakima",
+        "creator_url": "https://pixabay.com/users/15568580/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephants, wildlife, zimbabwe, zimbabwe, zimbabwe, zimbabwe, zimbabwe, zimbabwe",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/elephants-wildlife-zimbabwe-4923375/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/elephants-wildlife-zimbabwe-4923375/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "5148610",
+        "title": "guzzle, zimbabwe, safari",
+        "source_url": "https://pixabay.com/photos/guzzle-zimbabwe-safari-5148610/",
+        "original_url": "https://pixabay.com/get/gf9d8bac8e4cb4a3caece426c408f2d01975ff581d7d016f6ca231e53a97e575218f0594b3c0944fe426bb3ef2dc3ee2a1d7ae995ce00b7a491e0d711c3de7c7f_1280.jpg",
+        "preview_url": "https://pixabay.com/get/ge77e8bfecea42c265f27ebacef17ee767362a9bc3c655a8b470f343e43422b52baccf3639f8b10ae0f74c17d9ce86724f26b8988868feb8fa1446ea4ede79678_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5307,
+        "height": 3538,
+        "creator": "shaniqwa",
+        "creator_url": "https://pixabay.com/users/1198618/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "guzzle, zimbabwe, safari, zimbabwe, zimbabwe, zimbabwe, zimbabwe, zimbabwe",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/guzzle-zimbabwe-safari-5148610/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/guzzle-zimbabwe-safari-5148610/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "5442987",
+        "title": "elephant, mother, baby",
+        "source_url": "https://pixabay.com/photos/elephant-mother-baby-wildlife-5442987/",
+        "original_url": "https://pixabay.com/get/g568143136b21cdeadeb06f234bcab166f7f4d0d1be83ddb9f3a65e3ddcab9e05d83fabdd61ea248267d6d11d0b52e0b2dbe0fc7d7b8f16412ecc7e5aef36b465_1280.jpg",
+        "preview_url": "https://pixabay.com/get/gae4ebfbaf3a05df35fb87417da3aaf8b99c093b755b8692faf460d59016e00aa8ccfedfe053fbb7d03a5bd081e3a08b256ffbfa243eea5b1c89565bb080150e5_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 3456,
+        "height": 2304,
+        "creator": "drbjond",
+        "creator_url": "https://pixabay.com/users/17667387/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephant, mother, baby, wildlife, safari, mammal, nature, zimbabwe, animal, zimbabwe, zimbabwe, zimbabwe, zimbabwe, zimbabwe",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/elephant-mother-baby-wildlife-5442987/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/elephant-mother-baby-wildlife-5442987/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "34572587",
+        "title": "A Boulder Chat (Pinarornis plumosus) perched on a branch in Zimbabwe.",
+        "source_url": "https://www.pexels.com/photo/boulder-chat-bird-in-natural-habitat-34572587/",
+        "original_url": "https://images.pexels.com/photos/34572587/pexels-photo-34572587.jpeg",
+        "preview_url": "https://images.pexels.com/photos/34572587/pexels-photo-34572587.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5336,
+        "height": 3442,
+        "creator": "Derek Keats",
+        "creator_url": "https://www.pexels.com/@dkeats",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "A Boulder Chat (Pinarornis plumosus) perched on a branch in Zimbabwe.",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/boulder-chat-bird-in-natural-habitat-34572587/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/boulder-chat-bird-in-natural-habitat-34572587/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "34572581",
+        "title": "Vibrant Scarlet-chested Sunbird perched on a branch under clear blue sky.",
+        "source_url": "https://www.pexels.com/photo/scarlet-chested-sunbird-on-branch-in-zimbabwe-34572581/",
+        "original_url": "https://images.pexels.com/photos/34572581/pexels-photo-34572581.jpeg",
+        "preview_url": "https://images.pexels.com/photos/34572581/pexels-photo-34572581.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4484,
+        "height": 2914,
+        "creator": "Derek Keats",
+        "creator_url": "https://www.pexels.com/@dkeats",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Vibrant Scarlet-chested Sunbird perched on a branch under clear blue sky.",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/scarlet-chested-sunbird-on-branch-in-zimbabwe-34572581/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/scarlet-chested-sunbird-on-branch-in-zimbabwe-34572581/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "39972862",
+        "title": "A group of men in traditional Zimbabwean attire posed in a forest clearing.",
+        "source_url": "https://www.pexels.com/photo/traditional-zimbabwean-dance-group-in-forest-39972862/",
+        "original_url": "https://images.pexels.com/photos/39972862/pexels-photo-39972862.jpeg",
+        "preview_url": "https://images.pexels.com/photos/39972862/pexels-photo-39972862.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4928,
+        "height": 3264,
+        "creator": "Benhildah Antonio",
+        "creator_url": "https://www.pexels.com/@benhildah-antonio-2151376096",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "A group of men in traditional Zimbabwean attire posed in a forest clearing.",
+        "search_query": "Zimbabwe Bird Great Zimbabwe",
+        "matched_queries": [
+          "Zimbabwe Bird Great Zimbabwe"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/traditional-zimbabwean-dance-group-in-forest-39972862/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/traditional-zimbabwean-dance-group-in-forest-39972862/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Metadata does not establish the required sculpture type"
+        }
+      }
+    ],
+    "media_rejected": [],
+    "unavailable": [],
+    "download_failed": []
+  }
+}

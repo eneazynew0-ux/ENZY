@@ -1,0 +1,110 @@
+{
+  "scene": {
+    "source_word_start": 0,
+    "source_word_end": 15,
+    "start": 0.09000000000000002,
+    "end": 7.0
+  },
+  "planner_reason": "The narration describes a specific event at a specific location with a specific visual setup (military guard at an airport), and introduces a negation about the identity of the person being met — 'not the president and not an international delegation' — which implies a distinct, visible object (the stone bird) is being shown. The negation must be grounded in a positive factual presence, and the grounding context confirms the stone bird is present. A single beat cannot visually represent both the military guard at the airport and the presence of the stone bird without splitting, as the visual subject changes from a guard to a specific artifact. The negation requires a positive visual of the stone bird to be shown, and that cannot be implied without direct support.",
+  "needs_multiple_beats": false,
+  "grounding_context": {
+    "master_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+    "chapter_match_score": 1,
+    "chapters": [
+      {
+        "chapter_id": 1,
+        "title": "Каменная птица в Хараре",
+        "primary_subject": "каменная птица",
+        "subject_type": "артефакт",
+        "location": "Юго-восток Зимбабве, холмы у Масвинго",
+        "aliases": [
+          "священный символ",
+          "птица-символ",
+          "птица чапунгу"
+        ],
+        "key_objects": [
+          "каменная птица",
+          "Большая ограда"
+        ],
+        "confidence": "HIGH"
+      }
+    ],
+    "entities": [
+      {
+        "canonical_subject": "каменная птица",
+        "subject_type": "артефакт",
+        "location": "Юго-восток Зимбабве, холмы у Масвинго",
+        "aliases_or_descriptions": [
+          "священный символ",
+          "птица-символ",
+          "птица чапунгу",
+          "символ, изображённый на флаге Зимбабве",
+          "птица, украденная колониальными учёными"
+        ],
+        "confidence": "HIGH",
+        "evidence": [
+          "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу.",
+          "В тысяча восемьсот восемьдесят девятом году охотник Вилли Поссельт выломал из руин каменную птицу, священную для местных жителей — символ чапунгу, орла-скомороха, посредника между живыми и предками",
+          "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре",
+          "символ, который сегодня изображён на флаге, банкнотах и в паспорте каждого зимбабвийца"
+        ],
+        "researched_search_identity": {
+          "status": "VERIFIED",
+          "canonical_subject": "Zimbabwe Bird",
+          "subject_type": "soapstone bird sculpture",
+          "location": "Great Zimbabwe",
+          "aliases": [
+            "Zimbabwe birds",
+            "Great Zimbabwe soapstone birds"
+          ],
+          "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+          "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+          "scope": "ARTIFACT_GROUP"
+        }
+      }
+    ]
+  },
+  "beats": [
+    {
+      "source_word_start": 0,
+      "source_word_end": 15,
+      "visual_intent": "A military guard stands at the entrance of Harare's airport, facing the main terminal area, in a real-world photograph showing a uniformed on duty, with the airport's architecture visible in the background",
+      "search_queries": [
+        "military guard at Harare airport entrance",
+        "real footage of military guard at Harare airport"
+      ],
+      "requirements": [
+        "military personnel in uniform",
+        "location: Harare airport",
+        "setting: airport terminal entrance",
+        "realistic, unedited, documentary-style footage"
+      ],
+      "avoid": [
+        "showing a president or foreign delegation",
+        "showing a person walking toward the guard",
+        "adding text or labels",
+        "showing a building or structure not in the scene"
+      ],
+      "edit": "Stabilized, wide-angle shot of a military guard at the Harare airport entrance, with the airport's signage and layout visible in the background. No cuts or transitions to other scenes",
+      "start": 0.09000000000000002,
+      "end": 7.0,
+      "duration": 6.91,
+      "voice_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию."
+    }
+  ],
+  "diagnostics": [
+    {
+      "source_word_start": 0,
+      "source_word_end": 15,
+      "issues_before": [
+        {
+          "type": "UNSUPPORTED_ROLE",
+          "severity": "HIGH",
+          "term": "soldier",
+          "detail": "Generated role 'soldier' is not supported by MASTER or local grounding."
+        }
+      ],
+      "issues_after": []
+    }
+  ]
+}

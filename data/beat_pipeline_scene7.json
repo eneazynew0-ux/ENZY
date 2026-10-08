@@ -1,0 +1,160 @@
+{
+  "scene": {
+    "source_word_start": 87,
+    "source_word_end": 114,
+    "start": 43.58,
+    "end": 53.9
+  },
+  "planner_reason": "The narration describes three distinct visual states: the head lying in the earth for two and a half millennia, then standing as a scarecrow on a yam patch for a year, and finally being recognized in hands. Each state requires a separate visual to match the semantic shift in location, function, and perception.",
+  "needs_multiple_beats": true,
+  "grounding_context": {
+    "master_text": "Терракотовая голова две с половиной тысячи лет пролежала в земле, а потом ещё год простояла пугалом на грядке с ямсом, прежде чем кто-то понял, что держит в руках.",
+    "chapter_match_score": 2,
+    "chapters": [
+      {
+        "chapter_id": 3,
+        "title": "Культура Нок: терракотовые фигуры",
+        "primary_subject": "культура Нок",
+        "subject_type": "археологическая культура",
+        "location": "центральная Нигерия, деревня Нок",
+        "aliases": [
+          "терракотовые фигуры",
+          "железные печи"
+        ],
+        "key_objects": [
+          "терракотовая голова из Джемаа",
+          "печи для выплавки железа"
+        ],
+        "confidence": "HIGH"
+      }
+    ],
+    "entities": [
+      {
+        "canonical_subject": "культура Нок",
+        "subject_type": "археологическая культура",
+        "location": "центральная Нигерия, деревня Нок",
+        "aliases_or_descriptions": [
+          "терракотовые фигуры",
+          "терракотовая голова из Джемаа",
+          "железные печи",
+          "культура, жившая в Ноке"
+        ],
+        "confidence": "HIGH",
+        "evidence": [
+          "Тысяча девятнадцатый год, деревня Нок в центральной Нигерии, оловянный рудник. Один из работников рудника подобрал у ямсовой грядки терракотовую голову",
+          "за несколько лет он собрал около двухсот терракотовых фигур: людей и животных",
+          "в девяноста милях от Нока, раскопали тринадцать печей для выплавки железа"
+        ]
+      }
+    ]
+  },
+  "beats": [
+    {
+      "source_word_start": 87,
+      "source_word_end": 96,
+      "visual_intent": "A terracotta head lying in soil, buried and undisturbed, in a rural field or garden setting in central Nigeria, with surrounding vegetation and earth showing age and decay.",
+      "search_queries": [
+        "terracotta head buried in soil central Nigeria",
+        "ancient terracotta figure in earth archaeological site",
+        "terracotta head in field Nigeria"
+      ],
+      "requirements": [
+        "head is buried in soil",
+        "setting is rural, in central Nigeria",
+        "context shows age and natural decay"
+      ],
+      "avoid": [
+        "head in modern context",
+        "head being handled or visible above ground",
+        "urban or indoor setting"
+      ],
+      "edit": "Slow, steady shot of the head in soil, with subtle environmental details like roots or soil erosion to imply time passage.",
+      "start": 43.58,
+      "end": 47.34,
+      "duration": 3.760000000000005,
+      "voice_text": "Терракотовая голова две с половиной тысячи лет пролежала в земле,"
+    },
+    {
+      "source_word_start": 97,
+      "source_word_end": 106,
+      "visual_intent": "The same terracotta head placed as a scarecrow on a patch of land growing yams, with yam plants visible and the head partially exposed, standing still in a rural field.",
+      "search_queries": [
+        "terracotta scarecrow on yam patch Nigeria",
+        "ancient terracotta figure as scarecrow in field",
+        "terracotta head on yam garden central Nigeria"
+      ],
+      "requirements": [
+        "head is positioned as a scarecrow",
+        "yam plants growing nearby",
+        "setting is rural, central Nigeria",
+        "head is not buried, but upright"
+      ],
+      "avoid": [
+        "head in soil",
+        "head in hands",
+        "modern farm equipment or people present"
+      ],
+      "edit": "Medium shot showing the head as a scarecrow, with yam plants in background, emphasizing stillness and rural life.",
+      "start": 47.7,
+      "end": 51.2,
+      "duration": 3.5,
+      "voice_text": "а потом ещё год простояла пугалом на грядке с ямсом,"
+    },
+    {
+      "source_word_start": 107,
+      "source_word_end": 114,
+      "visual_intent": "A person's hand reaching toward or holding the terracotta head, with the head visible in their grip, in a rural setting in central Nigeria",
+      "search_queries": [
+        "hand holding terracotta head Nigeria",
+        "person picking up ancient terracotta sculpture"
+      ],
+      "requirements": [
+        "a person's hand is visible holding the head",
+        "setting is rural, central Nigeria"
+      ],
+      "avoid": [
+        "head in soil",
+        "head as scarecrow",
+        "no person present or hand visible"
+      ],
+      "edit": "Close-up of hand gently lifting or holding the head, with soft lighting and background showing rural context to emphasize the moment of",
+      "start": 51.2,
+      "end": 53.9,
+      "duration": 2.6999999999999957,
+      "voice_text": "прежде чем кто-то понял, что держит в руках."
+    }
+  ],
+  "diagnostics": [
+    {
+      "source_word_start": 87,
+      "source_word_end": 96,
+      "issues_before": [],
+      "issues_after": []
+    },
+    {
+      "source_word_start": 97,
+      "source_word_end": 106,
+      "issues_before": [],
+      "issues_after": []
+    },
+    {
+      "source_word_start": 107,
+      "source_word_end": 114,
+      "issues_before": [
+        {
+          "type": "UNSUPPORTED_ROLE",
+          "severity": "HIGH",
+          "term": "farmer",
+          "detail": "Generated role 'farmer' is not supported by MASTER or local grounding."
+        },
+        {
+          "type": "UNSUPPORTED_REACTION",
+          "severity": "HIGH",
+          "term": "recognition",
+          "detail": "Generated reaction 'recognition' is not explicitly supported by MASTER narration."
+        }
+      ],
+      "issues_after": []
+    }
+  ]
+}

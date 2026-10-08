@@ -1,0 +1,1368 @@
+{
+  "status": "NO_SELECTION",
+  "resolver_action": "SEARCH_VIDEO",
+  "selected_media": {
+    "status": "NO_SELECTION",
+    "media_type": null,
+    "asset": null,
+    "segment": null
+  },
+  "raw_result": {
+    "status": "NO_RELEVANT_VIDEO_SEGMENT",
+    "plan": {
+      "beat": {
+        "source_word_start": 65,
+        "source_word_end": 68,
+        "visual_intent": "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+        "search_queries": [
+          "archaeological excavations with conflicting artifacts",
+          "excavation site showing different pottery styles side by side",
+          "archaeological site with contradictory findings photo"
+        ],
+        "requirements": [
+          "excavation site visible",
+          "at least two different artifacts or findings shown",
+          "visual contrast suggesting opposition in interpretation"
+        ],
+        "avoid": [
+          "showing a single artifact without contrast",
+          "adding text labels or arrows not in narration",
+          "depicting a person or team interpreting the findings"
+        ],
+        "edit": "Stabilized wide shot of excavation with artifacts in foreground, no zoom or cut; maintain natural lighting and real-world context.",
+        "start": 31.08,
+        "end": 33.44,
+        "duration": 2.3599999999999994,
+        "voice_text": "Раскопки говорят прямо противоположное.",
+        "documentary_mode": "REAL_VIDEO",
+        "prefer_motion": true,
+        "identity_sensitive": false,
+        "requires_identity_gate": false,
+        "motion_strategy": "REAL_VIDEO_PRIMARY",
+        "real_video_preferred": true,
+        "composition_strategy": "SINGLE_OR_SEQUENCE",
+        "retention_phases": [
+          {
+            "phase_index": 0,
+            "role": "PRIMARY",
+            "start": 31.08,
+            "end": 33.44,
+            "duration": 2.3599999999999994,
+            "asset_requirement": "VIDEO_PRIMARY",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_VIDEO",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 31.08,
+              "beat_end": 33.44,
+              "beat_duration": 2.3599999999999994,
+              "documentary_mode": "REAL_VIDEO",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 0,
+              "phase_role": "PRIMARY",
+              "phase_start": 31.08,
+              "phase_end": 33.44,
+              "phase_duration": 2.3599999999999994,
+              "asset_requirement": "VIDEO_PRIMARY",
+              "resolver_action": "SEARCH_VIDEO",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VIDEO_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "VIDEO_PRIMARY"
+            }
+          }
+        ],
+        "retention_phase_count": 1
+      },
+      "entity_resolution": {
+        "status": "UNRESOLVED",
+        "entities": [],
+        "resolver": "NO_CANDIDATES"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": false,
+        "confidence": "HIGH",
+        "reason": "NO_RESOLVED_ENTITY"
+      },
+      "visual_entity": null,
+      "search_entity": null,
+      "factual_search": false,
+      "queries": {
+        "exact": [],
+        "broad": [
+          "archaeological excavations with conflicting artifacts",
+          "excavation site showing different pottery styles side by side",
+          "archaeological site with contradictory findings photo"
+        ],
+        "visual": [
+          "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+          "excavation site visible at least two different artifacts or findings shown visual contrast suggesting opposition in interpretation"
+        ],
+        "all": [
+          "archaeological excavations with conflicting artifacts",
+          "excavation site showing different pottery styles side by side",
+          "archaeological site with contradictory findings photo",
+          "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+          "excavation site visible at least two different artifacts or findings shown visual contrast suggesting opposition in interpretation"
+        ],
+        "used_visual_entity": false
+      }
+    },
+    "video_search": {
+      "queries": [
+        "archaeological excavations with conflicting artifacts",
+        "excavation site showing different pottery styles side by side",
+        "archaeological site with contradictory findings photo",
+        "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+        "excavation site visible at least two different artifacts or findings shown visual contrast suggesting opposition in interpretation"
+      ],
+      "query_stats": [
+        {
+          "query": "archaeological excavations with conflicting artifacts",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "excavation site showing different pottery styles side by side",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "archaeological site with contradictory findings photo",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+          "provider": "pixabay",
+          "found": 0,
+          "error": null
+        },
+        {
+          "query": "excavation site visible at least two different artifacts or findings shown visual contrast suggesting opposition in interpretation",
+          "provider": "pixabay",
+          "found": 0,
+          "error": null
+        }
+      ],
+      "fallback_used": false,
+      "fallback_provider": null,
+      "stats": {
+        "query_count": 5,
+        "search_found_raw": 15,
+        "search_unique": 12,
+        "duplicates_removed": 3,
+        "missing_identity": 0,
+        "rights_allowed": 12,
+        "rights_rejected": 0,
+        "export_rights_allowed": 12,
+        "export_rights_rejected": 0,
+        "identity_required": false,
+        "identity_verified": 12,
+        "identity_rejected": 0,
+        "final_candidates": 12,
+        "specialized_fallback_used": false
+      },
+      "assets": [
+        {
+          "provider": "pixabay",
+          "provider_id": "246672",
+          "title": "molehill, mole, nature",
+          "source_url": "https://pixabay.com/videos/id-246672/",
+          "original_url": "https://cdn.pixabay.com/video/2024/12/14/246672_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 39,
+          "creator": "adege",
+          "creator_url": "https://pixabay.com/users/4994132/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "molehill, mole, nature, excavation work",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological excavations with conflicting artifacts"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-246672/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-246672/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "10877",
+          "title": "construction site, excavator, digging",
+          "source_url": "https://pixabay.com/videos/id-10877/",
+          "original_url": "https://cdn.pixabay.com/video/2017/07/23/10877-226635355_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 25,
+          "creator": "Life-Of-Vids",
+          "creator_url": "https://pixabay.com/users/1282862/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "construction site, excavator, digging, industry, machinery, excavation, machine, equipment, building, digger, industrial, bulldozer, heavy, development, excavate, hydraulic",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological excavations with conflicting artifacts",
+            "excavation site showing different pottery styles side by side"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-10877/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-10877/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "44890",
+          "title": "construction, vehicle, loader",
+          "source_url": "https://pixabay.com/videos/id-44890/",
+          "original_url": "https://cdn.pixabay.com/video/2020/07/17/44890-440261146_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 2560,
+          "height": 1440,
+          "duration": 24,
+          "creator": "LadislavBur",
+          "creator_url": "https://pixabay.com/users/16302054/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "construction, vehicle, loader, excavation, machinery, hydraulic, site, yellow",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological excavations with conflicting artifacts",
+            "excavation site showing different pottery styles side by side"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-44890/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-44890/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "6580",
+          "title": "spade, excavation, grass",
+          "source_url": "https://pixabay.com/videos/id-6580/",
+          "original_url": "https://cdn.pixabay.com/video/2016/11/27/6580-193379348_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 12,
+          "creator": "Yoniteck",
+          "creator_url": "https://pixabay.com/users/3856450/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "spade, excavation, grass, lawn, shoes, gardening, garden",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological excavations with conflicting artifacts"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-6580/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-6580/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "224512",
+          "title": "architecture, stone, mediaeval",
+          "source_url": "https://pixabay.com/videos/id-224512/",
+          "original_url": "https://cdn.pixabay.com/video/2024/08/02/224512_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 9,
+          "creator": "Oleh_1977",
+          "creator_url": "https://pixabay.com/users/42360493/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "architecture, stone, mediaeval, europe, mediterranean, temple, ruins, travel, sea, outdoor, monument, lighthouse, debris, ionian, coast, calabria, village, archaeological, panorama, seashore, drone, cinematic",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological excavations with conflicting artifacts"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-224512/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-224512/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "3741",
+          "title": "working site, excavator, construction",
+          "source_url": "https://pixabay.com/videos/id-3741/",
+          "original_url": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 20,
+          "creator": "bellergy",
+          "creator_url": "https://pixabay.com/users/1846871/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "working site, excavator, construction, site, equipment, digger, machine, develop, industrial, construction site, construction equipment, dig, bulldozer, under construction, development, teamwork, aerial view",
+          "video_quality": "large",
+          "matched_queries": [
+            "excavation site showing different pottery styles side by side",
+            "archaeological site with contradictory findings photo"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-3741/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-3741/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "231754",
+          "title": "ocean, sea, waves",
+          "source_url": "https://pixabay.com/videos/id-231754/",
+          "original_url": "https://cdn.pixabay.com/video/2024/09/16/231754_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1080,
+          "height": 1920,
+          "duration": 14,
+          "creator": "Cyril974R",
+          "creator_url": "https://pixabay.com/users/40053845/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "ocean, sea, waves, beach, water, side, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "excavation site showing different pottery styles side by side"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-231754/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-231754/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "231752",
+          "title": "ocean, sea, waves",
+          "source_url": "https://pixabay.com/videos/id-231752/",
+          "original_url": "https://cdn.pixabay.com/video/2024/09/16/231752_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1080,
+          "height": 1920,
+          "duration": 5,
+          "creator": "Cyril974R",
+          "creator_url": "https://pixabay.com/users/40053845/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "ocean, sea, waves, beach, water, side, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "excavation site showing different pottery styles side by side"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-231752/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-231752/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "3992",
+          "title": "working site, construction, site",
+          "source_url": "https://pixabay.com/videos/id-3992/",
+          "original_url": "https://cdn.pixabay.com/video/2016/07/25/3992-176171691_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 32,
+          "creator": "bellergy",
+          "creator_url": "https://pixabay.com/users/1846871/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "working site, construction, site, equipment, machine, develop, construction site, construction equipment, under construction, development, aerial view",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological site with contradictory findings photo"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-3992/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-3992/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "42923",
+          "title": "construction site, construction workers, construction",
+          "source_url": "https://pixabay.com/videos/id-42923/",
+          "original_url": "https://cdn.pixabay.com/video/2020/06/23/42923-434300950_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 15,
+          "creator": "chuduyen215",
+          "creator_url": "https://pixabay.com/users/13161249/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "construction site, construction workers, construction, worker, site, builder, build, job, truck, man, housebuilding, skyscraper",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological site with contradictory findings photo"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-42923/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-42923/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "23334",
+          "title": "drone, nature, landscape",
+          "source_url": "https://pixabay.com/videos/id-23334/",
+          "original_url": "https://cdn.pixabay.com/video/2019/05/05/23334-334689196_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 15,
+          "creator": "ninosouza",
+          "creator_url": "https://pixabay.com/users/8385382/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "drone, nature, landscape, air, photo, water, sea, ocean, live wallpaper, aerial, beach",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological site with contradictory findings photo"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-23334/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-23334/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "42926",
+          "title": "construction site, construction workers, construction",
+          "source_url": "https://pixabay.com/videos/id-42926/",
+          "original_url": "https://cdn.pixabay.com/video/2020/06/23/42926-434300944_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 16,
+          "creator": "chuduyen215",
+          "creator_url": "https://pixabay.com/users/13161249/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "construction site, construction workers, construction, worker, site, builder, build, job, truck, man, housebuilding, skyscraper",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological site with contradictory findings photo"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-42926/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-42926/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "rights_rejected": [],
+      "export_rights_rejected": [],
+      "identity_rejected": [],
+      "missing_identity": []
+    },
+    "attempts": [
+      {
+        "status": "NO_RELEVANT_SEGMENT",
+        "asset": {
+          "provider": "pixabay",
+          "provider_id": "224512",
+          "title": "architecture, stone, mediaeval",
+          "source_url": "https://pixabay.com/videos/id-224512/",
+          "original_url": "https://cdn.pixabay.com/video/2024/08/02/224512_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 9,
+          "creator": "Oleh_1977",
+          "creator_url": "https://pixabay.com/users/42360493/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "architecture, stone, mediaeval, europe, mediterranean, temple, ruins, travel, sea, outdoor, monument, lighthouse, debris, ionian, coast, calabria, village, archaeological, panorama, seashore, drone, cinematic",
+          "video_quality": "large",
+          "matched_queries": [
+            "archaeological excavations with conflicting artifacts"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-224512/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-224512/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "metadata_relevance": {
+            "decision": "MATCH",
+            "score": 45,
+            "reason": "Metadata mentions 'archaeological' and 'ruins' with 'stone' and 'mediaeval', suggesting archaeological context, but lacks specific evidence of conflicting artifacts, pottery, or inscriptions. 'Panorama' and 'drone' imply broad coverage, not focused contradiction."
+          },
+          "local_path": "data/live_90s_full/08_beat_05_phase_00/video/candidate_1/videos/3af2c0f5153a003f.mp4",
+          "download_bytes": 45160272,
+          "content_type": "video/mp4",
+          "cached": false
+        },
+        "probe": {
+          "path": "data/live_90s_full/08_beat_05_phase_00/video/candidate_1/videos/3af2c0f5153a003f.mp4",
+          "duration": 9.376033,
+          "size_bytes": 45160272,
+          "codec": "h264",
+          "width": 3840,
+          "height": 2160,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001"
+        },
+        "sample_points": [
+          0.5,
+          2.5,
+          4.5,
+          6.5,
+          8.5
+        ],
+        "coarse_frames": [
+          {
+            "timestamp": 0.5,
+            "path": "data/live_90s_full/08_beat_05_phase_00/video/candidate_1/coarse_frames/frame_0000_0.500s.jpg",
+            "size_bytes": 1668283,
+            "description": "The image is a photograph. The subject is a castle on a rocky coast. The castle is in the middle of the image, and is surrounded by water. The castle is made of stone and is very tall. The castle is in ruins. The",
+            "analysis_status": "OK",
+            "target": "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+            "decision": "REJECT",
+            "score": 0,
+            "reason": "Main subject is a castle ruin on a coast, not archaeological artifacts or findings such as pottery or inscriptions."
+          },
+          {
+            "timestamp": 2.5,
+            "path": "data/live_90s_full/08_beat_05_phase_00/video/candidate_1/coarse_frames/frame_0001_2.500s.jpg",
+            "size_bytes": 1653180,
+            "description": "The image is a photograph. The subject is a castle on a rocky outcropping in the ocean. The castle is in ruins. The ocean is blue and green. The sky is blue. The castle is tan and brown. The castle is on",
+            "analysis_status": "OK",
+            "target": "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+            "decision": "REJECT",
+            "score": 0,
+            "reason": "Main subject is a castle ruin, not archaeological artifacts or findings such as pottery or inscriptions"
+          },
+          {
+            "timestamp": 4.5,
+            "path": "data/live_90s_full/08_beat_05_phase_00/video/candidate_1/coarse_frames/frame_0002_4.500s.jpg",
+            "size_bytes": 1609893,
+            "description": "The image is a photograph. The subject is a castle on a rocky coast. The castle is in ruins. The castle is on a rocky coast. The castle is in ruins. The castle is in ruins. The castle is in ruins. The castle",
+            "analysis_status": "OK",
+            "target": "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+            "decision": "REJECT",
+            "score": 0,
+            "reason": "Invalid or instruction-echoing vision description"
+          },
+          {
+            "timestamp": 6.5,
+            "path": "data/live_90s_full/08_beat_05_phase_00/video/candidate_1/coarse_frames/frame_0003_6.500s.jpg",
+            "size_bytes": 1625943,
+            "description": "The image is a photograph. The subject is a castle on a rocky coast. The castle is in the middle of the image, and is surrounded by water. The castle is made of stone and is very tall. The castle is surrounded by water.",
+            "analysis_status": "OK",
+            "target": "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+            "decision": "REJECT",
+            "score": 0,
+            "reason": "Main subject is a castle on a rocky coast, not archaeological artifacts or findings such as pottery or inscriptions."
+          },
+          {
+            "timestamp": 8.5,
+            "path": "data/live_90s_full/08_beat_05_phase_00/video/candidate_1/coarse_frames/frame_0004_8.500s.jpg",
+            "size_bytes": 1729003,
+            "description": "The image is a photograph. The subject is a castle on a rocky coast. The castle is in the middle of the image, and is surrounded by water. The castle is made of stone, and is in ruins. The castle is surrounded by water",
+            "analysis_status": "OK",
+            "target": "A photograph of archaeological excavations showing conflicting artifacts or findings, such as different types of pottery or inscriptions placed side by side to suggest contradiction.",
+            "decision": "REJECT",
+            "score": 0,
+            "reason": "Main subject is a ruined castle on a coast, not archaeological artifacts or findings such as pottery or inscriptions."
+          }
+        ],
+        "coarse_segment": null,
+        "best_segment": null
+      }
+    ],
+    "metadata_rejected": [
+      {
+        "provider": "pixabay",
+        "provider_id": "246672",
+        "title": "molehill, mole, nature",
+        "source_url": "https://pixabay.com/videos/id-246672/",
+        "original_url": "https://cdn.pixabay.com/video/2024/12/14/246672_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 39,
+        "creator": "adege",
+        "creator_url": "https://pixabay.com/users/4994132/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "molehill, mole, nature, excavation work",
+        "video_quality": "large",
+        "matched_queries": [
+          "archaeological excavations with conflicting artifacts"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-246672/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-246672/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "'excavation work' is too generic and lacks evidence of archaeological findings, artifacts, or conflicting pottery/inscriptions"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "10877",
+        "title": "construction site, excavator, digging",
+        "source_url": "https://pixabay.com/videos/id-10877/",
+        "original_url": "https://cdn.pixabay.com/video/2017/07/23/10877-226635355_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 25,
+        "creator": "Life-Of-Vids",
+        "creator_url": "https://pixabay.com/users/1282862/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "construction site, excavator, digging, industry, machinery, excavation, machine, equipment, building, digger, industrial, bulldozer, heavy, development, excavate, hydraulic",
+        "video_quality": "large",
+        "matched_queries": [
+          "archaeological excavations with conflicting artifacts",
+          "excavation site showing different pottery styles side by side"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-10877/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-10877/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata describes construction excavation with machinery, not archaeological findings or artifacts suggesting contradiction"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "44890",
+        "title": "construction, vehicle, loader",
+        "source_url": "https://pixabay.com/videos/id-44890/",
+        "original_url": "https://cdn.pixabay.com/video/2020/07/17/44890-440261146_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 2560,
+        "height": 1440,
+        "duration": 24,
+        "creator": "LadislavBur",
+        "creator_url": "https://pixabay.com/users/16302054/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "construction, vehicle, loader, excavation, machinery, hydraulic, site, yellow",
+        "video_quality": "large",
+        "matched_queries": [
+          "archaeological excavations with conflicting artifacts",
+          "excavation site showing different pottery styles side by side"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-44890/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-44890/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata mentions construction and excavation but lacks evidence of archaeological artifacts, pottery, or inscriptions; no indication of archaeological context or conflicting findings"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "6580",
+        "title": "spade, excavation, grass",
+        "source_url": "https://pixabay.com/videos/id-6580/",
+        "original_url": "https://cdn.pixabay.com/video/2016/11/27/6580-193379348_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 12,
+        "creator": "Yoniteck",
+        "creator_url": "https://pixabay.com/users/3856450/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "spade, excavation, grass, lawn, shoes, gardening, garden",
+        "video_quality": "large",
+        "matched_queries": [
+          "archaeological excavations with conflicting artifacts"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-6580/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-6580/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata mentions excavation and spade but lacks evidence of archaeological artifacts, pottery, inscriptions, or conflicting findings; describes gardening context, not archaeology."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "3741",
+        "title": "working site, excavator, construction",
+        "source_url": "https://pixabay.com/videos/id-3741/",
+        "original_url": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 20,
+        "creator": "bellergy",
+        "creator_url": "https://pixabay.com/users/1846871/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "working site, excavator, construction, site, equipment, digger, machine, develop, industrial, construction site, construction equipment, dig, bulldozer, under construction, development, teamwork, aerial view",
+        "video_quality": "large",
+        "matched_queries": [
+          "excavation site showing different pottery styles side by side",
+          "archaeological site with contradictory findings photo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-3741/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-3741/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata describes construction excavation, not archaeological; no mention of artifacts, pottery, inscriptions, or contradiction"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "231754",
+        "title": "ocean, sea, waves",
+        "source_url": "https://pixabay.com/videos/id-231754/",
+        "original_url": "https://cdn.pixabay.com/video/2024/09/16/231754_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1080,
+        "height": 1920,
+        "duration": 14,
+        "creator": "Cyril974R",
+        "creator_url": "https://pixabay.com/users/40053845/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "ocean, sea, waves, beach, water, side, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "excavation site showing different pottery styles side by side"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-231754/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-231754/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "No mention of archaeology, artifacts, pottery, or excavations"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "231752",
+        "title": "ocean, sea, waves",
+        "source_url": "https://pixabay.com/videos/id-231752/",
+        "original_url": "https://cdn.pixabay.com/video/2024/09/16/231752_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1080,
+        "height": 1920,
+        "duration": 5,
+        "creator": "Cyril974R",
+        "creator_url": "https://pixabay.com/users/40053845/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "ocean, sea, waves, beach, water, side, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "excavation site showing different pottery styles side by side"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-231752/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-231752/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "No mention of archaeology, artifacts, pottery, or excavations"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "3992",
+        "title": "working site, construction, site",
+        "source_url": "https://pixabay.com/videos/id-3992/",
+        "original_url": "https://cdn.pixabay.com/video/2016/07/25/3992-176171691_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 32,
+        "creator": "bellergy",
+        "creator_url": "https://pixabay.com/users/1846871/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "working site, construction, site, equipment, machine, develop, construction site, construction equipment, under construction, development, aerial view",
+        "video_quality": "large",
+        "matched_queries": [
+          "archaeological site with contradictory findings photo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-3992/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-3992/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata describes construction, not archaeological excavations or artifacts"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "42923",
+        "title": "construction site, construction workers, construction",
+        "source_url": "https://pixabay.com/videos/id-42923/",
+        "original_url": "https://cdn.pixabay.com/video/2020/06/23/42923-434300950_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 15,
+        "creator": "chuduyen215",
+        "creator_url": "https://pixabay.com/users/13161249/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "construction site, construction workers, construction, worker, site, builder, build, job, truck, man, housebuilding, skyscraper",
+        "video_quality": "large",
+        "matched_queries": [
+          "archaeological site with contradictory findings photo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-42923/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-42923/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata describes construction, not archaeological excavations or artifacts"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "23334",
+        "title": "drone, nature, landscape",
+        "source_url": "https://pixabay.com/videos/id-23334/",
+        "original_url": "https://cdn.pixabay.com/video/2019/05/05/23334-334689196_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 15,
+        "creator": "ninosouza",
+        "creator_url": "https://pixabay.com/users/8385382/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "drone, nature, landscape, air, photo, water, sea, ocean, live wallpaper, aerial, beach",
+        "video_quality": "large",
+        "matched_queries": [
+          "archaeological site with contradictory findings photo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-23334/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-23334/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "No mention of archaeology, artifacts, pottery, or inscriptions; metadata describes natural landscape and aerial views."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "42926",
+        "title": "construction site, construction workers, construction",
+        "source_url": "https://pixabay.com/videos/id-42926/",
+        "original_url": "https://cdn.pixabay.com/video/2020/06/23/42926-434300944_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 16,
+        "creator": "chuduyen215",
+        "creator_url": "https://pixabay.com/users/13161249/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "construction site, construction workers, construction, worker, site, builder, build, job, truck, man, housebuilding, skyscraper",
+        "video_quality": "large",
+        "matched_queries": [
+          "archaeological site with contradictory findings photo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-42926/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-42926/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "metadata describes construction, not archaeological excavations or artifacts"
+        }
+      }
+    ],
+    "best": null
+  }
+}

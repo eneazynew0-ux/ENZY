@@ -1,0 +1,292 @@
+{
+  "scene": {
+    "source_word_start": 0,
+    "source_word_end": 15,
+    "start": 0.09000000000000002,
+    "end": 7.0
+  },
+  "planner_reason": "The narration describes a military guard at Harare airport encountering neither the president nor an international delegation, and explicitly introduces the presence of the stone bird as a positive factual element supported by grounding_context. The negation 'not the president' and 'not an international delegation' must be visually grounded only by the actual object present — the stone bird — which is confirmed in grounding_context. A single beat cannot visually represent both the absence of two entities and the presence of a third without violating the rule that a beat must reflect only what is directly stated in its word range. Thus, a split is required to first establish the setting and guard, then introduce the stone bird as the actual object being encountered.",
+  "needs_multiple_beats": false,
+  "grounding_context": {
+    "master_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+    "chapter_match_score": 1,
+    "chapters": [
+      {
+        "chapter_id": 1,
+        "title": "Каменная птица в Хараре",
+        "primary_subject": "каменная птица",
+        "subject_type": "артефакт",
+        "location": "Юго-восток Зимбабве, холмы у Масвинго",
+        "aliases": [
+          "священный символ",
+          "птица-символ",
+          "птица чапунгу"
+        ],
+        "key_objects": [
+          "каменная птица",
+          "Большая ограда"
+        ],
+        "confidence": "HIGH"
+      }
+    ],
+    "entities": [
+      {
+        "canonical_subject": "каменная птица",
+        "subject_type": "артефакт",
+        "location": "Юго-восток Зимбабве, холмы у Масвинго",
+        "aliases_or_descriptions": [
+          "священный символ",
+          "птица-символ",
+          "птица чапунгу",
+          "символ, изображённый на флаге Зимбабве",
+          "птица, украденная колониальными учёными"
+        ],
+        "confidence": "HIGH",
+        "evidence": [
+          "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу.",
+          "В тысяча восемьсот восемьдесят девятом году охотник Вилли Поссельт выломал из руин каменную птицу, священную для местных жителей — символ чапунгу, орла-скомороха, посредника между живыми и предками",
+          "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре",
+          "символ, который сегодня изображён на флаге, банкнотах и в паспорте каждого зимбабвийца"
+        ],
+        "researched_search_identity": {
+          "status": "VERIFIED",
+          "canonical_subject": "Zimbabwe Bird",
+          "subject_type": "soapstone bird sculpture",
+          "location": "Great Zimbabwe",
+          "aliases": [
+            "Zimbabwe birds",
+            "Great Zimbabwe soapstone birds"
+          ],
+          "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+          "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+          "scope": "ARTIFACT_GROUP"
+        }
+      }
+    ]
+  },
+  "beats": [
+    {
+      "source_word_start": 0,
+      "source_word_end": 15,
+      "visual_intent": "Contextual photograph of Harare airport.",
+      "search_queries": [
+        "Harare airport photograph",
+        "Harare airport Zimbabwe"
+      ],
+      "requirements": [
+        "Verified identity: Harare airport",
+        "Contextual place photograph only"
+      ],
+      "avoid": [
+        "Stone bird artifact",
+        "President or foreign delegation",
+        "Reconstruction of the military reception",
+        "Watermarks, logos or added captions"
+      ],
+      "edit": "Gentle push-in on the place photograph; no added factual elements.",
+      "start": 0.09000000000000002,
+      "end": 7.0,
+      "duration": 6.91,
+      "voice_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+      "visual_contract": {
+        "mode": "CONTEXTUAL_PLACE",
+        "identity_scope": "NAMED_PLACE",
+        "subject": "Harare airport",
+        "depicts_narrated_event": false,
+        "asset_identity_verified": false,
+        "identity_trace": {
+          "matched_mentions": [
+            "аэропорту Хараре"
+          ],
+          "scope": "current_narration_only"
+        },
+        "fallback_reason": "Unrevealed entity removed; locally named place retained"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "identity_context": {
+        "master_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+        "chapters": [],
+        "entities": [
+          {
+            "canonical_subject": "аэропорт Хараре",
+            "exact_subject": "",
+            "aliases_or_descriptions": [
+              "аэропорт Хараре",
+              "аэропорт Хараре",
+              "аэропорту Хараре",
+              "аэропорта Хараре",
+              "аэропортом Хараре"
+            ],
+            "evidence": [],
+            "identity_trace": {
+              "matched_mentions": [
+                "аэропорту Хараре"
+              ],
+              "matched_quotes": [],
+              "scope": "current_and_preceding_narration_only"
+            }
+          }
+        ],
+        "withheld_entities": [
+          {
+            "canonical_subject": "каменная птица",
+            "terms": [
+              "каменная птица",
+              "священный символ",
+              "птица-символ",
+              "птица чапунгу",
+              "символ, изображённый на флаге Зимбабве",
+              "птица, украденная колониальными учёными",
+              "Zimbabwe Bird",
+              "soapstone bird sculpture",
+              "Zimbabwe birds",
+              "Great Zimbabwe soapstone birds",
+              "stone bird",
+              "stone sculpture of a bird"
+            ]
+          },
+          {
+            "canonical_subject": "Набта-Плайя",
+            "terms": [
+              "Набта-Плайя",
+              "высохшее русло древнего озера Набта-Плайя",
+              "каменный круг",
+              "камни в пустыне",
+              "каменные плиты",
+              "солнцестояние"
+            ]
+          },
+          {
+            "canonical_subject": "культура Нок",
+            "terms": [
+              "культура Нок",
+              "терракотовые фигуры",
+              "терракотовая голова из Джемаа",
+              "железные печи",
+              "культура, жившая в Ноке"
+            ]
+          },
+          {
+            "canonical_subject": "библиотеки Тимбукту",
+            "terms": [
+              "библиотеки Тимбукту",
+              "библиотеки Санкоре",
+              "архивы университета",
+              "рукописи по астрономии, медицине, математике и праву",
+              "библиотеки, спасённые от боевиков"
+            ]
+          },
+          {
+            "canonical_subject": "ров Эредо",
+            "terms": [
+              "ров Эредо",
+              "археологический ров",
+              "вала и ров",
+              "ров и вал",
+              "Биликису Сунгбо"
+            ]
+          },
+          {
+            "canonical_subject": "Аксум",
+            "terms": [
+              "Аксум",
+              "столица Аксума",
+              "город Аксум",
+              "царство Аксум",
+              "стела Аксума"
+            ]
+          },
+          {
+            "canonical_subject": "город Дженне-Дьено",
+            "terms": [
+              "город Дженне-Дьено",
+              "город, который исчез",
+              "город, покинутый без объяснения",
+              "город старше многих европейских столиц"
+            ]
+          },
+          {
+            "canonical_subject": "церкви Лалибела",
+            "terms": [
+              "церкви Лалибела",
+              "церкви в скале",
+              "церкви-обелиски",
+              "церкви, построенные ангелами",
+              "Бете-Гиоргис"
+            ]
+          },
+          {
+            "canonical_subject": "Великий Зимбабве",
+            "terms": [
+              "Великий Зимбабве",
+              "столица шона",
+              "город шона",
+              "Большая ограда",
+              "город без гвоздей"
+            ]
+          }
+        ],
+        "chapter_match_score": 0
+      },
+      "visual_final": {
+        "visual_intent": "Contextual photograph of Harare airport.",
+        "search_queries": [
+          "Harare airport photograph",
+          "Harare airport Zimbabwe"
+        ],
+        "requirements": [
+          "Verified identity: Harare airport",
+          "Contextual place photograph only"
+        ],
+        "avoid": [
+          "Stone bird artifact",
+          "President or foreign delegation",
+          "Reconstruction of the military reception",
+          "Watermarks, logos or added captions"
+        ],
+        "edit": "Gentle push-in on the place photograph; no added factual elements."
+      },
+      "source_word_start": 0,
+      "source_word_end": 15,
+      "issues_before": [],
+      "issues_after": [],
+      "repair_attempts": [
+        {
+          "attempt": 1,
+          "issues_before": [
+            {
+              "type": "UNSUPPORTED_ENTITY_REVEAL",
+              "severity": "HIGH",
+              "detail": "Visual introduces an identity absent from available narration: каменная птица"
+            }
+          ],
+          "visual_before": {
+            "visual_intent": "A military guard stands at the entrance of Harare airport, facing a stone sculpture of a bird in the foreground, with the stone bird partially visible and stable in the background, showing no human interaction or movement.",
+            "search_queries": [
+              "military guard at Harare airport entrance",
+              "stone bird sculpture at Harare airport",
+              "real footage of military guard at Zimbabwe airport"
+            ],
+            "requirements": [
+              "military guard present",
+              "location: Harare airport",
+              "stone bird sculpture visible and stable",
+              "no president or foreign delegation shown"
+            ],
+            "avoid": [
+              "showing a president or foreign delegation",
+              "showing a person walking toward or away from the stone bird",
+              "adding text or labels",
+              "showing the stone bird in motion or being handled"
+            ],
+            "edit": "Steady, unedited real footage of a military guard at Harare airport, with the stone bird sculpture in the background, ensuring the stone bird is clearly visible and not obscured."
+          },
+          "issues_after": []
+        }
+      ]
+    }
+  ]
+}

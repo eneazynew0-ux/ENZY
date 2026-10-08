@@ -1,0 +1,122 @@
+[
+  {
+    "scene": 1,
+    "source_word_start": 0,
+    "source_word_end": 15,
+    "duration": 6.91,
+    "issues": [
+      {
+        "type": "UNSUPPORTED_QUERY_DETAIL",
+        "severity": "HIGH",
+        "detail": "'military guard at Harare airport 2024': unsupported year: 2024"
+      }
+    ]
+  },
+  {
+    "scene": 2,
+    "source_word_start": 16,
+    "source_word_end": 19,
+    "duration": 2.0599999999999996,
+    "issues": []
+  },
+  {
+    "scene": 3,
+    "source_word_start": 20,
+    "source_word_end": 38,
+    "duration": 8.48,
+    "issues": [
+      {
+        "type": "MULTI_BEAT_SCENE",
+        "severity": "HIGH",
+        "detail": "Detected 2 sequential meaning/action transitions."
+      }
+    ]
+  },
+  {
+    "scene": 4,
+    "source_word_start": 39,
+    "source_word_end": 64,
+    "duration": 12.079999999999998,
+    "issues": [
+      {
+        "type": "LONG_SCENE",
+        "severity": "MEDIUM",
+        "detail": "Scene lasts 12.08s."
+      }
+    ]
+  },
+  {
+    "scene": 5,
+    "source_word_start": 65,
+    "source_word_end": 68,
+    "duration": 2.3599999999999994,
+    "issues": []
+  },
+  {
+    "scene": 6,
+    "source_word_start": 69,
+    "source_word_end": 86,
+    "duration": 8.920000000000002,
+    "issues": []
+  },
+  {
+    "scene": 7,
+    "source_word_start": 87,
+    "source_word_end": 114,
+    "duration": 10.32,
+    "issues": [
+      {
+        "type": "MULTI_BEAT_SCENE",
+        "severity": "HIGH",
+        "detail": "Detected 3 sequential meaning/action transitions."
+      }
+    ]
+  },
+  {
+    "scene": 8,
+    "source_word_start": 115,
+    "source_word_end": 128,
+    "duration": 6.300000000000004,
+    "issues": [
+      {
+        "type": "UNSUPPORTED_QUERY_DETAIL",
+        "severity": "HIGH",
+        "detail": "'militants in Timbuktu 2012 attack': unsupported year: 2012"
+      }
+    ]
+  },
+  {
+    "scene": 9,
+    "source_word_start": 129,
+    "source_word_end": 149,
+    "duration": 8.699999999999996,
+    "issues": []
+  },
+  {
+    "scene": 10,
+    "source_word_start": 150,
+    "source_word_end": 170,
+    "duration": 7.739999999999995,
+    "issues": []
+  },
+  {
+    "scene": 11,
+    "source_word_start": 171,
+    "source_word_end": 178,
+    "duration": 4.960000000000008,
+    "issues": []
+  },
+  {
+    "scene": 12,
+    "source_word_start": 179,
+    "source_word_end": 214,
+    "duration": 17.120000000000005,
+    "issues": [
+      {
+        "type": "LONG_SCENE",
+        "severity": "HIGH",
+        "detail": "Scene lasts 17.12s and should be reviewed for semantic splitting."
+      }
+    ]
+  }
+]

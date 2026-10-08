@@ -1,0 +1,69 @@
+{
+  "needs_multiple_beats": true,
+  "reason": "The narration describes a shift from the location of the library (Timbuktu) to the method of rescue (in boats and trunk trailers) and the scale of recovery (in parts, over half a year), requiring distinct visual transitions to reflect changes in subject, action, and spatial context.",
+  "beats": [
+    {
+      "source_word_start": 115,
+      "source_word_end": 118,
+      "visual_intent": "Aerial or wide shot of the desert landscape near Timbuktu, showing the ruins of ancient libraries or stone structures, with a focus on the city of Timbuktu in the distance, located in northern Mali, at the edge of the Sahara.",
+      "search_queries": [
+        "desert landscape near Timbuktu Mali",
+        "ancient libraries in Timbuktu desert",
+        "view of Timbuktu from the edge of Sahara"
+      ],
+      "requirements": [
+        "Desert setting with visible signs of the city of Timbuktu",
+        "Presence of ancient stone structures or library ruins",
+        "Location in northern Mali, near the Sahara border"
+      ],
+      "avoid": [
+        "Images of Nubta-Plaia or stone circles",
+        "Modern buildings or urban development",
+        "Any visual suggesting a different location"
+      ],
+      "edit": "Hold for one full frame to establish the setting before transitioning to the rescue action"
+    },
+    {
+      "source_word_start": 119,
+      "source_word_end": 124,
+      "visual_intent": "A shot of armed militants in the desert, moving through the area, with a vehicle (possibly a pickup truck) carrying a large wooden crate or trunk, partially obscured by sand, showing the threat to the library.",
+      "search_queries": [
+        "militants in desert attacking library",
+        "boeviki in desert with vehicles",
+        "desert convoy with cargo in Mali"
+      ],
+      "requirements": [
+        "Visible presence of armed individuals or vehicles",
+        "Movement of a vehicle with cargo (trunk or crate)",
+        "Desert environment with sand and heat"
+      ],
+      "avoid": [
+        "Peaceful or neutral scenes",
+        "Images of intact libraries",
+        "Any suggestion of successful rescue yet"
+      ],
+      "edit": "Cut to a dynamic, tense shot showing the threat to the library, emphasizing danger and urgency"
+    },
+    {
+      "source_word_start": 125,
+      "source_word_end": 128,
+      "visual_intent": "A sequence of shots showing a truck or boat transporting library fragments, with hands or workers loading and unloading books, in a desert or riverbank setting, with a focus on the physical movement of books and the partial recovery over time.",
+      "search_queries": [
+        "desert truck transporting books",
+        "books being moved in a vehicle in desert",
+        "library books in trunk of off-road vehicle"
+      ],
+      "requirements": [
+        "Visible movement of books or manuscripts in a vehicle",
+        "Desert or remote location with limited infrastructure",
+        "Evidence of partial recovery over time"
+      ],
+      "avoid": [
+        "Full library intact",
+        "Modern urban setting",
+        "Any indication of complete recovery"
+      ],
+      "edit": "Use a montage of short, rhythmic shots to show the fragmented, piece-by-piece recovery process"
+    }
+  ]
+}

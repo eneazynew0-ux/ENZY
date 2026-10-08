@@ -1,0 +1,1810 @@
+{
+  "status": "NO_MATCH",
+  "reason": "No verified contextual photo",
+  "search": {
+    "queries": [
+      "Stone Bird",
+      "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+    ],
+    "target": "A documentary image clearly showing Stone Bird",
+    "provider_stats": {
+      "wikimedia": 5,
+      "internet_archive": 3,
+      "pixabay": 10,
+      "pexels": 10
+    },
+    "query_stats": {
+      "Stone Bird": {
+        "wikimedia": 5,
+        "internet_archive": 3,
+        "pixabay": 5,
+        "pexels": 5
+      },
+      "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo": {
+        "wikimedia": 0,
+        "internet_archive": 0,
+        "pixabay": 5,
+        "pexels": 5
+      }
+    },
+    "stats": {
+      "query_count": 2,
+      "search_found_raw": 28,
+      "search_unique": 28,
+      "duplicates_removed": 0,
+      "missing_identity": 0,
+      "rights_allowed": 25,
+      "rights_rejected": 3,
+      "export_rights_allowed": 21,
+      "export_rights_rejected": 4,
+      "identity_required": true,
+      "identity_verified": 0,
+      "identity_rejected": 21,
+      "media_accepted": 0,
+      "media_rejected": 0,
+      "unavailable": 0,
+      "downloaded": 0,
+      "download_failed": 0,
+      "visual_matches": 0,
+      "visual_rejected": 0
+    },
+    "best": null,
+    "matches": [],
+    "visual_rejected": [],
+    "rights_rejected": [
+      {
+        "provider": "internet_archive",
+        "identifier": "mma_bird_figure_317803",
+        "title": "Bird Figure",
+        "creator": "",
+        "license_url": "",
+        "rights_text": "Metropolitan Museum of Art Terms and Conditions",
+        "description_url": "https://archive.org/details/mma_bird_figure_317803",
+        "license_short": "",
+        "search_query": "Stone Bird",
+        "_precheck_rights": {
+          "status": "REVIEW",
+          "reason": "Missing license metadata"
+        },
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "REVIEW",
+          "reason": "Missing license metadata"
+        }
+      },
+      {
+        "provider": "internet_archive",
+        "identifier": "walfas-gi-primordial-jade-winged-spear",
+        "title": "[Walfas] GI Primordial Jade-winged Spear",
+        "creator": "NozomiSugiura",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "rights_text": "",
+        "description_url": "https://archive.org/details/walfas-gi-primordial-jade-winged-spear",
+        "license_short": "CC BY-NC 4.0",
+        "search_query": "Stone Bird",
+        "_precheck_rights": {
+          "status": "BLOCKED",
+          "reason": "Restricted license: CC BY-NC 4.0"
+        },
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "BLOCKED",
+          "reason": "Restricted license: CC BY-NC 4.0"
+        }
+      },
+      {
+        "provider": "internet_archive",
+        "identifier": "mma_stone_bird_hook_312939",
+        "title": "Stone Bird Hook",
+        "creator": "",
+        "license_url": "",
+        "rights_text": "Metropolitan Museum of Art Terms and Conditions",
+        "description_url": "https://archive.org/details/mma_stone_bird_hook_312939",
+        "license_short": "",
+        "search_query": "Stone Bird",
+        "_precheck_rights": {
+          "status": "REVIEW",
+          "reason": "Missing license metadata"
+        },
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "REVIEW",
+          "reason": "Missing license metadata"
+        }
+      }
+    ],
+    "export_rights_rejected": [
+      {
+        "pageid": 9116181,
+        "title": "File:Bird Stone - geograph.org.uk - 19096.jpg",
+        "description": "Bird Stone. Bird Stone, Thieves Wood",
+        "description_html": "Bird Stone. Bird Stone, Thieves Wood",
+        "source_date": "2005-06-15",
+        "width": 640,
+        "height": 480,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2010-01-30 01:33:58",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Bird Stone - geograph.org.uk - 19096",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Mansfield, Nottinghamshire|Images from Geograph Britain and Ireland|Standing stones in England|Images from Geograph Britain and Ireland needing category review|Information field template with formatting|United Kingdom photographs taken on 2005-06-15|Images from Geograph Britain and Ireland missing SDC coordinates of the point of view",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "53.103000",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-1.190000",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Bird Stone. Bird Stone, Thieves Wood",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2005-06-15",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/19096\">geograph.org.uk</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/715\">Q</a>",
+            "source": "commons-desc-page"
+          },
+          "Attribution": {
+            "value": "Q",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Bird_Stone_-_geograph.org.uk_-_19096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Bird_Stone_-_geograph.org.uk_-_19096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Bird_Stone_-_geograph.org.uk_-_19096.jpg",
+        "media_type": "BITMAP",
+        "mime": "image/jpeg",
+        "license_short": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/715\">Q</a>",
+        "credit": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/19096\">geograph.org.uk</a>",
+        "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bird_Stone_-_geograph.org.uk_-_19096.jpg",
+          "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/715\">Q</a>",
+          "credit": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/19096\">geograph.org.uk</a>"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 2.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Bird_Stone_-_geograph.org.uk_-_19096.jpg",
+            "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/715\">Q</a>",
+            "credit": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/19096\">geograph.org.uk</a>"
+          }
+        }
+      },
+      {
+        "pageid": 13950895,
+        "title": "File:Bird maze, Stone Jetty - geograph.org.uk - 1230248.jpg",
+        "description": "Bird maze, Stone Jetty At the base of the Stone Jetty is this maze with a bird theme, part of the \"Tern\" project which features birds along Morecambe Promenade. It would take a very wide-angle lens to capture the entire maze.",
+        "description_html": "Bird maze, Stone Jetty At the base of the Stone Jetty is this maze with a bird theme, part of the \"Tern\" project which features birds along Morecambe Promenade. It would take a very wide-angle lens to capture the entire maze.",
+        "source_date": "2009-03-28",
+        "width": 640,
+        "height": 480,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2011-02-26 12:36:03",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Bird maze, Stone Jetty - geograph.org.uk - 1230248",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Ricoh Caplio GX100|Images from Geograph Britain and Ireland|The Stone Jetty, Morecambe|Information field template with formatting|United Kingdom photographs taken on 2009-03-28|Images by Oliver Dixon|Sculptures in Morecambe",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "54.072740",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-2.876200",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Bird maze, Stone Jetty At the base of the Stone Jetty is this maze with a bird theme, part of the \"Tern\" project which features birds along Morecambe Promenade. It would take a very wide-angle lens to capture the entire maze.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2009-03-28",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/1230248\">geograph.org.uk</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/3462\">Oliver Dixon</a>",
+            "source": "commons-desc-page"
+          },
+          "Attribution": {
+            "value": "Oliver Dixon",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bird_maze%2C_Stone_Jetty_-_geograph.org.uk_-_1230248.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bird_maze%2C_Stone_Jetty_-_geograph.org.uk_-_1230248.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Bird_maze,_Stone_Jetty_-_geograph.org.uk_-_1230248.jpg",
+        "media_type": "BITMAP",
+        "mime": "image/jpeg",
+        "license_short": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/3462\">Oliver Dixon</a>",
+        "credit": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/1230248\">geograph.org.uk</a>",
+        "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bird_maze,_Stone_Jetty_-_geograph.org.uk_-_1230248.jpg",
+          "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/3462\">Oliver Dixon</a>",
+          "credit": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/1230248\">geograph.org.uk</a>"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 2.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Bird_maze,_Stone_Jetty_-_geograph.org.uk_-_1230248.jpg",
+            "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/3462\">Oliver Dixon</a>",
+            "credit": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/1230248\">geograph.org.uk</a>"
+          }
+        }
+      },
+      {
+        "pageid": 118157255,
+        "title": "File:Bird sculptures on the Stone Jetty, Morecambe - geograph.org.uk - 3542400.jpg",
+        "description": "Bird sculptures on the Stone Jetty, Morecambe",
+        "description_html": "Bird sculptures on the Stone Jetty, Morecambe <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+        "source_date": "2013-07-05",
+        "width": 800,
+        "height": 600,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2022-05-19 16:26:35",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Bird sculptures on the Stone Jetty, Morecambe - geograph.org.uk - 3542400",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Images from Geograph Britain and Ireland|The Stone Jetty, Morecambe",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "54.072962",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-2.876393",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Bird sculptures on the Stone Jetty, Morecambe <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2013-07-05",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/3542400\">Geograph Britain and Ireland</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/37389\">Karl and Ali</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Attribution": {
+            "value": "<i>Bird sculptures on the Stone Jetty, Morecambe</i> by Karl and Ali",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bird_sculptures_on_the_Stone_Jetty%2C_Morecambe_-_geograph.org.uk_-_3542400.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bird_sculptures_on_the_Stone_Jetty%2C_Morecambe_-_geograph.org.uk_-_3542400.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg",
+        "media_type": "BITMAP",
+        "mime": "image/jpeg",
+        "license_short": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/37389\">Karl and Ali</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+        "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/3542400\">Geograph Britain and Ireland</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+        "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg",
+          "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/37389\">Karl and Ali</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+          "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/3542400\">Geograph Britain and Ireland</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 2.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg",
+            "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/37389\">Karl and Ali</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+            "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/3542400\">Geograph Britain and Ireland</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Bird_sculptures_on_the_Stone_Jetty,_Morecambe_-_geograph.org.uk_-_3542400.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>"
+          }
+        }
+      },
+      {
+        "pageid": 177769453,
+        "title": "File:Human and bird stone sculpture Iqaluit.jpg",
+        "description": "Stone sculpture of a person and a bird at the Four Corners in downtown Iqaluit, Nunavut",
+        "description_html": "Stone sculpture of a person and a bird at the Four Corners in downtown Iqaluit, Nunavut",
+        "source_date": "2025-09-04 16:57:03",
+        "width": 4032,
+        "height": 2268,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2025-11-03 05:36:17",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Human and bird stone sculpture Iqaluit",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|FoP-Canada|Files with coordinates missing SDC location of creation|Downtown Iqaluit|Carving in Canada",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "63.749747",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-68.521701",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Stone sculpture of a person and a bird at the Four Corners in downtown Iqaluit, Nunavut",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2025-09-04 16:57:03",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:OhanaUnited\" title=\"User:OhanaUnited\"><span style=\"font-weight:bold\"><font color=\"#0000FF\">OhanaUnited</font></span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:OhanaUnited\" title=\"User talk:OhanaUnited\"><span style=\"font-weight:bold\"><font color=\"green\"><sup>Talk page</sup></font></span></a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Human_and_bird_stone_sculpture_Iqaluit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Human_and_bird_stone_sculpture_Iqaluit.jpg/960px-Human_and_bird_stone_sculpture_Iqaluit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Human_and_bird_stone_sculpture_Iqaluit.jpg",
+        "media_type": "BITMAP",
+        "mime": "image/jpeg",
+        "license_short": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "<a href=\"//commons.wikimedia.org/wiki/User:OhanaUnited\" title=\"User:OhanaUnited\"><span style=\"font-weight:bold\"><font color=\"#0000FF\">OhanaUnited</font></span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:OhanaUnited\" title=\"User talk:OhanaUnited\"><span style=\"font-weight:bold\"><font color=\"green\"><sup>Talk page</sup></font></span></a>",
+        "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Human_and_bird_stone_sculpture_Iqaluit.jpg",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:OhanaUnited\" title=\"User:OhanaUnited\"><span style=\"font-weight:bold\"><font color=\"#0000FF\">OhanaUnited</font></span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:OhanaUnited\" title=\"User talk:OhanaUnited\"><span style=\"font-weight:bold\"><font color=\"green\"><sup>Talk page</sup></font></span></a>",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "export_rights": {
+          "status": "REJECT",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Human_and_bird_stone_sculpture_Iqaluit.jpg",
+            "artist": "<a href=\"//commons.wikimedia.org/wiki/User:OhanaUnited\" title=\"User:OhanaUnited\"><span style=\"font-weight:bold\"><font color=\"#0000FF\">OhanaUnited</font></span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:OhanaUnited\" title=\"User talk:OhanaUnited\"><span style=\"font-weight:bold\"><font color=\"green\"><sup>Talk page</sup></font></span></a>",
+            "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+          }
+        }
+      }
+    ],
+    "identity_rejected": [
+      {
+        "pageid": 145478769,
+        "title": "File:Golden bowl in the form of the bird with precious stones from Munich Project.jpg",
+        "description": "Golden bowl in the form of a bird, set with precious stones; object belonging to the collection of the Munich Residenz.",
+        "description_html": "Golden bowl in the form of a bird, set with precious stones; object belonging to the collection of the Munich Residenz.",
+        "source_date": "2024-02-02 06:43:08",
+        "width": 6629,
+        "height": 4960,
+        "source_metadata": {
+          "DateTime": {
+            "value": "2026-08-28 14:12:31",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Golden bowl in the form of the bird with precious stones from Munich Project",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Sculptures of birds in Germany|CC-Zero|Self-published work|Featured pictures by User:Wilfredor|Media created with Nikon Z7ii provided by the Quebec WikiClub|Files with Assessments template missing SDC Commons featured picture assessment|Images from Munich Project|Munich Residenz Münchner by Wilfredor|Collections of Münchner Residenz|Sculptures by Wilfredor|Birds by Wilfredor|Studio photography by Wilfredor|Heavily photoshopped by Wilfredor",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "quality|featured|potd",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Golden bowl in the form of a bird, set with precious stones; object belonging to the collection of the Munich Residenz.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-02-02 06:43:08",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q115464159\" class=\"extiw\" title=\"d:Q115464159\"><span title=\"developer analyst and photographer from Venezuela\">Wilfredor</span></a></bdi>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Golden_bowl_in_the_form_of_the_bird_with_precious_stones_from_Munich_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Golden_bowl_in_the_form_of_the_bird_with_precious_stones_from_Munich_Project.jpg/960px-Golden_bowl_in_the_form_of_the_bird_with_precious_stones_from_Munich_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description_url": "https://commons.wikimedia.org/wiki/File:Golden_bowl_in_the_form_of_the_bird_with_precious_stones_from_Munich_Project.jpg",
+        "media_type": "BITMAP",
+        "mime": "image/jpeg",
+        "license_short": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q115464159\" class=\"extiw\" title=\"d:Q115464159\"><span title=\"developer analyst and photographer from Venezuela\">Wilfredor</span></a></bdi>",
+        "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+        "copyrighted": "True",
+        "restrictions": "",
+        "provider": "wikimedia",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Golden_bowl_in_the_form_of_the_bird_with_precious_stones_from_Munich_Project.jpg",
+          "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q115464159\" class=\"extiw\" title=\"d:Q115464159\"><span title=\"developer analyst and photographer from Venezuela\">Wilfredor</span></a></bdi>",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "cc0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Golden_bowl_in_the_form_of_the_bird_with_precious_stones_from_Munich_Project.jpg",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q115464159\" class=\"extiw\" title=\"d:Q115464159\"><span title=\"developer analyst and photographer from Venezuela\">Wilfredor</span></a></bdi>",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "bird",
+          "context_matches": [
+            "the"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "2369275",
+        "title": "cherry, sweet cherry, fruit",
+        "source_url": "https://pixabay.com/photos/cherry-sweet-cherry-fruit-yummy-2369275/",
+        "original_url": "https://pixabay.com/get/gd937e2d5c4f3bc0fa5b7fb4996191548106d108de680cc5fd3859adddf0766fa60be4b420d385ecf08c8dce08059e2bd6e74ce5591b826e9b9a725db0133ec24_1280.jpg",
+        "preview_url": "https://pixabay.com/get/gd62b6a98e00cc201e0bea2a4a33657895d54f2632bb045e6238308d490c30dc53daef75f0dd4e0fc21798b4b052394da01f087fdde289af9d0998df487ebba95_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 3894,
+        "height": 2596,
+        "creator": "WolfBlur",
+        "creator_url": "https://pixabay.com/users/2503887/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "cherry, sweet cherry, fruit, yummy, fruity, bird cherry, bing, prunus avium, cute, ripe, stone fruit, cherry, cherry, cherry, cherry, cherry",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/cherry-sweet-cherry-fruit-yummy-2369275/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/cherry-sweet-cherry-fruit-yummy-2369275/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "stone",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "3268990",
+        "title": "pigeons, birds, perched",
+        "source_url": "https://pixabay.com/photos/pigeons-birds-perched-animals-3268990/",
+        "original_url": "https://pixabay.com/get/g7e73a754975ec42fa8af95df9e053d3a456198dddead43cc7187807e3ba07e4fa440eda55659c215270287ef54f5f50db091f685b1b352ffe156b39c4c6b1519_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g1958e66fbae9ce3e288b2c18ff4550331439391ea2392665497ae8d4e595bc203cfb0fa760e73d9de28e3906daff499d4ff64095095649408a03c30de814bfd8_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4295,
+        "height": 2959,
+        "creator": "Couleur",
+        "creator_url": "https://pixabay.com/users/1195798/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "pigeons, birds, perched, animals, feathers, plumage, beaks, bills, bird watching, ornithology, animal world, nature, pigeons, pigeons, pigeons, pigeons, pigeons",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/pigeons-birds-perched-animals-3268990/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/pigeons-birds-perched-animals-3268990/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "bird",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "4518195",
+        "title": "landscape, cave, nature",
+        "source_url": "https://pixabay.com/photos/landscape-cave-stone-sunset-4518195/",
+        "original_url": "https://pixabay.com/get/g8ad773b575da60ad1496538a6bb3a5d340be2e4667f3520da9263a480345f1c85e5de461d05a9b11053a8d4ba82762d090db2440af31adef2f46fbb1be1e8256_1280.jpg",
+        "preview_url": "https://pixabay.com/get/gd5b4951d0cd844111f10593ed25d8cee2f1d719b8e1c37942379aa45d1507b6f2f19f11a06594172ddb95a64facfb457312194a5791745081119de2a2841b889_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 7087,
+        "height": 4724,
+        "creator": "ELG21",
+        "creator_url": "https://pixabay.com/users/3764790/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "landscape, cave, nature, stone, sunset, darling, clouds, birds",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/landscape-cave-stone-sunset-4518195/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/landscape-cave-stone-sunset-4518195/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "stone",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "8022869",
+        "title": "bird, cormorant, animal",
+        "source_url": "https://pixabay.com/photos/bird-cormorant-animal-nature-8022869/",
+        "original_url": "https://pixabay.com/get/g17c430b457dd97526b6cbfdc2a9169b601e41971f08b162ec0a99232eac0f18e55f8e95c790d32626644f50cc05eb1b1d9116fad496983ac4ff608974c4c92bc_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g23fd359418e109df3a2ae0bd95b6a541123a9d4066c2328bb1244fcb3c548e05436e16d6ee85fa8d91eef6bf1de154401503b9b46e1f633e32ea7e7ce2d65c89_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 2235,
+        "height": 3352,
+        "creator": "K-Vlogger",
+        "creator_url": "https://pixabay.com/users/27388924/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "bird, cormorant, animal, nature, animal, animal, animal, animal, animal",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/bird-cormorant-animal-nature-8022869/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/bird-cormorant-animal-nature-8022869/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "bird",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "8028951",
+        "title": "pigeon, dove, bird",
+        "source_url": "https://pixabay.com/photos/pigeon-dove-bird-animal-beak-8028951/",
+        "original_url": "https://pixabay.com/get/gb8c1291eff4b759f01e8f1dcf0937720a3e9694b4b7a02b0b99c6c6910437d7f3104ca22b4adb371dc9e8c5b7d2e9a27f3e1fdb3d65a179d6dd695f9f5752033_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g7c451bc2336a7715cf6dfdd9b671773037bad300cc1b3756d85a3251729bf54949726a9fdb6fa3fdcf80c0d5b0cb9037d139d53f6e578d421bd9f1b1062662e8_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6264,
+        "height": 4180,
+        "creator": "OliveiraTP",
+        "creator_url": "https://pixabay.com/users/22028050/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "pigeon, dove, bird, animal, beak, feathers, plumage, avian, wildlife, nature, pigeon, pigeon, pigeon, pigeon, pigeon",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/pigeon-dove-bird-animal-beak-8028951/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/pigeon-dove-bird-animal-beak-8028951/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "bird",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "31854606",
+        "title": "Pigeon resting in a crevice of an ancient stone wall, İstanbul.",
+        "source_url": "https://www.pexels.com/photo/pigeon-nestled-in-ancient-brick-wall-in-istanbul-31854606/",
+        "original_url": "https://images.pexels.com/photos/31854606/pexels-photo-31854606.jpeg",
+        "preview_url": "https://images.pexels.com/photos/31854606/pexels-photo-31854606.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6720,
+        "height": 4480,
+        "creator": "Muhammed Mahsum  Tunç",
+        "creator_url": "https://www.pexels.com/@muhammed-mahsum-tunc-859110584",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Pigeon resting in a crevice of an ancient stone wall, İstanbul.",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/pigeon-nestled-in-ancient-brick-wall-in-istanbul-31854606/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/pigeon-nestled-in-ancient-brick-wall-in-istanbul-31854606/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "stone",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "33216433",
+        "title": "A solitary small bird perched on rocks amidst quarry stones and rope.",
+        "source_url": "https://www.pexels.com/photo/small-bird-resting-on-rocky-terrain-in-quarry-33216433/",
+        "original_url": "https://images.pexels.com/photos/33216433/pexels-photo-33216433.jpeg",
+        "preview_url": "https://images.pexels.com/photos/33216433/pexels-photo-33216433.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6240,
+        "height": 4160,
+        "creator": "Murat Ak",
+        "creator_url": "https://www.pexels.com/@muratak",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "A solitary small bird perched on rocks amidst quarry stones and rope.",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/small-bird-resting-on-rocky-terrain-in-quarry-33216433/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/small-bird-resting-on-rocky-terrain-in-quarry-33216433/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "bird",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "12895168",
+        "title": "A striking Asian green bee-eater rests gracefully on a stone pillar in a verdant field.",
+        "source_url": "https://www.pexels.com/photo/an-asian-green-bee-eater-on-a-concrete-surface-12895168/",
+        "original_url": "https://images.pexels.com/photos/12895168/pexels-photo-12895168.jpeg",
+        "preview_url": "https://images.pexels.com/photos/12895168/pexels-photo-12895168.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4608,
+        "height": 3208,
+        "creator": "Sharath G.",
+        "creator_url": "https://www.pexels.com/@dropshado",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "A striking Asian green bee-eater rests gracefully on a stone pillar in a verdant field.",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/an-asian-green-bee-eater-on-a-concrete-surface-12895168/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/an-asian-green-bee-eater-on-a-concrete-surface-12895168/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "stone",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "30876931",
+        "title": "A small bird perched on a moss-covered ornate stone rooftop against a cloudy sky.",
+        "source_url": "https://www.pexels.com/photo/bird-perched-on-ornate-stone-rooftop-detail-30876931/",
+        "original_url": "https://images.pexels.com/photos/30876931/pexels-photo-30876931.jpeg",
+        "preview_url": "https://images.pexels.com/photos/30876931/pexels-photo-30876931.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4500,
+        "height": 3000,
+        "creator": "Karolina",
+        "creator_url": "https://www.pexels.com/@karolina-2031292",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "A small bird perched on a moss-covered ornate stone rooftop against a cloudy sky.",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/bird-perched-on-ornate-stone-rooftop-detail-30876931/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/bird-perched-on-ornate-stone-rooftop-detail-30876931/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "stone",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "22031450",
+        "title": "Captivating view of a Blue-Faced Malkoha resting on a stone fence in natural setting.",
+        "source_url": "https://www.pexels.com/photo/blue-faced-malkoha-perching-on-fence-22031450/",
+        "original_url": "https://images.pexels.com/photos/22031450/pexels-photo-22031450.jpeg",
+        "preview_url": "https://images.pexels.com/photos/22031450/pexels-photo-22031450.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 3262,
+        "height": 2226,
+        "creator": "Mohamed Nasar",
+        "creator_url": "https://www.pexels.com/@mohamed-nasar-641930278",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Captivating view of a Blue-Faced Malkoha resting on a stone fence in natural setting.",
+        "search_query": "Stone Bird",
+        "matched_queries": [
+          "Stone Bird"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/blue-faced-malkoha-perching-on-fence-22031450/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/blue-faced-malkoha-perching-on-fence-22031450/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "stone",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "5948338",
+        "title": "rocks, hill, trees",
+        "source_url": "https://pixabay.com/photos/rocks-hill-trees-sunlight-branches-5948338/",
+        "original_url": "https://pixabay.com/get/g68ef5ae2367ec95a1f8ddcdc69258f1ded205000e3c725a3ed81a406c14839eed0e028a9e4e4b06e012ba5087dbb198f5c31b25ec8eb034dc16f2f162d6d101c_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g0c36462450ee86503f391665014df8705b9456101e537021152cdd06d49d2c3f7ff2736b15e619ed644adf72f53ef33b40906fd0fa9de4e40003c750f260348a_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5184,
+        "height": 3456,
+        "creator": "fietzfotos",
+        "creator_url": "https://pixabay.com/users/6795508/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "rocks, hill, trees, sunlight, branches, bush, rock mound, granite, stones, woods, dry, parched, drought, landscape, nature, zimbabwe, africa, drought, zimbabwe, zimbabwe, zimbabwe, zimbabwe, zimbabwe",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/rocks-hill-trees-sunlight-branches-5948338/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/rocks-hill-trees-sunlight-branches-5948338/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [
+            "zimbabwe"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "9618381",
+        "title": "nature, animal, doe",
+        "source_url": "https://pixabay.com/photos/nature-animal-doe-mammal-horns-9618381/",
+        "original_url": "https://pixabay.com/get/g26e9a8276dd52be002e2a50e443ca1967a8849c78f49d303e3aa2c53526223468ea8bb8485d127bec08531b460c1ef7eaa4bd05f07b0523902c3552a45229794_1280.jpg",
+        "preview_url": "https://pixabay.com/get/gbe1e7d0b0dd33f1272e542d94365bb8232f20f7af23e213e39fe409e1ad5ac97775de1ca8272300860957e5ab44f429feb0a1a70530baff98e19e4c0547b10ea_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6048,
+        "height": 4024,
+        "creator": "Dlugas",
+        "creator_url": "https://pixabay.com/users/29837388/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "nature, animal, doe, mammal, horns, fauna, herbivore, wild, antlers, near, eye, young",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/nature-animal-doe-mammal-horns-9618381/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/nature-animal-doe-mammal-horns-9618381/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [
+            "near"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "4928241",
+        "title": "victoria falls, bird's-eye view, africa",
+        "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+        "original_url": "https://pixabay.com/get/gdebe6bd6c629d254d15335cfb2d41f2d0d7bfa72041b1ba812954cb7526290b932e11eeb0aa6c83421d210d6c0e1a9ae20d5ef1d51f185c6d770df1bbc64c530_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g329832cb9060f12d7951ae12836902ab7269ee5356c39482e5bae19f6b953d0cef31fe5fa7ed3df332fbf799900f794503dd3ea4733434cef638caeafb6f06df_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6000,
+        "height": 2945,
+        "creator": "Jürgen_Bierlein",
+        "creator_url": "https://pixabay.com/users/5797981/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "victoria falls, bird's-eye view, africa, zimbabwe, river, nature, landscape, victoria falls, victoria falls, victoria falls, victoria falls, victoria falls, zimbabwe",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "bird",
+          "context_matches": [
+            "zimbabwe"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "5948335",
+        "title": "hut, rock, matopos hill",
+        "source_url": "https://pixabay.com/photos/hut-rock-matopos-hill-house-5948335/",
+        "original_url": "https://pixabay.com/get/gd4d106888e29b67beb460c2a7fd0931cd732402e2900973d09437594ed994f528af9d67a7fe401e8b3b21e5ffef1163b73ff5fbeff740d5a3f41fd2ba1a0304c_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g4a2b52675be91ecf2d446d9a8d5c3e764496983ecf5f36a783c7dd7bc642bfe1522661995052bcb75677730616b1230ad07f10bdd3d5a87d1e1b368cbd492179_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4592,
+        "height": 3064,
+        "creator": "fietzfotos",
+        "creator_url": "https://pixabay.com/users/6795508/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "hut, rock, matopos hill, house, building, thatched roof, natural stone, matobo national park, nature park, nature, zimbabwe, africa, zimbabwe, zimbabwe, zimbabwe, zimbabwe, zimbabwe",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/hut-rock-matopos-hill-house-5948335/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/hut-rock-matopos-hill-house-5948335/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "stone",
+          "context_matches": [
+            "zimbabwe"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "8785493",
+        "title": "travel, nature, landscape",
+        "source_url": "https://pixabay.com/photos/travel-nature-landscape-kazakhstan-8785493/",
+        "original_url": "https://pixabay.com/get/ge05484bd1191eea959a5bf4cc164811920d070df5104f62359700af517f5dfbdcabdd87f16a0c265bc9cd510b1f5104240ce97150d83c610041d4deca7365602_1280.jpg",
+        "preview_url": "https://pixabay.com/get/g6f09037aea10d99309f43b1177c4e86a721c38315aedb68723f5fd80978855f1747c600d00e5215265d58aa6f7099773dd3865fa4028edcca4f869d858d912bb_640.jpg",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5033,
+        "height": 3146,
+        "creator": "Buzurnyuk",
+        "creator_url": "https://pixabay.com/users/38083078/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "travel, nature, landscape, kazakhstan, tourism, sky, almaty, desert, view, beautiful, outdoor, yellow, mountains, rock, dry, scenic, blue sky, blue, asia, hill, stone, valley, colorful, hiking",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/photos/travel-nature-landscape-kazakhstan-8785493/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/photos/travel-nature-landscape-kazakhstan-8785493/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": "stone",
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "3073315",
+        "title": "Aerial view of lush, rocky hills in Zimbabwe under a cloudy sky, showcasing natural beauty.",
+        "source_url": "https://www.pexels.com/photo/green-and-rocky-mountains-under-cloudy-sky-3073315/",
+        "original_url": "https://images.pexels.com/photos/3073315/pexels-photo-3073315.jpeg",
+        "preview_url": "https://images.pexels.com/photos/3073315/pexels-photo-3073315.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5760,
+        "height": 3840,
+        "creator": "Boris Ulzibat",
+        "creator_url": "https://www.pexels.com/@the-trvlr",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Aerial view of lush, rocky hills in Zimbabwe under a cloudy sky, showcasing natural beauty.",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/green-and-rocky-mountains-under-cloudy-sky-3073315/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/green-and-rocky-mountains-under-cloudy-sky-3073315/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [
+            "zimbabwe",
+            "hills"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "13340679",
+        "title": "Explore the stunning rock formations in Campinas, Brazil. Perfect for nature lovers and adventurers.",
+        "source_url": "https://www.pexels.com/photo/the-peak-of-goats-rocks-formation-in-campinas-brazil-13340679/",
+        "original_url": "https://images.pexels.com/photos/13340679/pexels-photo-13340679.jpeg",
+        "preview_url": "https://images.pexels.com/photos/13340679/pexels-photo-13340679.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4348,
+        "height": 2899,
+        "creator": "Nicholas Shirazawa",
+        "creator_url": "https://www.pexels.com/@nicholas-shirazawa-286674048",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Explore the stunning rock formations in Campinas, Brazil. Perfect for nature lovers and adventurers.",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/the-peak-of-goats-rocks-formation-in-campinas-brazil-13340679/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/the-peak-of-goats-rocks-formation-in-campinas-brazil-13340679/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [
+            "the"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "19963962",
+        "title": "A blue pushpin marks Zimbabwe on a colorful close-up map highlighting its geographical position.",
+        "source_url": "https://www.pexels.com/photo/pin-on-map-19963962/",
+        "original_url": "https://images.pexels.com/photos/19963962/pexels-photo-19963962.jpeg",
+        "preview_url": "https://images.pexels.com/photos/19963962/pexels-photo-19963962.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 4608,
+        "height": 3456,
+        "creator": "Beate Vogl",
+        "creator_url": "https://www.pexels.com/@beate-vogl-852640107",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "A blue pushpin marks Zimbabwe on a colorful close-up map highlighting its geographical position.",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/pin-on-map-19963962/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/pin-on-map-19963962/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [
+            "zimbabwe"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "38316123",
+        "title": "Rocky hills and lush greenery under a clear blue sky, showcasing nature's untouched beauty.",
+        "source_url": "https://www.pexels.com/photo/scenic-view-of-rocky-hills-and-greenery-38316123/",
+        "original_url": "https://images.pexels.com/photos/38316123/pexels-photo-38316123.jpeg",
+        "preview_url": "https://images.pexels.com/photos/38316123/pexels-photo-38316123.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 6530,
+        "height": 4353,
+        "creator": "Cheese Burger",
+        "creator_url": "https://www.pexels.com/@cheeseburger",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Rocky hills and lush greenery under a clear blue sky, showcasing nature's untouched beauty.",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/scenic-view-of-rocky-hills-and-greenery-38316123/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/scenic-view-of-rocky-hills-and-greenery-38316123/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [
+            "hills"
+          ],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      },
+      {
+        "provider": "pexels",
+        "provider_id": "37498710",
+        "title": "Beautiful rocky hillside landscape with lush greenery and bright sky perfect for nature themes.",
+        "source_url": "https://www.pexels.com/photo/scenic-rocky-hillside-with-vibrant-greenery-37498710/",
+        "original_url": "https://images.pexels.com/photos/37498710/pexels-photo-37498710.jpeg",
+        "preview_url": "https://images.pexels.com/photos/37498710/pexels-photo-37498710.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "media_type": "BITMAP",
+        "mime_type": "image/jpeg",
+        "width": 5520,
+        "height": 3680,
+        "creator": "Sóc Năng Động",
+        "creator_url": "https://www.pexels.com/@soc-nang-d-ng-2150345854",
+        "license_short": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "Beautiful rocky hillside landscape with lush greenery and bright sky perfect for nature themes.",
+        "search_query": "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo",
+        "matched_queries": [
+          "Stone Bird Southern-Eastern Zimbabwe, hills near Masvingo"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "source_url": "https://www.pexels.com/photo/scenic-rocky-hillside-with-vibrant-greenery-37498710/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pexels license",
+          "source_url": "https://www.pexels.com/photo/scenic-rocky-hillside-with-vibrant-greenery-37498710/",
+          "license_url": "https://www.pexels.com/license/",
+          "artist": "",
+          "credit": ""
+        },
+        "factual_identity": {
+          "status": "UNVERIFIED",
+          "confidence": "LOW",
+          "matched_term": null,
+          "context_matches": [],
+          "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+        }
+      }
+    ],
+    "media_rejected": [],
+    "unavailable": [],
+    "download_failed": []
+  }
+}

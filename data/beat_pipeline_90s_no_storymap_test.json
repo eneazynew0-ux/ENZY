@@ -1,0 +1,4139 @@
+{
+  "total_scenes": 12,
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "scene_number": 1,
+      "result": {
+        "scene": {
+          "source_word_start": 0,
+          "source_word_end": 15,
+          "start": 0.09000000000000002,
+          "end": 7.0
+        },
+        "planner_reason": "The narration describes a military guard at Harare airport encountering neither the president nor an international delegation, and explicitly introduces the presence of the stone bird as a positive factual element supported by grounding_context. The negation 'not the president' and 'not an international delegation' must be visually grounded only by the actual object present — the stone bird — which is confirmed in grounding_context. A single beat cannot visually represent both the absence of two entities and the presence of a third without violating the rule that a beat must reflect only what is directly stated in its word range. Thus, a split is required to first establish the setting and guard, then introduce the stone bird as the actual object being encountered.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+          "chapter_match_score": 1,
+          "chapters": [
+            {
+              "chapter_id": 1,
+              "title": "Каменная птица в Хараре",
+              "primary_subject": "каменная птица",
+              "subject_type": "артефакт",
+              "location": "Юго-восток Зимбабве, холмы у Масвинго",
+              "aliases": [
+                "священный символ",
+                "птица-символ",
+                "птица чапунгу"
+              ],
+              "key_objects": [
+                "каменная птица",
+                "Большая ограда"
+              ],
+              "confidence": "HIGH"
+            }
+          ],
+          "entities": [
+            {
+              "canonical_subject": "каменная птица",
+              "subject_type": "артефакт",
+              "location": "Юго-восток Зимбабве, холмы у Масвинго",
+              "aliases_or_descriptions": [
+                "священный символ",
+                "птица-символ",
+                "птица чапунгу",
+                "символ, изображённый на флаге Зимбабве",
+                "птица, украденная колониальными учёными"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу.",
+                "В тысяча восемьсот восемьдесят девятом году охотник Вилли Поссельт выломал из руин каменную птицу, священную для местных жителей — символ чапунгу, орла-скомороха, посредника между живыми и предками",
+                "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре",
+                "символ, который сегодня изображён на флаге, банкнотах и в паспорте каждого зимбабвийца"
+              ],
+              "researched_search_identity": {
+                "status": "VERIFIED",
+                "canonical_subject": "Zimbabwe Bird",
+                "subject_type": "soapstone bird sculpture",
+                "location": "Great Zimbabwe",
+                "aliases": [
+                  "Zimbabwe birds",
+                  "Great Zimbabwe soapstone birds"
+                ],
+                "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                "scope": "ARTIFACT_GROUP"
+              }
+            }
+          ]
+        },
+        "beats": [
+          {
+            "source_word_start": 0,
+            "source_word_end": 15,
+            "visual_intent": "Contextual photograph of Harare airport.",
+            "search_queries": [
+              "Harare airport photograph",
+              "Harare airport Zimbabwe"
+            ],
+            "requirements": [
+              "Verified identity: Harare airport",
+              "Contextual place photograph only"
+            ],
+            "avoid": [
+              "Stone bird artifact",
+              "President or foreign delegation",
+              "Reconstruction of the military reception",
+              "Watermarks, logos or added captions"
+            ],
+            "edit": "Gentle push-in on the place photograph; no added factual elements.",
+            "start": 0.09000000000000002,
+            "end": 7.0,
+            "duration": 6.91,
+            "voice_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+            "visual_contract": {
+              "mode": "CONTEXTUAL_PLACE",
+              "identity_scope": "NAMED_PLACE",
+              "subject": "Harare airport",
+              "depicts_narrated_event": false,
+              "asset_identity_verified": false,
+              "identity_trace": {
+                "matched_mentions": [
+                  "аэропорту Хараре"
+                ],
+                "scope": "current_narration_only"
+              },
+              "fallback_reason": "Unrevealed entity removed; locally named place retained"
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ],
+                  "evidence": [],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "аэропорту Хараре"
+                    ],
+                    "matched_quotes": [],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "terms": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными",
+                    "Zimbabwe Bird",
+                    "soapstone bird sculpture",
+                    "Zimbabwe birds",
+                    "Great Zimbabwe soapstone birds",
+                    "stone bird",
+                    "stone sculpture of a bird"
+                  ]
+                },
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "Contextual photograph of Harare airport.",
+              "search_queries": [
+                "Harare airport photograph",
+                "Harare airport Zimbabwe"
+              ],
+              "requirements": [
+                "Verified identity: Harare airport",
+                "Contextual place photograph only"
+              ],
+              "avoid": [
+                "Stone bird artifact",
+                "President or foreign delegation",
+                "Reconstruction of the military reception",
+                "Watermarks, logos or added captions"
+              ],
+              "edit": "Gentle push-in on the place photograph; no added factual elements."
+            },
+            "source_word_start": 0,
+            "source_word_end": 15,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": [
+              {
+                "attempt": 1,
+                "issues_before": [
+                  {
+                    "type": "UNSUPPORTED_ENTITY_REVEAL",
+                    "severity": "HIGH",
+                    "detail": "Visual introduces an identity absent from available narration: каменная птица"
+                  }
+                ],
+                "visual_before": {
+                  "visual_intent": "A military guard stands at the entrance of Harare airport, facing a stone sculpture of a bird in the foreground, with the stone bird partially visible and stable in the background, showing no human interaction or movement.",
+                  "search_queries": [
+                    "military guard at Harare airport entrance",
+                    "stone bird sculpture at Harare airport",
+                    "real footage of military guard at Zimbabwe airport"
+                  ],
+                  "requirements": [
+                    "military guard present",
+                    "location: Harare airport",
+                    "stone bird sculpture visible and stable",
+                    "no president or foreign delegation shown"
+                  ],
+                  "avoid": [
+                    "showing a president or foreign delegation",
+                    "showing a person walking toward or away from the stone bird",
+                    "adding text or labels",
+                    "showing the stone bird in motion or being handled"
+                  ],
+                  "edit": "Steady, unedited real footage of a military guard at Harare airport, with the stone bird sculpture in the background, ensuring the stone bird is clearly visible and not obscured."
+                },
+                "issues_after": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 2,
+      "result": {
+        "scene": {
+          "source_word_start": 16,
+          "source_word_end": 19,
+          "start": 7.44,
+          "end": 9.5
+        },
+        "planner_reason": "The narration 'Он встречал каменную птицу' describes a single visual event involving a stone artifact. The pronoun 'он' refers to the military guard, and the action is 'встречал' (met), which is a static visual of a guard encountering the artifact. The grounding context confirms the subject is an artifact (каменная птица), located in the context of the airport. No semantic shift occurs; the scene does not change subject, location, or action. A single visual beat is sufficient to show the military guard at the airport meeting the stone bird sculpture. No additional visual change is required.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Он встречал каменную птицу.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 16,
+            "source_word_end": 19,
+            "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+            "search_queries": [
+              "Zimbabwe Bird soapstone bird sculpture",
+              "Zimbabwe Bird artifact photograph"
+            ],
+            "requirements": [
+              "Zimbabwe Bird",
+              "soapstone bird sculpture",
+              "Verified artifact-group identity; contextual subject only"
+            ],
+            "avoid": [
+              "Historical event reconstruction",
+              "Specific historical placement or handling",
+              "People interacting with the artifact",
+              "Unverified individual specimen identity",
+              "Watermarks, logos or added captions"
+            ],
+            "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+            "start": 7.44,
+            "end": 9.5,
+            "duration": 2.0599999999999996,
+            "voice_text": "Он встречал каменную птицу.",
+            "visual_contract": {
+              "mode": "CONTEXTUAL_SUBJECT",
+              "identity_scope": "ARTIFACT_GROUP",
+              "subject": "Zimbabwe Bird",
+              "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+              "identity_trace": {
+                "matched_mentions": [],
+                "matched_quotes": [
+                  "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                ],
+                "scope": "current_and_preceding_narration_only"
+              },
+              "depicts_narrated_event": false,
+              "asset_identity_verified": false
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Он встречал каменную птицу.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ],
+                  "evidence": [
+                    "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "аэропорту Хараре"
+                    ],
+                    "matched_quotes": [
+                      "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+              "search_queries": [
+                "Zimbabwe Bird soapstone bird sculpture",
+                "Zimbabwe Bird artifact photograph"
+              ],
+              "requirements": [
+                "Zimbabwe Bird",
+                "soapstone bird sculpture",
+                "Verified artifact-group identity; contextual subject only"
+              ],
+              "avoid": [
+                "Historical event reconstruction",
+                "Specific historical placement or handling",
+                "People interacting with the artifact",
+                "Unverified individual specimen identity",
+                "Watermarks, logos or added captions"
+              ],
+              "edit": "Gentle push-in on the artifact photograph; no added factual elements."
+            },
+            "source_word_start": 16,
+            "source_word_end": 19,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": [
+              {
+                "attempt": 1,
+                "issues_before": [
+                  {
+                    "type": "ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN",
+                    "severity": "HIGH",
+                    "detail": "Group-level identity cannot authorize staged historical surroundings or events.",
+                    "identity_scope": "ARTIFACT_GROUP",
+                    "subject": "Zimbabwe Bird"
+                  }
+                ],
+                "visual_before": {
+                  "visual_intent": "A military guard standing at the airport in Harare, facing a carved soapstone bird sculpture, located on a pedestal or in a public plaza, with the stone bird visible and intact, in the background of the airport environment.",
+                  "search_queries": [
+                    "military guard at airport Harare",
+                    "soapstone bird sculpture Great Zimbabwe",
+                    "stone bird in Harare airport",
+                    "Zimbabwe bird sculpture outdoor"
+                  ],
+                  "requirements": [
+                    "military guard present",
+                    "stone bird sculpture visible",
+                    "location in Harare airport",
+                    "stone bird is carved from soapstone",
+                    "no text, labels, or signs on screen"
+                  ],
+                  "avoid": [
+                    "a woman or person standing with the bird",
+                    "a president or foreign delegation",
+                    "a battle, explosion, or movement of the bird",
+                    "a map, diagram, or text overlay",
+                    "a different type of bird or animal"
+                  ],
+                  "edit": "Steady shot of a guard at the airport, with the stone bird sculpture in the foreground, showing its carved form and placement. No movement or reaction beyond the static meeting. No additional context or detail introduced."
+                },
+                "issues_after": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 3,
+      "result": {
+        "scene": {
+          "source_word_start": 20,
+          "source_word_end": 38,
+          "start": 9.5,
+          "end": 17.98
+        },
+        "planner_reason": "The narration describes a shift in location and setting from the colonizer's office to a foreign museum storage — a clear semantic transition in location and context that requires a visual change. The pronoun 'она' refers to the stone bird artifact, and the scene moves from one physical location to another, necessitating a visual beat change at 'потом' to reflect the new setting.",
+        "needs_multiple_beats": true,
+        "grounding_context": {
+          "master_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора, потом в музейном хранилище чужой страны.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 20,
+            "source_word_end": 32,
+            "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+            "search_queries": [
+              "Zimbabwe Bird soapstone bird sculpture",
+              "Zimbabwe Bird artifact photograph"
+            ],
+            "requirements": [
+              "Zimbabwe Bird",
+              "soapstone bird sculpture",
+              "Verified artifact-group identity; contextual subject only"
+            ],
+            "avoid": [
+              "Historical event reconstruction",
+              "Specific historical placement or handling",
+              "People interacting with the artifact",
+              "Unverified individual specimen identity",
+              "Watermarks, logos or added captions"
+            ],
+            "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+            "start": 9.5,
+            "end": 14.96,
+            "duration": 5.460000000000001,
+            "voice_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора,",
+            "visual_contract": {
+              "mode": "CONTEXTUAL_SUBJECT",
+              "identity_scope": "ARTIFACT_GROUP",
+              "subject": "Zimbabwe Bird",
+              "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+              "identity_trace": {
+                "matched_mentions": [],
+                "matched_quotes": [
+                  "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                ],
+                "scope": "current_and_preceding_narration_only"
+              },
+              "depicts_narrated_event": false,
+              "asset_identity_verified": false
+            }
+          },
+          {
+            "source_word_start": 33,
+            "source_word_end": 38,
+            "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+            "search_queries": [
+              "Zimbabwe Bird soapstone bird sculpture",
+              "Zimbabwe Bird artifact photograph"
+            ],
+            "requirements": [
+              "Zimbabwe Bird",
+              "soapstone bird sculpture",
+              "Verified artifact-group identity; contextual subject only"
+            ],
+            "avoid": [
+              "Historical event reconstruction",
+              "Specific historical placement or handling",
+              "People interacting with the artifact",
+              "Unverified individual specimen identity",
+              "Watermarks, logos or added captions"
+            ],
+            "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+            "start": 15.28,
+            "end": 17.98,
+            "duration": 2.700000000000001,
+            "voice_text": "потом в музейном хранилище чужой страны.",
+            "visual_contract": {
+              "mode": "CONTEXTUAL_SUBJECT",
+              "identity_scope": "ARTIFACT_GROUP",
+              "subject": "Zimbabwe Bird",
+              "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+              "identity_trace": {
+                "matched_mentions": [],
+                "matched_quotes": [
+                  "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                ],
+                "scope": "current_and_preceding_narration_only"
+              },
+              "depicts_narrated_event": false,
+              "asset_identity_verified": false
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора,",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ],
+                  "evidence": [
+                    "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "аэропорту Хараре"
+                    ],
+                    "matched_quotes": [
+                      "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+              "search_queries": [
+                "Zimbabwe Bird soapstone bird sculpture",
+                "Zimbabwe Bird artifact photograph"
+              ],
+              "requirements": [
+                "Zimbabwe Bird",
+                "soapstone bird sculpture",
+                "Verified artifact-group identity; contextual subject only"
+              ],
+              "avoid": [
+                "Historical event reconstruction",
+                "Specific historical placement or handling",
+                "People interacting with the artifact",
+                "Unverified individual specimen identity",
+                "Watermarks, logos or added captions"
+              ],
+              "edit": "Gentle push-in on the artifact photograph; no added factual elements."
+            },
+            "source_word_start": 20,
+            "source_word_end": 32,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": [
+              {
+                "attempt": 1,
+                "issues_before": [
+                  {
+                    "type": "ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN",
+                    "severity": "HIGH",
+                    "detail": "Group-level identity cannot authorize staged historical surroundings or events.",
+                    "identity_scope": "ARTIFACT_GROUP",
+                    "subject": "Zimbabwe Bird"
+                  }
+                ],
+                "visual_before": {
+                  "visual_intent": "A stone bird sculpture, carved from soapstone, sits in a colonial-era office room with wooden furniture, a desk, and a window showing a distant view of the Zimbabwean countryside. The bird is displayed in a plain, unadorned setting, consistent with a colonial administrator's study.",
+                  "search_queries": [
+                    "colonial era office room with stone bird sculpture",
+                    "soapstone bird in 19th century African colonial office",
+                    "stone bird in Zimbabwe colonial administration room"
+                  ],
+                  "requirements": [
+                    "a stone bird sculpture visible and stable in the frame",
+                    "setting is a colonial-era office with wooden furniture and a window",
+                    "the bird is not in motion or being handled",
+                    "the bird is not labeled or annotated"
+                  ],
+                  "avoid": [
+                    "a person interacting with the bird",
+                    "modern or restored interior",
+                    "text, labels, or signs on the wall",
+                    "a museum or storage environment"
+                  ],
+                  "edit": "Steady, static shot of the stone bird in a colonial office, showing natural lighting and ambient details; no movement or zoom."
+                },
+                "issues_after": []
+              }
+            ]
+          },
+          {
+            "identity_context": {
+              "master_text": "потом в музейном хранилище чужой страны.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ],
+                  "evidence": [
+                    "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "аэропорту Хараре"
+                    ],
+                    "matched_quotes": [
+                      "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+              "search_queries": [
+                "Zimbabwe Bird soapstone bird sculpture",
+                "Zimbabwe Bird artifact photograph"
+              ],
+              "requirements": [
+                "Zimbabwe Bird",
+                "soapstone bird sculpture",
+                "Verified artifact-group identity; contextual subject only"
+              ],
+              "avoid": [
+                "Historical event reconstruction",
+                "Specific historical placement or handling",
+                "People interacting with the artifact",
+                "Unverified individual specimen identity",
+                "Watermarks, logos or added captions"
+              ],
+              "edit": "Gentle push-in on the artifact photograph; no added factual elements."
+            },
+            "source_word_start": 33,
+            "source_word_end": 38,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": [
+              {
+                "attempt": 1,
+                "issues_before": [
+                  {
+                    "type": "ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN",
+                    "severity": "HIGH",
+                    "detail": "Group-level identity cannot authorize staged historical surroundings or events.",
+                    "identity_scope": "ARTIFACT_GROUP",
+                    "subject": "Zimbabwe Bird"
+                  }
+                ],
+                "visual_before": {
+                  "visual_intent": "A stone bird sculpture is stored in a climate-controlled, low-light museum storage room, possibly behind glass or in a sealed case. The room is empty except for the artifact, with minimal institutional signage (if any) and no human presence. The setting is neutral and institutional, reflecting a foreign country's museum preservation.",
+                  "search_queries": [
+                    "stone bird in museum storage room",
+                    "soapstone bird in museum storage behind glass",
+                    "museum storage room with stone artifact",
+                    "Zimbabwe bird in museum archive"
+                  ],
+                  "requirements": [
+                    "a stone bird sculpture in a storage room",
+                    "low light, institutional, climate-controlled environment",
+                    "no people, no activity, no visible handling",
+                    "the bird is not in a display case with explanatory text"
+                  ],
+                  "avoid": [
+                    "a person entering or exiting the room",
+                    "a guard or military presence",
+                    "a map, label, or explanatory text",
+                    "a view of the outside world or city"
+                  ],
+                  "edit": "Static, wide-angle shot of the storage room showing only the stone bird in a secure, enclosed space; focus on the artifact and its surroundings, no movement."
+                },
+                "issues_after": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 4,
+      "result": {
+        "scene": {
+          "source_word_start": 39,
+          "source_word_end": 64,
+          "start": 18.48,
+          "end": 30.56
+        },
+        "planner_reason": "The narration describes a shift in subject from the military guard's encounter to the content of a textbook, requiring a visual transition from the physical artifact in the airport to the abstract concept of textbook knowledge. The textbook's claim about pre-European Africa must be shown as a factual statement, not as a staged scene. A single beat would imply the textbook is physically present or being shown, which is not supported by the narration. Thus, a split is needed to reflect the distinct visual realities of the artifact and the textbook's claim.",
+        "needs_multiple_beats": true,
+        "grounding_context": {
+          "master_text": "Учебник скажет вам: до прихода европейцев Африка южнее Сахары не знала ни городов, ни инженерии, ни письменной культуры только разрозненные племена и пустые пространства на карте.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 39,
+            "source_word_end": 44,
+            "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+            "search_queries": [
+              "Zimbabwe Bird soapstone bird sculpture",
+              "Zimbabwe Bird artifact photograph"
+            ],
+            "requirements": [
+              "Zimbabwe Bird",
+              "soapstone bird sculpture",
+              "Verified artifact-group identity; contextual subject only"
+            ],
+            "avoid": [
+              "Historical event reconstruction",
+              "Specific historical placement or handling",
+              "People interacting with the artifact",
+              "Unverified individual specimen identity",
+              "Watermarks, logos or added captions"
+            ],
+            "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+            "start": 18.48,
+            "end": 21.22,
+            "duration": 2.7399999999999984,
+            "voice_text": "Учебник скажет вам: до прихода европейцев",
+            "visual_contract": {
+              "mode": "CONTEXTUAL_SUBJECT",
+              "identity_scope": "ARTIFACT_GROUP",
+              "subject": "Zimbabwe Bird",
+              "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+              "identity_trace": {
+                "matched_mentions": [],
+                "matched_quotes": [
+                  "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                ],
+                "scope": "current_and_preceding_narration_only"
+              },
+              "depicts_narrated_event": false,
+              "asset_identity_verified": false
+            }
+          },
+          {
+            "source_word_start": 45,
+            "source_word_end": 64,
+            "visual_intent": "A static, uncluttered map of Africa, focused on the region south of the Sahara, showing only the area south of the Sahara with blank or lightly shaded regions, labeled only with the name 'Southern Africa' and 'no cities, no engineering, no written culture' in small, neutral text that is not emphasized or highlighted.",
+            "search_queries": [
+              "map of Africa south of Sahara showing empty regions",
+              "blank map of southern Africa pre-European contact",
+              "historical map of Africa without cities or roads"
+            ],
+            "requirements": [
+              "a map of Africa south of the Sahara",
+              "regions south of Sahara are shown as empty or unmarked",
+              "no cities, no roads, no written symbols",
+              "only the geographical region is visible, no cultural or political labels"
+            ],
+            "avoid": [
+              "a map with cities or roads",
+              "a map with written cultures or civilizations",
+              "a map with labeled cities or historical events",
+              "a map with arrows or annotations suggesting development"
+            ],
+            "edit": "Show a static, factual map of Africa south of the Sahara with no cities, no infrastructure, and no written culture, emphasizing the absence of human development as described in the narration.",
+            "start": 21.22,
+            "end": 30.56,
+            "duration": 9.34,
+            "voice_text": "Африка южнее Сахары не знала ни городов, ни инженерии, ни письменной культуры только разрозненные племена и пустые пространства на карте."
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Учебник скажет вам: до прихода европейцев",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ],
+                  "evidence": [
+                    "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "аэропорту Хараре"
+                    ],
+                    "matched_quotes": [
+                      "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+              "search_queries": [
+                "Zimbabwe Bird soapstone bird sculpture",
+                "Zimbabwe Bird artifact photograph"
+              ],
+              "requirements": [
+                "Zimbabwe Bird",
+                "soapstone bird sculpture",
+                "Verified artifact-group identity; contextual subject only"
+              ],
+              "avoid": [
+                "Historical event reconstruction",
+                "Specific historical placement or handling",
+                "People interacting with the artifact",
+                "Unverified individual specimen identity",
+                "Watermarks, logos or added captions"
+              ],
+              "edit": "Gentle push-in on the artifact photograph; no added factual elements."
+            },
+            "source_word_start": 39,
+            "source_word_end": 44,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": [
+              {
+                "attempt": 1,
+                "issues_before": [
+                  {
+                    "type": "ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN",
+                    "severity": "HIGH",
+                    "detail": "Group-level identity cannot authorize staged historical surroundings or events.",
+                    "identity_scope": "ARTIFACT_GROUP",
+                    "subject": "Zimbabwe Bird"
+                  }
+                ],
+                "visual_before": {
+                  "visual_intent": "A real photograph of the stone bird artifact, carved from soapstone, standing in a dry, sunlit environment on the grounds of a museum or historical site in the region of Great Zimbabwe, showing its weathered surface and natural erosion, with no human interaction or text.",
+                  "search_queries": [
+                    "soapstone bird sculpture Great Zimbabwe",
+                    "stone bird artifact Great Zimbabwe museum",
+                    "Zimbabwe bird sculpture outdoor photograph"
+                  ],
+                  "requirements": [
+                    "a stone bird sculpture made of soapstone",
+                    "located in the region of Great Zimbabwe",
+                    "in a natural outdoor setting with no human presence",
+                    "showing weathering and erosion consistent with centuries of exposure"
+                  ],
+                  "avoid": [
+                    "a person holding the bird",
+                    "a museum display with glass case",
+                    "a modern reconstruction",
+                    "a person or guard in the frame"
+                  ],
+                  "edit": "Use a real photograph of the stone bird from Great Zimbabwe, showing it in situ as a historical artifact, without any human or contextual framing beyond the natural environment."
+                },
+                "issues_after": []
+              }
+            ]
+          },
+          {
+            "identity_context": {
+              "master_text": "Африка южнее Сахары не знала ни городов, ни инженерии, ни письменной культуры только разрозненные племена и пустые пространства на карте.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ],
+                  "evidence": [
+                    "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "аэропорту Хараре"
+                    ],
+                    "matched_quotes": [
+                      "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "A static, uncluttered map of Africa, focused on the region south of the Sahara, showing only the area south of the Sahara with blank or lightly shaded regions, labeled only with the name 'Southern Africa' and 'no cities, no engineering, no written culture' in small, neutral text that is not emphasized or highlighted.",
+              "search_queries": [
+                "map of Africa south of Sahara showing empty regions",
+                "blank map of southern Africa pre-European contact",
+                "historical map of Africa without cities or roads"
+              ],
+              "requirements": [
+                "a map of Africa south of the Sahara",
+                "regions south of Sahara are shown as empty or unmarked",
+                "no cities, no roads, no written symbols",
+                "only the geographical region is visible, no cultural or political labels"
+              ],
+              "avoid": [
+                "a map with cities or roads",
+                "a map with written cultures or civilizations",
+                "a map with labeled cities or historical events",
+                "a map with arrows or annotations suggesting development"
+              ],
+              "edit": "Show a static, factual map of Africa south of the Sahara with no cities, no infrastructure, and no written culture, emphasizing the absence of human development as described in the narration."
+            },
+            "source_word_start": 45,
+            "source_word_end": 64,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 5,
+      "result": {
+        "scene": {
+          "source_word_start": 65,
+          "source_word_end": 68,
+          "start": 31.08,
+          "end": 33.44
+        },
+        "planner_reason": "The narration shifts from describing a meeting at the airport to contrasting the evidence of the excavations, requiring a visual transition from the scene of the military guard encountering the stone bird to the implied archaeological counter-narrative.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Раскопки говорят прямо противоположное.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 65,
+            "source_word_end": 68,
+            "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+            "search_queries": [
+              "Zimbabwe Bird soapstone bird sculpture",
+              "Zimbabwe Bird artifact photograph"
+            ],
+            "requirements": [
+              "Zimbabwe Bird",
+              "soapstone bird sculpture",
+              "Verified artifact-group identity; contextual subject only"
+            ],
+            "avoid": [
+              "Historical event reconstruction",
+              "Specific historical placement or handling",
+              "People interacting with the artifact",
+              "Unverified individual specimen identity",
+              "Watermarks, logos or added captions"
+            ],
+            "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+            "start": 31.08,
+            "end": 33.44,
+            "duration": 2.3599999999999994,
+            "voice_text": "Раскопки говорят прямо противоположное.",
+            "visual_contract": {
+              "mode": "CONTEXTUAL_SUBJECT",
+              "identity_scope": "ARTIFACT_GROUP",
+              "subject": "Zimbabwe Bird",
+              "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+              "identity_trace": {
+                "matched_mentions": [],
+                "matched_quotes": [
+                  "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                ],
+                "scope": "current_and_preceding_narration_only"
+              },
+              "depicts_narrated_event": false,
+              "asset_identity_verified": false
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Раскопки говорят прямо противоположное.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ],
+                  "evidence": [
+                    "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "аэропорту Хараре"
+                    ],
+                    "matched_quotes": [
+                      "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+              "search_queries": [
+                "Zimbabwe Bird soapstone bird sculpture",
+                "Zimbabwe Bird artifact photograph"
+              ],
+              "requirements": [
+                "Zimbabwe Bird",
+                "soapstone bird sculpture",
+                "Verified artifact-group identity; contextual subject only"
+              ],
+              "avoid": [
+                "Historical event reconstruction",
+                "Specific historical placement or handling",
+                "People interacting with the artifact",
+                "Unverified individual specimen identity",
+                "Watermarks, logos or added captions"
+              ],
+              "edit": "Gentle push-in on the artifact photograph; no added factual elements."
+            },
+            "source_word_start": 65,
+            "source_word_end": 68,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": [
+              {
+                "attempt": 1,
+                "issues_before": [
+                  {
+                    "type": "ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN",
+                    "severity": "HIGH",
+                    "detail": "Group-level identity cannot authorize staged historical surroundings or events.",
+                    "identity_scope": "ARTIFACT_GROUP",
+                    "subject": "Zimbabwe Bird"
+                  }
+                ],
+                "visual_before": {
+                  "visual_intent": "A military guard stands at the entrance of an airport terminal, facing a large carved soapstone bird sculpture, the stone bird resting on a stone pedestal, its carved details visible in natural light, showing the stone bird's wings and head, with a neutral background of airport infrastructure.",
+                  "search_queries": [
+                    "soapstone bird sculpture at Harare airport",
+                    "stone bird in Zimbabwe airport",
+                    "Great Zimbabwe soapstone bird in real photo"
+                  ],
+                  "requirements": [
+                    "a stone bird sculpture visible and stable",
+                    "military guard present in the frame",
+                    "airport setting with clear signage or infrastructure",
+                    "no text, labels, or explanatory graphics"
+                  ],
+                  "avoid": [
+                    "a person holding or touching the bird",
+                    "a crowd or additional people",
+                    "a map, diagram, or written text",
+                    "a modern cityscape or digital screen"
+                  ],
+                  "edit": "Steady, unedited real footage of the stone bird at the airport, with natural lighting and ambient background noise; no zoom or cut to suggest excavation."
+                },
+                "issues_after": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 6,
+      "result": {
+        "scene": {
+          "source_word_start": 69,
+          "source_word_end": 86,
+          "start": 34.04,
+          "end": 42.96
+        },
+        "planner_reason": "The narration describes two distinct visual entities: a stone bird (artifact) and a stone circle (archaeological structure) in the desert, with different locations, functions, and contexts. A single visual beat would contradict the narrative by implying one object is both the stone bird and the stone circle. The semantic transition from 'каменная птица' to 'каменный круг' requires a visual split to avoid confusion.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Каменный круг посреди пустыни рассчитывает солнцестояние точнее, чем многие сооружения, которые появятся на тысячу с лишним лет позже.",
+          "chapter_match_score": 2,
+          "chapters": [
+            {
+              "chapter_id": 2,
+              "title": "Набта-Плайя: камни в пустыне",
+              "primary_subject": "камни Набта-Плайя",
+              "subject_type": "археологическое сооружение",
+              "location": "шестиста километров к югу от Каира, у границы с Суданом",
+              "aliases": [
+                "каменный круг",
+                "каменные плиты"
+              ],
+              "key_objects": [
+                "каменный круг",
+                "каменная камера"
+              ],
+              "confidence": "HIGH"
+            }
+          ],
+          "entities": [
+            {
+              "canonical_subject": "Набта-Плайя",
+              "subject_type": "археологическое место",
+              "location": "шестиста километров к югу от Каира, у границы с Суданом",
+              "aliases_or_descriptions": [
+                "высохшее русло древнего озера Набта-Плайя",
+                "каменный круг",
+                "камни в пустыне",
+                "каменные плиты",
+                "солнцестояние"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "в шестистах километрах к югу от Каира, у самой границы с Суданом, лежит высохшее русло древнего озера Набта-Плайя",
+                "Девять массивных плит стоят в ряд с промежутком около ста метров между ними",
+                "каменный круг диаметром около четырёх метров, сложенный из более мелких плит и четырёх пар крупных"
+              ]
+            }
+          ]
+        },
+        "beats": [
+          {
+            "source_word_start": 69,
+            "source_word_end": 86,
+            "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+            "search_queries": [
+              "Zimbabwe Bird soapstone bird sculpture",
+              "Zimbabwe Bird artifact photograph"
+            ],
+            "requirements": [
+              "Zimbabwe Bird",
+              "soapstone bird sculpture",
+              "Verified artifact-group identity; contextual subject only"
+            ],
+            "avoid": [
+              "Historical event reconstruction",
+              "Specific historical placement or handling",
+              "People interacting with the artifact",
+              "Unverified individual specimen identity",
+              "Watermarks, logos or added captions"
+            ],
+            "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+            "boundary_fallback": "single_beat",
+            "boundary_reject_index": 77,
+            "boundary_reject_reason": "Same location and subject; no new visible focus",
+            "start": 34.04,
+            "end": 42.96,
+            "duration": 8.920000000000002,
+            "voice_text": "Каменный круг посреди пустыни рассчитывает солнцестояние точнее, чем многие сооружения, которые появятся на тысячу с лишним лет позже.",
+            "visual_contract": {
+              "mode": "CONTEXTUAL_SUBJECT",
+              "identity_scope": "ARTIFACT_GROUP",
+              "subject": "Zimbabwe Bird",
+              "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+              "identity_trace": {
+                "matched_mentions": [],
+                "matched_quotes": [
+                  "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                ],
+                "scope": "current_and_preceding_narration_only"
+              },
+              "depicts_narrated_event": false,
+              "asset_identity_verified": false
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Каменный круг посреди пустыни рассчитывает солнцестояние точнее, чем многие сооружения, которые появятся на тысячу с лишним лет позже.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ],
+                  "evidence": [],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "каменный круг",
+                      "солнцестояние"
+                    ],
+                    "matched_quotes": [],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ],
+                  "evidence": [
+                    "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "аэропорту Хараре"
+                    ],
+                    "matched_quotes": [
+                      "в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+              "search_queries": [
+                "Zimbabwe Bird soapstone bird sculpture",
+                "Zimbabwe Bird artifact photograph"
+              ],
+              "requirements": [
+                "Zimbabwe Bird",
+                "soapstone bird sculpture",
+                "Verified artifact-group identity; contextual subject only"
+              ],
+              "avoid": [
+                "Historical event reconstruction",
+                "Specific historical placement or handling",
+                "People interacting with the artifact",
+                "Unverified individual specimen identity",
+                "Watermarks, logos or added captions"
+              ],
+              "edit": "Gentle push-in on the artifact photograph; no added factual elements."
+            },
+            "source_word_start": 69,
+            "source_word_end": 86,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": [
+              {
+                "attempt": 1,
+                "issues_before": [
+                  {
+                    "type": "ARTIFACT_GROUP_REQUIRES_CONTEXTUAL_PLAN",
+                    "severity": "HIGH",
+                    "detail": "Group-level identity cannot authorize staged historical surroundings or events.",
+                    "identity_scope": "ARTIFACT_GROUP",
+                    "subject": "Zimbabwe Bird"
+                  }
+                ],
+                "visual_before": {
+                  "visual_intent": "A stone bird sculpture, carved from soapstone, stands in a desert landscape, partially visible in the foreground, with dry, sun-baked earth and sand dunes in the background. The stone bird is positioned in a natural, unaltered setting, consistent with its location at Great Zimbabwe, and shows no human interaction or handling.",
+                  "search_queries": [
+                    "stone bird sculpture Great Zimbabwe",
+                    "soapstone bird carved in desert",
+                    "Zimbabwe bird sculpture in natural setting"
+                  ],
+                  "requirements": [
+                    "a stone bird sculpture made of soapstone",
+                    "located in a desert or dry landscape",
+                    "no human figures or interventions",
+                    "consistent with the description of a sacred artifact"
+                  ],
+                  "avoid": [
+                    "a person holding or touching the bird",
+                    "a museum display or indoor setting",
+                    "a city or building background",
+                    "text, labels, or signs"
+                  ],
+                  "edit": "Stabilized wide shot of the stone bird in a dry, sunlit desert environment, showing natural erosion and weathering on the surface. No zoom or transition to another location."
+                },
+                "issues_after": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 7,
+      "result": {
+        "scene": {
+          "source_word_start": 87,
+          "source_word_end": 114,
+          "start": 43.58,
+          "end": 53.9
+        },
+        "planner_reason": "The narration describes a clear shift in location, object state, and action: from being buried for two and a half millennia to standing as a scarecrow on a yam patch, then to being held in hands. Each transition involves a distinct visual state and object placement, requiring separate beats to reflect the actual physical and spatial changes described in the narration.",
+        "needs_multiple_beats": true,
+        "grounding_context": {
+          "master_text": "Терракотовая голова две с половиной тысячи лет пролежала в земле, а потом ещё год простояла пугалом на грядке с ямсом, прежде чем кто-то понял, что держит в руках.",
+          "chapter_match_score": 2,
+          "chapters": [
+            {
+              "chapter_id": 3,
+              "title": "Культура Нок: терракотовые фигуры",
+              "primary_subject": "культура Нок",
+              "subject_type": "археологическая культура",
+              "location": "центральная Нигерия, деревня Нок",
+              "aliases": [
+                "терракотовые фигуры",
+                "железные печи"
+              ],
+              "key_objects": [
+                "терракотовая голова из Джемаа",
+                "печи для выплавки железа"
+              ],
+              "confidence": "HIGH"
+            }
+          ],
+          "entities": [
+            {
+              "canonical_subject": "культура Нок",
+              "subject_type": "археологическая культура",
+              "location": "центральная Нигерия, деревня Нок",
+              "aliases_or_descriptions": [
+                "терракотовые фигуры",
+                "терракотовая голова из Джемаа",
+                "железные печи",
+                "культура, жившая в Ноке"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "Тысяча девятнадцатый год, деревня Нок в центральной Нигерии, оловянный рудник. Один из работников рудника подобрал у ямсовой грядки терракотовую голову",
+                "за несколько лет он собрал около двухсот терракотовых фигур: людей и животных",
+                "в девяноста милях от Нока, раскопали тринадцать печей для выплавки железа"
+              ]
+            }
+          ]
+        },
+        "beats": [
+          {
+            "source_word_start": 87,
+            "source_word_end": 96,
+            "visual_intent": "A terracotta head, weathered and earth-toned, lying in the soil, partially buried, with surrounding soil and roots visible, showing signs of age and erosion.",
+            "search_queries": [
+              "terracotta head buried in soil ancient",
+              "ancient terracotta sculpture in dirt",
+              "weathered terracotta head in archaeological context"
+            ],
+            "requirements": [
+              "a terracotta head visible",
+              "lying in soil",
+              "partial burial",
+              "signs of age and erosion"
+            ],
+            "avoid": [
+              "a person holding it",
+              "a modern setting",
+              "a museum display",
+              "a clear background of a garden"
+            ],
+            "edit": "Stable, static shot of the terracotta head in soil, showing natural degradation and soil contact; no movement or additional context.",
+            "start": 43.58,
+            "end": 47.34,
+            "duration": 3.760000000000005,
+            "voice_text": "Терракотовая голова две с половиной тысячи лет пролежала в земле,"
+          },
+          {
+            "source_word_start": 97,
+            "source_word_end": 106,
+            "visual_intent": "The same terracotta head, now standing upright on a small garden bed, positioned as a scarecrow, with a patch of yam plants growing nearby, and the head slightly leaning, showing signs of age and exposure to elements.",
+            "search_queries": [
+              "terracotta scarecrow on garden bed",
+              "ancient terracotta head as scarecrow in garden",
+              "terracotta head on yam patch"
+            ],
+            "requirements": [
+              "the terracotta head standing upright",
+              "on a garden bed",
+              "surrounded by yam plants",
+              "slight leaning or weathering"
+            ],
+            "avoid": [
+              "a person present",
+              "a modern house or structure",
+              "a clean or tidy garden",
+              "a person looking at it"
+            ],
+            "edit": "Medium shot from the side, showing the head as a scarecrow with yam plants growing beside it; natural lighting, slight wind effect to show movement in the plants.",
+            "start": 47.7,
+            "end": 51.2,
+            "duration": 3.5,
+            "voice_text": "а потом ещё год простояла пугалом на грядке с ямсом,"
+          },
+          {
+            "source_word_start": 107,
+            "source_word_end": 114,
+            "visual_intent": "A person's hand gently cradling the terracotta head, close-up showing the texture and surface details of the head, with the background blurred to emphasize the moment of",
+            "search_queries": [
+              "hand holding ancient terracotta head",
+              "close up of terracotta head in hand",
+              "ancient artifact in person's hand"
+            ],
+            "requirements": [
+              "a hand holding the terracotta head",
+              "close-up of the head's surface",
+              "no other objects in frame"
+            ],
+            "avoid": [
+              "a person's face",
+              "a museum or exhibition setting",
+              "a label or text",
+              "a reaction or expression"
+            ],
+            "edit": "Close-up, shallow focus on the hand and terracotta head, emphasizing texture and surface details; no additional context or reaction",
+            "start": 51.2,
+            "end": 53.9,
+            "duration": 2.6999999999999957,
+            "voice_text": "прежде чем кто-то понял, что держит в руках."
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Терракотовая голова две с половиной тысячи лет пролежала в земле,",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ],
+                  "evidence": [],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "каменный круг",
+                      "солнцестояние"
+                    ],
+                    "matched_quotes": [],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "terms": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными",
+                    "Zimbabwe Bird",
+                    "soapstone bird sculpture",
+                    "Zimbabwe birds",
+                    "Great Zimbabwe soapstone birds",
+                    "stone bird",
+                    "stone sculpture of a bird"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "terms": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "A terracotta head, weathered and earth-toned, lying in the soil, partially buried, with surrounding soil and roots visible, showing signs of age and erosion.",
+              "search_queries": [
+                "terracotta head buried in soil ancient",
+                "ancient terracotta sculpture in dirt",
+                "weathered terracotta head in archaeological context"
+              ],
+              "requirements": [
+                "a terracotta head visible",
+                "lying in soil",
+                "partial burial",
+                "signs of age and erosion"
+              ],
+              "avoid": [
+                "a person holding it",
+                "a modern setting",
+                "a museum display",
+                "a clear background of a garden"
+              ],
+              "edit": "Stable, static shot of the terracotta head in soil, showing natural degradation and soil contact; no movement or additional context."
+            },
+            "source_word_start": 87,
+            "source_word_end": 96,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": []
+          },
+          {
+            "identity_context": {
+              "master_text": "а потом ещё год простояла пугалом на грядке с ямсом,",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ],
+                  "evidence": [],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "каменный круг",
+                      "солнцестояние"
+                    ],
+                    "matched_quotes": [],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "terms": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными",
+                    "Zimbabwe Bird",
+                    "soapstone bird sculpture",
+                    "Zimbabwe birds",
+                    "Great Zimbabwe soapstone birds",
+                    "stone bird",
+                    "stone sculpture of a bird"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "terms": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "The same terracotta head, now standing upright on a small garden bed, positioned as a scarecrow, with a patch of yam plants growing nearby, and the head slightly leaning, showing signs of age and exposure to elements.",
+              "search_queries": [
+                "terracotta scarecrow on garden bed",
+                "ancient terracotta head as scarecrow in garden",
+                "terracotta head on yam patch"
+              ],
+              "requirements": [
+                "the terracotta head standing upright",
+                "on a garden bed",
+                "surrounded by yam plants",
+                "slight leaning or weathering"
+              ],
+              "avoid": [
+                "a person present",
+                "a modern house or structure",
+                "a clean or tidy garden",
+                "a person looking at it"
+              ],
+              "edit": "Medium shot from the side, showing the head as a scarecrow with yam plants growing beside it; natural lighting, slight wind effect to show movement in the plants."
+            },
+            "source_word_start": 97,
+            "source_word_end": 106,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": []
+          },
+          {
+            "identity_context": {
+              "master_text": "прежде чем кто-то понял, что держит в руках.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ],
+                  "evidence": [],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "каменный круг",
+                      "солнцестояние"
+                    ],
+                    "matched_quotes": [],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "terms": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными",
+                    "Zimbabwe Bird",
+                    "soapstone bird sculpture",
+                    "Zimbabwe birds",
+                    "Great Zimbabwe soapstone birds",
+                    "stone bird",
+                    "stone sculpture of a bird"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "terms": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "A person's hand gently cradling the terracotta head, close-up showing the texture and surface details of the head, with the background blurred to emphasize the moment of",
+              "search_queries": [
+                "hand holding ancient terracotta head",
+                "close up of terracotta head in hand",
+                "ancient artifact in person's hand"
+              ],
+              "requirements": [
+                "a hand holding the terracotta head",
+                "close-up of the head's surface",
+                "no other objects in frame"
+              ],
+              "avoid": [
+                "a person's face",
+                "a museum or exhibition setting",
+                "a label or text",
+                "a reaction or expression"
+              ],
+              "edit": "Close-up, shallow focus on the hand and terracotta head, emphasizing texture and surface details; no additional context or reaction"
+            },
+            "source_word_start": 107,
+            "source_word_end": 114,
+            "issues_before": [
+              {
+                "type": "UNSUPPORTED_REACTION",
+                "severity": "HIGH",
+                "term": "recognition",
+                "detail": "Generated reaction 'recognition' is not explicitly supported by MASTER narration."
+              }
+            ],
+            "issues_after": [],
+            "repair_attempts": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 8,
+      "result": {
+        "scene": {
+          "source_word_start": 115,
+          "source_word_end": 128,
+          "start": 54.54,
+          "end": 60.84
+        },
+        "planner_reason": "The narration describes a sequence of distinct visual actions: the library in the desert being saved from bandits, transported in boats and trunk compartments, and done in parts over half a year. Each action involves a different visible state, location, and method of transport, requiring separate visual beats.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Библиотеку в пустыне спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода.",
+          "chapter_match_score": 1,
+          "chapters": [
+            {
+              "chapter_id": 2,
+              "title": "Набта-Плайя: камни в пустыне",
+              "primary_subject": "камни Набта-Плайя",
+              "subject_type": "археологическое сооружение",
+              "location": "шестиста километров к югу от Каира, у границы с Суданом",
+              "aliases": [
+                "каменный круг",
+                "каменные плиты"
+              ],
+              "key_objects": [
+                "каменный круг",
+                "каменная камера"
+              ],
+              "confidence": "HIGH"
+            },
+            {
+              "chapter_id": 4,
+              "title": "Тимбукту: библиотеки в пустыне",
+              "primary_subject": "библиотеки Тимбукту",
+              "subject_type": "культурный и интеллектуальный центр",
+              "location": "северная Мали, город Тимбукту",
+              "aliases": [
+                "библиотеки Санкоре",
+                "архивы университета"
+              ],
+              "key_objects": [
+                "библиотеки",
+                "рукописи",
+                "мавзолеи"
+              ],
+              "confidence": "HIGH"
+            }
+          ],
+          "entities": [
+            {
+              "canonical_subject": "Набта-Плайя",
+              "subject_type": "археологическое место",
+              "location": "шестиста километров к югу от Каира, у границы с Суданом",
+              "aliases_or_descriptions": [
+                "высохшее русло древнего озера Набта-Плайя",
+                "каменный круг",
+                "камни в пустыне",
+                "каменные плиты",
+                "солнцестояние"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "в шестистах километрах к югу от Каира, у самой границы с Суданом, лежит высохшее русло древнего озера Набта-Плайя",
+                "Девять массивных плит стоят в ряд с промежутком около ста метров между ними",
+                "каменный круг диаметром около четырёх метров, сложенный из более мелких плит и четырёх пар крупных"
+              ]
+            },
+            {
+              "canonical_subject": "библиотеки Тимбукту",
+              "subject_type": "археологический и культурный объект",
+              "location": "северная Мали, город Тимбукту",
+              "aliases_or_descriptions": [
+                "библиотеки Санкоре",
+                "архивы университета",
+                "рукописи по астрономии, медицине, математике и праву",
+                "библиотеки, спасённые от боевиков"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "Северная Мали, город Тимбукту, на самом краю Сахары. Столетиями европейские путешественники искали этот город как легенду — золотой мираж на границе пустыни",
+                "в две тысячи двенадцатом году город заняли боевики, связанные с Аль-Каидой",
+                "Хранитель библиотек Абдель Кадер Хайдара с помощниками успел вывезти из-под носа боевиков около двухсот тысяч рукописей"
+              ]
+            }
+          ]
+        },
+        "beats": [
+          {
+            "source_word_start": 115,
+            "source_word_end": 128,
+            "visual_intent": "A desert landscape with a stone structure partially visible in the background, showing a library-like building made of stone, located in a dry, sun-baked environment, with no people or movement visible.",
+            "search_queries": [
+              "desert stone library ruins",
+              "stone library in desert",
+              "ancient desert library ruins"
+            ],
+            "requirements": [
+              "a stone structure in a desert",
+              "desert environment",
+              "stone construction",
+              "no people present"
+            ],
+            "avoid": [
+              "people",
+              "modern vehicles",
+              "interior details",
+              "text on screen",
+              "museum setting"
+            ],
+            "edit": "Show a real photograph of ancient stone structures in a desert environment, such as those at Nabta Playa, with a focus on the stone formations and dry terrain.",
+            "boundary_fallback": "single_beat",
+            "boundary_reject_index": 119,
+            "boundary_reject_reason": "Same event, different detail; no new visible subject or action",
+            "start": 54.54,
+            "end": 60.84,
+            "duration": 6.300000000000004,
+            "voice_text": "Библиотеку в пустыне спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода."
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Библиотеку в пустыне спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ],
+                  "evidence": [],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "каменный круг",
+                      "солнцестояние"
+                    ],
+                    "matched_quotes": [],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "terms": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными",
+                    "Zimbabwe Bird",
+                    "soapstone bird sculpture",
+                    "Zimbabwe birds",
+                    "Great Zimbabwe soapstone birds",
+                    "stone bird",
+                    "stone sculpture of a bird"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "terms": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "A desert landscape with a stone structure partially visible in the background, showing a library-like building made of stone, located in a dry, sun-baked environment, with no people or movement visible.",
+              "search_queries": [
+                "desert stone library ruins",
+                "stone library in desert",
+                "ancient desert library ruins"
+              ],
+              "requirements": [
+                "a stone structure in a desert",
+                "desert environment",
+                "stone construction",
+                "no people present"
+              ],
+              "avoid": [
+                "people",
+                "modern vehicles",
+                "interior details",
+                "text on screen",
+                "museum setting"
+              ],
+              "edit": "Show a real photograph of ancient stone structures in a desert environment, such as those at Nabta Playa, with a focus on the stone formations and dry terrain."
+            },
+            "source_word_start": 115,
+            "source_word_end": 128,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 9,
+      "result": {
+        "scene": {
+          "source_word_start": 129,
+          "source_word_end": 149,
+          "start": 61.02,
+          "end": 69.72
+        },
+        "planner_reason": "The narration describes a single visual scene with multiple semantic shifts: the church carved in rock, pilgrims kneeling, and the belief that angels were necessary for its construction. These represent distinct visual and conceptual states that require separate beats to avoid contradiction or misrepresentation.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Церковь, вырезанную вниз в цельной скале, до сих пор обходят на коленях паломники, которые верят: без ангелов такое было не построить.",
+          "chapter_match_score": 1,
+          "chapters": [
+            {
+              "chapter_id": 8,
+              "title": "Лалибела: церкви в скале",
+              "primary_subject": "церкви Лалибела",
+              "subject_type": "археологическое сооружение",
+              "location": "северная Эфиопия, горы Ласта",
+              "aliases": [
+                "церкви в скале",
+                "церкви-обелиски"
+              ],
+              "key_objects": [
+                "церкви Лалибела",
+                "Бете-Гиоргис",
+                "Бете-Микаэль"
+              ],
+              "confidence": "HIGH"
+            }
+          ],
+          "entities": [
+            {
+              "canonical_subject": "церкви Лалибела",
+              "subject_type": "археологическое сооружение",
+              "location": "северная Эфиопия, горы Ласта",
+              "aliases_or_descriptions": [
+                "церкви в скале",
+                "церкви-обелиски",
+                "церкви, построенные ангелами",
+                "Бете-Гиоргис"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "Северная Эфиопия, горы Ласта, высота около двух с половиной тысяч метров. С воздуха комплекс из одиннадцати церквей выглядит как подземный город, вывернутый наизнанку",
+                "по преданию, он задумал создать «новый Иерусалим» на африканской земле",
+                "паломники и сегодня трижды прикасаются лбом к каменному полу церквей в знак почтения к Троице"
+              ]
+            }
+          ]
+        },
+        "beats": [
+          {
+            "source_word_start": 129,
+            "source_word_end": 149,
+            "visual_intent": "A stone church carved downward into a single solid rock face, visible in a wide-angle photograph showing the carved structure embedded in the bedrock, with no human activity or additional context.",
+            "search_queries": [
+              "stone church carved into solid rock in desert",
+              "rock-cut church in bedrock in desert",
+              "carved church in solid rock natural formation"
+            ],
+            "requirements": [
+              "a single, continuous stone structure carved downward into a solid rock mass",
+              "no human figures or activity visible",
+              "the church is embedded in the rock, not built on top of it"
+            ],
+            "avoid": [
+              "a church built on a cliff or mountain",
+              "a church with modern construction elements",
+              "a church with visible human hands or tools",
+              "a church with surrounding buildings or structures"
+            ],
+            "edit": "Use a real photograph of a naturally carved stone structure in a desert environment, showing the carved form integrated into the rock face. Avoid any staged or reconstructed scenes.",
+            "start": 61.02,
+            "end": 69.72,
+            "duration": 8.699999999999996,
+            "voice_text": "Церковь, вырезанную вниз в цельной скале, до сих пор обходят на коленях паломники, которые верят: без ангелов такое было не построить."
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Церковь, вырезанную вниз в цельной скале, до сих пор обходят на коленях паломники, которые верят: без ангелов такое было не построить.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ],
+                  "evidence": [],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "каменный круг",
+                      "солнцестояние"
+                    ],
+                    "matched_quotes": [],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "terms": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными",
+                    "Zimbabwe Bird",
+                    "soapstone bird sculpture",
+                    "Zimbabwe birds",
+                    "Great Zimbabwe soapstone birds",
+                    "stone bird",
+                    "stone sculpture of a bird"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "terms": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ]
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "terms": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "A stone church carved downward into a single solid rock face, visible in a wide-angle photograph showing the carved structure embedded in the bedrock, with no human activity or additional context.",
+              "search_queries": [
+                "stone church carved into solid rock in desert",
+                "rock-cut church in bedrock in desert",
+                "carved church in solid rock natural formation"
+              ],
+              "requirements": [
+                "a single, continuous stone structure carved downward into a solid rock mass",
+                "no human figures or activity visible",
+                "the church is embedded in the rock, not built on top of it"
+              ],
+              "avoid": [
+                "a church built on a cliff or mountain",
+                "a church with modern construction elements",
+                "a church with visible human hands or tools",
+                "a church with surrounding buildings or structures"
+              ],
+              "edit": "Use a real photograph of a naturally carved stone structure in a desert environment, showing the carved form integrated into the rock face. Avoid any staged or reconstructed scenes."
+            },
+            "source_word_start": 129,
+            "source_word_end": 149,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 10,
+      "result": {
+        "scene": {
+          "source_word_start": 150,
+          "source_word_end": 170,
+          "start": 70.7,
+          "end": 78.44
+        },
+        "planner_reason": "The narration describes a shift in subject from the desert structures to a specific story ending, requiring a visual transition from the existing desert site to the final narrative arc. The pronoun 'она' (it) refers to the 'самая громкая из восьми историй', which is a distinct narrative element not previously visualized. A split is needed to avoid conflating the desert site with a separate, distinct story arc.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Самая громкая из восьми историй ждёт в самом конце и она замкнёт круг, который мы только что открыли аэропортом в Хараре.",
+          "chapter_match_score": 1,
+          "chapters": [
+            {
+              "chapter_id": 1,
+              "title": "Каменная птица в Хараре",
+              "primary_subject": "каменная птица",
+              "subject_type": "артефакт",
+              "location": "Юго-восток Зимбабве, холмы у Масвинго",
+              "aliases": [
+                "священный символ",
+                "птица-символ",
+                "птица чапунгу"
+              ],
+              "key_objects": [
+                "каменная птица",
+                "Большая ограда"
+              ],
+              "confidence": "HIGH"
+            },
+            {
+              "chapter_id": 2,
+              "title": "Набта-Плайя: камни в пустыне",
+              "primary_subject": "камни Набта-Плайя",
+              "subject_type": "археологическое сооружение",
+              "location": "шестиста километров к югу от Каира, у границы с Суданом",
+              "aliases": [
+                "каменный круг",
+                "каменные плиты"
+              ],
+              "key_objects": [
+                "каменный круг",
+                "каменная камера"
+              ],
+              "confidence": "HIGH"
+            },
+            {
+              "chapter_id": 7,
+              "title": "Дженне-Дьено: город, который исчез",
+              "primary_subject": "город Дженне-Дьено",
+              "subject_type": "археологическое поселение",
+              "location": "Мали, дельта Нигера, три километра от Дженне",
+              "aliases": [
+                "город Дженне",
+                "город, который исчез"
+              ],
+              "key_objects": [
+                "город Дженне-Дьено",
+                "пойма Нигера"
+              ],
+              "confidence": "HIGH"
+            }
+          ],
+          "entities": [
+            {
+              "canonical_subject": "каменная птица",
+              "subject_type": "артефакт",
+              "location": "Юго-восток Зимбабве, холмы у Масвинго",
+              "aliases_or_descriptions": [
+                "священный символ",
+                "птица-символ",
+                "птица чапунгу",
+                "символ, изображённый на флаге Зимбабве",
+                "птица, украденная колониальными учёными"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу.",
+                "В тысяча восемьсот восемьдесят девятом году охотник Вилли Поссельт выломал из руин каменную птицу, священную для местных жителей — символ чапунгу, орла-скомороха, посредника между живыми и предками",
+                "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре",
+                "символ, который сегодня изображён на флаге, банкнотах и в паспорте каждого зимбабвийца"
+              ],
+              "researched_search_identity": {
+                "status": "VERIFIED",
+                "canonical_subject": "Zimbabwe Bird",
+                "subject_type": "soapstone bird sculpture",
+                "location": "Great Zimbabwe",
+                "aliases": [
+                  "Zimbabwe birds",
+                  "Great Zimbabwe soapstone birds"
+                ],
+                "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                "scope": "ARTIFACT_GROUP"
+              }
+            },
+            {
+              "canonical_subject": "Набта-Плайя",
+              "subject_type": "археологическое место",
+              "location": "шестиста километров к югу от Каира, у границы с Суданом",
+              "aliases_or_descriptions": [
+                "высохшее русло древнего озера Набта-Плайя",
+                "каменный круг",
+                "камни в пустыне",
+                "каменные плиты",
+                "солнцестояние"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "в шестистах километрах к югу от Каира, у самой границы с Суданом, лежит высохшее русло древнего озера Набта-Плайя",
+                "Девять массивных плит стоят в ряд с промежутком около ста метров между ними",
+                "каменный круг диаметром около четырёх метров, сложенный из более мелких плит и четырёх пар крупных"
+              ]
+            },
+            {
+              "canonical_subject": "город Дженне-Дьено",
+              "subject_type": "археологическое поселение",
+              "location": "Мали, дельта Нигера, три километра от Дженне",
+              "aliases_or_descriptions": [
+                "город, который исчез",
+                "город, покинутый без объяснения",
+                "город старше многих европейских столиц"
+              ],
+              "confidence": "HIGH",
+              "evidence": [
+                "Мали, внутренняя дельта Нигера, три километра от современного города Дженне. Сегодня здесь — пыльный холм посреди затопляемой равнины, ничего похожего на город",
+                "К четырнадцатому веку Дженне-Дьено был полностью покинут — притом что буквально в трёх километрах продолжал расти новый город Дженне",
+                "город кормила не пустыня вокруг, а щедрая пойма реки"
+              ]
+            }
+          ]
+        },
+        "beats": [
+          {
+            "source_word_start": 150,
+            "source_word_end": 170,
+            "visual_intent": "A dry desert landscape with nine large, weathered stones arranged in a straight line, spaced approximately 100 meters apart, showing natural erosion and wind-blown sand; no human presence or modern elements.",
+            "search_queries": [
+              "Nabta-Phlya desert stone arrangement with nine stones in a row",
+              "ancient desert stone row with 100 meter spacing",
+              "weathered stone line in Sahara desert dry environment",
+              "prehistoric stone alignment in arid desert terrain"
+            ],
+            "requirements": [
+              "nine large stones arranged in a straight line",
+              "spaced approximately 100 meters apart",
+              "set in a dry desert environment with exposed bedrock",
+              "stones show natural weathering and erosion from desert conditions"
+            ],
+            "avoid": [
+              "modern construction",
+              "human activity",
+              "people present",
+              "text labels",
+              "architectural details",
+              "furniture",
+              "transport",
+              "climate control",
+              "cases",
+              "artificial lighting"
+            ],
+            "edit": "Stable drone shot from above, showing the stone arrangement in the desert with natural lighting and wind-blown sand in the background; gentle zoom and pan to emphasize spacing and alignment.",
+            "boundary_fallback": "single_beat",
+            "boundary_reject_index": 159,
+            "boundary_reject_reason": "Same subject continuing; no new visible focus or action",
+            "start": 70.7,
+            "end": 78.44,
+            "duration": 7.739999999999995,
+            "voice_text": "Самая громкая из восьми историй ждёт в самом конце и она замкнёт круг, который мы только что открыли аэропортом в Хараре."
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Самая громкая из восьми историй ждёт в самом конце и она замкнёт круг, который мы только что открыли аэропортом в Хараре.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ],
+                  "evidence": [],
+                  "identity_trace": {
+                    "matched_mentions": [
+                      "солнцестояние"
+                    ],
+                    "matched_quotes": [],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ],
+                  "evidence": [
+                    "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "terms": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "A dry desert landscape with nine large, weathered stones arranged in a straight line, spaced approximately 100 meters apart, showing natural erosion and wind-blown sand; no human presence or modern elements.",
+              "search_queries": [
+                "Nabta-Phlya desert stone arrangement with nine stones in a row",
+                "ancient desert stone row with 100 meter spacing",
+                "weathered stone line in Sahara desert dry environment",
+                "prehistoric stone alignment in arid desert terrain"
+              ],
+              "requirements": [
+                "nine large stones arranged in a straight line",
+                "spaced approximately 100 meters apart",
+                "set in a dry desert environment with exposed bedrock",
+                "stones show natural weathering and erosion from desert conditions"
+              ],
+              "avoid": [
+                "modern construction",
+                "human activity",
+                "people present",
+                "text labels",
+                "architectural details",
+                "furniture",
+                "transport",
+                "climate control",
+                "cases",
+                "artificial lighting"
+              ],
+              "edit": "Stable drone shot from above, showing the stone arrangement in the desert with natural lighting and wind-blown sand in the background; gentle zoom and pan to emphasize spacing and alignment."
+            },
+            "source_word_start": 150,
+            "source_word_end": 170,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": [
+              {
+                "attempt": 1,
+                "issues_before": [
+                  {
+                    "type": "UNSUPPORTED_VISUAL_MEANING",
+                    "severity": "HIGH",
+                    "detail": "short concrete unsupported claim"
+                  }
+                ],
+                "visual_before": {
+                  "visual_intent": "A large stone circle in a desert landscape, with nine massive stones arranged in a row, spaced about 100 meters apart, with a dry riverbed in the background. The stones are weathered and partially eroded, showing natural desert exposure.",
+                  "search_queries": [
+                    "desert stone circle with nine stones in a row",
+                    "Nabta-Phlya stone circle in desert",
+                    "ancient stone circle in Sahara desert",
+                    "stone circle with 100 meter spacing in desert"
+                  ],
+                  "requirements": [
+                    "nine large stones arranged in a row",
+                    "spaced approximately 100 meters apart",
+                    "set in a dry desert environment",
+                    "weathered, natural desert exposure"
+                  ],
+                  "avoid": [
+                    "modern construction",
+                    "human activity",
+                    "people present",
+                    "text labels",
+                    "architectural details"
+                  ],
+                  "edit": "Stable drone shot from above, showing the stone arrangement in the desert, with natural lighting and wind-blown sand in the background."
+                },
+                "issues_after": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 11,
+      "result": {
+        "scene": {
+          "source_word_start": 171,
+          "source_word_end": 178,
+          "start": 78.44,
+          "end": 83.4
+        },
+        "planner_reason": "The narration introduces a shift in subject from previous events (e.g., a library, a church, palmyrism) to a new concept: 'eight civilizations of Africa, which we, apparently, know'. This requires a visual transition to represent the idea of civilizations, which is distinct from prior artifacts or locations. The phrase 'которую мы, кажется, знаем' refers to 'Африки' (Africa), and the term 'цивилизаций' implies a plural, abstract concept. A single visual beat cannot represent eight abstract civilizations without risking misrepresentation. Thus, a split is necessary to avoid implying a single, concrete object or location for 'eight civilizations'.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "Сегодня восемь цивилизаций Африки, которую мы, кажется, знаем.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 171,
+            "source_word_end": 178,
+            "visual_intent": "A wide aerial view of the African continent, showing diverse landscapes—deserts, savannas, and river valleys—emphasizing geographical diversity and human presence across regions.",
+            "search_queries": [
+              "aerial view of Africa showing deserts and savannas",
+              "real footage of African continent with varied terrain"
+            ],
+            "requirements": [
+              "African continent visible",
+              "diverse natural landscapes",
+              "no specific cities or artifacts"
+            ],
+            "avoid": [
+              "a single monument",
+              "a labeled map",
+              "text overlay",
+              "modern cities only"
+            ],
+            "edit": "Stabilized drone footage of Africa from space, showing natural variation in terrain; no zooms or cuts to specific locations.",
+            "boundary_fallback": "single_beat",
+            "boundary_reject_index": 173,
+            "boundary_reject_reason": "Same subject continues; no new visible focus or action",
+            "start": 78.44,
+            "end": 83.4,
+            "duration": 4.960000000000008,
+            "voice_text": "Сегодня восемь цивилизаций Африки, которую мы, кажется, знаем."
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "Сегодня восемь цивилизаций Африки, которую мы, кажется, знаем.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ],
+                  "evidence": [
+                    "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "terms": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "A wide aerial view of the African continent, showing diverse landscapes—deserts, savannas, and river valleys—emphasizing geographical diversity and human presence across regions.",
+              "search_queries": [
+                "aerial view of Africa showing deserts and savannas",
+                "real footage of African continent with varied terrain"
+              ],
+              "requirements": [
+                "African continent visible",
+                "diverse natural landscapes",
+                "no specific cities or artifacts"
+              ],
+              "avoid": [
+                "a single monument",
+                "a labeled map",
+                "text overlay",
+                "modern cities only"
+              ],
+              "edit": "Stabilized drone footage of Africa from space, showing natural variation in terrain; no zooms or cuts to specific locations."
+            },
+            "source_word_start": 171,
+            "source_word_end": 178,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": []
+          }
+        ]
+      }
+    },
+    {
+      "scene_number": 12,
+      "result": {
+        "scene": {
+          "source_word_start": 179,
+          "source_word_end": 214,
+          "start": 84.28,
+          "end": 101.4
+        },
+        "planner_reason": "The narration describes a consistent visual representation across multiple media (magnets, brochures, atlases) and contrasts it with the absence of evidence for construction prior to Europeans. A single beat would imply a static image matching the described visuals, but the narration explicitly contrasts the visual with the absence of historical construction. This requires a split to show the visual representation and then the absence of evidence for prior building activity.",
+        "needs_multiple_beats": false,
+        "grounding_context": {
+          "master_text": "На магнитах, в рекламных буклетах и в школьных атласах Африка южнее Сахары чаще всего выглядит одинаково: саванна, закат, силуэты слонов на фоне неба и ни намёка на то, что здесь вообще что-то строили до прихода европейцев.",
+          "chapter_match_score": 0,
+          "chapters": [],
+          "entities": []
+        },
+        "beats": [
+          {
+            "source_word_start": 179,
+            "source_word_end": 214,
+            "visual_intent": "A wide-angle photograph of the African landscape south of the Sahara, showing a savanna at sunset, with silhouettes of elephants against a sky, similar to images found on magnets, brochures, and school atlases.",
+            "search_queries": [
+              "savanna sunset with elephant silhouettes against sky Africa south of Sahara",
+              "school atlas Africa south of Sahara with elephants and savanna",
+              "recreational brochure Africa south of Sahara with elephants and sunset"
+            ],
+            "requirements": [
+              "savanna landscape",
+              "sunset lighting",
+              "silhouettes of elephants",
+              "sky background",
+              "consistent visual style as in school atlases and promotional materials"
+            ],
+            "avoid": [
+              "buildings",
+              "human activity",
+              "construction sites",
+              "modern infrastructure",
+              "text labels or captions"
+            ],
+            "edit": "Use real footage or photographs matching the described visual style from educational or promotional materials, showing the same generic African landscape without any human or structural detail.",
+            "boundary_fallback": "single_beat",
+            "boundary_reject_index": 208,
+            "boundary_reject_reason": "same location and action continuation",
+            "start": 84.28,
+            "end": 101.4,
+            "duration": 17.120000000000005,
+            "voice_text": "На магнитах, в рекламных буклетах и в школьных атласах Африка южнее Сахары чаще всего выглядит одинаково: саванна, закат, силуэты слонов на фоне неба и ни намёка на то, что здесь вообще что-то строили до прихода европейцев."
+          }
+        ],
+        "diagnostics": [
+          {
+            "identity_context": {
+              "master_text": "На магнитах, в рекламных буклетах и в школьных атласах Африка южнее Сахары чаще всего выглядит одинаково: саванна, закат, силуэты слонов на фоне неба и ни намёка на то, что здесь вообще что-то строили до прихода европейцев.",
+              "chapters": [],
+              "entities": [
+                {
+                  "canonical_subject": "каменная птица",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "каменная птица",
+                    "священный символ",
+                    "птица-символ",
+                    "птица чапунгу",
+                    "символ, изображённый на флаге Зимбабве",
+                    "птица, украденная колониальными учёными"
+                  ],
+                  "evidence": [
+                    "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  },
+                  "researched_search_identity": {
+                    "status": "VERIFIED",
+                    "canonical_subject": "Zimbabwe Bird",
+                    "subject_type": "soapstone bird sculpture",
+                    "aliases": [
+                      "Zimbabwe birds",
+                      "Great Zimbabwe soapstone birds"
+                    ],
+                    "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+                    "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+                    "scope": "ARTIFACT_GROUP"
+                  }
+                },
+                {
+                  "canonical_subject": "Великий Зимбабве",
+                  "exact_subject": "",
+                  "aliases_or_descriptions": [
+                    "Великий Зимбабве",
+                    "столица шона",
+                    "город шона",
+                    "Большая ограда",
+                    "город без гвоздей"
+                  ],
+                  "evidence": [
+                    "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                  ],
+                  "identity_trace": {
+                    "matched_mentions": [],
+                    "matched_quotes": [
+                      "самая громкая из восьми историй ждёт в самом конце — и она замкнёт круг, который мы только что открыли аэропортом в Хараре"
+                    ],
+                    "scope": "current_and_preceding_narration_only"
+                  }
+                }
+              ],
+              "withheld_entities": [
+                {
+                  "canonical_subject": "Набта-Плайя",
+                  "terms": [
+                    "Набта-Плайя",
+                    "высохшее русло древнего озера Набта-Плайя",
+                    "каменный круг",
+                    "камни в пустыне",
+                    "каменные плиты",
+                    "солнцестояние"
+                  ]
+                },
+                {
+                  "canonical_subject": "культура Нок",
+                  "terms": [
+                    "культура Нок",
+                    "терракотовые фигуры",
+                    "терракотовая голова из Джемаа",
+                    "железные печи",
+                    "культура, жившая в Ноке"
+                  ]
+                },
+                {
+                  "canonical_subject": "библиотеки Тимбукту",
+                  "terms": [
+                    "библиотеки Тимбукту",
+                    "библиотеки Санкоре",
+                    "архивы университета",
+                    "рукописи по астрономии, медицине, математике и праву",
+                    "библиотеки, спасённые от боевиков"
+                  ]
+                },
+                {
+                  "canonical_subject": "ров Эредо",
+                  "terms": [
+                    "ров Эредо",
+                    "археологический ров",
+                    "вала и ров",
+                    "ров и вал",
+                    "Биликису Сунгбо"
+                  ]
+                },
+                {
+                  "canonical_subject": "Аксум",
+                  "terms": [
+                    "Аксум",
+                    "столица Аксума",
+                    "город Аксум",
+                    "царство Аксум",
+                    "стела Аксума"
+                  ]
+                },
+                {
+                  "canonical_subject": "город Дженне-Дьено",
+                  "terms": [
+                    "город Дженне-Дьено",
+                    "город, который исчез",
+                    "город, покинутый без объяснения",
+                    "город старше многих европейских столиц"
+                  ]
+                },
+                {
+                  "canonical_subject": "церкви Лалибела",
+                  "terms": [
+                    "церкви Лалибела",
+                    "церкви в скале",
+                    "церкви-обелиски",
+                    "церкви, построенные ангелами",
+                    "Бете-Гиоргис"
+                  ]
+                },
+                {
+                  "canonical_subject": "аэропорт Хараре",
+                  "terms": [
+                    "аэропорт Хараре",
+                    "аэропорт Хараре",
+                    "аэропорту Хараре",
+                    "аэропорта Хараре",
+                    "аэропортом Хараре"
+                  ]
+                }
+              ],
+              "chapter_match_score": 0
+            },
+            "visual_final": {
+              "visual_intent": "A wide-angle photograph of the African landscape south of the Sahara, showing a savanna at sunset, with silhouettes of elephants against a sky, similar to images found on magnets, brochures, and school atlases.",
+              "search_queries": [
+                "savanna sunset with elephant silhouettes against sky Africa south of Sahara",
+                "school atlas Africa south of Sahara with elephants and savanna",
+                "recreational brochure Africa south of Sahara with elephants and sunset"
+              ],
+              "requirements": [
+                "savanna landscape",
+                "sunset lighting",
+                "silhouettes of elephants",
+                "sky background",
+                "consistent visual style as in school atlases and promotional materials"
+              ],
+              "avoid": [
+                "buildings",
+                "human activity",
+                "construction sites",
+                "modern infrastructure",
+                "text labels or captions"
+              ],
+              "edit": "Use real footage or photographs matching the described visual style from educational or promotional materials, showing the same generic African landscape without any human or structural detail."
+            },
+            "source_word_start": 179,
+            "source_word_end": 214,
+            "issues_before": [],
+            "issues_after": [],
+            "repair_attempts": []
+          }
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

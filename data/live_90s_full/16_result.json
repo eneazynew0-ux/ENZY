@@ -1,0 +1,1229 @@
+{
+  "status": "NO_SELECTION",
+  "resolver_action": "SEARCH_VIDEO",
+  "selected_media": {
+    "status": "NO_SELECTION",
+    "media_type": null,
+    "asset": null,
+    "segment": null
+  },
+  "raw_result": {
+    "status": "NO_VIDEO_CANDIDATES",
+    "plan": {
+      "beat": {
+        "source_word_start": 179,
+        "source_word_end": 194,
+        "visual_intent": "A close-up of a magnetic surface with a brochure or atlas image showing a savanna landscape at sunset, with silhouettes of elephants in the background, appearing as a static, idealized image from a promotional or educational context.",
+        "search_queries": [
+          "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+          "school atlas africa south of sahara promotional image",
+          "magnetic board with african landscape and elephants"
+        ],
+        "requirements": [
+          "showing a promotional or educational image of Africa south of the Sahara",
+          "visuals include savanna, sunset, and elephant silhouettes",
+          "image appears in a static, idealized, non-dynamic way"
+        ],
+        "avoid": [
+          "showing buildings, villages, or human activity",
+          "showing a map with labeled cities or infrastructure",
+          "showing a modern or detailed urban scene"
+        ],
+        "edit": "Stabilized, static shot of a promotional or educational image showing a peaceful savanna with elephants; no movement or transition to suggest change.",
+        "start": 84.28,
+        "end": 91.56,
+        "duration": 7.280000000000001,
+        "voice_text": "На магнитах, в рекламных буклетах и в школьных атласах Африка южнее Сахары чаще всего выглядит одинаково:",
+        "documentary_mode": "REAL_VIDEO",
+        "prefer_motion": true,
+        "identity_sensitive": false,
+        "requires_identity_gate": false,
+        "motion_strategy": "REAL_VIDEO_PRIMARY",
+        "real_video_preferred": true,
+        "composition_strategy": "SINGLE_OR_SEQUENCE",
+        "retention_phases": [
+          {
+            "phase_index": 0,
+            "role": "PRIMARY",
+            "start": 84.28,
+            "end": 88.648,
+            "duration": 4.367999999999995,
+            "asset_requirement": "VIDEO_PRIMARY",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "SEARCH_VIDEO",
+            "requires_external_search": true,
+            "reuse_existing_media": false,
+            "execution_request": {
+              "beat_start": 84.28,
+              "beat_end": 91.56,
+              "beat_duration": 7.280000000000001,
+              "documentary_mode": "REAL_VIDEO",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 0,
+              "phase_role": "PRIMARY",
+              "phase_start": 84.28,
+              "phase_end": 88.648,
+              "phase_duration": 4.367999999999995,
+              "asset_requirement": "VIDEO_PRIMARY",
+              "resolver_action": "SEARCH_VIDEO",
+              "requires_identity_verification": false,
+              "execution_backend": "BEAT_VIDEO_ORCHESTRATOR",
+              "execute_external_search": true,
+              "execute_local_reuse": false,
+              "execution_policy": "VIDEO_PRIMARY"
+            }
+          },
+          {
+            "phase_index": 1,
+            "role": "DETAIL",
+            "start": 88.648,
+            "end": 91.56,
+            "duration": 2.912000000000006,
+            "asset_requirement": "SAME_VIDEO_DETAIL_OR_SECOND_VIDEO",
+            "requires_new_asset": false,
+            "requires_identity_verification": false,
+            "resolver_action": "REUSE_SELECTED_VIDEO",
+            "requires_external_search": false,
+            "reuse_existing_media": true,
+            "execution_request": {
+              "beat_start": 84.28,
+              "beat_end": 91.56,
+              "beat_duration": 7.280000000000001,
+              "documentary_mode": "REAL_VIDEO",
+              "identity_sensitive": false,
+              "requires_identity_gate": false,
+              "phase_index": 1,
+              "phase_role": "DETAIL",
+              "phase_start": 88.648,
+              "phase_end": 91.56,
+              "phase_duration": 2.912000000000006,
+              "asset_requirement": "SAME_VIDEO_DETAIL_OR_SECOND_VIDEO",
+              "resolver_action": "REUSE_SELECTED_VIDEO",
+              "requires_identity_verification": false,
+              "execution_backend": "LOCAL_VIDEO_REUSE",
+              "execute_external_search": false,
+              "execute_local_reuse": true,
+              "execution_policy": "LOCAL_ONLY"
+            }
+          }
+        ],
+        "retention_phase_count": 2
+      },
+      "entity_resolution": {
+        "status": "UNRESOLVED",
+        "entities": [],
+        "resolver": "NO_CANDIDATES"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": false,
+        "confidence": "HIGH",
+        "reason": "NO_RESOLVED_ENTITY"
+      },
+      "visual_entity": null,
+      "search_entity": null,
+      "factual_search": false,
+      "queries": {
+        "exact": [],
+        "broad": [
+          "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+          "school atlas africa south of sahara promotional image",
+          "magnetic board with african landscape and elephants"
+        ],
+        "visual": [
+          "A close-up of a magnetic surface with a brochure or atlas image showing a savanna landscape at sunset, with silhouettes of elephants in the background, appearing as a static, idealized image from a promotional or educational context.",
+          "showing a promotional or educational image of Africa south of the Sahara visuals include savanna, sunset, and elephant silhouettes image appears in a static, idealized, non-dynamic way"
+        ],
+        "all": [
+          "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+          "school atlas africa south of sahara promotional image",
+          "magnetic board with african landscape and elephants",
+          "A close-up of a magnetic surface with a brochure or atlas image showing a savanna landscape at sunset, with silhouettes of elephants in the background, appearing as a static, idealized image from a promotional or educational context.",
+          "showing a promotional or educational image of Africa south of the Sahara visuals include savanna, sunset, and elephant silhouettes image appears in a static, idealized, non-dynamic way"
+        ],
+        "used_visual_entity": false
+      }
+    },
+    "video_search": {
+      "queries": [
+        "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+        "school atlas africa south of sahara promotional image",
+        "magnetic board with african landscape and elephants",
+        "A close-up of a magnetic surface with a brochure or atlas image showing a savanna landscape at sunset, with silhouettes of elephants in the background, appearing as a static, idealized image from a promotional or educational context.",
+        "showing a promotional or educational image of Africa south of the Sahara visuals include savanna, sunset, and elephant silhouettes image appears in a static, idealized, non-dynamic way"
+      ],
+      "query_stats": [
+        {
+          "query": "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "school atlas africa south of sahara promotional image",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "magnetic board with african landscape and elephants",
+          "provider": "pixabay",
+          "found": 5,
+          "error": null
+        },
+        {
+          "query": "A close-up of a magnetic surface with a brochure or atlas image showing a savanna landscape at sunset, with silhouettes of elephants in the background, appearing as a static, idealized image from a promotional or educational context.",
+          "provider": "pixabay",
+          "found": 0,
+          "error": null
+        },
+        {
+          "query": "showing a promotional or educational image of Africa south of the Sahara visuals include savanna, sunset, and elephant silhouettes image appears in a static, idealized, non-dynamic way",
+          "provider": "pixabay",
+          "found": 0,
+          "error": null
+        }
+      ],
+      "fallback_used": false,
+      "fallback_provider": null,
+      "stats": {
+        "query_count": 5,
+        "search_found_raw": 15,
+        "search_unique": 11,
+        "duplicates_removed": 4,
+        "missing_identity": 0,
+        "rights_allowed": 11,
+        "rights_rejected": 0,
+        "export_rights_allowed": 11,
+        "export_rights_rejected": 0,
+        "identity_required": false,
+        "identity_verified": 11,
+        "identity_rejected": 0,
+        "final_candidates": 11,
+        "specialized_fallback_used": false
+      },
+      "assets": [
+        {
+          "provider": "pixabay",
+          "provider_id": "126215",
+          "title": "elephants, african elephant, elephant",
+          "source_url": "https://pixabay.com/videos/id-126215/",
+          "original_url": "https://cdn.pixabay.com/video/2022/07/31/126215-735676475_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 9,
+          "creator": "gavinllo",
+          "creator_url": "https://pixabay.com/users/2238038/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "elephants, african elephant, elephant, animals, mammals, safari, wildlife, conservation, baby elephant, walking, africa, south africa, herd, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+            "school atlas africa south of sahara promotional image",
+            "magnetic board with african landscape and elephants"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-126215/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-126215/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "170258",
+          "title": "woman, sunset, coast",
+          "source_url": "https://pixabay.com/videos/id-170258/",
+          "original_url": "https://cdn.pixabay.com/video/2023/07/05/170258-843059148_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 37,
+          "creator": "SAN444",
+          "creator_url": "https://pixabay.com/users/38029214/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "woman, sunset, coast, silhouette, sparkles, sky, wonderful, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "afrika south of sahara savanna sunset elephant silhouettes promotional brochure"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-170258/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-170258/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "126216",
+          "title": "elephants, herd, baby",
+          "source_url": "https://pixabay.com/videos/id-126216/",
+          "original_url": "https://cdn.pixabay.com/video/2022/07/31/126216-735676477_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 9,
+          "creator": "gavinllo",
+          "creator_url": "https://pixabay.com/users/2238038/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "elephants, herd, baby, baby elephant, animals, elephant, nature, wildlife, safari, african elephant, conservation, mammals, south africa, africa",
+          "video_quality": "large",
+          "matched_queries": [
+            "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+            "magnetic board with african landscape and elephants"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-126216/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-126216/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "126211",
+          "title": "elephant, eating, animal",
+          "source_url": "https://pixabay.com/videos/id-126211/",
+          "original_url": "https://cdn.pixabay.com/video/2022/07/31/126211-735676461_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 16,
+          "creator": "gavinllo",
+          "creator_url": "https://pixabay.com/users/2238038/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "elephant, eating, animal, nature, wildlife, big5, conservation, safari, south africa, africa, african elephant, mammals",
+          "video_quality": "large",
+          "matched_queries": [
+            "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+            "magnetic board with african landscape and elephants"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-126211/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-126211/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "206272",
+          "title": "beach, sunset, sky",
+          "source_url": "https://pixabay.com/videos/id-206272/",
+          "original_url": "https://cdn.pixabay.com/video/2024/03/30/206272_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 35,
+          "creator": "TonyDias7",
+          "creator_url": "https://pixabay.com/users/26930749/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "beach, sunset, sky, sea, dusk, ocean, sun, twilight, horizon, water, silhouette, seascape, scenic, boat, clouds, orange, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "afrika south of sahara savanna sunset elephant silhouettes promotional brochure"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-206272/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-206272/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "190466",
+          "title": "sunset, dunes, desert",
+          "source_url": "https://pixabay.com/videos/id-190466/",
+          "original_url": "https://cdn.pixabay.com/video/2023/11/23/190466-888131689_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 20,
+          "creator": "MAURICIO_BR",
+          "creator_url": "https://pixabay.com/users/19223273/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "sunset, dunes, desert, sand dunes, sahara, namibia, africa, landscape, sand, national park, safari, drought, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "school atlas africa south of sahara promotional image"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-190466/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-190466/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "26085",
+          "title": "namibia, sundowner, sunset",
+          "source_url": "https://pixabay.com/videos/id-26085/",
+          "original_url": "https://cdn.pixabay.com/video/2019/08/16/26085-354651392_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 73,
+          "creator": "TeeFarm",
+          "creator_url": "https://pixabay.com/users/199315/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "namibia, sundowner, sunset, africa, landscape, sahara, sand, national park, desert, safari, sandy, drought, nature, dunes, sand dunes",
+          "video_quality": "large",
+          "matched_queries": [
+            "school atlas africa south of sahara promotional image"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-26085/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-26085/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "147663",
+          "title": "sunset, dunes, desert",
+          "source_url": "https://pixabay.com/videos/id-147663/",
+          "original_url": "https://cdn.pixabay.com/video/2023/01/23/147663-792078281_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 26,
+          "creator": "MAURICIO_BR",
+          "creator_url": "https://pixabay.com/users/19223273/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "sunset, dunes, desert, sand dunes, sahara, namibia, africa, landscape, sand, national park, safari, drought, nature",
+          "video_quality": "large",
+          "matched_queries": [
+            "school atlas africa south of sahara promotional image"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-147663/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-147663/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "302163",
+          "title": "africa, south africa, nature",
+          "source_url": "https://pixabay.com/videos/id-302163/",
+          "original_url": "https://cdn.pixabay.com/video/2025/09/06/302163_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 31,
+          "creator": "antonlukin",
+          "creator_url": "https://pixabay.com/users/29278027/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "africa, south africa, nature, drone, landscape, flight, mountains, sky, travel, field",
+          "video_quality": "large",
+          "matched_queries": [
+            "school atlas africa south of sahara promotional image"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-302163/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-302163/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "292151",
+          "title": "elephants, sunset, savannah",
+          "source_url": "https://pixabay.com/videos/id-292151/",
+          "original_url": "https://cdn.pixabay.com/video/2025/07/18/292151_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "duration": 38,
+          "creator": "seyhmuskino",
+          "creator_url": "https://pixabay.com/users/17636827/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "elephants, sunset, savannah, tanzania, zanzibar, elephant, safari, african sunset, travel, africa",
+          "video_quality": "large",
+          "matched_queries": [
+            "magnetic board with african landscape and elephants"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-292151/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-292151/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "126214",
+          "title": "elephants, herd, watering hole",
+          "source_url": "https://pixabay.com/videos/id-126214/",
+          "original_url": "https://cdn.pixabay.com/video/2022/07/31/126214-735676470_large.mp4",
+          "preview_url": "",
+          "media_type": "VIDEO",
+          "mime_type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 30,
+          "creator": "gavinllo",
+          "creator_url": "https://pixabay.com/users/2238038/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "elephants, herd, watering hole, drinking, wildlife, animals, africa, south africa, african elephant, nature, big5, safari, elephant, conservation, mammals",
+          "video_quality": "large",
+          "matched_queries": [
+            "magnetic board with african landscape and elephants"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/videos/id-126214/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/videos/id-126214/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          }
+        }
+      ],
+      "rights_rejected": [],
+      "export_rights_rejected": [],
+      "identity_rejected": [],
+      "missing_identity": []
+    },
+    "attempts": [],
+    "metadata_rejected": [
+      {
+        "provider": "pixabay",
+        "provider_id": "126215",
+        "title": "elephants, african elephant, elephant",
+        "source_url": "https://pixabay.com/videos/id-126215/",
+        "original_url": "https://cdn.pixabay.com/video/2022/07/31/126215-735676475_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 9,
+        "creator": "gavinllo",
+        "creator_url": "https://pixabay.com/users/2238038/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephants, african elephant, elephant, animals, mammals, safari, wildlife, conservation, baby elephant, walking, africa, south africa, herd, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+          "school atlas africa south of sahara promotional image",
+          "magnetic board with african landscape and elephants"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-126215/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-126215/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata mentions elephants and Africa but lacks evidence of a magnetic surface, brochure, atlas, savanna at sunset, or silhouettes in background; no mention of promotional/educational static image context"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "170258",
+        "title": "woman, sunset, coast",
+        "source_url": "https://pixabay.com/videos/id-170258/",
+        "original_url": "https://cdn.pixabay.com/video/2023/07/05/170258-843059148_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 37,
+        "creator": "SAN444",
+        "creator_url": "https://pixabay.com/users/38029214/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "woman, sunset, coast, silhouette, sparkles, sky, wonderful, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "afrika south of sahara savanna sunset elephant silhouettes promotional brochure"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-170258/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-170258/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of savanna, elephants, magnetic surface, or atlas/brochure; sunset and silhouette only weakly related to target"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "126216",
+        "title": "elephants, herd, baby",
+        "source_url": "https://pixabay.com/videos/id-126216/",
+        "original_url": "https://cdn.pixabay.com/video/2022/07/31/126216-735676477_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 9,
+        "creator": "gavinllo",
+        "creator_url": "https://pixabay.com/users/2238038/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephants, herd, baby, baby elephant, animals, elephant, nature, wildlife, safari, african elephant, conservation, mammals, south africa, africa",
+        "video_quality": "large",
+        "matched_queries": [
+          "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+          "magnetic board with african landscape and elephants"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-126216/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-126216/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata mentions elephants and Africa but lacks evidence of a magnetic surface, brochure, atlas, savanna at sunset, or silhouettes in promotional context"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "126211",
+        "title": "elephant, eating, animal",
+        "source_url": "https://pixabay.com/videos/id-126211/",
+        "original_url": "https://cdn.pixabay.com/video/2022/07/31/126211-735676461_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 16,
+        "creator": "gavinllo",
+        "creator_url": "https://pixabay.com/users/2238038/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephant, eating, animal, nature, wildlife, big5, conservation, safari, south africa, africa, african elephant, mammals",
+        "video_quality": "large",
+        "matched_queries": [
+          "afrika south of sahara savanna sunset elephant silhouettes promotional brochure",
+          "magnetic board with african landscape and elephants"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-126211/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-126211/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of magnetic surface, brochure, atlas, savanna at sunset, or silhouettes of elephants in background; metadata focuses on elephant eating in nature, lacking promotional/educational static context."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "206272",
+        "title": "beach, sunset, sky",
+        "source_url": "https://pixabay.com/videos/id-206272/",
+        "original_url": "https://cdn.pixabay.com/video/2024/03/30/206272_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 35,
+        "creator": "TonyDias7",
+        "creator_url": "https://pixabay.com/users/26930749/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "beach, sunset, sky, sea, dusk, ocean, sun, twilight, horizon, water, silhouette, seascape, scenic, boat, clouds, orange, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "afrika south of sahara savanna sunset elephant silhouettes promotional brochure"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-206272/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-206272/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of savanna, elephants, magnetic surface, or atlas/brochure; beach and sunset are misaligned with target context"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "190466",
+        "title": "sunset, dunes, desert",
+        "source_url": "https://pixabay.com/videos/id-190466/",
+        "original_url": "https://cdn.pixabay.com/video/2023/11/23/190466-888131689_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 20,
+        "creator": "MAURICIO_BR",
+        "creator_url": "https://pixabay.com/users/19223273/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "sunset, dunes, desert, sand dunes, sahara, namibia, africa, landscape, sand, national park, safari, drought, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "school atlas africa south of sahara promotional image"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-190466/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-190466/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata mentions desert, sunset, and Africa, but lacks evidence of savanna landscape, brochure/atlas image, elephants, or static promotional context."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "26085",
+        "title": "namibia, sundowner, sunset",
+        "source_url": "https://pixabay.com/videos/id-26085/",
+        "original_url": "https://cdn.pixabay.com/video/2019/08/16/26085-354651392_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 73,
+        "creator": "TeeFarm",
+        "creator_url": "https://pixabay.com/users/199315/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "namibia, sundowner, sunset, africa, landscape, sahara, sand, national park, desert, safari, sandy, drought, nature, dunes, sand dunes",
+        "video_quality": "large",
+        "matched_queries": [
+          "school atlas africa south of sahara promotional image"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-26085/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-26085/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of savanna, elephants, magnetic surface, brochure, or atlas; metadata focuses on desert/sand dunes and Africa broadly, lacking specific promotional or educational context with savanna sunset and elephant silhouettes"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "147663",
+        "title": "sunset, dunes, desert",
+        "source_url": "https://pixabay.com/videos/id-147663/",
+        "original_url": "https://cdn.pixabay.com/video/2023/01/23/147663-792078281_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 26,
+        "creator": "MAURICIO_BR",
+        "creator_url": "https://pixabay.com/users/19223273/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "sunset, dunes, desert, sand dunes, sahara, namibia, africa, landscape, sand, national park, safari, drought, nature",
+        "video_quality": "large",
+        "matched_queries": [
+          "school atlas africa south of sahara promotional image"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-147663/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-147663/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata mentions desert, sunset, and Africa, but lacks evidence of savanna landscape, brochure/atlas image, elephants, or static promotional context."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "302163",
+        "title": "africa, south africa, nature",
+        "source_url": "https://pixabay.com/videos/id-302163/",
+        "original_url": "https://cdn.pixabay.com/video/2025/09/06/302163_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 31,
+        "creator": "antonlukin",
+        "creator_url": "https://pixabay.com/users/29278027/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "africa, south africa, nature, drone, landscape, flight, mountains, sky, travel, field",
+        "video_quality": "large",
+        "matched_queries": [
+          "school atlas africa south of sahara promotional image"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-302163/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-302163/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "No mention of savanna, sunset, elephants, magnetic surface, or brochure/atlas imagery; metadata focuses on general African landscape and travel."
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "292151",
+        "title": "elephants, sunset, savannah",
+        "source_url": "https://pixabay.com/videos/id-292151/",
+        "original_url": "https://cdn.pixabay.com/video/2025/07/18/292151_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 3840,
+        "height": 2160,
+        "duration": 38,
+        "creator": "seyhmuskino",
+        "creator_url": "https://pixabay.com/users/17636827/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephants, sunset, savannah, tanzania, zanzibar, elephant, safari, african sunset, travel, africa",
+        "video_quality": "large",
+        "matched_queries": [
+          "magnetic board with african landscape and elephants"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-292151/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-292151/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 0,
+          "reason": "Metadata judge returned invalid output",
+          "raw": "{\"decision\":\"MATCH\",\"score\":85,\"reason\":\"Metadata includes 'elephants, sunset, savannah' and mentions 'tanzania, zanzibar, safari, africa'—supports presence of elephants in savanna at sunset, which aligns with silhouettes and landscape context. No contradictory elements; 'sunset' and 'savannah' provide visual cues matching target, though no explicit mention of magnetic surface or brochure/atlas, the promotional/travel tags suggest idealized"
+        }
+      },
+      {
+        "provider": "pixabay",
+        "provider_id": "126214",
+        "title": "elephants, herd, watering hole",
+        "source_url": "https://pixabay.com/videos/id-126214/",
+        "original_url": "https://cdn.pixabay.com/video/2022/07/31/126214-735676470_large.mp4",
+        "preview_url": "",
+        "media_type": "VIDEO",
+        "mime_type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 30,
+        "creator": "gavinllo",
+        "creator_url": "https://pixabay.com/users/2238038/",
+        "license_short": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "attribution_required": false,
+        "is_ai_generated": false,
+        "tags": "elephants, herd, watering hole, drinking, wildlife, animals, africa, south africa, african elephant, nature, big5, safari, elephant, conservation, mammals",
+        "video_quality": "large",
+        "matched_queries": [
+          "magnetic board with african landscape and elephants"
+        ],
+        "rights": {
+          "status": "ALLOWED",
+          "reason": "Approved license: Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "source_url": "https://pixabay.com/videos/id-126214/",
+          "artist": "",
+          "credit": ""
+        },
+        "export_rights": {
+          "status": "EXPORT_ALLOWED",
+          "policy": "NO_VISIBLE_CREDITS",
+          "reason": "Asset approved for export without visible credits",
+          "license": "pixabay content license",
+          "source_url": "https://pixabay.com/videos/id-126214/",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "artist": "",
+          "credit": ""
+        },
+        "metadata_relevance": {
+          "decision": "REJECT",
+          "score": 10,
+          "reason": "Metadata mentions elephants and Africa but lacks evidence of a magnetic surface, brochure, atlas, savanna at sunset, or silhouettes in background; only general wildlife context present"
+        }
+      }
+    ],
+    "best": null
+  }
+}

@@ -1,0 +1,1400 @@
+{
+  "status": "NO_MATCH",
+  "response": {
+    "plan": {
+      "beat": {
+        "source_word_start": 0,
+        "source_word_end": 15,
+        "visual_intent": "Contextual photograph of Harare airport.",
+        "search_queries": [
+          "Harare airport photograph",
+          "Harare airport Zimbabwe"
+        ],
+        "requirements": [
+          "Verified identity: Harare airport",
+          "Contextual place photograph only"
+        ],
+        "avoid": [
+          "Stone bird artifact",
+          "President or foreign delegation",
+          "Reconstruction of the military reception",
+          "Watermarks, logos or added captions"
+        ],
+        "edit": "Gentle push-in on the place photograph; no added factual elements.",
+        "start": 0.09000000000000002,
+        "end": 7.0,
+        "duration": 6.91,
+        "voice_text": "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.",
+        "visual_contract": {
+          "mode": "CONTEXTUAL_PLACE",
+          "identity_scope": "NAMED_PLACE",
+          "subject": "Harare airport",
+          "depicts_narrated_event": false,
+          "asset_identity_verified": false,
+          "identity_trace": {
+            "matched_mentions": [
+              "аэропорту Хараре"
+            ],
+            "scope": "current_narration_only"
+          },
+          "fallback_reason": "Unrevealed entity removed; locally named place retained"
+        }
+      },
+      "entity_resolution": {
+        "status": "CONTRACT_BOUND"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": true,
+        "selection_method": "APPROVED_VISUAL_CONTRACT"
+      },
+      "visual_entity": {
+        "canonical_subject": "Harare airport",
+        "subject_type": "airport",
+        "location": "UNKNOWN",
+        "aliases_or_descriptions": [
+          "Harare airport"
+        ],
+        "_source_canonical_subject": "аэропорт Хараре",
+        "_canonicalization_status": "OK",
+        "_representation_mode": "CONTEXTUAL_PLACE",
+        "_identity_scope": "NAMED_PLACE"
+      },
+      "search_entity": {
+        "canonical_subject": "Harare airport",
+        "subject_type": "airport",
+        "location": "UNKNOWN",
+        "aliases_or_descriptions": [
+          "Harare airport"
+        ],
+        "_source_canonical_subject": "аэропорт Хараре",
+        "_canonicalization_status": "OK",
+        "_representation_mode": "CONTEXTUAL_PLACE",
+        "_identity_scope": "NAMED_PLACE"
+      },
+      "factual_search": true,
+      "queries": {
+        "all": [
+          "Harare airport photograph",
+          "Harare airport Zimbabwe"
+        ]
+      }
+    },
+    "search": {
+      "queries": [
+        "Harare airport photograph",
+        "Harare airport Zimbabwe"
+      ],
+      "target": "Judge only this approved visual plan. Search queries are not identity evidence. Exclusions are forbidden content, not requested subjects. Contextual media must not be treated as footage of the narrated event.\n{\"positive_visual\": {\"visual_intent\": \"Contextual photograph of Harare airport.\", \"requirements\": [\"Verified identity: Harare airport\", \"Contextual place photograph only\"], \"edit\": \"Gentle push-in on the place photograph; no added factual elements.\"}, \"exclusions\": [\"Stone bird artifact\", \"President or foreign delegation\", \"Reconstruction of the military reception\", \"Watermarks, logos or added captions\"], \"representation\": {\"mode\": \"CONTEXTUAL_PLACE\", \"identity_scope\": \"NAMED_PLACE\", \"subject\": \"Harare airport\", \"depicts_narrated_event\": false}}",
+      "provider_stats": {
+        "wikimedia": 6,
+        "internet_archive": 0,
+        "pixabay": 6,
+        "pexels": 6
+      },
+      "query_stats": {
+        "Harare airport photograph": {
+          "wikimedia": 3,
+          "internet_archive": 0,
+          "pixabay": 3,
+          "pexels": 3
+        },
+        "Harare airport Zimbabwe": {
+          "wikimedia": 3,
+          "internet_archive": 0,
+          "pixabay": 3,
+          "pexels": 3
+        }
+      },
+      "stats": {
+        "query_count": 2,
+        "search_found_raw": 18,
+        "search_unique": 16,
+        "duplicates_removed": 2,
+        "missing_identity": 0,
+        "rights_allowed": 16,
+        "rights_rejected": 0,
+        "export_rights_allowed": 11,
+        "export_rights_rejected": 5,
+        "identity_required": true,
+        "identity_verified": 0,
+        "identity_rejected": 11,
+        "media_accepted": 0,
+        "media_rejected": 0,
+        "unavailable": 0,
+        "downloaded": 0,
+        "download_failed": 0,
+        "visual_matches": 0,
+        "visual_rejected": 0
+      },
+      "best": null,
+      "matches": [],
+      "visual_rejected": [],
+      "rights_rejected": [],
+      "export_rights_rejected": [
+        {
+          "pageid": 26220228,
+          "title": "File:Salisbury Airport Rhodesia ca1974 6970299713.jpg",
+          "description": "Passengers arriving on an Air Rhodesia flight at Salisbury Airport circa 1974.",
+          "description_html": "Passengers arriving on an Air Rhodesia flight at Salisbury Airport circa 1974.",
+          "source_date": "circa 1974 date QS:P,+1974-00-00T00:00:00Z/9,P1480,Q5727902",
+          "width": 2560,
+          "height": 1704,
+          "source_metadata": {
+            "DateTime": {
+              "value": "2013-05-21 17:55:46",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Salisbury Airport Rhodesia ca1974 6970299713",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Flickr images reviewed by FlickreviewR|Flickr images missing SDC inception|Files with coordinates missing SDC location of creation|Vickers Viscount of Air Rhodesia|Photographs by Rob Atherton|Opel Kadett B Caravan|Vickers Viscount at Harare International Airport|Harare in the 1970s|Flickr images missing SDC published in",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "GPSLatitude": {
+              "value": "-17.919044",
+              "source": "commons-desc-page"
+            },
+            "GPSLongitude": {
+              "value": "31.100749",
+              "source": "commons-desc-page"
+            },
+            "GPSMapDatum": {
+              "value": "WGS-84",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Passengers arriving on an Air Rhodesia flight at Salisbury Airport circa 1974.",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "circa 1974<div style=\"display: none;\">date QS:P,+1974-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bbmexplorer/6970299713/\">Passengers, Salisbury Airport</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/86368962@N00\">Rob</a> from United Kingdom",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY 2.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution 2.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by/2.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-2.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Salisbury_Airport_Rhodesia_ca1974_6970299713.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Salisbury_Airport_Rhodesia_ca1974_6970299713.jpg/960px-Salisbury_Airport_Rhodesia_ca1974_6970299713.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Salisbury_Airport_Rhodesia_ca1974_6970299713.jpg",
+          "media_type": "BITMAP",
+          "mime": "image/jpeg",
+          "license_short": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/86368962@N00\">Rob</a> from United Kingdom",
+          "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bbmexplorer/6970299713/\">Passengers, Salisbury Airport</a>",
+          "usage_terms": "Creative Commons Attribution 2.0",
+          "copyrighted": "True",
+          "restrictions": "",
+          "provider": "wikimedia",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY 2.0",
+            "license_url": "https://creativecommons.org/licenses/by/2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Salisbury_Airport_Rhodesia_ca1974_6970299713.jpg",
+            "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/86368962@N00\">Rob</a> from United Kingdom",
+            "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bbmexplorer/6970299713/\">Passengers, Salisbury Airport</a>"
+          },
+          "export_rights": {
+            "status": "REJECT",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: CC BY 2.0",
+              "license_url": "https://creativecommons.org/licenses/by/2.0",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Salisbury_Airport_Rhodesia_ca1974_6970299713.jpg",
+              "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/86368962@N00\">Rob</a> from United Kingdom",
+              "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bbmexplorer/6970299713/\">Passengers, Salisbury Airport</a>"
+            }
+          }
+        },
+        {
+          "pageid": 57489095,
+          "title": "File:Cobus 3000 Harare Airport (11760535725).jpg",
+          "description": "Cobus 3000 Harare Airport",
+          "description_html": "Cobus 3000 Harare Airport",
+          "source_date": "2006-01-01 00:00",
+          "width": 1280,
+          "height": 851,
+          "source_metadata": {
+            "DateTime": {
+              "value": "2017-03-28 15:46:55",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Cobus 3000 Harare Airport (11760535725)",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Harare International Airport|Contrac Cobus 3000|Flickr images reviewed by FlickreviewR|Photographs by Bob Adams|Files with coordinates missing SDC location of creation",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "GPSLatitude": {
+              "value": "-17.920248",
+              "source": "commons-desc-page"
+            },
+            "GPSLongitude": {
+              "value": "31.098928",
+              "source": "commons-desc-page"
+            },
+            "GPSMapDatum": {
+              "value": "WGS-84",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Cobus 3000 Harare Airport",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "2006-01-01 00:00",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/satransport/11760535725/\">Cobus 3000 Harare Airport</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46185203@N05\">Bob Adams</a> from Amanzimtoti, South Africa",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 2.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 2.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by-sa/2.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-2.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Cobus_3000_Harare_Airport_%2811760535725%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Cobus_3000_Harare_Airport_%2811760535725%29.jpg/960px-Cobus_3000_Harare_Airport_%2811760535725%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Cobus_3000_Harare_Airport_(11760535725).jpg",
+          "media_type": "BITMAP",
+          "mime": "image/jpeg",
+          "license_short": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46185203@N05\">Bob Adams</a> from Amanzimtoti, South Africa",
+          "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/satransport/11760535725/\">Cobus 3000 Harare Airport</a>",
+          "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+          "copyrighted": "True",
+          "restrictions": "",
+          "provider": "wikimedia",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 2.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Cobus_3000_Harare_Airport_(11760535725).jpg",
+            "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46185203@N05\">Bob Adams</a> from Amanzimtoti, South Africa",
+            "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/satransport/11760535725/\">Cobus 3000 Harare Airport</a>"
+          },
+          "export_rights": {
+            "status": "REJECT",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: CC BY-SA 2.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Cobus_3000_Harare_Airport_(11760535725).jpg",
+              "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46185203@N05\">Bob Adams</a> from Amanzimtoti, South Africa",
+              "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/satransport/11760535725/\">Cobus 3000 Harare Airport</a>"
+            }
+          }
+        },
+        {
+          "pageid": 3599101,
+          "title": "File:Harare International Airport.jpg",
+          "description": "Harare International Airport",
+          "description_html": "Harare International Airport",
+          "source_date": "15 February 2008 (original upload date) ( Original text: 2006 )",
+          "width": 443,
+          "height": 270,
+          "source_metadata": {
+            "DateTime": {
+              "value": "2025-07-29 23:33:10",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Harare International Airport",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "GFDL|Harare International Airport|2008 in Zimbabwe|License migration redundant|Self-published work",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Harare International Airport",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "<p>15 February 2008 (original upload date)<br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">2006</bdi></i></span>)",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">self-made</bdi></i></span>)",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<p><a href=\"https://en.wikipedia.org/wiki/User:Macvivo\" class=\"extiw\" title=\"wikipedia:User:Macvivo\">Macvivo</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a><br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Samwise Gamgee</bdi></i></span>)",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 3.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 3.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Attribution": {
+              "value": "<a href=\"https://en.wikipedia.org/wiki/User:Macvivo\" class=\"extiw\" title=\"wikipedia:User:Macvivo\">Macvivo</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by-sa/3.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-3.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Harare_International_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "preview_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Harare_International_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Harare_International_Airport.jpg",
+          "media_type": "BITMAP",
+          "mime": "image/jpeg",
+          "license_short": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "<p><a href=\"https://en.wikipedia.org/wiki/User:Macvivo\" class=\"extiw\" title=\"wikipedia:User:Macvivo\">Macvivo</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a><br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Samwise Gamgee</bdi></i></span>)",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">self-made</bdi></i></span>)",
+          "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+          "copyrighted": "True",
+          "restrictions": "",
+          "provider": "wikimedia",
+          "search_query": "Harare airport Zimbabwe",
+          "matched_queries": [
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 3.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Harare_International_Airport.jpg",
+            "artist": "<p><a href=\"https://en.wikipedia.org/wiki/User:Macvivo\" class=\"extiw\" title=\"wikipedia:User:Macvivo\">Macvivo</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a><br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Samwise Gamgee</bdi></i></span>)",
+            "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">self-made</bdi></i></span>)"
+          },
+          "export_rights": {
+            "status": "REJECT",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: CC BY-SA 3.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Harare_International_Airport.jpg",
+              "artist": "<p><a href=\"https://en.wikipedia.org/wiki/User:Macvivo\" class=\"extiw\" title=\"wikipedia:User:Macvivo\">Macvivo</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a><br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Samwise Gamgee</bdi></i></span>)",
+              "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">self-made</bdi></i></span>)"
+            }
+          }
+        },
+        {
+          "pageid": 4006100,
+          "title": "File:Air Zimbabwe Planes 1987.jpg",
+          "description": "Air Zimbabwe 707 (right) and 737-200 at Harare airport in February 1987",
+          "description_html": "Air Zimbabwe 707 (right) and 737-200 at Harare airport in February 1987",
+          "source_date": "1987-02",
+          "width": 2000,
+          "height": 910,
+          "source_metadata": {
+            "DateTime": {
+              "value": "2008-05-07 08:11:59",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Air Zimbabwe Planes 1987",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "GFDL|License migration redundant|Self-published work|Z-WKT (aircraft)|1987 in aviation in Zimbabwe|Boeing 737-200 of Air Zimbabwe|1987 at airports|Boeing 707 at Harare International Airport|Boeing 737-200 at Harare International Airport",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Air Zimbabwe 707 (right) and 737-200 at Harare airport in February 1987",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1987-02",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tigershoot&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tigershoot (page does not exist)\">Tigershoot</a>",
+              "source": "commons-desc-page"
+            },
+            "Permission": {
+              "value": "You may select the license of your choice.",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 3.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 3.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-3.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Air_Zimbabwe_Planes_1987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Air_Zimbabwe_Planes_1987.jpg/960px-Air_Zimbabwe_Planes_1987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Air_Zimbabwe_Planes_1987.jpg",
+          "media_type": "BITMAP",
+          "mime": "image/jpeg",
+          "license_short": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tigershoot&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tigershoot (page does not exist)\">Tigershoot</a>",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+          "copyrighted": "True",
+          "restrictions": "",
+          "provider": "wikimedia",
+          "search_query": "Harare airport Zimbabwe",
+          "matched_queries": [
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 3.0",
+            "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Air_Zimbabwe_Planes_1987.jpg",
+            "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tigershoot&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tigershoot (page does not exist)\">Tigershoot</a>",
+            "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+          },
+          "export_rights": {
+            "status": "REJECT",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: CC BY-SA 3.0",
+              "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Air_Zimbabwe_Planes_1987.jpg",
+              "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tigershoot&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tigershoot (page does not exist)\">Tigershoot</a>",
+              "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+            }
+          }
+        },
+        {
+          "pageid": 61586718,
+          "title": "File:Air Zimbabwe Boeing 707 at Harare, November 1997.jpg",
+          "description": "Taken at Harare airport, November 1997",
+          "description_html": "Taken at Harare airport, November 1997",
+          "source_date": "1997-11",
+          "width": 1720,
+          "height": 880,
+          "source_metadata": {
+            "DateTime": {
+              "value": "2017-08-10 03:28:28",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Air Zimbabwe Boeing 707 at Harare, November 1997",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "1997 in Zimbabwe|Flickr images reviewed by FlickreviewR|1997 at airports|Boeing 707 of Air Zimbabwe|Boeing 707 at Harare International Airport|Air Zimbabwe aircraft at Harare International Airport",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Taken at Harare airport, November 1997",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1997-11",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/docklander/35494300213/\">Air Zimbabwe Boeing 707</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31699508@N04\">DocklandsTony</a>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 2.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 2.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by-sa/2.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-2.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Air_Zimbabwe_Boeing_707_at_Harare%2C_November_1997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Air_Zimbabwe_Boeing_707_at_Harare%2C_November_1997.jpg/960px-Air_Zimbabwe_Boeing_707_at_Harare%2C_November_1997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Air_Zimbabwe_Boeing_707_at_Harare,_November_1997.jpg",
+          "media_type": "BITMAP",
+          "mime": "image/jpeg",
+          "license_short": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31699508@N04\">DocklandsTony</a>",
+          "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/docklander/35494300213/\">Air Zimbabwe Boeing 707</a>",
+          "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+          "copyrighted": "True",
+          "restrictions": "",
+          "provider": "wikimedia",
+          "search_query": "Harare airport Zimbabwe",
+          "matched_queries": [
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: CC BY-SA 2.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Air_Zimbabwe_Boeing_707_at_Harare,_November_1997.jpg",
+            "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31699508@N04\">DocklandsTony</a>",
+            "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/docklander/35494300213/\">Air Zimbabwe Boeing 707</a>"
+          },
+          "export_rights": {
+            "status": "REJECT",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "License requires attribution and is not approved for NO_VISIBLE_CREDITS",
+            "rights": {
+              "status": "ALLOWED",
+              "reason": "Approved license: CC BY-SA 2.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Air_Zimbabwe_Boeing_707_at_Harare,_November_1997.jpg",
+              "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31699508@N04\">DocklandsTony</a>",
+              "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/docklander/35494300213/\">Air Zimbabwe Boeing 707</a>"
+            }
+          }
+        }
+      ],
+      "identity_rejected": [
+        {
+          "pageid": 2120492,
+          "title": "File:Super Constellation at Salisbury Airport Rhodesia.JPG",
+          "description": "Super Constellation being used as flying club headquarters at Charles Prince Airport, near Salisbury (now Harare), Rhodesia (now Zimbabwe) in 1975.",
+          "description_html": "Super Constellation being used as flying club headquarters at Charles Prince Airport, near Salisbury (now Harare), Rhodesia (now Zimbabwe) in 1975.",
+          "source_date": "",
+          "width": 2558,
+          "height": 948,
+          "source_metadata": {
+            "DateTime": {
+              "value": "2007-05-17 18:41:25",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Super Constellation at Salisbury Airport Rhodesia",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "PD-author|Preserved aircraft|Wingtips (aircraft wings)|VP-WAW (aircraft)|1975 in Zimbabwe|1975 at airports|Photographs by Graham Bould|Lockheed aircraft at Harare International Airport",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Super Constellation being used as flying club headquarters at Charles Prince Airport, near Salisbury (now Harare), Rhodesia (now Zimbabwe) in 1975.",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<a href=\"//commons.wikimedia.org/wiki/User:GrahamBould\" title=\"User:GrahamBould\">GrahamBould</a>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Super_Constellation_at_Salisbury_Airport_Rhodesia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Super_Constellation_at_Salisbury_Airport_Rhodesia.JPG/960px-Super_Constellation_at_Salisbury_Airport_Rhodesia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Super_Constellation_at_Salisbury_Airport_Rhodesia.JPG",
+          "media_type": "BITMAP",
+          "mime": "image/jpeg",
+          "license_short": "Public domain",
+          "license_url": "",
+          "artist": "<a href=\"//commons.wikimedia.org/wiki/User:GrahamBould\" title=\"User:GrahamBould\">GrahamBould</a>",
+          "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "usage_terms": "Public domain",
+          "copyrighted": "False",
+          "restrictions": "",
+          "provider": "wikimedia",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Public domain",
+            "license_url": "",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Super_Constellation_at_Salisbury_Airport_Rhodesia.JPG",
+            "artist": "<a href=\"//commons.wikimedia.org/wiki/User:GrahamBould\" title=\"User:GrahamBould\">GrahamBould</a>",
+            "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "public domain",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Super_Constellation_at_Salisbury_Airport_Rhodesia.JPG",
+            "license_url": "",
+            "artist": "<a href=\"//commons.wikimedia.org/wiki/User:GrahamBould\" title=\"User:GrahamBould\">GrahamBould</a>",
+            "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "harare",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "5005234",
+          "title": "cherry blossoms, bridge, natural",
+          "source_url": "https://pixabay.com/photos/cherry-blossoms-bridge-natural-5005234/",
+          "original_url": "https://pixabay.com/get/gc0e3811b9dc565a1ea3bcab0f6be20fc412048cd27f5321ce2c76ff3024586baeec1a26a903d7f50cf1010740ebad4aacac44294f9e834c22ad97acd553c0408_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g26251fa0818994bde67b96f32758f6530b707c14e1df67b19f5fc9ea99327ffbd784e348e81f47fa812617bd1b378faaf15872a63b8926df7286ad83cdacf5d6_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 5850,
+          "height": 3892,
+          "creator": "yamabon",
+          "creator_url": "https://pixabay.com/users/11501053/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "cherry blossoms, bridge, natural, landscape, photograph, cherry blossoms, cherry blossoms, cherry blossoms, cherry blossoms, cherry blossoms",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/cherry-blossoms-bridge-natural-5005234/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/cherry-blossoms-bridge-natural-5005234/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "581126",
+          "title": "camera, photography, dslr",
+          "source_url": "https://pixabay.com/photos/camera-photography-dslr-581126/",
+          "original_url": "https://pixabay.com/get/g39e554b772d5170ff89947b5fd91ca48b5613e6bb0c3b2424f84601550eb3beb1959fe1851de014cdcc970edff0ec2b822a2f1132c3f271a82dc310dfa408868_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g01e64b4e6fcc80d077d2df2a30fecc2401dc74421da31c60eaf244b803930d07d2d7e9304cec237fda303d8fb344cd5f_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 5760,
+          "height": 3840,
+          "creator": "markusspiske",
+          "creator_url": "https://pixabay.com/users/670330/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "camera, photography, dslr, digital camera, photograph, slr camera, slr, equipment, camera equipment, camera, camera, camera, camera, camera, photography, photography",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/camera-photography-dslr-581126/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/camera-photography-dslr-581126/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "4454338",
+          "title": "airbus, airplane, jet",
+          "source_url": "https://pixabay.com/photos/airbus-airplane-jet-flight-airport-4454338/",
+          "original_url": "https://pixabay.com/get/g23a35d82a6e09c7b5ce1262858524a69f70f2b02ffa98bcdffa8dc8bfa39a4cf4260376ad07916338e08046b6038d37a93385382c932727b97525e1cffc45eb2_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g21b27ce0a48d40dd8bd5026887549352a7c0e5d1fd0a176e0b4e6ca38516111542512720133a047e802624cc791ae52864257db5b39723fff9c00c1cdf26d96d_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 6000,
+          "height": 4000,
+          "creator": "Steve001",
+          "creator_url": "https://pixabay.com/users/389276/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "airbus, airplane, jet, flight, airport, airline, transport, travel, airplane, airplane, airplane, airplane, airplane, airport, airport",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph",
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/airbus-airplane-jet-flight-airport-4454338/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/airbus-airplane-jet-flight-airport-4454338/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "airport",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "37527605",
+          "title": "Close-up view of aircraft undercarriage on a wet airport tarmac, highlighting engineering details.",
+          "source_url": "https://www.pexels.com/photo/aircraft-undercarriage-on-wet-tarmac-37527605/",
+          "original_url": "https://images.pexels.com/photos/37527605/pexels-photo-37527605.jpeg",
+          "preview_url": "https://images.pexels.com/photos/37527605/pexels-photo-37527605.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 8256,
+          "height": 5504,
+          "creator": "Miguel Cuenca",
+          "creator_url": "https://www.pexels.com/@miguel-cuenca-67882473",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "Close-up view of aircraft undercarriage on a wet airport tarmac, highlighting engineering details.",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/aircraft-undercarriage-on-wet-tarmac-37527605/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/aircraft-undercarriage-on-wet-tarmac-37527605/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "airport",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "38340833",
+          "title": "South African Airways plane docked at a gate in an airport, captured from an aerial view.",
+          "source_url": "https://www.pexels.com/photo/south-african-airways-aircraft-at-airport-gate-38340833/",
+          "original_url": "https://images.pexels.com/photos/38340833/pexels-photo-38340833.jpeg",
+          "preview_url": "https://images.pexels.com/photos/38340833/pexels-photo-38340833.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 7980,
+          "height": 5323,
+          "creator": "Magda Ehlers",
+          "creator_url": "https://www.pexels.com/@magda-ehlers-pexels",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "South African Airways plane docked at a gate in an airport, captured from an aerial view.",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph",
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/south-african-airways-aircraft-at-airport-gate-38340833/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/south-african-airways-aircraft-at-airport-gate-38340833/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "airport",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "32418426",
+          "title": "Monochrome image of a JetSmart airplane landing in Buenos Aires with city skyline.",
+          "source_url": "https://www.pexels.com/photo/black-and-white-urban-airplane-arrival-in-buenos-aires-32418426/",
+          "original_url": "https://images.pexels.com/photos/32418426/pexels-photo-32418426.jpeg",
+          "preview_url": "https://images.pexels.com/photos/32418426/pexels-photo-32418426.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 5939,
+          "height": 3341,
+          "creator": "Alex Dos Santos",
+          "creator_url": "https://www.pexels.com/@alex-dos-santos-305643819",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "Monochrome image of a JetSmart airplane landing in Buenos Aires with city skyline.",
+          "search_query": "Harare airport photograph",
+          "matched_queries": [
+            "Harare airport photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/black-and-white-urban-airplane-arrival-in-buenos-aires-32418426/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/black-and-white-urban-airplane-arrival-in-buenos-aires-32418426/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "568208",
+          "title": "city, zimbabwe, harare",
+          "source_url": "https://pixabay.com/photos/city-zimbabwe-harare-568208/",
+          "original_url": "https://pixabay.com/get/gabe6bf5c5b7c5e1b730aa4edacfd018af416d94841687c8fc09a70361604482246444f5c69b85a2925e1f3d6f920d8d6420fd55f80e44ab12863b2b25063b028_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g4ff384103e4d3da2aa41488a2e485170265e177cf3a6e7df37dd191413082ed5971263f7aa60096992e1d2ab4e57e000_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 4928,
+          "height": 3264,
+          "creator": "toubibe",
+          "creator_url": "https://pixabay.com/users/647761/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "city, zimbabwe, harare, zimbabwe, harare, harare, harare, harare, harare",
+          "search_query": "Harare airport Zimbabwe",
+          "matched_queries": [
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/city-zimbabwe-harare-568208/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/city-zimbabwe-harare-568208/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "harare",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "1105980",
+          "title": "airport, aircraft, departure",
+          "source_url": "https://pixabay.com/photos/airport-aircraft-departure-travel-1105980/",
+          "original_url": "https://pixabay.com/get/gb739d1ee9f658013a887d2d605acb86d6df16847764c063dd1bcde637aaa84defa4e8ffdefd2c200f9f0c863654f2cac5fab93c4e5dec1c007b62d0522d8f2de_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g16c9cba55db9f5b869460ae6fe80fb29811b2795314d2902a90d80f4fe7df3edd70c568958ab70cec8e920d963f8ce296db600545b008b99a555fcee65de6c42_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 4608,
+          "height": 3456,
+          "creator": "652234",
+          "creator_url": "https://pixabay.com/users/652234/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "airport, aircraft, departure, travel, airliner, airbus, airline, passenger aircraft, aviation, tilt shift, airport, airport, airport, airport, airport, airline, aviation",
+          "search_query": "Harare airport Zimbabwe",
+          "matched_queries": [
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/airport-aircraft-departure-travel-1105980/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/airport-aircraft-departure-travel-1105980/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "airport",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "30220728",
+          "title": "Aerial view of Abeid Amani Karume International Airport in Zanzibar, showing parked airplanes and terminal.",
+          "source_url": "https://www.pexels.com/photo/aerial-view-of-abeid-amani-karume-international-airport-30220728/",
+          "original_url": "https://images.pexels.com/photos/30220728/pexels-photo-30220728.jpeg",
+          "preview_url": "https://images.pexels.com/photos/30220728/pexels-photo-30220728.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 7952,
+          "height": 5304,
+          "creator": "Keegan Checks",
+          "creator_url": "https://www.pexels.com/@keeganjchecks",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "Aerial view of Abeid Amani Karume International Airport in Zanzibar, showing parked airplanes and terminal.",
+          "search_query": "Harare airport Zimbabwe",
+          "matched_queries": [
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/aerial-view-of-abeid-amani-karume-international-airport-30220728/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/aerial-view-of-abeid-amani-karume-international-airport-30220728/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "airport",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "7515786",
+          "title": "A misty early flight scene showcasing airplane wings during takeoff operations at foggy airport.",
+          "source_url": "https://www.pexels.com/photo/view-on-an-airplane-wing-from-the-inside-of-the-plane-at-an-airport-7515786/",
+          "original_url": "https://images.pexels.com/photos/7515786/pexels-photo-7515786.jpeg",
+          "preview_url": "https://images.pexels.com/photos/7515786/pexels-photo-7515786.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 4167,
+          "height": 2778,
+          "creator": "Magda Ehlers",
+          "creator_url": "https://www.pexels.com/@magda-ehlers-pexels",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "A misty early flight scene showcasing airplane wings during takeoff operations at foggy airport.",
+          "search_query": "Harare airport Zimbabwe",
+          "matched_queries": [
+            "Harare airport Zimbabwe"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/view-on-an-airplane-wing-from-the-inside-of-the-plane-at-an-airport-7515786/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/view-on-an-airplane-wing-from-the-inside-of-the-plane-at-an-airport-7515786/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "airport",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        }
+      ],
+      "media_rejected": [],
+      "unavailable": [],
+      "download_failed": []
+    },
+    "status": "SEARCHED"
+  }
+}

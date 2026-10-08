@@ -1,0 +1,712 @@
+{
+  "status": "NO_MATCH",
+  "response": {
+    "plan": {
+      "beat": {
+        "source_word_start": 16,
+        "source_word_end": 19,
+        "visual_intent": "Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).",
+        "search_queries": [
+          "Zimbabwe Bird soapstone bird sculpture",
+          "Zimbabwe Bird artifact photograph"
+        ],
+        "requirements": [
+          "Zimbabwe Bird",
+          "soapstone bird sculpture",
+          "Verified artifact-group identity; contextual subject only"
+        ],
+        "avoid": [
+          "Historical event reconstruction",
+          "Specific historical placement or handling",
+          "People interacting with the artifact",
+          "Unverified individual specimen identity",
+          "Watermarks, logos or added captions"
+        ],
+        "edit": "Gentle push-in on the artifact photograph; no added factual elements.",
+        "start": 7.44,
+        "end": 9.5,
+        "duration": 2.0599999999999996,
+        "voice_text": "Он встречал каменную птицу.",
+        "visual_contract": {
+          "mode": "CONTEXTUAL_SUBJECT",
+          "identity_scope": "ARTIFACT_GROUP",
+          "subject": "Zimbabwe Bird",
+          "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+          "identity_trace": {
+            "matched_mentions": [],
+            "matched_quotes": [
+              "Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию. Он встречал каменную птицу."
+            ],
+            "scope": "current_and_preceding_narration_only"
+          },
+          "depicts_narrated_event": false,
+          "asset_identity_verified": false
+        }
+      },
+      "entity_resolution": {
+        "status": "CONTRACT_BOUND"
+      },
+      "contextual_entity": null,
+      "visual_subject": {
+        "use_entity_for_search": true,
+        "selection_method": "APPROVED_VISUAL_CONTRACT"
+      },
+      "visual_entity": {
+        "canonical_subject": "Zimbabwe Bird",
+        "subject_type": "soapstone bird sculpture",
+        "location": "UNKNOWN",
+        "aliases_or_descriptions": [
+          "Zimbabwe birds",
+          "Great Zimbabwe soapstone birds"
+        ],
+        "_source_canonical_subject": "каменная птица",
+        "_identity_research": {
+          "status": "VERIFIED",
+          "canonical_subject": "Zimbabwe Bird",
+          "subject_type": "soapstone bird sculpture",
+          "aliases": [
+            "Zimbabwe birds",
+            "Great Zimbabwe soapstone birds"
+          ],
+          "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+          "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+          "scope": "ARTIFACT_GROUP"
+        },
+        "_canonicalization_status": "OK",
+        "_representation_mode": "CONTEXTUAL_SUBJECT",
+        "_identity_scope": "ARTIFACT_GROUP"
+      },
+      "search_entity": {
+        "canonical_subject": "Zimbabwe Bird",
+        "subject_type": "soapstone bird sculpture",
+        "location": "UNKNOWN",
+        "aliases_or_descriptions": [
+          "Zimbabwe birds",
+          "Great Zimbabwe soapstone birds"
+        ],
+        "_source_canonical_subject": "каменная птица",
+        "_identity_research": {
+          "status": "VERIFIED",
+          "canonical_subject": "Zimbabwe Bird",
+          "subject_type": "soapstone bird sculpture",
+          "aliases": [
+            "Zimbabwe birds",
+            "Great Zimbabwe soapstone birds"
+          ],
+          "source_url": "https://www.metmuseum.org/essays/great-zimbabwe",
+          "basis": "The Metropolitan Museum identifies the carved soapstone birds from Great Zimbabwe as Zimbabwe birds. This identifies the artifact group, not the individual returned specimen or event.",
+          "scope": "ARTIFACT_GROUP"
+        },
+        "_canonicalization_status": "OK",
+        "_representation_mode": "CONTEXTUAL_SUBJECT",
+        "_identity_scope": "ARTIFACT_GROUP"
+      },
+      "factual_search": true,
+      "queries": {
+        "all": [
+          "Zimbabwe Bird soapstone bird sculpture",
+          "Zimbabwe Bird artifact photograph"
+        ]
+      }
+    },
+    "search": {
+      "queries": [
+        "Zimbabwe Bird soapstone bird sculpture",
+        "Zimbabwe Bird artifact photograph"
+      ],
+      "target": "Judge only this approved visual plan. Search queries are not identity evidence. Exclusions are forbidden content, not requested subjects. Contextual media must not be treated as footage of the narrated event.\n{\"positive_visual\": {\"visual_intent\": \"Contextual close-up photograph of Zimbabwe Bird (soapstone bird sculpture).\", \"requirements\": [\"Zimbabwe Bird\", \"soapstone bird sculpture\", \"Verified artifact-group identity; contextual subject only\"], \"edit\": \"Gentle push-in on the artifact photograph; no added factual elements.\"}, \"exclusions\": [\"Historical event reconstruction\", \"Specific historical placement or handling\", \"People interacting with the artifact\", \"Unverified individual specimen identity\", \"Watermarks, logos or added captions\"], \"representation\": {\"mode\": \"CONTEXTUAL_SUBJECT\", \"identity_scope\": \"ARTIFACT_GROUP\", \"subject\": \"Zimbabwe Bird\", \"depicts_narrated_event\": false}}",
+      "provider_stats": {
+        "wikimedia": 0,
+        "internet_archive": 0,
+        "pixabay": 6,
+        "pexels": 6
+      },
+      "query_stats": {
+        "Zimbabwe Bird soapstone bird sculpture": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 3,
+          "pexels": 3
+        },
+        "Zimbabwe Bird artifact photograph": {
+          "wikimedia": 0,
+          "internet_archive": 0,
+          "pixabay": 3,
+          "pexels": 3
+        }
+      },
+      "stats": {
+        "query_count": 2,
+        "search_found_raw": 12,
+        "search_unique": 11,
+        "duplicates_removed": 1,
+        "missing_identity": 0,
+        "rights_allowed": 11,
+        "rights_rejected": 0,
+        "export_rights_allowed": 11,
+        "export_rights_rejected": 0,
+        "identity_required": true,
+        "identity_verified": 0,
+        "identity_rejected": 11,
+        "media_accepted": 0,
+        "media_rejected": 0,
+        "unavailable": 0,
+        "downloaded": 0,
+        "download_failed": 0,
+        "visual_matches": 0,
+        "visual_rejected": 0
+      },
+      "best": null,
+      "matches": [],
+      "visual_rejected": [],
+      "rights_rejected": [],
+      "export_rights_rejected": [],
+      "identity_rejected": [
+        {
+          "provider": "pixabay",
+          "provider_id": "7086655",
+          "title": "flamingo, bird, animal",
+          "source_url": "https://pixabay.com/photos/flamingo-bird-animal-wading-bird-7086655/",
+          "original_url": "https://pixabay.com/get/g433bd47ac9155ae7c902758a49df4933568c40ff74ce0dc245bb39fe868c514b267a79e154b035adca7f2874e242de65473b6426205e9ca3716c82dbb25a8162_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g0a21d6bd7d95d877f0bf4afb01afcbdc276e171b2d130f9736b9f432b90bf399ecf88b942c313ca635e2ef6acfb5d1212912af14cc07be04b969aecaaae5bfce_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 6184,
+          "height": 4122,
+          "creator": "NickyPe",
+          "creator_url": "https://pixabay.com/users/10327513/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "flamingo, bird, animal, wading bird, water bird, aquatic bird, wildlife, plumage, nature, flamingo, flamingo, flamingo, flamingo, flamingo",
+          "search_query": "Zimbabwe Bird soapstone bird sculpture",
+          "matched_queries": [
+            "Zimbabwe Bird soapstone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/flamingo-bird-animal-wading-bird-7086655/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/flamingo-bird-animal-wading-bird-7086655/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "8024809",
+          "title": "blue tit, nuthatch, bird",
+          "source_url": "https://pixabay.com/photos/blue-tit-nuthatch-bird-animal-8024809/",
+          "original_url": "https://pixabay.com/get/g4f4f19dbe9b64ef5e7af94bb03da8385090493d976529412c7a60a521a999966aa390b1a1d9934fbac8a6777df4cc97f37ccce5055563c23e384d90f3b6aca79_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g8efa11198c48b476454888fea91e33eb641617adc0b77535941933b6b0bc6d73df70e4136f372d329fd2432d7be2f5bdc4bed1a1c3c3333d6125c4dd81825ae2_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 4134,
+          "height": 6201,
+          "creator": "Max_Gindele_Photography",
+          "creator_url": "https://pixabay.com/users/24136281/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "blue tit, nuthatch, bird, animal, wildlife, plumage, branch, perched, nature, birdwatching, wildlife photography, nature photography, bird photography, nature, nature, nature, nature, nature",
+          "search_query": "Zimbabwe Bird soapstone bird sculpture",
+          "matched_queries": [
+            "Zimbabwe Bird soapstone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/blue-tit-nuthatch-bird-animal-8024809/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/blue-tit-nuthatch-bird-animal-8024809/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "10047289",
+          "title": "guinea fowl, bird, nature",
+          "source_url": "https://pixabay.com/photos/guinea-fowl-bird-nature-outdoor-10047289/",
+          "original_url": "https://pixabay.com/get/gbd3e67f59713a08f96a310807e780790663220467e4ed4c6dd33c313b083ad5d058a82b2367793a506fa625c8edb9c38bb97aaf58746e9360b056c327ae50e55_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g028630852d9ff68e3a6fb4b21fe8876fa3ba3a17a5ba77edba40b4df357da5506f5a4365cc7cd4d99f0591e1ef725e142f4bdd88ae3ad49678ddb4295f0dc1f6_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 6336,
+          "height": 8440,
+          "creator": "RonaldPlett",
+          "creator_url": "https://pixabay.com/users/5139674/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "guinea fowl, bird, nature, outdoor, wildlife, crowned bird, bird head, white, jewel, beak, bird counting, pecking, profile, beautiful, feathers, eyes, bird beak, bird watching, red, bird breed",
+          "search_query": "Zimbabwe Bird soapstone bird sculpture",
+          "matched_queries": [
+            "Zimbabwe Bird soapstone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/guinea-fowl-bird-nature-outdoor-10047289/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/guinea-fowl-bird-nature-outdoor-10047289/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "30876931",
+          "title": "A small bird perched on a moss-covered ornate stone rooftop against a cloudy sky.",
+          "source_url": "https://www.pexels.com/photo/bird-perched-on-ornate-stone-rooftop-detail-30876931/",
+          "original_url": "https://images.pexels.com/photos/30876931/pexels-photo-30876931.jpeg",
+          "preview_url": "https://images.pexels.com/photos/30876931/pexels-photo-30876931.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 4500,
+          "height": 3000,
+          "creator": "Karolina",
+          "creator_url": "https://www.pexels.com/@karolina-2031292",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "A small bird perched on a moss-covered ornate stone rooftop against a cloudy sky.",
+          "search_query": "Zimbabwe Bird soapstone bird sculpture",
+          "matched_queries": [
+            "Zimbabwe Bird soapstone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/bird-perched-on-ornate-stone-rooftop-detail-30876931/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/bird-perched-on-ornate-stone-rooftop-detail-30876931/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "34572587",
+          "title": "A Boulder Chat (Pinarornis plumosus) perched on a branch in Zimbabwe.",
+          "source_url": "https://www.pexels.com/photo/boulder-chat-bird-in-natural-habitat-34572587/",
+          "original_url": "https://images.pexels.com/photos/34572587/pexels-photo-34572587.jpeg",
+          "preview_url": "https://images.pexels.com/photos/34572587/pexels-photo-34572587.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 5336,
+          "height": 3442,
+          "creator": "Derek Keats",
+          "creator_url": "https://www.pexels.com/@dkeats",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "A Boulder Chat (Pinarornis plumosus) perched on a branch in Zimbabwe.",
+          "search_query": "Zimbabwe Bird soapstone bird sculpture",
+          "matched_queries": [
+            "Zimbabwe Bird soapstone bird sculpture",
+            "Zimbabwe Bird artifact photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/boulder-chat-bird-in-natural-habitat-34572587/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/boulder-chat-bird-in-natural-habitat-34572587/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "30432782",
+          "title": "Artistic depiction of birds on poles against a blue sky with scattered clouds.",
+          "source_url": "https://www.pexels.com/photo/skyward-art-installation-of-birds-on-poles-30432782/",
+          "original_url": "https://images.pexels.com/photos/30432782/pexels-photo-30432782.jpeg",
+          "preview_url": "https://images.pexels.com/photos/30432782/pexels-photo-30432782.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 6000,
+          "height": 4000,
+          "creator": "Jan van der Wolf",
+          "creator_url": "https://www.pexels.com/@jan-van-der-wolf-11680885",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "Artistic depiction of birds on poles against a blue sky with scattered clouds.",
+          "search_query": "Zimbabwe Bird soapstone bird sculpture",
+          "matched_queries": [
+            "Zimbabwe Bird soapstone bird sculpture"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/skyward-art-installation-of-birds-on-poles-30432782/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/skyward-art-installation-of-birds-on-poles-30432782/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "7362864",
+          "title": "bird, beautiful wallpaper, windows wallpaper",
+          "source_url": "https://pixabay.com/photos/bird-ornithology-avian-straw-field-7362864/",
+          "original_url": "https://pixabay.com/get/g470e3861df78a7840c0379bbc3a20657dfd1d748266c6ba96820d6fefffe76149649be02d02d18c3265023fc06607c3440eb38b7276066ecda3988dba647e28c_1280.jpg",
+          "preview_url": "https://pixabay.com/get/gd41e1f11442d65999b9fc428a02188a89d86362b6dcdf3f6c604de246afa844132a28c0dd134bc3ab3222415e7e8f4b0d8cbaf1261080b614685db5dce74d653_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 3500,
+          "height": 2334,
+          "creator": "sharkolot",
+          "creator_url": "https://pixabay.com/users/25467781/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "bird, beautiful wallpaper, windows wallpaper, laptop wallpaper, ornithology, avian, beautiful nature, nature background, straw, 4k wallpaper, field, european stonechat, nature, 4k wallpaper 1920x1080, meadow, fauna, hd wallpaper, male, mac wallpaper, passerine, thrush, cool backgrounds, free wallpaper, family, desktop backgrounds, wallpaper hd, full hd wallpaper, nature wallpaper, wildlife, species, wallpaper 4k, free background, wallpaper",
+          "search_query": "Zimbabwe Bird artifact photograph",
+          "matched_queries": [
+            "Zimbabwe Bird artifact photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/bird-ornithology-avian-straw-field-7362864/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/bird-ornithology-avian-straw-field-7362864/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "4928241",
+          "title": "victoria falls, bird's-eye view, africa",
+          "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+          "original_url": "https://pixabay.com/get/g5950af9bd067cb6cc2c8578608838fd8166a32fe2185f25b8105c0bab8f9574d4d5ae887506a582d9ad5eb0e08f42cbec30ee8c5a953334c1b89cb8096583568_1280.jpg",
+          "preview_url": "https://pixabay.com/get/gbfdb945e4cfd85217da0c0bfb87c54c38361a10c2775750811be45034c2031e37a540c13e4bbdabfe732cea32d200ace45c7cef1bdba628d3a1a3280169e0b22_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 6000,
+          "height": 2945,
+          "creator": "Jürgen_Bierlein",
+          "creator_url": "https://pixabay.com/users/5797981/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "victoria falls, bird's-eye view, africa, zimbabwe, river, nature, landscape, victoria falls, victoria falls, victoria falls, victoria falls, victoria falls, zimbabwe",
+          "search_query": "Zimbabwe Bird artifact photograph",
+          "matched_queries": [
+            "Zimbabwe Bird artifact photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/victoria-falls-birds-eye-view-4928241/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pixabay",
+          "provider_id": "5005234",
+          "title": "cherry blossoms, bridge, natural",
+          "source_url": "https://pixabay.com/photos/cherry-blossoms-bridge-natural-5005234/",
+          "original_url": "https://pixabay.com/get/g42ed41ba79673f19ee9514e4dae7fba9861197f11015178087b32779cd3a42dd4ceae5db170ba1d2dba1ba5443c8c0d91b667f6dee6f11d892f61d01beafb067_1280.jpg",
+          "preview_url": "https://pixabay.com/get/g46b531024239874bd833d55ddfaa16bf3ce3f3690e8f91d635d4a535cd57b76ac7e153041a260cadfc3fa894ccb3e7dc3a0279d4dd99ede4b343a4fbe93c7949_640.jpg",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 5850,
+          "height": 3892,
+          "creator": "yamabon",
+          "creator_url": "https://pixabay.com/users/11501053/",
+          "license_short": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "cherry blossoms, bridge, natural, landscape, photograph, cherry blossoms, cherry blossoms, cherry blossoms, cherry blossoms, cherry blossoms",
+          "search_query": "Zimbabwe Bird artifact photograph",
+          "matched_queries": [
+            "Zimbabwe Bird artifact photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pixabay Content License",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "source_url": "https://pixabay.com/photos/cherry-blossoms-bridge-natural-5005234/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pixabay content license",
+            "source_url": "https://pixabay.com/photos/cherry-blossoms-bridge-natural-5005234/",
+            "license_url": "https://pixabay.com/service/license-summary/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "5267251",
+          "title": "A striking side profile of a Southern yellow-billed hornbill in natural habitat.",
+          "source_url": "https://www.pexels.com/photo/close-up-of-hornbill-5267251/",
+          "original_url": "https://images.pexels.com/photos/5267251/pexels-photo-5267251.jpeg",
+          "preview_url": "https://images.pexels.com/photos/5267251/pexels-photo-5267251.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 6000,
+          "height": 4000,
+          "creator": "Roger Brown",
+          "creator_url": "https://www.pexels.com/@roger-brown-3435524",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "A striking side profile of a Southern yellow-billed hornbill in natural habitat.",
+          "search_query": "Zimbabwe Bird artifact photograph",
+          "matched_queries": [
+            "Zimbabwe Bird artifact photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/close-up-of-hornbill-5267251/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/close-up-of-hornbill-5267251/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": null,
+            "context_matches": [],
+            "reason": "Metadata does not establish the required sculpture type"
+          }
+        },
+        {
+          "provider": "pexels",
+          "provider_id": "20610628",
+          "title": "Intricate golden bird-shaped artifacts displayed in a museum showcase, showcasing ancient craftsmanship.",
+          "source_url": "https://www.pexels.com/photo/golden-lamp-in-a-museum-20610628/",
+          "original_url": "https://images.pexels.com/photos/20610628/pexels-photo-20610628.jpeg",
+          "preview_url": "https://images.pexels.com/photos/20610628/pexels-photo-20610628.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "media_type": "BITMAP",
+          "mime_type": "image/jpeg",
+          "width": 5142,
+          "height": 3428,
+          "creator": "Daniel Neves Cotta",
+          "creator_url": "https://www.pexels.com/@afterdark",
+          "license_short": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "is_ai_generated": false,
+          "tags": "Intricate golden bird-shaped artifacts displayed in a museum showcase, showcasing ancient craftsmanship.",
+          "search_query": "Zimbabwe Bird artifact photograph",
+          "matched_queries": [
+            "Zimbabwe Bird artifact photograph"
+          ],
+          "rights": {
+            "status": "ALLOWED",
+            "reason": "Approved license: Pexels License",
+            "license_url": "https://www.pexels.com/license/",
+            "source_url": "https://www.pexels.com/photo/golden-lamp-in-a-museum-20610628/",
+            "artist": "",
+            "credit": ""
+          },
+          "export_rights": {
+            "status": "EXPORT_ALLOWED",
+            "policy": "NO_VISIBLE_CREDITS",
+            "reason": "Asset approved for export without visible credits",
+            "license": "pexels license",
+            "source_url": "https://www.pexels.com/photo/golden-lamp-in-a-museum-20610628/",
+            "license_url": "https://www.pexels.com/license/",
+            "artist": "",
+            "credit": ""
+          },
+          "factual_identity": {
+            "status": "UNVERIFIED",
+            "confidence": "LOW",
+            "matched_term": "bird",
+            "context_matches": [],
+            "reason": "Asset metadata does not provide sufficient evidence for the required factual identity"
+          }
+        }
+      ],
+      "media_rejected": [],
+      "unavailable": [],
+      "download_failed": []
+    },
+    "status": "SEARCHED"
+  }
+}

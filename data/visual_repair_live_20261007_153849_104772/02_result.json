@@ -1,0 +1,57 @@
+{
+  "scene": {
+    "source_word_start": 16,
+    "source_word_end": 19,
+    "start": 7.44,
+    "end": 9.5
+  },
+  "planner_reason": "The narration 'Он встречал каменную птицу' describes a single visual event involving a stone artifact. The pronoun 'он' refers to the military guard, and the action is 'встречал' (met), which is a static visual of a guard encountering the artifact. The grounding context confirms the subject is an artifact (каменная птица), located in the context of the airport. No semantic shift occurs; the scene does not change subject, location, or action. A single visual beat is sufficient to show the military guard at the airport meeting the stone bird sculpture. No additional visual change is required.",
+  "needs_multiple_beats": false,
+  "grounding_context": {
+    "master_text": "Он встречал каменную птицу.",
+    "chapter_match_score": 0,
+    "chapters": [],
+    "entities": []
+  },
+  "beats": [
+    {
+      "source_word_start": 16,
+      "source_word_end": 19,
+      "visual_intent": "A military guard standing at the airport in Harare, facing a carved soapstone bird sculpture, located on a pedestal or in a public plaza, with the stone bird visible and intact, in the background of the airport environment.",
+      "search_queries": [
+        "military guard at airport Harare",
+        "soapstone bird sculpture Great Zimbabwe",
+        "stone bird in Harare airport",
+        "Zimbabwe bird sculpture outdoor"
+      ],
+      "requirements": [
+        "military guard present",
+        "stone bird sculpture visible",
+        "location in Harare airport",
+        "stone bird is carved from soapstone",
+        "no text, labels, or signs on screen"
+      ],
+      "avoid": [
+        "a woman or person standing with the bird",
+        "a president or foreign delegation",
+        "a battle, explosion, or movement of the bird",
+        "a map, diagram, or text overlay",
+        "a different type of bird or animal"
+      ],
+      "edit": "Steady shot of a guard at the airport, with the stone bird sculpture in the foreground, showing its carved form and placement. No movement or reaction beyond the static meeting. No additional context or detail introduced.",
+      "start": 7.44,
+      "end": 9.5,
+      "duration": 2.0599999999999996,
+      "voice_text": "Он встречал каменную птицу."
+    }
+  ],
+  "diagnostics": [
+    {
+      "source_word_start": 16,
+      "source_word_end": 19,
+      "issues_before": [],
+      "issues_after": [],
+      "repair_attempts": []
+    }
+  ]
+}

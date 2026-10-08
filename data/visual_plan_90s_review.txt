@@ -1,0 +1,59 @@
+SCENE 1 | WORDS 0-15 | 0.09-7.00 | 6.91s
+VOICE: Пятнадцатого апреля этого года в аэропорту Хараре военный караул встречал не президента и не иностранную делегацию.
+VISUAL: A military guard at the Harare airport on April 15th, greeting a non-president and no foreign delegation.
+QUERIES: ['Harare airport April 15 military guard', 'military guard at Harare airport 2020s', 'African airport military presence']
+
+SCENE 2 | WORDS 16-19 | 7.44-9.50 | 2.06s
+VOICE: Он встречал каменную птицу.
+VISUAL: A stone bird (a carved or stone sculpture) being presented or observed by the guard.
+QUERIES: ['stone bird sculpture Harare', 'stone bird in Zimbabwean culture', 'stone bird archaeological site']
+
+SCENE 3 | WORDS 20-38 | 9.50-17.98 | 8.48s
+VOICE: Сто тридцать семь лет она провела вдали от дома сначала в кабинете колонизатора, потом в музейном хранилище чужой страны.
+VISUAL: A stone bird sitting in a room, then later in a museum storage room, over a period of 37 years.
+QUERIES: ['stone bird in colonial office Zimbabwe', 'stone bird in museum storage Zimbabwe', 'Zimbabwean colonial-era museum storage']
+
+SCENE 4 | WORDS 39-64 | 18.48-30.56 | 12.08s
+VOICE: Учебник скажет вам: до прихода европейцев Африка южнее Сахары не знала ни городов, ни инженерии, ни письменной культуры только разрозненные племена и пустые пространства на карте.
+VISUAL: A map of southern Africa showing no cities, no engineering, no written culture, only scattered tribes and empty spaces before European arrival.
+QUERIES: ['pre-European Africa southern map', 'African pre-colonial map no cities', 'map of southern Africa pre-1500']
+
+SCENE 5 | WORDS 65-68 | 31.08-33.44 | 2.36s
+VOICE: Раскопки говорят прямо противоположное.
+VISUAL: Archaeological excavation revealing a stone circle in the desert, precisely aligned with solstice sun.
+QUERIES: ['stone circle desert southern Africa', 'stone circle solstice alignment Zimbabwe', 'pre-colonial desert stone circle']
+
+SCENE 6 | WORDS 69-86 | 34.04-42.96 | 8.92s
+VOICE: Каменный круг посреди пустыни рассчитывает солнцестояние точнее, чем многие сооружения, которые появятся на тысячу с лишним лет позже.
+VISUAL: A stone circle in the desert, precisely aligned with solstice, more accurate than later constructions.
+QUERIES: ['stone circle desert solstice accuracy', 'pre-colonial desert stone circle precision', 'stone circle older than Roman monuments']
+
+SCENE 7 | WORDS 87-114 | 43.58-53.90 | 10.32s
+VOICE: Терракотовая голова две с половиной тысячи лет пролежала в земле, а потом ещё год простояла пугалом на грядке с ямсом, прежде чем кто-то понял, что держит в руках.
+VISUAL: A terracotta head buried underground for 2.5 thousand years, then placed as a scarecrow on a farm with jambalaya, before being recognized as a cultural artifact.
+QUERIES: ['terracotta head 2500 years old Zimbabwe', 'terracotta head in farm setting Africa', 'pre-colonial terracotta artifacts']
+
+SCENE 8 | WORDS 115-128 | 54.54-60.84 | 6.30s
+VOICE: Библиотеку в пустыне спасали от боевиков в лодках и багажниках внедорожников, по частям, полгода.
+VISUAL: A library in the desert being saved piece by piece from militants in small boats and off-road vehicles.
+QUERIES: ['desert library saved from militants', 'library in desert Africa', 'militants in African desert']
+
+SCENE 9 | WORDS 129-149 | 61.02-69.72 | 8.70s
+VOICE: Церковь, вырезанную вниз в цельной скале, до сих пор обходят на коленях паломники, которые верят: без ангелов такое было не построить.
+VISUAL: A church carved into a rock face, still being visited by pilgrims who kneel and believe angels were necessary to build it.
+QUERIES: ['rock-carved church Africa', 'stone church carved in rock Zimbabwe', 'pilgrims kneeling at rock church']
+
+SCENE 10 | WORDS 150-170 | 70.70-78.44 | 7.74s
+VOICE: Самая громкая из восьми историй ждёт в самом конце и она замкнёт круг, который мы только что открыли аэропортом в Хараре.
+VISUAL: A dramatic, climactic scene showing a hidden historical site, possibly a city or monument, that ties back to the Harare airport scene, completing the narrative loop.
+QUERIES: ['hidden African city pre-European', 'pre-colonial African city Harare region', 'lost African city southern Africa']
+
+SCENE 11 | WORDS 171-178 | 78.44-83.40 | 4.96s
+VOICE: Сегодня восемь цивилизаций Африки, которую мы, кажется, знаем.
+VISUAL: Eight African civilizations, presented as distinct and ancient, existing before European contact.
+QUERIES: ['eight African civilizations pre-European', 'pre-colonial African civilizations map', 'African civilizations before 1500']
+
+SCENE 12 | WORDS 179-214 | 84.28-101.40 | 17.12s
+VOICE: На магнитах, в рекламных буклетах и в школьных атласах Африка южнее Сахары чаще всего выглядит одинаково: саванна, закат, силуэты слонов на фоне неба и ни намёка на то, что здесь вообще что-то строили до прихода европейцев.
+VISUAL: A textbook, poster, or atlas showing the southern African region as a savanna with sunset, elephants, and no indication of pre-European construction.
+QUERIES: ['textbook Africa southern region', 'school atlas Africa pre-colonial', 'African atlas with no cities']

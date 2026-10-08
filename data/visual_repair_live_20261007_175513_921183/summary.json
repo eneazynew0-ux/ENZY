@@ -1,0 +1,14 @@
+[
+  {
+    "scene": 1,
+    "status": "PASSED_PIPELINE"
+  },
+  {
+    "scene": 2,
+    "status": "PASSED_PIPELINE"
+  },
+  {
+    "scene": 3,
+    "status": "PASSED_PIPELINE"
+  }
+]
