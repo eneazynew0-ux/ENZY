@@ -31,7 +31,7 @@ def load_visual_model():
     return _MODEL, _PROCESSOR
 
 
-def describe_image(image_path, max_tokens=80):
+def describe_image(image_path, max_tokens=60):
     path = Path(image_path)
 
     if not path.exists():
@@ -57,6 +57,8 @@ def describe_image(image_path, max_tokens=80):
         verbose=False,
         max_tokens=max_tokens,
         temperature=0,
+        repetition_penalty=1.15,
+        repetition_context_size=64,
     )
 
     text = result.text if hasattr(result, "text") else str(result)
