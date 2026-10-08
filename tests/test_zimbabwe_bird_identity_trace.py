@@ -83,6 +83,23 @@ class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
         self.assertEqual(decision["status"], "VERIFIED")
         self.assertEqual(decision["identity_label"], "ORIGINAL_ARTIFACT")
 
+    def test_symbol_categories_do_not_become_artifacts(self):
+        cases = [
+            ("File:Revenue stamps.jpg", "Revenue stamps of Zimbabwe"),
+            ("File:Building detail.jpg", "Historical coats of arms of Zimbabwe"),
+            ("File:Rodezya Arması.png", "Birds in crest"),
+        ]
+
+        for title, categories in cases:
+            with self.subTest(title=title):
+                symbol = asset(title, "Zimbabwe Bird", "Public domain")
+                symbol["source_metadata"] = {
+                    "Categories": {"value": f"Zimbabwe Bird|{categories}"}
+                }
+                decision = check_factual_identity(symbol, ENTITY)
+                self.assertEqual(decision["status"], "UNVERIFIED")
+                self.assertEqual(decision["identity_label"], "SYMBOL")
+
     @patch("engine.multi_provider_search.search_commons")
     def test_zimbabwe_search_uses_bitmap_category(self, search_commons):
         search_commons.return_value = []

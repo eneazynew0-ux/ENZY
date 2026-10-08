@@ -57,7 +57,12 @@ def _identity_label(metadata, asset):
     if re.search(r"\b(replica|replicas|copy|copies|reproduction|reproductions|souvenir|souvenirs|bannister|banister)\b", metadata):
         return "REPLICA"
 
-    if re.search(r"\b(flag|flags|emblem|seal|logo|banknote|banknotes)\b|\bcoat of arms\b", metadata):
+    if re.search(
+        r"\b(flag|flags|emblem|emblems|seal|seals|logo|logos|"
+        r"banknote|banknotes|stamp|stamps|crest|crests|insignia)\b|"
+        r"\bcoats? of arms\b|\barmasi\b",
+        metadata,
+    ):
         return "SYMBOL"
 
     mime = str(asset.get("mime", "")).lower()
