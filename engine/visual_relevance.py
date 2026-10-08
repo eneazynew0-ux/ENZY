@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from mlx_vlm import generate
+from mlx_vlm.prompt_utils import apply_chat_template
 from mlx_vlm.utils import load
 
 
@@ -42,11 +43,18 @@ def describe_image(image_path, max_tokens=60):
 
     model, processor = load_visual_model()
 
-    prompt = (
-        "<image> Describe only the visible image in one or two factual sentences. "
+    instruction = (
+        "Describe only the visible image in one or two factual sentences. "
         "State the main subject's object type, shape, material, and any visible "
         "surface markings, writing, or carved details. Do not identify its history, "
         "repeat these instructions, or add facts that are not visible."
+    )
+    prompt = apply_chat_template(
+        processor,
+        model.config,
+        instruction,
+        add_generation_prompt=True,
+        num_images=1,
     )
 
     result = generate(
