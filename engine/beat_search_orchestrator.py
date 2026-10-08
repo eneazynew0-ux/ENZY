@@ -228,8 +228,19 @@ def run_beat_visual_search(
         visual_entity=plan["search_entity"],
     )
 
+    if search.get("best") is None:
+        status = "NO_SUITABLE_ASSET"
+        reason = (
+            "No candidate passed factual identity, export rights, "
+            "media quality, download, and visual relevance gates"
+        )
+    else:
+        status = "SEARCHED"
+        reason = "At least one suitable visual asset was found"
+
     return {
         "plan": plan,
         "search": search,
-        "status": "SEARCHED",
+        "status": status,
+        "reason": reason,
     }

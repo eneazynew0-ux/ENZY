@@ -1,7 +1,6 @@
 from engine.multi_query_search import search_queries_raw
 from engine.media_filter import filter_visual_candidates
 from engine.media_downloader import download_previews
-from engine.candidate_ranker import rank_licensed_candidates
 from engine.factual_identity_gate import check_factual_identity
 from engine.export_rights_policy import check_export_asset
 
@@ -19,22 +18,9 @@ def run_multi_query_visual_pipeline(
         limit_per_provider=limit_per_provider,
     )
 
-    export_allowed = []
-    export_rejected = []
-
-    for asset in search["assets"]:
-        decision = check_export_asset(asset)
-        item = dict(asset)
-        item["export_rights"] = decision
-        if decision["status"] == "EXPORT_ALLOWED":
-            export_allowed.append(item)
-        else:
-            export_rejected.append(item)
-
-    legal_assets = export_allowed
-
     identity_verified = []
     identity_rejected = []
+    legal_assets = search["assets"]
 
     if factual:
         if not visual_entity:
@@ -56,9 +42,26 @@ def run_multi_query_visual_pipeline(
             else:
                 identity_rejected.append(checked)
 
-        identity_input = identity_verified
+        export_input = identity_verified
     else:
-        identity_input = legal_assets
+        export_input = legal_assets
+
+    # Identity and export rights are independent decisions. Check factual
+    # identity first so a correct CC BY artifact is not lost as an anonymous
+    # policy rejection, while flags and replicas never reach download/VLM.
+    export_allowed = []
+    export_rejected = []
+
+    for asset in export_input:
+        decision = check_export_asset(asset)
+        item = dict(asset)
+        item["export_rights"] = decision
+        if decision["status"] == "EXPORT_ALLOWED":
+            export_allowed.append(item)
+        else:
+            export_rejected.append(item)
+
+    identity_input = export_allowed
 
     accepted, media_rejected = filter_visual_candidates(
         identity_input
@@ -78,10 +81,21 @@ def run_multi_query_visual_pipeline(
         output_dir=output_dir,
     )
 
-    ranked = rank_licensed_candidates(
-        target,
-        downloaded,
-    )
+    if downloaded:
+        # The visual judge is macOS/MLX-specific. Do not initialize it when
+        # deterministic identity and rights gates already produced no work.
+        from engine.candidate_ranker import rank_licensed_candidates
+
+        ranked = rank_licensed_candidates(
+            target,
+            downloaded,
+        )
+    else:
+        ranked = {
+            "best": None,
+            "matches": [],
+            "visual_rejected": [],
+        }
 
     return {
         "queries": search["queries"],
@@ -114,6 +128,7 @@ def run_multi_query_visual_pipeline(
         "visual_rejected": ranked["visual_rejected"],
         "rights_rejected": search["rights_rejected"],
         "export_rights_rejected": export_rejected,
+        "identity_verified": identity_verified,
         "identity_rejected": identity_rejected,
         "media_rejected": media_rejected,
         "unavailable": unavailable,

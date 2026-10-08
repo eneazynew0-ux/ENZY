@@ -10,7 +10,6 @@ from engine.rights_gate import check_asset
 from engine.export_rights_policy import check_export_asset
 from engine.media_filter import filter_visual_candidates
 from engine.media_downloader import download_previews
-from engine.candidate_ranker import rank_licensed_candidates
 
 
 def search_wikimedia(query, limit=10):
@@ -185,7 +184,16 @@ def search_all_providers(query, target, limit_per_provider=10,
         output_dir=output_dir,
     )
 
-    ranked = rank_licensed_candidates(target, downloaded)
+    if downloaded:
+        from engine.candidate_ranker import rank_licensed_candidates
+
+        ranked = rank_licensed_candidates(target, downloaded)
+    else:
+        ranked = {
+            "best": None,
+            "matches": [],
+            "visual_rejected": [],
+        }
 
     return {
         "query": query,

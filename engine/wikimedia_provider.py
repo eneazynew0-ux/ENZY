@@ -52,7 +52,7 @@ def search_commons(query, limit=20):
         "gsrnamespace": 6,
         "gsrlimit": limit,
         "prop": "imageinfo",
-        "iiprop": "url|mime|mediatype|size|extmetadata",
+        "iiprop": "url|mime|mediatype|size|sha1|extmetadata",
         "iiurlwidth": 800,
         "format": "json",
         "formatversion": 2,
@@ -115,6 +115,8 @@ def search_commons(query, limit=20):
             "width": info.get("width"),
             "height": info.get("height"),
             "source_metadata": meta,
+            "categories": _plain_metadata(value("Categories")),
+            "sha1": info.get("sha1", ""),
             "original_url": info.get("url", ""),
             "preview_url": info.get("thumburl", info.get("url", "")),
             "description_url": info.get("descriptionurl", ""),
@@ -124,6 +126,9 @@ def search_commons(query, limit=20):
             "license_url": value("LicenseUrl"),
             "artist": value("Artist"),
             "credit": value("Credit"),
+            "attribution_required": _plain_metadata(
+                value("AttributionRequired")
+            ),
             "usage_terms": value("UsageTerms"),
             "copyrighted": value("Copyrighted"),
             "restrictions": value("Restrictions"),

@@ -26,6 +26,7 @@ packaging==26.3
 protobuf==6.33.6
 Pygments==2.21.0
 PyYAML==6.0.3
+requests==2.34.2
 rich==15.0.0
 shellingham==1.5.4
 sympy==1.14.0

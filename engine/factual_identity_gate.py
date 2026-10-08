@@ -26,11 +26,21 @@ def _tokens(value):
 
 
 def _asset_metadata_text(asset):
+    source_metadata = asset.get("source_metadata") or {}
+
+    def source_value(name):
+        value = source_metadata.get(name, {})
+        if isinstance(value, dict):
+            return value.get("value")
+        return value
+
     fields = [
         asset.get("title"),
         asset.get("tags"),
         asset.get("description"),
         asset.get("identifier"),
+        source_value("ObjectName"),
+        source_value("Categories"),
     ]
 
     return _norm(
@@ -40,6 +50,21 @@ def _asset_metadata_text(asset):
             if _clean(value)
         )
     )
+
+
+def _identity_label(metadata, asset):
+    """Classify obvious substitutions before attempting verification."""
+    if re.search(r"\b(replica|replicas|copy|copies|reproduction|reproductions|souvenir|souvenirs|bannister|banister)\b", metadata):
+        return "REPLICA"
+
+    if re.search(r"\b(flag|flags|emblem|seal|logo|banknote|banknotes)\b|\bcoat of arms\b", metadata):
+        return "SYMBOL"
+
+    mime = str(asset.get("mime", "")).lower()
+    if mime == "image/svg+xml" or re.search(r"\b(drawing|illustration|diagram|vector)\b", metadata):
+        return "ILLUSTRATION"
+
+    return "UNKNOWN"
 
 
 def _canonical_terms(entity):
@@ -170,6 +195,7 @@ def check_factual_identity(asset, entity):
     if not metadata:
         return {
             "status": "UNVERIFIED",
+            "identity_label": "UNKNOWN",
             "confidence": "LOW",
             "matched_term": None,
             "context_matches": [],
@@ -179,20 +205,17 @@ def check_factual_identity(asset, entity):
     # A sculpture identity must include evidence of a physical
     # artifact, not just geographic and animal-name tags.
     subject_type = _norm(entity.get("subject_type"))
+    identity_label = _identity_label(metadata, asset)
+
     if entity.get("_identity_scope") == "ARTIFACT_GROUP":
         # A photograph of a replica or a graphic symbol cannot establish
         # identity of an original physical artifact. Query text is excluded.
-        non_original = re.search(
-            r"\b(copy|copies|replica|replicas|reproduction|reproductions|"
-            r"souvenir|souvenirs|bannister|banister|banknote|banknotes|"
-            r"flag|flags|emblem|seal|logo)\b|\bcoat of arms\b",
-            metadata,
-        )
-        if non_original or str(asset.get("mime", "")).lower() == "image/svg+xml":
+        if identity_label in {"REPLICA", "SYMBOL", "ILLUSTRATION"}:
             return {
                 "status": "UNVERIFIED", "confidence": "LOW",
+                "identity_label": identity_label,
                 "matched_term": None, "context_matches": [],
-                "reason": "Replica or symbolic representation is not an original artifact",
+                "reason": f"{identity_label.title()} is not an original physical artifact",
             }
     sculpture_type = any(
         marker in subject_type
@@ -212,6 +235,7 @@ def check_factual_identity(asset, entity):
         if not artifact_supported:
             return {
                 "status": "UNVERIFIED",
+                "identity_label": "UNRELATED",
                 "confidence": "LOW",
                 "matched_term": None,
                 "context_matches": [],
@@ -224,6 +248,11 @@ def check_factual_identity(asset, entity):
         if term["norm"] in metadata:
             return {
                 "status": "VERIFIED",
+                "identity_label": (
+                    "ORIGINAL_ARTIFACT"
+                    if entity.get("_identity_scope") == "ARTIFACT_GROUP"
+                    else "UNKNOWN"
+                ),
                 "confidence": "HIGH",
                 "matched_term": term["raw"],
                 "context_matches": [],
@@ -270,6 +299,11 @@ def check_factual_identity(asset, entity):
     if identity_supported:
         return {
             "status": "VERIFIED",
+            "identity_label": (
+                "ORIGINAL_ARTIFACT"
+                if entity.get("_identity_scope") == "ARTIFACT_GROUP"
+                else "UNKNOWN"
+            ),
             "confidence": "MEDIUM",
             "matched_term": (
                 " ".join(core_tokens)
@@ -285,6 +319,11 @@ def check_factual_identity(asset, entity):
 
     return {
         "status": "UNVERIFIED",
+        "identity_label": (
+            identity_label
+            if identity_label != "UNKNOWN"
+            else "UNRELATED"
+        ),
         "confidence": "LOW",
         "matched_term": (
             matched_core[0]
