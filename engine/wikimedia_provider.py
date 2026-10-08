@@ -138,7 +138,16 @@ def search_commons(query, limit=20):
 
 
 if __name__ == "__main__":
-    items = search_commons("Zimbabwe Bird", limit=10)
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Inspect Wikimedia Commons file-search results",
+    )
+    parser.add_argument("query", nargs="?", default="Zimbabwe Bird")
+    parser.add_argument("--limit", type=int, default=10)
+    args = parser.parse_args()
+
+    items = search_commons(args.query, limit=args.limit)
 
     print("RESULTS:", len(items))
 
@@ -147,4 +156,6 @@ if __name__ == "__main__":
         print(i, item["title"])
         print("LICENSE:", item["license_short"])
         print("MIME:", item["mime"])
+        print("SIZE:", f"{item['width']}x{item['height']}")
+        print("IDENTITY CATEGORIES:", item["categories"])
         print("SOURCE:", item["description_url"])
