@@ -1,4 +1,7 @@
 import unittest
+import importlib
+import sys
+import types
 from unittest.mock import patch
 
 from engine.factual_identity_gate import check_factual_identity
@@ -34,6 +37,25 @@ def asset(title, description, license_short, mime="image/jpeg"):
 
 
 class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
+    def test_visual_description_instruction_echo_is_rejected(self):
+        fake_mlx_lm = types.ModuleType("mlx_lm")
+        fake_mlx_lm.load = lambda *_args, **_kwargs: None
+        fake_mlx_lm.generate = lambda *_args, **_kwargs: None
+
+        with patch.dict(sys.modules, {"mlx_lm": fake_mlx_lm}):
+            judge = importlib.import_module("engine.visual_judge")
+
+        self.assertFalse(
+            judge._description_is_valid(
+                "Answer with a short factual description. The subject is a gray rock."
+            )
+        )
+        self.assertTrue(
+            judge._description_is_valid(
+                "A dark stone tablet has several dense horizontal lines of carved writing."
+            )
+        )
+
     def test_wikimedia_tracking_parameters_are_removed(self):
         url = (
             "https://upload.wikimedia.org/file.jpg?"

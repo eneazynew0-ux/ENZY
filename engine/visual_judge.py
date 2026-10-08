@@ -135,12 +135,16 @@ def _description_is_valid(description):
     lower = text.lower()
 
     instruction_phrases = (
+        "answer with a short factual description",
+        "answer with a factual description",
         "describe the image",
         "describe the main subject",
         "describe the objects",
         "describe the background",
         "describe the scene",
         "describe in detail",
+        "do not repeat",
+        "visible image",
     )
 
     instruction_hits = sum(
@@ -148,7 +152,7 @@ def _description_is_valid(description):
         for phrase in instruction_phrases
     )
 
-    if instruction_hits >= 2:
+    if instruction_hits >= 1:
         return False
 
     words = lower.split()

@@ -31,7 +31,7 @@ def load_visual_model():
     return _MODEL, _PROCESSOR
 
 
-def describe_image(image_path, max_tokens=40):
+def describe_image(image_path, max_tokens=80):
     path = Path(image_path)
 
     if not path.exists():
@@ -43,8 +43,10 @@ def describe_image(image_path, max_tokens=40):
     model, processor = load_visual_model()
 
     prompt = (
-        "<image> Describe the main physical subject visible in this image "
-        "in one short factual sentence. Ignore speculation about identity or history."
+        "<image> Describe only the visible image in one or two factual sentences. "
+        "State the main subject's object type, shape, material, and any visible "
+        "surface markings, writing, or carved details. Do not identify its history, "
+        "repeat these instructions, or add facts that are not visible."
     )
 
     result = generate(
