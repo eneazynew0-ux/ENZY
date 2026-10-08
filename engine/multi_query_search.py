@@ -24,7 +24,11 @@ def _identity(asset):
     return provider, str(identity)
 
 
-def search_queries_raw(queries, limit_per_provider=10):
+def search_queries_raw(
+    queries,
+    limit_per_provider=10,
+    wikimedia_category=None,
+):
     """
     Search all providers for multiple query variants.
 
@@ -58,6 +62,7 @@ def search_queries_raw(queries, limit_per_provider=10):
 
     query_stats = {}
     raw_assets = []
+    wikimedia_provider_queries = set()
 
     for query in unique_queries:
         query_stats[query] = {
@@ -75,6 +80,11 @@ def search_queries_raw(queries, limit_per_provider=10):
             query_stats[query]["wikimedia"] = len(assets)
             provider_stats["wikimedia"] += len(assets)
             raw_assets.extend(assets)
+            wikimedia_provider_queries.update(
+                asset.get("provider_query")
+                for asset in assets
+                if asset.get("provider_query")
+            )
         except Exception as exc:
             query_stats[query]["wikimedia_error"] = str(exc)
 
@@ -118,6 +128,24 @@ def search_queries_raw(queries, limit_per_provider=10):
             raw_assets.extend(assets)
         except Exception as exc:
             query_stats[query]["pexels_error"] = str(exc)
+
+    category = " ".join(str(wikimedia_category or "").split())
+    if category:
+        category_query = f'incategory:"{category}" filetype:bitmap'
+        category_key = f"Commons category: {category}"
+
+        if category_query not in wikimedia_provider_queries:
+            query_stats[category_key] = {"wikimedia": 0}
+            try:
+                assets = search_wikimedia(
+                    category_query,
+                    limit=max(limit_per_provider, 20),
+                )
+                query_stats[category_key]["wikimedia"] = len(assets)
+                provider_stats["wikimedia"] += len(assets)
+                raw_assets.extend(assets)
+            except Exception as exc:
+                query_stats[category_key]["wikimedia_error"] = str(exc)
 
     merged = {}
     no_identity = []

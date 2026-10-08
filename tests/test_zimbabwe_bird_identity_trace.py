@@ -4,6 +4,7 @@ from unittest.mock import patch
 from engine.factual_identity_gate import check_factual_identity
 from engine.multi_provider_search import search_wikimedia
 from engine.media_downloader import _clean_media_url
+from engine.multi_query_search import search_queries_raw
 from engine.multi_query_visual_pipeline import run_multi_query_visual_pipeline
 
 
@@ -121,6 +122,34 @@ class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
             'incategory:"Zimbabwe Bird" filetype:bitmap',
             limit=20,
         )
+
+    @patch("engine.multi_query_search.search_pexels_photos", return_value=[])
+    @patch("engine.multi_query_search.search_pixabay_photos", return_value=[])
+    @patch("engine.multi_query_search.search_internet_archive", return_value=[])
+    @patch("engine.multi_query_search.search_wikimedia")
+    def test_factual_entity_adds_one_commons_category_search(
+        self,
+        search_wikimedia_mock,
+        _archive,
+        _pixabay,
+        _pexels,
+    ):
+        search_wikimedia_mock.return_value = []
+
+        result = search_queries_raw(
+            ["Rosetta Stone artifact photograph"],
+            limit_per_provider=10,
+            wikimedia_category="Rosetta Stone",
+        )
+
+        calls = search_wikimedia_mock.call_args_list
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(
+            calls[1].args[0],
+            'incategory:"Rosetta Stone" filetype:bitmap',
+        )
+        self.assertEqual(calls[1].kwargs["limit"], 20)
+        self.assertIn("Commons category: Rosetta Stone", result["query_stats"])
 
     @patch("engine.multi_query_visual_pipeline.search_queries_raw")
     def test_correct_but_attribution_required_asset_is_traced(self, search):

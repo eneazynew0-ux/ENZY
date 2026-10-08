@@ -16,6 +16,11 @@ def run_multi_query_visual_pipeline(
     search = search_queries_raw(
         queries,
         limit_per_provider=limit_per_provider,
+        wikimedia_category=(
+            visual_entity.get("canonical_subject")
+            if factual and visual_entity
+            else None
+        ),
     )
 
     identity_verified = []
