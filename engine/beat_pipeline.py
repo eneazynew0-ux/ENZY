@@ -9,6 +9,7 @@ from engine.beat_factual_gate_v2 import check_beat
 from engine.beat_factual_sanitizer import sanitize_beat
 from engine.beat_semantic_gate import check_beat_semantics
 from engine.beat_visual_repair import repair_beat_visual
+from engine.beat_sequence_gate import check_adjacent_visual_repetition
 
 
 class BeatVisualValidationError(ValueError):
@@ -170,6 +171,10 @@ def run_beat_pipeline(
             resynced, semantic_grounding, preceding_text,
             model, tokenizer,
         ))
+        issues_after.extend(check_adjacent_visual_repetition(
+            final_beats[-1] if final_beats else None,
+            resynced,
+        ))
 
         repair_attempts = []
         for attempt in range(max_visual_repairs):
@@ -194,6 +199,10 @@ def run_beat_pipeline(
                 issues_after = check_beat(resynced, resynced["voice_text"], beat_grounding)
                 issues_after.extend(check_beat_semantics(
                     resynced, semantic_grounding, preceding_text, model, tokenizer,
+                ))
+                issues_after.extend(check_adjacent_visual_repetition(
+                    final_beats[-1] if final_beats else None,
+                    resynced,
                 ))
                 record["issues_after"] = issues_after
             except Exception as exc:

@@ -8,6 +8,7 @@ from engine.factual_identity_gate import check_factual_identity
 from engine.multi_provider_search import search_wikimedia
 from engine.media_downloader import _clean_media_url
 from engine.multi_query_search import search_queries_raw
+from engine.beat_sequence_gate import check_adjacent_visual_repetition
 from engine.multi_query_visual_pipeline import run_multi_query_visual_pipeline
 
 
@@ -37,6 +38,31 @@ def asset(title, description, license_short, mime="image/jpeg"):
 
 
 class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
+    def test_adjacent_duplicate_visual_requires_repair(self):
+        plan = {
+            "visual_intent": "Contextual photograph of Zimbabwe Bird.",
+            "search_queries": ["Zimbabwe Bird artifact photograph"],
+            "edit": "Gentle push-in.",
+        }
+        issues = check_adjacent_visual_repetition(plan, dict(plan))
+        self.assertEqual(len(issues), 1)
+        self.assertEqual(issues[0]["type"], "ADJACENT_VISUAL_REPETITION")
+
+    def test_explicit_continuous_shot_allows_same_visual(self):
+        previous = {
+            "visual_intent": "Contextual photograph of Zimbabwe Bird.",
+            "search_queries": ["Zimbabwe Bird artifact photograph"],
+            "edit": "Gentle push-in.",
+        }
+        current = {
+            **previous,
+            "edit": "Continue the same shot for narrative continuity.",
+        }
+        self.assertEqual(
+            check_adjacent_visual_repetition(previous, current),
+            [],
+        )
+
     def test_reported_false_claim_is_not_visualized_as_fact(self):
         fake_mlx_lm = types.ModuleType("mlx_lm")
         fake_mlx_lm.generate = lambda *_args, **_kwargs: None
