@@ -157,9 +157,21 @@ if __name__ == "__main__":
     )
     parser.add_argument("query", nargs="?", default="Zimbabwe Bird")
     parser.add_argument("--limit", type=int, default=10)
+    parser.add_argument(
+        "--audit-zimbabwe-bird",
+        action="store_true",
+        help="Run deterministic identity and export-rights checks",
+    )
     args = parser.parse_args()
 
-    items = search_commons(args.query, limit=args.limit)
+    if args.audit_zimbabwe_bird:
+        query = 'incategory:"Zimbabwe Bird" filetype:bitmap'
+        limit = max(args.limit, 20)
+    else:
+        query = args.query
+        limit = args.limit
+
+    items = search_commons(query, limit=limit)
 
     print("RESULTS:", len(items))
 
@@ -171,3 +183,23 @@ if __name__ == "__main__":
         print("SIZE:", f"{item['width']}x{item['height']}")
         print("IDENTITY CATEGORIES:", item["categories"])
         print("SOURCE:", item["description_url"])
+
+        if args.audit_zimbabwe_bird:
+            from engine.export_rights_policy import check_export_asset
+            from engine.factual_identity_gate import check_factual_identity
+
+            entity = {
+                "canonical_subject": "Zimbabwe Bird",
+                "subject_type": "soapstone sculpture",
+                "location": "Great Zimbabwe",
+                "aliases_or_descriptions": ["carved soapstone bird"],
+                "_identity_scope": "ARTIFACT_GROUP",
+            }
+            identity = check_factual_identity(item, entity)
+            export = check_export_asset(item)
+            print("IDENTITY:", identity["identity_label"], identity["status"])
+            print("IDENTITY REASON:", identity["reason"])
+            print("EXPORT:", export["status"], export["reason"])
+            print("QUALITY:", item["quality_label"])
+            if item["quality_warning"]:
+                print("QUALITY WARNING:", item["quality_warning"])
