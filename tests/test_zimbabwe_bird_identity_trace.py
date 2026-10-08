@@ -37,6 +37,38 @@ def asset(title, description, license_short, mime="image/jpeg"):
 
 
 class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
+    def test_reported_false_claim_is_not_visualized_as_fact(self):
+        fake_mlx_lm = types.ModuleType("mlx_lm")
+        fake_mlx_lm.generate = lambda *_args, **_kwargs: None
+        with patch.dict(sys.modules, {"mlx_lm": fake_mlx_lm}):
+            semantic_gate = importlib.import_module("engine.beat_semantic_gate")
+
+        beat = {
+            "voice_text": (
+                "Африка южнее Сахары не знала ни городов, ни инженерии, "
+                "ни письменной культуры."
+            ),
+            "visual_intent": "A factual blank map of Africa with no cities.",
+            "search_queries": ["empty map Africa no cities no engineering"],
+            "requirements": ["no written culture", "absence of development"],
+            "avoid": [],
+            "edit": "Emphasize the absence of human development.",
+        }
+
+        issues = semantic_gate.check_beat_semantics(
+            beat,
+            {"withheld_entities": [], "entities": []},
+            "Учебник скажет вам: до прихода европейцев",
+            model=None,
+            tokenizer=None,
+        )
+
+        self.assertEqual(len(issues), 1)
+        self.assertEqual(
+            issues[0]["type"],
+            "REPORTED_CLAIM_VISUALIZED_AS_FACT",
+        )
+
     def test_visual_description_instruction_echo_is_rejected(self):
         fake_mlx_lm = types.ModuleType("mlx_lm")
         fake_mlx_lm.load = lambda *_args, **_kwargs: None

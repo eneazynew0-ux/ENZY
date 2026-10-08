@@ -4,6 +4,54 @@ from engine.beat_grounding import phrase_present
 from engine.beat_visual_contract import check_artifact_visual_contract
 
 
+def _reported_claim_visualized_as_fact(beat, preceding_text, positive):
+    """Catch a quoted/disputed proposition split across adjacent beats."""
+    import re
+
+    narration_context = " ".join(
+        [str(preceding_text or "")[-600:], str(beat.get("voice_text") or "")]
+    ).casefold()
+    reporting_frames = (
+        r"учебник\w*\s+(?:скажет|говорит|утвержда)",
+        r"(?:утверждал|утверждали|считал|считали|предположил|версия|миф)",
+        r"\b(?:textbook|source)\s+(?:says|claims|claimed)\b",
+        r"\b(?:claimed|argued|believed|supposed|myth|theory)\b",
+    )
+    assertion_markers = (
+        r"\bno cities\b",
+        r"\bno engineering\b",
+        r"\bno written (?:culture|language|symbols?)\b",
+        r"\b(?:empty|blank|uninhabited) (?:map|regions?|land|africa)\b",
+        r"\babsence of (?:cities|engineering|culture|development)\b",
+        r"нет городов|без городов|не знала городов",
+        r"нет инженер|без инженер|не знала инженер",
+        r"нет письмен|без письмен|не знала письмен",
+        r"пуст\w* (?:карт|пространств|земл)",
+        r"отсутств\w* (?:город|инженер|культур|развит)",
+    )
+
+    has_reporting_frame = any(
+        re.search(pattern, narration_context)
+        for pattern in reporting_frames
+    )
+    asserts_proposition = any(
+        re.search(pattern, positive)
+        for pattern in assertion_markers
+    )
+
+    if not (has_reporting_frame and asserts_proposition):
+        return None
+
+    return {
+        "type": "REPORTED_CLAIM_VISUALIZED_AS_FACT",
+        "severity": "HIGH",
+        "detail": (
+            "Visual plan presents a reported or disputed claim as factual "
+            "reality; use source/context imagery without depicting the claim as true."
+        ),
+    }
+
+
 def check_beat_semantics(beat, grounding, preceding_text, model, tokenizer):
     import re
     positive = " ".join(
@@ -50,6 +98,14 @@ def check_beat_semantics(beat, grounding, preceding_text, model, tokenizer):
     ]
     if unsupported:
         return unsupported
+
+    claim_issue = _reported_claim_visualized_as_fact(
+        beat,
+        preceding_text,
+        positive,
+    )
+    if claim_issue:
+        return [claim_issue]
 
     payload = {
         "narration": beat.get("voice_text", ""),
