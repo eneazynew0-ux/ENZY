@@ -3,11 +3,15 @@ import copy
 import json
 from mlx_lm import generate
 from engine.beat_visual_contract import repair_artifact_cutaway
+from engine.beat_claim_visual import reported_claim_cutaway
 
 VISUAL_FIELDS = {"visual_intent", "search_queries", "requirements", "avoid", "edit"}
 
 
 def repair_beat_visual(beat, issues, grounding, preceding_text, model, tokenizer):
+    claim_cutaway = reported_claim_cutaway(beat, issues, preceding_text)
+    if claim_cutaway is not None:
+        return claim_cutaway
     contextual = repair_artifact_cutaway(beat, issues, grounding)
     if contextual is not None:
         return contextual

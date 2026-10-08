@@ -9,6 +9,7 @@ from engine.multi_provider_search import search_wikimedia
 from engine.media_downloader import _clean_media_url
 from engine.multi_query_search import search_queries_raw
 from engine.beat_sequence_gate import check_adjacent_visual_repetition
+from engine.beat_claim_visual import reported_claim_cutaway
 from engine.multi_query_visual_pipeline import run_multi_query_visual_pipeline
 
 
@@ -38,6 +39,29 @@ def asset(title, description, license_short, mime="image/jpeg"):
 
 
 class ZimbabweBirdIdentityTraceTest(unittest.TestCase):
+    def test_reported_claim_repairs_to_source_context(self):
+        beat = {
+            "voice_text": "Африка южнее Сахары не знала ни городов.",
+            "visual_intent": "Contextual photograph of Zimbabwe Bird.",
+            "search_queries": ["Zimbabwe Bird artifact photograph"],
+            "requirements": ["Zimbabwe Bird"],
+            "avoid": [],
+            "edit": "Gentle push-in.",
+            "visual_contract": {"mode": "CONTEXTUAL_SUBJECT"},
+        }
+        repaired = reported_claim_cutaway(
+            beat,
+            [{"type": "ADJACENT_VISUAL_REPETITION"}],
+            "Учебник скажет вам: до прихода европейцев",
+        )
+        self.assertIsNotNone(repaired)
+        self.assertIn("printed educational source", repaired["visual_intent"])
+        self.assertNotIn("visual_contract", repaired)
+        self.assertIn(
+            "depicting the reported claim as factual reality",
+            repaired["avoid"],
+        )
+
     def test_adjacent_duplicate_visual_requires_repair(self):
         plan = {
             "visual_intent": "Contextual photograph of Zimbabwe Bird.",
